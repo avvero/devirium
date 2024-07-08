@@ -36,10 +36,9 @@ jobs:
           SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
         run: |
           while IFS= read -r file; do
-            file=$(echo $file | sed 's/^"//;s/"$//')
-            file=$(echo $file | sed 's/\\//g')
+            file=$(echo $file | tr -d '\r')
             if [ -f "$file" ]; then
-              content=$(cat "$file" | jq -sR .)
+              content=$(iconv -f UTF-8 -t UTF-8 "$file" | jq -sR .)
               json_data="{\"content\":$content}"
               echo "JSON Data: $json_data"
               response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
