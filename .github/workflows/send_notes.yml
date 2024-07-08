@@ -17,9 +17,10 @@ jobs:
     - name: Debug commit info
       run: |
         echo "Current commit SHA: $GITHUB_SHA"
-        PREV_SHA=$(git rev-parse HEAD~1 2>/dev/null || echo "")
-        if [ -z "$PREV_SHA" ]; then
+        PREV_SHA=$(git log -2 --pretty=format:%H | tail -n 1)
+        if [ "$PREV_SHA" = "$GITHUB_SHA" ]; then
           echo "No previous commit found, this is likely the first commit."
+          PREV_SHA=""
         else
           echo "Previous commit SHA: $PREV_SHA"
         fi
@@ -28,7 +29,6 @@ jobs:
     - name: Get changed markdown files
       id: changed_files
       run: |
-        PREV_SHA=$(git rev-parse HEAD~1 2>/dev/null || echo "")
         if [ -z "$PREV_SHA" ]; then
           FILES=$(git ls-tree -r HEAD --name-only | grep '\.md$' || echo "")
         else
