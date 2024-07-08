@@ -1,3 +1,3 @@
-Nullius in Verba - Ничего со слов.
+"Nullius in Verba" - Ничего со слов.
 
 #logic #sentence 

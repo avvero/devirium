@@ -1,4 +1,4 @@
-On the go - Хорошее название для проекта flow
+On the go - Хорошее название для проекта flow.
 
 [[Flow]]
 #idea #reflection 
