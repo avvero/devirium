@@ -13,7 +13,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Debug info
+        run: |
+          echo "Current commit: $(git rev-parse HEAD)"
+          echo "Previous commit: $(git rev-parse HEAD~1 || echo 'No previous commit')"
+          echo "All commits:"
+          git log --oneline
+
       - name: List changed files
         run: |
-          git diff --name-only HEAD^ HEAD -- '*.md' > changed_files.txt
+          if git rev-parse HEAD~1 >/dev/null 2>&1; then
+            git diff --name-only HEAD~1 HEAD -- '*.md' > changed_files.txt
+          else
+            git ls-tree --name-only -r HEAD -- '*.md' > changed_files.txt
+          fi
           cat changed_files.txt
