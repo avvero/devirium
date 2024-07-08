@@ -25,6 +25,10 @@ jobs:
         echo "Changed files: $FILES"
         echo "FILES=$FILES" >> $GITHUB_ENV
 
+    - name: Print changed files from env
+      run: |
+        echo "Files from env: ${{ env.FILES }}"
+
     - name: Send notes to server
       env:
         FILES: ${{ env.FILES }}
@@ -43,4 +47,6 @@ jobs:
             echo "Failed to send notes to server"
             exit 1
           fi
+        else
+          echo "No markdown files changed"
         fi
