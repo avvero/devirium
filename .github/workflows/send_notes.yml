@@ -15,7 +15,9 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: List and display changed files
+      - name: List and send changed files
+        env:
+          SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
         run: |
           #!/bin/bash
 
@@ -26,12 +28,20 @@ jobs:
             git ls-tree --name-only -r -z HEAD -- '*.md' > changed_files.txt
           fi
 
-          # Display file names and contents using git show
+          # Display file names and send contents using curl
           while IFS= read -r -d '' file; do
             if [[ -n "$file" ]]; then
               echo "File: $file"
               echo "Content:"
-              git show "HEAD:$file"
+              content=$(git show "HEAD:$file" | jq -sR .)
+              json_data="{\"file\":\"$file\",\"content\":$content}"
+              echo "JSON Data: $json_data"
+              response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
+              echo "Server response: $response"
+              if [ "$response" -ne 200 ]; then
+                echo "Failed to send notes to server for file $file. Response code: $response"
+                exit 1
+              fi
               echo ""
             fi
           done < changed_files.txt
