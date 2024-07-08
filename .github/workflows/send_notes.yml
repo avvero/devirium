@@ -28,7 +28,7 @@ jobs:
           FILES=$(git ls-tree -r HEAD --name-only | grep '\.md$')
         else
           echo "Subsequent commit detected."
-          FILES=$(git diff --name-only ${{ github.event.before }} HEAD -- '*.md')
+          FILES=$(git diff --name-only ${{ github.event.before }} HEAD | grep '\.md$')
         fi
         echo "Changed files: $FILES"
         echo "FILES=$FILES" >> $GITHUB_ENV
