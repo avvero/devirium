@@ -20,8 +20,9 @@ jobs:
 
       - name: List all changed files
         run: |
-          echo "${{ steps.changed-files.outputs.all_changed_files }}" | jq -R 'split(",") | .[]' > changed_files.json
-          cat changed_files.json
-          while IFS= read -r file; do
+          changed_files="${{ steps.changed-files.outputs.all_changed_files }}"
+          echo "$changed_files" | tr ',' '\n' > changed_files.txt
+          readarray -t files < changed_files.txt
+          for file in "${files[@]}"; do
             echo "Changed file: $file"
-          done < changed_files.json
+          done
