@@ -30,9 +30,9 @@ jobs:
       run: |
         PREV_SHA=$(git rev-parse HEAD~1 2>/dev/null || echo "")
         if [ -z "$PREV_SHA" ]; then
-          FILES=$(git ls-tree -r HEAD --name-only | grep '\.md$' | tr '\n' ' ')
+          FILES=$(git ls-tree -r HEAD --name-only | grep '\.md$' || echo "")
         else
-          FILES=$(git diff --name-only $PREV_SHA HEAD | grep '\.md$' | tr '\n' ' ')
+          FILES=$(git diff --name-only $PREV_SHA HEAD | grep '\.md$' || echo "")
         fi
         echo "Changed markdown files: $FILES"
         echo "FILES=$FILES" >> $GITHUB_ENV
