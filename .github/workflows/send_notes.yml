@@ -18,13 +18,16 @@ jobs:
       run: |
         echo "Current commit SHA: $GITHUB_SHA"
         echo "Previous commit SHA: ${{ github.event.before }}"
+        git log --oneline -2
 
     - name: Get changed markdown files
       id: changed_files
       run: |
         if [ $(git rev-list --count HEAD) -eq 1 ]; then
+          echo "First commit detected."
           FILES=$(git ls-tree --name-only -r HEAD -- '*.md')
         else
+          echo "Subsequent commit detected."
           FILES=$(git diff --name-only ${{ github.event.before }} HEAD -- '*.md')
         fi
         echo "Changed files: $FILES"
