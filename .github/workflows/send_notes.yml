@@ -17,18 +17,23 @@ jobs:
     - name: Debug commit info
       run: |
         echo "Current commit SHA: $GITHUB_SHA"
-        echo "Previous commit SHA: ${{ github.event.before }}"
-        git log --oneline -2
-
-    - name: List all changed files
-      run: |
-        echo "Listing all changed files between ${{ github.event.before }} and HEAD"
-        git diff --name-only ${{ github.event.before }} HEAD
+        PREV_SHA=$(git rev-parse HEAD~1 2>/dev/null || echo "")
+        if [ -z "$PREV_SHA" ]; then
+          echo "No previous commit found, this is likely the first commit."
+        else
+          echo "Previous commit SHA: $PREV_SHA"
+        fi
+        git log --oneline -2 || true
 
     - name: Get changed markdown files
       id: changed_files
       run: |
-        FILES=$(git diff --name-only ${{ github.event.before }} HEAD | grep '\.md$' | tr '\n' ' ')
+        PREV_SHA=$(git rev-parse HEAD~1 2>/dev/null || echo "")
+        if [ -z "$PREV_SHA" ]; then
+          FILES=$(git ls-tree -r HEAD --name-only | grep '\.md$' | tr '\n' ' ')
+        else
+          FILES=$(git diff --name-only $PREV_SHA HEAD | grep '\.md$' | tr '\n' ' ')
+        fi
         echo "Changed markdown files: $FILES"
         echo "FILES=$FILES" >> $GITHUB_ENV
 
