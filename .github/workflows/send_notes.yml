@@ -35,16 +35,14 @@ jobs:
       env:
         ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
       run: |
-        json_data="{\"notes\":["
         for file in ${ALL_CHANGED_FILES}; do
           content=$(cat "$file" | jq -sR .)
-          json_data="$json_data{\"file\":\"$file\",\"content\":$content},"
+          json_data="{\"file\":\"$file\",\"content\":$content}"
+          echo "JSON Data: $json_data"
+          response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" http://your-server-ip:5000/receive_notes)
+          echo "Server response: $response"
+          if [ "$response" -ne 200 ]; then
+            echo "Failed to send notes to server for file $file. Response code: $response"
+            exit 1
+          fi
         done
-        json_data="${json_data%,}]}"
-        echo "JSON Data: $json_data"
-        response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data"	https://webhook.site/67bdb6f6-f989-4e8e-91ce-dfe1326a5729)
-        echo "Server response: $response"
-        if [ "$response" -ne 200 ]; then
-          echo "Failed to send notes to server. Response code: $response"
-          exit 1
-        fi
