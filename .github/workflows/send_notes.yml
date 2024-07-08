@@ -37,9 +37,9 @@ jobs:
         SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
       run: |
         for file in ${ALL_CHANGED_FILES}; do
-          content=$(cat "$file" | jq -sR .)
-          file_encoded=$(echo "$file" | jq -sR .)
-          json_data="{\"file\":$file_encoded,\"content\":$content}"
+          content=$(cat "$file" | base64)
+          file_encoded=$(echo "$file" | base64)
+          json_data="{\"file\":\"$file_encoded\",\"content\":\"$content\"}"
           echo "JSON Data: $json_data"
           response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
           echo "Server response: $response"
@@ -47,4 +47,17 @@ jobs:
             echo "Failed to send notes to server for file $file. Response code: $response"
             exit 1
           fi
+        done
+
+    - name: Decode JSON for debugging (optional)
+      run: |
+        for file in ${ALL_CHANGED_FILES}; do
+          content=$(cat "$file" | base64)
+          file_encoded=$(echo "$file" | base64)
+          json_data="{\"file\":\"$file_encoded\",\"content\":\"$content\"}"
+          echo "Encoded JSON Data: $json_data"
+          decoded_file=$(echo "$file_encoded" | base64 --decode)
+          decoded_content=$(echo "$content" | base64 --decode)
+          echo "Decoded file: $decoded_file"
+          echo "Decoded content: $decoded_content"
         done
