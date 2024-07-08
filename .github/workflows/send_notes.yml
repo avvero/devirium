@@ -17,10 +17,9 @@ jobs:
     - name: Debug commit info
       run: |
         echo "Current commit SHA: $GITHUB_SHA"
-        PREV_SHA=$(git log -2 --pretty=format:%H | tail -n 1)
-        if [ "$PREV_SHA" = "$GITHUB_SHA" ]; then
+        PREV_SHA=$(git rev-parse HEAD~1 2>/dev/null || echo "")
+        if [ -z "$PREV_SHA" ]; then
           echo "No previous commit found, this is likely the first commit."
-          PREV_SHA=""
         else
           echo "Previous commit SHA: $PREV_SHA"
         fi
@@ -56,9 +55,9 @@ jobs:
           
           # Additional debugging information
           echo "Executing curl command"
-          curl -v -H "Content-Type: application/json" -X POST -d "$json_data" https://webhook.site/67bdb6f6-f989-4e8e-91ce-dfe1326a5729
+          curl -v -H "Content-Type: application/json" -X POST -d "$json_data" http://your-server-ip:5000/receive_notes
 
-          response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data"	https://webhook.site/67bdb6f6-f989-4e8e-91ce-dfe1326a5729)
+          response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" http://your-server-ip:5000/receive_notes)
           echo "Server response: $response"
           if [ "$response" -ne 200 ]; then
             echo "Failed to send notes to server. Response code: $response"
