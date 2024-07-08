@@ -23,6 +23,5 @@ jobs:
           echo "${{ steps.changed-files.outputs.all_changed_files }}" | jq -R 'split(",") | .[]' > changed_files.json
           cat changed_files.json
           while IFS= read -r file; do
-            decoded_file=$(echo "$file" | jq -r @base64 --decode)
-            echo "Changed file: $decoded_file"
+            echo "Changed file: $file"
           done < changed_files.json
