@@ -7,56 +7,26 @@ on:
       - '**/*.md'
 
 jobs:
-  send_notes:
+  send-notes:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Get all changed markdown files
-      id: changed-markdown-files
-      uses: tj-actions/changed-files@v44
-      with:
-        files: |
-          **.md
-
-    - name: List all changed markdown files
-      if: steps.changed-markdown-files.outputs.any_changed == 'true'
-      run: |
-        echo "Changed markdown files:"
-        echo "${{ steps.changed-markdown-files.outputs.all_changed_files }}"
-
-    - name: Send notes to server
-      if: steps.changed-markdown-files.outputs.any_changed == 'true'
-      env:
-        ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
-        SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
-      run: |
-        ALL_FILES=${ALL_CHANGED_FILES//$'\n'/ }
-        for file in $ALL_FILES; do
-          content=$(cat "$file" | base64)
-          file_encoded=$(echo "$file" | base64)
-          json_data="{\"file\":\"$file_encoded\",\"content\":\"$content\"}"
-          echo "JSON Data: $json_data"
-          response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
-          echo "Server response: $response"
-          if [ "$response" -ne 200 ]; then
-            echo "Failed to send notes to server for file $file. Response code: $response"
-            exit 1
-          fi
-        done
-
-    - name: Decode JSON for debugging (optional)
-      run: |
-        ALL_FILES=${ALL_CHANGED_FILES//$'\n'/ }
-        for file in $ALL_FILES; do
-          content=$(cat "$file" | base64)
-          file_encoded=$(echo "$file" | base64)
-          json_data="{\"file\":\"$file_encoded\",\"content\":\"$content\"}"
-          echo "Encoded JSON Data: $json_data"
-          decoded_file=$(echo "$file_encoded" | base64 --decode)
-          decoded_content=$(echo "$content" | base64 --decode)
-          echo "Decoded file: $decoded_file"
-          echo "Decoded content: $decoded_content"
-        done
+      - uses: actions/checkout@v2.1.0
+      - uses: jitterbit/get-changed-files@v1
+        id: abc
+        with:
+          format: space-delimited
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Printing
+        run: |
+          echo "All:"
+          echo "${{ steps.abc.outputs.all }}"
+          echo "Added:"
+          echo "${{ steps.abc.outputs.added }}"
+          echo "Removed:"
+          echo "${{ steps.abc.outputs.removed }}"
+          echo "Renamed:"
+          echo "${{ steps.abc.outputs.renamed }}"
+          echo "Modified:"
+          echo "${{ steps.abc.outputs.modified }}"
+          echo "Added+Modified:"
+          echo "${{ steps.abc.outputs.added_modified }}"
