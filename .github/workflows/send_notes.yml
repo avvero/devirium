@@ -12,58 +12,39 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
-    - name: Debug commit info
-      run: |
-        echo "Current commit SHA: $GITHUB_SHA"
-        PREV_SHA=$(git rev-parse HEAD^1 2>/dev/null || echo "")
-        if [ -z "$PREV_SHA" ]; then
-          echo "No previous commit found, this is likely the first commit."
-        else
-          echo "Previous commit SHA: $PREV_SHA"
-        fi
-        git log --oneline -2 || true
+    - name: Get all changed markdown files
+      id: changed-markdown-files
+      uses: tj-actions/changed-files@v44
+      with:
+        files: |
+          **.md
 
-    - name: Get changed markdown files
-      id: changed_files
+    - name: List all changed markdown files
+      if: steps.changed-markdown-files.outputs.any_changed == 'true'
+      env:
+        ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
       run: |
-        PREV_SHA=$(git rev-parse HEAD^1 2>/dev/null || echo "")
-        if [ -z "$PREV_SHA" ]; then
-          FILES=$(git ls-tree -r HEAD --name-only | grep '\.md$' | tr '\n' ' ')
-        else
-          FILES=$(git diff --name-only $PREV_SHA HEAD | grep '\.md$' | tr '\n' ' ')
-        fi
-        echo "Changed markdown files: $FILES"
-        echo "FILES=$FILES" >> $GITHUB_ENV
-
-    - name: Print changed files from env
-      run: |
-        echo "Files from env: ${{ env.FILES }}"
+        for file in ${ALL_CHANGED_FILES}; do
+          echo "$file was changed"
+        done
 
     - name: Send notes to server
+      if: steps.changed-markdown-files.outputs.any_changed == 'true'
       env:
-        FILES: ${{ env.FILES }}
+        ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
       run: |
-        if [ -n "$FILES" ]; then
-          json_data="{\"notes\":["
-          for file in $FILES; do
-            content=$(cat "$file" | jq -sR .)
-            json_data="$json_data{\"file\":\"$file\",\"content\":$content},"
-          done
-          json_data="${json_data%,}]}"
-          echo "JSON Data: $json_data"
-          
-          # Additional debugging information
-          echo "Executing curl command"
-          curl -v -H "Content-Type: application/json" -X POST -d "$json_data" http://your-server-ip:5000/receive_notes
-
-          response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" http://your-server-ip:5000/receive_notes)
-          echo "Server response: $response"
-          if [ "$response" -ne 200 ]; then
-            echo "Failed to send notes to server. Response code: $response"
-            exit 1
-          fi
-        else
-          echo "No markdown files changed"
+        json_data="{\"notes\":["
+        for file in ${ALL_CHANGED_FILES}; do
+          content=$(cat "$file" | jq -sR .)
+          json_data="$json_data{\"file\":\"$file\",\"content\":$content},"
+        done
+        json_data="${json_data%,}]}"
+        echo "JSON Data: $json_data"
+        response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" http://your-server-ip:5000/receive_notes)
+        echo "Server response: $response"
+        if [ "$response" -ne 200 ]; then
+          echo "Failed to send notes to server. Response code: $response"
+          exit 1
         fi
