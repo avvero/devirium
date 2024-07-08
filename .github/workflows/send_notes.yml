@@ -31,9 +31,8 @@ jobs:
           echo "Added+Modified:"
           echo "${{ steps.abc.outputs.added_modified }}"
       - name: Send notes to server
-        if: steps.changed-markdown-files.outputs.any_changed == 'true'
         env:
-          ALL_CHANGED_FILES: ${{ steps.abc.outputs.modified }}
+          ALL_CHANGED_FILES: ${{ steps.abc.outputs.all }}
           SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
         run: |
           for file in ${ALL_CHANGED_FILES}; do
