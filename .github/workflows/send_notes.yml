@@ -53,6 +53,11 @@ jobs:
           done
           json_data="${json_data%,}]}"
           echo "JSON Data: $json_data"
+          
+          # Additional debugging information
+          echo "Executing curl command"
+          curl -v -H "Content-Type: application/json" -X POST -d "$json_data" http://your-server-ip:5000/receive_notes
+
           response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" http://your-server-ip:5000/receive_notes)
           echo "Server response: $response"
           if [ "$response" -ne 200 ]; then
