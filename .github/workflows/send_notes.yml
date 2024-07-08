@@ -29,6 +29,7 @@ jobs:
           else
             git ls-tree --name-only -r HEAD -- '*.md' > changed_files.txt
           fi
+          sed -i 's/^"//;s/"$//' changed_files.txt
           cat changed_files.txt
 
       - name: Send notes to server
