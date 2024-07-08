@@ -8,14 +8,10 @@ on:
 
 jobs:
   send-notes:
-    runs-on: ubuntu-latest  # windows-latest || macos-latest
-    name: Test changed-files
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      # -----------------------------------------------------------------------------------------------------------
-      # Example 1
-      # -----------------------------------------------------------------------------------------------------------
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v44
@@ -24,9 +20,10 @@ jobs:
 
       - name: List all changed files
         run: |
-          IFS=$',' read -a MODIFIED_FILES_ARRAY <<< "${{ steps.changed-files.outputs.all_changed_files }}"
-          for file in "${MODIFIED_FILES_ARRAY[@]}"; do
-            echo $file
+          echo "${{ steps.changed-files.outputs.all_changed_files }}" | jq -R 'split(",")' > changed_files.json
+          cat changed_files.json
+          files=$(cat changed_files.json | jq -c '.[]')
+          for file in $files; do
+            file=$(echo $file | jq -r .)
+            echo "Changed file: $file"
           done
-        shell:
-          bash
