@@ -14,13 +14,18 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Debug commit info
+      run: |
+        echo "Current commit SHA: $GITHUB_SHA"
+        echo "Previous commit SHA: ${{ github.event.before }}"
+
     - name: Get changed markdown files
       id: changed_files
       run: |
         if [ $(git rev-list --count HEAD) -eq 1 ]; then
           FILES=$(git ls-tree --name-only -r HEAD -- '*.md')
         else
-          FILES=$(git diff --name-only HEAD~1 HEAD -- '*.md')
+          FILES=$(git diff --name-only ${{ github.event.before }} HEAD -- '*.md')
         fi
         echo "Changed files: $FILES"
         echo "FILES=$FILES" >> $GITHUB_ENV
