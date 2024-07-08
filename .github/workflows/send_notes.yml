@@ -23,11 +23,11 @@ jobs:
           FILES=$(git diff --name-only HEAD~1 HEAD -- '*.md')
         fi
         echo "Changed files: $FILES"
-        echo "::set-output name=files::$FILES"
+        echo "FILES=$FILES" >> $GITHUB_ENV
 
     - name: Send notes to server
       env:
-        FILES: ${{ steps.changed_files.outputs.files }}
+        FILES: ${{ env.FILES }}
       run: |
         if [ -n "$FILES" ]; then
           json_data="{\"notes\":["
