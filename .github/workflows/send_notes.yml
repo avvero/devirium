@@ -1,0 +1,34 @@
+# .github/workflows/send_notes.yml
+name: Send Notes on Commit
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+
+jobs:
+  send_notes:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Get changed markdown files
+      id: changed_files
+      run: |
+        echo "::set-output name=files::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- '*.md')"
+
+    - name: Send notes to server
+      env:
+        FILES: ${{ steps.changed_files.outputs.files }}
+      run: |
+        if [ -n "$FILES" ]; then
+          json_data="{\"notes\":["
+          for file in $FILES; do
+            content=$(cat "$file" | jq -sR .)
+            json_data="$json_data{\"file\":\"$file\",\"content\":$content},"
+          done
+          json_data="${json_data%,}]}"
+          curl -H "Content-Type: application/json" -X POST -d "$json_data" https://webhook.site/67bdb6f6-f989-4e8e-91ce-dfe1326a5729
+        fi
