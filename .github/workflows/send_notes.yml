@@ -29,6 +29,7 @@ jobs:
           else
             git ls-tree --name-only -r HEAD -- '*.md' > changed_files.txt
           fi
+          sed -i 's/^"//;s/"$//' changed_files.txt
           cat changed_files.txt
 
       - name: Send notes to server
@@ -36,9 +37,9 @@ jobs:
           SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
         run: |
           while IFS= read -r file; do
-            file=$(echo $file | tr -d '\r')
+            file=$(echo $file | sed 's/^"//;s/"$//') # Remove quotes from file name
             if [ -f "$file" ]; then
-              content=$(iconv -f UTF-8 -t UTF-8 "$file" | jq -sR .)
+              content=$(cat "$file" | jq -sR .)
               json_data="{\"content\":$content}"
               echo "JSON Data: $json_data"
               response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
