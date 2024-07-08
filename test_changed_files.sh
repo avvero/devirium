@@ -7,10 +7,12 @@ else
   git ls-tree --name-only -r HEAD -- '*.md' > changed_files.txt
 fi
 
-# Display file names and contents using git cat-file
+# Display file names and contents using git show
 while IFS= read -r file; do
-  echo "File: $file"
-  echo "Content:"
-  git show "HEAD:$file"
-  echo ""
+  if [[ -n "$file" ]]; then
+    echo "File: $file"
+    echo "Content:"
+    git show HEAD:"$file"
+    echo ""
+  fi
 done < changed_files.txt

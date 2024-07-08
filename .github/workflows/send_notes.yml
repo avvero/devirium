@@ -15,40 +15,23 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Debug info
+      - name: List and display changed files
         run: |
-          echo "Current commit: $(git rev-parse HEAD)"
-          echo "Previous commit: $(git rev-parse HEAD~1 || echo 'No previous commit')"
-          echo "All commits:"
-          git log --oneline
+          #!/bin/bash
 
-      - name: List changed files
-        run: |
+          # Get the list of changed files
           if git rev-parse HEAD~1 >/dev/null 2>&1; then
-            git diff --name-only HEAD~1 HEAD -- '*.md' > changed_files.txt
+            git diff --name-only -z HEAD~1 HEAD -- '*.md' > changed_files.txt
           else
-            git ls-tree --name-only -r HEAD -- '*.md' > changed_files.txt
+            git ls-tree --name-only -r -z HEAD -- '*.md' > changed_files.txt
           fi
-          sed -i 's/^"//;s/"$//' changed_files.txt
-          cat changed_files.txt
 
-      - name: Send notes to server
-        env:
-          SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
-        run: |
-          while IFS= read -r file; do
-            file=$(echo $file | sed 's/^"//;s/"$//') # Remove quotes from file name
-            if [ -f "$file" ]; then
-              content=$(cat "$file" | jq -sR .)
-              json_data="{\"content\":$content}"
-              echo "JSON Data: $json_data"
-              response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
-              echo "Server response: $response"
-              if [ "$response" -ne 200 ]; then
-                echo "Failed to send notes to server for file $file. Response code: $response"
-                exit 1
-              fi
-            else
-              echo "File not found: $file"
+          # Display file names and contents using git show
+          while IFS= read -r -d '' file; do
+            if [[ -n "$file" ]]; then
+              echo "File: $file"
+              echo "Content:"
+              git show "HEAD:$file"
+              echo ""
             fi
           done < changed_files.txt
