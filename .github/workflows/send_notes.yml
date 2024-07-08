@@ -20,7 +20,7 @@ jobs:
 
       - name: List all changed files
         run: |
-          echo "${{ steps.changed-files.outputs.all_changed_files }}" | jq -R 'split(",") | .[]' > changed_files.json
+          echo "${{ steps.changed-files.outputs.all_changed_files }}" | jq -R 'split(",")' > changed_files.json
           echo "Contents of changed_files.json:"
           cat changed_files.json
 
@@ -28,7 +28,7 @@ jobs:
         env:
           SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
         run: |
-          files=$(cat changed_files.json | jq -c '.[]')
+          files=$(jq -c '.[]' changed_files.json)
           for file in $files; do
             file=$(echo $file | jq -r .)
             content=$(cat "$file" | jq -sR .)
