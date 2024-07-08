@@ -25,7 +25,7 @@ jobs:
       run: |
         if [ $(git rev-list --count HEAD) -eq 1 ]; then
           echo "First commit detected."
-          FILES=$(git ls-tree --name-only -r HEAD -- '*.md')
+          FILES=$(git diff-tree --no-commit-id --name-only -r HEAD -- '*.md')
         else
           echo "Subsequent commit detected."
           FILES=$(git diff --name-only ${{ github.event.before }} HEAD -- '*.md')
@@ -43,18 +43,4 @@ jobs:
       run: |
         if [ -n "$FILES" ]; then
           json_data="{\"notes\":["
-          for file in $FILES; do
-            content=$(cat "$file" | jq -sR .)
-            json_data="$json_data{\"file\":\"$file\",\"content\":$content},"
-          done
-          json_data="${json_data%,}]}"
-          echo "JSON Data: $json_data"
-          response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" http://your-server-ip:5000/receive_notes)
-          echo "Server response: $response"
-          if [ "$response" -ne 200 ]; then
-            echo "Failed to send notes to server"
-            exit 1
-          fi
-        else
-          echo "No markdown files changed"
-        fi
+          for file in $FILES;
