@@ -21,8 +21,4 @@ jobs:
       - name: List all changed files
         run: |
           changed_files="${{ steps.changed-files.outputs.all_changed_files }}"
-          echo "$changed_files" | tr ',' '\n' > changed_files.txt
-          readarray -t files < changed_files.txt
-          for file in "${files[@]}"; do
-            echo "Changed file: $file"
-          done
+          echo "$changed_files" | awk -v RS=, '{print "Changed file:", $0}'
