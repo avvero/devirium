@@ -19,6 +19,10 @@ jobs:
       run: |
         echo "::set-output name=files::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- '*.md')"
 
+    - name: Print changed files
+      run: |
+        echo "Changed files: ${{ steps.changed_files.outputs.files }}"
+
     - name: Send notes to server
       env:
         FILES: ${{ steps.changed_files.outputs.files }}
@@ -30,5 +34,11 @@ jobs:
             json_data="$json_data{\"file\":\"$file\",\"content\":$content},"
           done
           json_data="${json_data%,}]}"
-          curl -H "Content-Type: application/json" -X POST -d "$json_data" https://webhook.site/67bdb6f6-f989-4e8e-91ce-dfe1326a5729
+          echo "JSON Data: $json_data"
+          response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" http://your-server-ip:5000/receive_notes)
+          echo "Server response: $response"
+          if [ "$response" -ne 200 ]; then
+            echo "Failed to send notes to server"
+            exit 1
+          fi
         fi
