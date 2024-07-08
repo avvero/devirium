@@ -26,9 +26,8 @@ jobs:
 
       - name: List all changed files
         env:
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.modified_files }}
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          IFS=$',' read -a MODIFIED_FILES_ARRAY <<< "${{ steps.changed-files.outputs.modified_files }}"
-          for file in "${MODIFIED_FILES_ARRAY[@]}"; do
-            echo $file
+          for file in ${ALL_CHANGED_FILES}; do
+            echo "$file was changed"
           done
