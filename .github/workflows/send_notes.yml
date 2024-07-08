@@ -20,5 +20,23 @@ jobs:
 
       - name: List all changed files
         run: |
-          changed_files="${{ steps.changed-files.outputs.all_changed_files }}"
-          echo "$changed_files" | awk -v RS=, '{print "Changed file:", $0}'
+          echo "${{ steps.changed-files.outputs.all_changed_files }}" | jq -R 'split(",")' > changed_files.json
+          cat changed_files.json
+
+      - name: Send notes to server
+        env:
+          SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
+        run: |
+          files=$(cat changed_files.json | jq -c '.[]')
+          for file in $files; do
+            file=$(echo $file | jq -r .)
+            content=$(cat "$file" | jq -sR .)
+            json_data="{\"file\":\"$file\",\"content\":$content}"
+            echo "JSON Data: $json_data"
+            response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
+            echo "Server response: $response"
+            if [ "$response" -ne 200 ]; then
+              echo "Failed to send notes to server for file $file. Response code: $response"
+              exit 1
+            fi
+          done
