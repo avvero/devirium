@@ -9,6 +9,7 @@ on:
 jobs:
   send-notes:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -17,30 +18,24 @@ jobs:
         uses: tj-actions/changed-files@v44
         with:
           separator: ","
+          json: "true"
 
       - name: List all changed files
         run: |
-          echo "${{ steps.changed-files.outputs.all_changed_files }}" | tr ',' '\n' > changed_files.txt
-          cat changed_files.txt
+          echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
 
       - name: Send notes to server
         env:
           SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
         run: |
-          while IFS= read -r file; do
-            # Decode the file name from Unicode
-            decoded_file=$(echo "$file" | jq -Rr @uri)
-            if [ -f "$decoded_file" ]; then
-              content=$(cat "$decoded_file" | jq -sR .)
-              json_data="{\"content\":$content}"
-              echo "JSON Data: $json_data"
-              response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
-              echo "Server response: $response"
-              if [ "$response" -ne 200 ]; then
-                echo "Failed to send notes to server for file $decoded_file. Response code: $response"
-                exit 1
-              fi
-            else
-              echo "File not found: $decoded_file"
+          echo "${{ steps.changed-files.outputs.all_changed_files }}" | jq -c '.[]' | while read file; do
+            content=$(cat "$file" | jq -sR .)
+            json_data="{\"content\":$content}"
+            echo "JSON Data: $json_data"
+            response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
+            echo "Server response: $response"
+            if [ "$response" -ne 200 ]; then
+              echo "Failed to send notes to server for file $file. Response code: $response"
+              exit 1
             fi
-          done < changed_files.txt
+          done
