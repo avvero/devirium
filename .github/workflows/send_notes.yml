@@ -38,7 +38,8 @@ jobs:
       run: |
         for file in ${ALL_CHANGED_FILES}; do
           content=$(cat "$file" | jq -sR .)
-          json_data="{\"file\":\"$file\",\"content\":$content}"
+          file_encoded=$(echo "$file" | jq -sR .)
+          json_data="{\"file\":$file_encoded,\"content\":$content}"
           echo "JSON Data: $json_data"
           response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
           echo "Server response: $response"
