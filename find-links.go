@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -29,7 +30,7 @@ func main() {
 	matches := linkPattern.FindAllStringSubmatch(string(content), -1)
 
 	if len(matches) == 0 {
-		fmt.Println("null")
+		fmt.Println("{}")
 		return
 	}
 
@@ -50,7 +51,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	var results []string
+	results := make(map[string]string)
 
 	// Проверка наличия всех ссылок и сбор результатов
 	for _, match := range matches {
@@ -63,16 +64,18 @@ func main() {
 				os.Exit(1)
 			}
 			formattedPath := strings.ReplaceAll(strings.TrimSuffix(path, filepath.Ext(path)), " ", "-")
-			results = append(results, fmt.Sprintf("[[%s]] - %s", match[1], formattedPath))
+			results[match[1]] = formattedPath
 		} else {
 			fmt.Printf("[[%s]] - File not found\n", match[1])
 			os.Exit(1)
 		}
 	}
 
-	if len(results) == 0 {
-		fmt.Println("null")
-	} else {
-		fmt.Println(strings.Join(results, "\n"))
+	jsonResult, err := json.MarshalIndent(results, "", "  ")
+	if err != nil {
+		fmt.Printf("Error marshalling JSON: %v\n", err)
+		os.Exit(1)
 	}
+
+	fmt.Println(string(jsonResult))
 }
