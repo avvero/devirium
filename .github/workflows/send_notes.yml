@@ -27,6 +27,8 @@ jobs:
         run: |
           #!/bin/bash
 
+          set -e
+
           send_telegram_message() {
             local message=$1
             curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_TOKEN/sendMessage" \
@@ -42,22 +44,15 @@ jobs:
           fi
 
           # Compile the Go script
-          go build -o find-links find-links.go
+          echo "Compiling find-links.go"
+          go build -o find-links find-links.go || { send_telegram_message "Failed to compile find-links.go"; exit 1; }
 
           # Display file names and send contents using curl
           while IFS= read -r -d '' file; do
             if [[ -n "$file" ]]; then
-              echo "File: $file"
-              echo "Content:"
+              echo "Processing file: $file"
               content=$(git show "HEAD:$file" | jq -sR .)
-              links=$(./find-links "$file")
-
-              if [ $? -ne 0 ]; then
-                message="Error processing file $file with find-links.go"
-                echo "$message"
-                send_telegram_message "$message"
-                exit 1
-              fi
+              links=$(./find-links "$file") || { send_telegram_message "Error processing file $file with find-links.go"; exit 1; }
 
               json_data="{\"file\":\"$file\",\"content\":$content, \"links\": $links}"
 
