@@ -33,7 +33,7 @@ jobs:
           fi
 
           # Compile the Go script
-          go build -o fix-links fix-links.go
+          go build -o find-links find-links.go
 
           # Display file names and send contents using curl
           while IFS= read -r -d '' file; do
@@ -41,10 +41,10 @@ jobs:
               echo "File: $file"
               echo "Content:"
               content=$(git show "HEAD:$file" | jq -sR .)
-              links=$(./fix-links "$file")
+              links=$(./find-links "$file")
 
               if [ $? -ne 0 ]; then
-                echo "Error processing file $file with fix-links.go"
+                echo "Error processing file $file with find-links.go"
                 exit 1
               fi
 
