@@ -2,8 +2,8 @@ name: Deploy Quartz site to GitHub Pages
 
 on:
   push:
-    branches:
-      - main # или другая основная ветка вашего репозитория
+    paths:
+      - '**/*.md'
 
 permissions:
   contents: read
