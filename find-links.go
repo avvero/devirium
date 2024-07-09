@@ -12,7 +12,7 @@ import (
 func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("Usage: go run script.go <path to file>")
-		return
+		os.Exit(1)
 	}
 	filePath := os.Args[1]
 	root := "./" // Путь к корневой директории
@@ -21,7 +21,7 @@ func main() {
 	content, err := ioutil.ReadFile(filePath)
 	if err != nil {
 		fmt.Printf("Error reading file %v: %v\n", filePath, err)
-		return
+		os.Exit(1)
 	}
 
 	// Находим все ссылки вида [[имя файла]]
@@ -29,7 +29,7 @@ func main() {
 	matches := linkPattern.FindAllStringSubmatch(string(content), -1)
 
 	if len(matches) == 0 {
-		fmt.Println("No links found in the specified file.")
+		fmt.Println("null")
 		return
 	}
 
@@ -47,10 +47,12 @@ func main() {
 
 	if err != nil {
 		fmt.Printf("Error walking the path %v: %v\n", root, err)
-		return
+		os.Exit(1)
 	}
 
-	// Проверка наличия всех ссылок и вывод в лог
+	var results []string
+
+	// Проверка наличия всех ссылок и сбор результатов
 	for _, match := range matches {
 		noteName := match[1] + ".md"
 		lowerNoteName := strings.ToLower(noteName)
@@ -60,10 +62,17 @@ func main() {
 				fmt.Printf("Case mismatch for link [[%s]]: expected %s but found %s\n", match[1], noteName, actualFileName)
 				os.Exit(1)
 			}
-			fmt.Printf("[[%s]] - %s\n", match[1], path)
+			formattedPath := strings.ReplaceAll(strings.TrimSuffix(path, filepath.Ext(path)), " ", "-")
+			results = append(results, fmt.Sprintf("[[%s]] - %s", match[1], formattedPath))
 		} else {
 			fmt.Printf("[[%s]] - File not found\n", match[1])
 			os.Exit(1)
 		}
+	}
+
+	if len(results) == 0 {
+		fmt.Println("null")
+	} else {
+		fmt.Println(strings.Join(results, "\n"))
 	}
 }
