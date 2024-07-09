@@ -32,7 +32,10 @@ jobs:
         run: git clone git@github.com:avvero/devirium-quartz.git quartz
 
       - name: Clone content repository
-        run: git clone git@github.com:avvero/devirium.git quartz/content
+        run: git clone git@github.com:avvero/devirium.git quartz_content
+
+      - name: Copy content to Quartz
+        run: cp -r quartz_content/* quartz/content/
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
