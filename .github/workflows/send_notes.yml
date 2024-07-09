@@ -22,8 +22,17 @@ jobs:
       - name: List and send changed files
         env:
           SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           #!/bin/bash
+
+          send_telegram_message() {
+            local message=$1
+            curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_TOKEN/sendMessage" \
+              -H "Content-Type: application/json" \
+              -d "{\"chat_id\":\"$TELEGRAM_CHAT_ID\", \"text\":\"$message\"}"
+          }
 
           # Get the list of changed files
           if git rev-parse HEAD~1 >/dev/null 2>&1; then
@@ -44,7 +53,9 @@ jobs:
               links=$(./find-links "$file")
 
               if [ $? -ne 0 ]; then
-                echo "Error processing file $file with find-links.go"
+                message="Error processing file $file with find-links.go"
+                echo "$message"
+                send_telegram_message "$message"
                 exit 1
               fi
 
@@ -54,7 +65,9 @@ jobs:
               response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
               echo "Server response: $response"
               if [ "$response" -ne 200 ]; then
-                echo "Failed to send notes to server for file $file. Response code: $response"
+                message="Failed to send notes to server for file $file. Response code: $response"
+                echo "$message"
+                send_telegram_message "$message"
                 exit 1
               fi
               echo ""
