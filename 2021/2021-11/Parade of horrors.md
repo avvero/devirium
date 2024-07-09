@@ -1,4 +1,4 @@
 Parade of horrors.
 
-[[understanding arguments]]
+[[Understanding Arguments]]
 #sophistry #logic #arguments 
