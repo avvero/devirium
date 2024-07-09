@@ -1,0 +1,6 @@
+For very small tables, for example a cities lookup table, an index may be undesirable, even if you search by city name. In that case, Postgres may decide to ignore the index in favor of a sequential scan. Postgres will decide to perform a sequential scan on any query that will hit a significant portion of a table. If you do have an index on that column, it will be a dead index that’s never used - and indexes are not free: they come at a cost in terms of storage and maintenance.
+
+Postgres will determine that the dataset is so small that it’s not worth the overhead of reading through the index and then fetching the data from disk. Random I/O is much slower than sequential, so the cost of a sequential scan is lower than that of the random I/O introduced by reading the index and selectively finding the data on disk. Performing index tuning should be done on production, or on a staging environment that is as close to production as possible. On the Heroku Postgres database platform it is possible to copy your production database to a different environment [quite easily](https://devcenter.heroku.com/articles/heroku-postgres-import-export#export).
+
+#postgresql #index 
+#draft
