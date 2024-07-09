@@ -1,4 +1,3 @@
-# .github/workflows/send_notes.yml
 name: Send Notes on Commit
 
 on:
@@ -15,6 +14,11 @@ jobs:
         with:
           fetch-depth: 2
 
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.16'
+
       - name: List and send changed files
         env:
           SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
@@ -28,13 +32,24 @@ jobs:
             git ls-tree --name-only -r -z HEAD -- '*.md' > changed_files.txt
           fi
 
+          # Compile the Go script
+          go build -o fix-links fix-links.go
+
           # Display file names and send contents using curl
           while IFS= read -r -d '' file; do
             if [[ -n "$file" ]]; then
               echo "File: $file"
               echo "Content:"
               content=$(git show "HEAD:$file" | jq -sR .)
-              json_data="{\"file\":\"$file\",\"content\":$content}"
+              links=$(./fix-links "$file")
+
+              if [ $? -ne 0 ]; then
+                echo "Error processing file $file with fix-links.go"
+                exit 1
+              fi
+
+              json_data="{\"file\":\"$file\",\"content\":$content, \"links\": $links}"
+
               echo "JSON Data: $json_data"
               response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
               echo "Server response: $response"
