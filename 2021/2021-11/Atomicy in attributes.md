@@ -6,3 +6,4 @@
 • Country code: Defined by ISO 3166 as a list of two letter codes (ISO alpha-2) and three letter codes (ISO alpha-3). The country codes for Germany are DE and DEU for alpha-2 and alpha-3 respectively.
 
 #postgresql #design #database 
+#draft

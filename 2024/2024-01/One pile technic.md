@@ -4,3 +4,4 @@
 Об этом говорили и в [[Не распределяй код]]
 
 #development #refactoring 
+#draft

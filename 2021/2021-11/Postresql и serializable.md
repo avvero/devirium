@@ -3,3 +3,4 @@
 http://jepsen.io/analyses/postgresql-12.3
 
 #postgresql #database #transaction #isolation
+#draft

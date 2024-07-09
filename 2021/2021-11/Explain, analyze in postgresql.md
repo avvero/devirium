@@ -6,3 +6,4 @@ EXPLAIN чтобы посмотреть план запроса.
 ANALYZE чтобы собрать статистику.
 
 #postgresql 
+#draft

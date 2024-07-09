@@ -5,3 +5,4 @@ Update в postgresql это по факту вставка плюс удален
 https://www.cybertec-postgresql.com/en/is-update-the-same-as-delete-insert-in-postgresql
 
 #postgresql #database #upsert
+#draft
