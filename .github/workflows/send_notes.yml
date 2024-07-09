@@ -36,6 +36,8 @@ jobs:
               -d "{\"chat_id\":\"$TELEGRAM_CHAT_ID\", \"text\":\"$message\"}" > /dev/null
           }
 
+          trap 'send_telegram_message "Error: Script failed at line $LINENO"' ERR
+
           # Get the list of changed files
           if git rev-parse HEAD~1 >/dev/null 2>&1; then
             git diff --name-only -z --diff-filter=ACM HEAD~1 HEAD -- '*.md' > changed_files.txt
