@@ -71,15 +71,15 @@ func findAndFixLinks(filePath, content string, files map[string]string) string {
 			}
 		} else {
 			fmt.Printf("Missing file for link in %s: [[%s]]\n", filePath, match[1])
-			// // Создаем недостающий файл
-			// newFilePath := filepath.Join(filepath.Dir(filePath), noteName)
-			// err := ioutil.WriteFile(newFilePath, []byte("# "+strings.TrimSuffix(noteName, ".md")), 0644)
-			// if err != nil {
-			// 	fmt.Printf("Error creating file %v: %v\n", newFilePath, err)
-			// 	continue
-			// }
-			// files[lowerNoteName] = newFilePath
-			// fmt.Printf("Created missing file: %s\n", newFilePath)
+			// Создаем недостающий файл
+			newFilePath := filepath.Join(filepath.Dir(filePath), noteName)
+			err := ioutil.WriteFile(newFilePath, []byte("# "+strings.TrimSuffix(noteName, ".md")), 0644)
+			if err != nil {
+				fmt.Printf("Error creating file %v: %v\n", newFilePath, err)
+				continue
+			}
+			files[lowerNoteName] = newFilePath
+			fmt.Printf("Created missing file: %s\n", newFilePath)
 		}
 	}
 
