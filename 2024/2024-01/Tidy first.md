@@ -32,4 +32,6 @@ Reading order
 
 [[Reversible decisions]]
 
+и другое.
+
 #book #development 
