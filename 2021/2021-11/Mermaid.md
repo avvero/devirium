@@ -1,3 +1,3 @@
-Диаграмма как код, то же что и [[plantuml]]. 
+Диаграмма как код, то же что и Plantuml. 
 
 #plantuml #mermaid #diagram

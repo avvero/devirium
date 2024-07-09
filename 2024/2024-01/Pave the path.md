@@ -1,0 +1,6 @@
+Протоптать путь. Строители вместо того, чтобы подумать дорожки замостили все травой и дали людям самим протоптать дорожки и потом там вымостили их
+
+> «Behavior changes tend to cluster in the code. From Pareto, 80% of the changes will occur in 20% of the files.»
+
+[[Tidy first]]
+#design #fun #story 
