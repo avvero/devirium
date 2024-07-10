@@ -11,17 +11,7 @@ import (
 
 func main() {
 	root := "./" // Путь к корневой директории с заметками
-	missingDir := filepath.Join(root, "missing")
 	files := make(map[string]string)
-
-	// Создаем папку "missing" в корне, если она не существует
-	if _, err := os.Stat(missingDir); os.IsNotExist(err) {
-		err := os.Mkdir(missingDir, os.ModePerm)
-		if err != nil {
-			fmt.Printf("Error creating directory %v: %v\n", missingDir, err)
-			return
-		}
-	}
 
 	// Собираем все файлы
 	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
@@ -49,7 +39,7 @@ func main() {
 			if err != nil {
 				return err
 			}
-			updatedContent := findAndFixLinks(path, string(content), files, missingDir)
+			updatedContent := findAndFixLinks(path, string(content), files)
 			if updatedContent != string(content) {
 				err = ioutil.WriteFile(path, []byte(updatedContent), 0644)
 				if err != nil {
@@ -65,7 +55,7 @@ func main() {
 	}
 }
 
-func findAndFixLinks(filePath, content string, files map[string]string, missingDir string) string {
+func findAndFixLinks(filePath, content string, files map[string]string) string {
 	linkPattern := regexp.MustCompile(`\[\[(.+?)\]\]`)
 	matches := linkPattern.FindAllStringSubmatch(content, -1)
 	updatedContent := content
