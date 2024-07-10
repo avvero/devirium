@@ -6,6 +6,7 @@ Devirium is my digital garden.
 
 ## Последние заметки
 - [[Vertica]]
+- [[Колоночная база данных]]
 - [[Upsert in postgresql]]
 - [[Understanding Arguments]]
 - [[Turple and row]]
@@ -24,7 +25,6 @@ Devirium is my digital garden.
 - [[parade of horrors]]
 - [[OLAP и OLTP]]
 - [[Nullius in Verba]]
-- [[New books to read]]
 
 ## TODO
 
