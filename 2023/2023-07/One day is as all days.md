@@ -1,0 +1,3 @@
+
+#stoicism 
+#draft

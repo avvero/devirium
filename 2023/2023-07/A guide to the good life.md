@@ -1,0 +1,2 @@
+#book #stoicism #philosophy 
+#draft
