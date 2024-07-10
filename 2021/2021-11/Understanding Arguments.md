@@ -5,4 +5,3 @@ The proven strengths of this argument text include the philosophy of language, a
 https://www.amazon.com/Understanding-Arguments-Introduction-Informal-Logic/dp/0495603953
 
 #book #logic #argument
-#draft

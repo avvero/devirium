@@ -5,8 +5,15 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
-- [[Throughput]]
+- [[Vertica]]
+- [[Upsert in postgresql]]
+- [[Understanding Arguments]]
+- [[Turple and row]]
+- [[trick of the disappearing guard]]
+- [[trick of excess verbiage]]
+- [[trick of abusive assurances]]
 - [[They do not saw]]
+- [[Throughput]]
 - [[tangents]]
 - [[Tablespace]]
 - [[suppressed premises]]
@@ -18,13 +25,6 @@ Devirium is my digital garden.
 - [[OLAP и OLTP]]
 - [[Nullius in Verba]]
 - [[New books to read]]
-- [[Monitoring]]
-- [[modus ponens]]
-- [[Microprofile]]
-- [[Mermaid]]
-- [[Jupiter book for puml]]
-- [[is оператор в kotlin]]
-- [[grafting]]
 
 ## TODO
 
