@@ -21,8 +21,8 @@ jobs:
 
       - name: Compile find-links
         run: |
-          echo "Compiling find-links.go"
-          go build -o find-links find-links.go
+          echo "Compiling script/find-links.go"
+          go build -o script/find-links script/find-links.go
 
       - name: Check links in changed files
         id: check-links
@@ -42,7 +42,7 @@ jobs:
           while IFS= read -r -d '' file; do
             if [[ -n "$file" ]]; then
               echo "Checking links in file: $file"
-              ./find-links "$file" || { echo "Error processing file $file with find-links.go"; exit 1; }
+              ./script/find-links "$file" || { echo "Error processing file $file with script/find-links.go"; exit 1; }
               echo ""
             fi
           done < changed_files.txt
