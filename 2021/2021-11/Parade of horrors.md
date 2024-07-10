@@ -2,5 +2,4 @@
 
 Parade of horrors.
 
-#sophistry #logic #arguments 
-#draft
+#sophistry #logic #arguments

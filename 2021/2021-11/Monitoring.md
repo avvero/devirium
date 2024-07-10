@@ -3,4 +3,3 @@ Monitoring. Yes, monitoring is a test too, or rather tests and monitoring are bo
 https://medium.com/@kentbeck_7670/test-desiderata-94150638a4b3
 
 #monitoring #code
-#draft
