@@ -85,7 +85,7 @@ jobs:
             if [[ -n "$file" ]]; then
               echo "Processing file: $file"
               content=$(git show "HEAD:$file" | jq -sR .)
-              links=$(./find-links "$file")
+              links=$(./script/find-links "$file")
 
               json_data="{\"file\":\"$file\",\"content\":$content, \"links\": $links}"
 
