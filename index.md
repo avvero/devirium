@@ -5,6 +5,14 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
+- [[Explain, analyze in postgresql]]
+- [[Evolvability]]
+- [[Dynamics of pushing new code to production]]
+- [[Domain terminology]]
+- [[Discounting]]
+- [[Confirmation bias]]
+- [[attacking straw men]]
+- [[Atomicy in attributes]]
 - [[argumentative performative]]
 - [[appeal to authority]]
 - [[About solution]]
@@ -17,14 +25,6 @@ Devirium is my digital garden.
 - [[Польза опенсорс для компании]]
 - [[Разбор полетов]]
 - [[Работаю за деньги]]
-- [[Не ставьте себя перед ложными выборами]]
-- [[Когнитивное искажение]]
-- [[Индукция]]
-- [[Деление кода в команде]]
-- [[Аргумент]]
-- [[Кеш инструкций]]
-- [[_Статьи]]
-- [[_Советы]]
 
 ## TODO
 
