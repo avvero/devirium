@@ -1,6 +1,6 @@
 # PC build on intel
 
-Кроме [[Сборка компа на amd.md]] посмотрим еще на intel.
+Кроме [[Сборка компа на amd]] посмотрим еще на intel.
 
 Этот чувак говорит https://www.youtube.com/watch?v=yO50NwIBhp4&ab_channel=OptimumTech, что Intel i5-12600K круто
 

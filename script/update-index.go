@@ -56,7 +56,7 @@ func main() {
 		if strings.TrimSpace(line) == "## Последние заметки" {
 			inSection = true
 			newContent.WriteString(line + "\n")
-			newContent.WriteString(generateNewSection(files, root))
+			newContent.WriteString(generateNewSection(files))
 		} else if inSection && strings.HasPrefix(line, "- [[") {
 			continue
 		} else {
@@ -77,14 +77,11 @@ func main() {
 	fmt.Println("index.md updated successfully")
 }
 
-func generateNewSection(files []fileInfo, root string) string {
+func generateNewSection(files []fileInfo) string {
 	var section strings.Builder
 	for _, file := range files {
-		relPath, err := filepath.Rel(root, file.path)
-		if err != nil {
-			log.Fatalf("Error getting relative path: %v\n", err)
-		}
-		section.WriteString(fmt.Sprintf("- [[%s]]\n", relPath))
+		name := strings.TrimSuffix(filepath.Base(file.path), filepath.Ext(file.path))
+		section.WriteString(fmt.Sprintf("- [[%s]]\n", name))
 	}
 	return section.String()
 }
