@@ -28,7 +28,7 @@ It's a genuinely thrilling experience, blending deep analytical thinking with a 
 
 
 ## Картинки
-![[Perfect run.png]]
+Perfect run.png
 ```json
 {
   "created": 1701960621,
@@ -51,7 +51,8 @@ It's a genuinely thrilling experience, blending deep analytical thinking with a 
   ]
 }
 ```
-![[Perfect run2.png]]```json
+Perfect run2.png
+```json
 {
   "created": 1701960768,
   "data": [

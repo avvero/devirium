@@ -22,7 +22,7 @@ public int lengthOfLIS(int[] nums) {
 ```
 
 Есть решение с nlogn с использование подхода [Patience sorting](https://en.wikipedia.org/wiki/Patience_sorting). 
-> The number of piles is the length of the longest subsequence. For more info see [Princeton lecture](https://www.cs.princeton.edu/courses/archive/spring13/cos423/lectures/LongestIncreasingSubsequence.pdf) [[Theory of Algorithms.md]]
+> The number of piles is the length of the longest subsequence. For more info see [Princeton lecture](https://www.cs.princeton.edu/courses/archive/spring13/cos423/lectures/LongestIncreasingSubsequence.pdf) [[Theory of Algorithms]]
 
 Нашел хорошее объяснение тут - https://www.youtube.com/watch?v=22s1xxRvy28&t=61s. 
 

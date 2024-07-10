@@ -9,7 +9,7 @@
 
 ## Мой опыт
 
-[[Публикация в maven central.md]]
+[[Публикация в maven central]]
 
 #article #idea
 #draft

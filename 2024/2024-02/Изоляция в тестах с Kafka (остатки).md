@@ -1,6 +1,6 @@
-# Изоляция в тестах с кафкой (остатки)
+# Изоляция в тестах с Kafka (остатки)
 
-Все, что не вошло в статью [[Изоляция в тестах с кафкой.md]]
+Все, что не вошло в статью [[Изоляция в тестах с Kafka]]
 
 ## TODO
 
@@ -121,7 +121,7 @@ spring.kafka.producer.retries=5
 - https://www.smiledigitalhealth.com/our-blog/kafka-integration-testing-partition-assignment - чувак сделал `auto.offset.reset: earliest `
 - https://habr.com/ru/articles/742786/ - тут чувак написал простые консумеры и протестировал со слипами
 - https://www.confluent.io/blog/advanced-testing-techniques-for-spring-kafka/
-- https://engineering.atspotify.com/2018/01/testing-of-microservices/ - ! Они выделили [[Integrated Tests.md]] и [[Integration Tests.md]]. Первые это зло, вторые это хорошо.
+- https://engineering.atspotify.com/2018/01/testing-of-microservices/ - ! Они выделили [[Integrated Tests]] и [[Integration Tests]]. Первые это зло, вторые это хорошо.
 
 # Статьи где есть картинки на которые можно обратить внимание 
 

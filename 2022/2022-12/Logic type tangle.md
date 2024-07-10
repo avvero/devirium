@@ -1,6 +1,6 @@
 # Logic type tangle
 
-Одна из [[Developer dirty technics.md]]
+Одна из [[Developer dirty technics]]
 
 Этот метод вытянул из себя кусок бизнеслогики, я бы отделял бизнес логикику и интеграцию, например
 вместо

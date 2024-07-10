@@ -1,6 +1,6 @@
 # Осмысление Pact
 
-Речь про [[Pact.md]].
+Речь про [[Pact]].
 
 ## Pact работает через непрямое тестирование.
 
@@ -15,7 +15,7 @@
 
 Кроме того, подход с матчингом запросов это непрямое тестирование.
 
-Это как раз [[Direct and Indirect Assessment.md]]
+Это как раз [[Direct and Indirect Assessment]]
 
 #testing #pact
 #draft

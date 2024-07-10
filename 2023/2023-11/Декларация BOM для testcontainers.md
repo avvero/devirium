@@ -1,4 +1,4 @@
-# Декларация BOM для testcontainers.md
+# Декларация BOM для testcontainers
 
 ## 1 Вариант
 

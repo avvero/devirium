@@ -11,7 +11,7 @@ JSONAssert.assertEquals("""{
 }""", response.contentAsString, false) // actual can contain more fields than expected
 ```
 
-Описание механизма сравнения тел из pact [[JSON body matching rules.md]]. Может пригодиться.
+Описание механизма сравнения тел из pact [[JSON body matching rules]]. Может пригодиться.
 
 #test #assert #json #java
 #draft

@@ -18,7 +18,7 @@ https://medium.com/@ximna.inc/way-to-microservices-contract-testing-a-spring-pac
 
 
 
-[[Pact.md]] [[Spring Cloud Contract.md]]
+[[Pact]] [[Spring Cloud Contract]]
 
 #test 
 #draft

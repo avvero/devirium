@@ -6,7 +6,7 @@ Pact is a code-first consumer-driven contract testing tool
 
 Documentation and 5minutes guide - https://docs.pact.io/5-minute-getting-started-guide
 
-There are https://docs.pact.io/getting_started/matching/gotchas with reference to [[Postel's law.md]]
+There are https://docs.pact.io/getting_started/matching/gotchas with reference to [[Postel's law]]
 
 https://github.com/pact-foundation/pact-specification
 

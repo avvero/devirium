@@ -1,8 +1,8 @@
-# vscode rest client.md
+# vscode rest client
 
 Дока: https://github.com/Huachao/vscode-restclient
 
-Расширение для [[vscode]] для вызова http прямо из текста (для запроса нужно выделить текст)
+Расширение для vscode для вызова http прямо из текста (для запроса нужно выделить текст)
 ```http
 POST https://example.com/comments HTTP/1.1
 Content-Type: application/json
@@ -22,7 +22,7 @@ Authorization: token xxx
     "clientId":"100118793"
 }
 
-или из файла с расширением ![[example.http]]
+или из файла с расширением !example.http
 
 Есть поддержка авторизации
 

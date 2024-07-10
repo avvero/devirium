@@ -1,6 +1,6 @@
 # Anglerfish
 
-Одна из [[Developer dirty technics.md]]
+Одна из [[Developer dirty technics]]
 
 Когда на вид код хороши и чистый а вокруг кода куча классов куда сгружена вся дичь.
 

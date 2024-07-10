@@ -2,6 +2,6 @@
 
 discount - обесценивать
 
-[[Understanding arguments.md]]
+[[Understanding Arguments]]
 #discount
 #draft

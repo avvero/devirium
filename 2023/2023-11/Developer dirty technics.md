@@ -1,11 +1,11 @@
 Решил собирать техники, которые используют разработчики для того, чтобы писать плохой код.
 
 Техники:
-- [[Anglerfish.md]]
-- [[Cliffhanger.md]]
-- [[I know functional programming.md]]
-- [[Swept under carpet.md]]
-- [[Logic type tangle.md]]
+- [[Anglerfish]]
+- [[Cliffhanger]]
+- [[I know functional programming]]
+- [[Swept under carpet]]
+- [[Logic type tangle]]
 
 #development #practice #fun #design #dirty_code
 #draft

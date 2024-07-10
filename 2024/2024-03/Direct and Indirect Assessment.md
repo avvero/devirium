@@ -1,8 +1,8 @@
 # Direct and Indirect Assessment
 
-Связано с [[Direct measurement and Indirect measurement.md]]
+Связано с [[Direct measurement and Indirect measurement]]
 
-Подробно описано в [[Разносим по полочкам этапы тестирования http запросов в Spring.md]]
+Подробно описано в [[Разносим по полочкам этапы тестирования http запросов в Spring]]
 
 #term #testing
 #draft

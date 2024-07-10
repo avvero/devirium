@@ -1,6 +1,6 @@
 Triple : Mike likes banana
 
-[[Designing Data Intensive Applications.md]]
+[[Designing Data Intensive Applications]]
 
 #storage
 #draft

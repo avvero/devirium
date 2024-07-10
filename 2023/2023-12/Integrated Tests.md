@@ -1,6 +1,6 @@
 # Integrated Tests
 
-Взято из [[Testing of Microservices.md]].
+Взято из [[Testing of Microservices]].
 
 A test that will pass or fail based on the correctness of another system.
 

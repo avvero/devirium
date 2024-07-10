@@ -1,6 +1,6 @@
 # Cliffhanger
 
-Одна из [[Developer dirty technics.md]]
+Одна из [[Developer dirty technics]]
 
 Когда от метода отрезается важный для понимания кусок.
 

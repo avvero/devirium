@@ -4,7 +4,7 @@ Minimize the scope of local variables
 
 Limiting the scope of local variables is good practice in general. This practice is described in Effective Java (3rd Edition), Item 57.
 
-[[Java code style about var.md]]
+[[Java code style about var]]
 
 #java #code-style #practice #clean-code #design
 #draft
