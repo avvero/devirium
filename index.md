@@ -5,6 +5,7 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
+- [[Аргумент]]
 - [[Кеш инструкций]]
 - [[_Статьи]]
 - [[_Советы]]
@@ -24,7 +25,6 @@ Devirium is my digital garden.
 - [[Testcontainers-based Load Testing Bench]]
 - [[But that’s shortsighted]]
 - [[Я тут смотрел видос с психологом]]
-- [[Хорошее дело сортировкой не назовут]]
 
 ## TODO
 
