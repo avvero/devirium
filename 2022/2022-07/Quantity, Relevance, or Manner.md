@@ -1,5 +1,5 @@
 Quantity, Relevance, or Manner
 
-[[Understanding arguments]]
+[[Understanding Arguments]]
 #logic #sophistry 
 #draft

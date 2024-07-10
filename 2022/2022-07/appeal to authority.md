@@ -1,4 +1,4 @@
 appeal to authority
-[[Understanding arguments]]
+[[Understanding Arguments]]
 #sophistry #logic 
 #draft

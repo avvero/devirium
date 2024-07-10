@@ -1,5 +1,5 @@
 modus ponens - исключение исключением, от противного.
 
-[[Understanding arguments]]
+[[Understanding Arguments]]
 #sophistry #logic 
 #draft

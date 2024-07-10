@@ -2,6 +2,6 @@ Traditionally, logicians have called premises that are not stated but are needed
 
 After a reasonable search for those suppressed premises that would show the argument to be sound, we should not blame ourselves if we fail to find them. Rather, the blame shifts to the person who formulated the argument for not doing so clearly.
 
-[[Understanding arguments]]
+[[Understanding Arguments]]
 #sophistry #logic 
 #draft
