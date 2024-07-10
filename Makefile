@@ -1,6 +1,7 @@
 # Сохранение изменений
 save:
 	go run script/update-index.go
+	go run script/fix-links.go
 	git add .
 	git commit -m "update"
 	git push
