@@ -36,7 +36,7 @@ func main() {
 
 	// Collect all files in the current directory, including subdirectories
 	files := make(map[string]string)
-	err = filepath.WWalk(root, func(path string, info os.FileInfo, err error) error {
+	err = filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
