@@ -5,6 +5,8 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
+- [[Аксиомы разработки]]
+- [[97 вещей Java]]
 - [[Tight coupling]]
 - [[Run redis client on mac]]
 - [[Visualising software architecture]]
@@ -23,8 +25,6 @@ Devirium is my digital garden.
 - [[1492 Завоевание рая]]
 - [[Fundamentals of Software Architecture]]
 - [[Everything on team leadership]]
-- [[Email-Driven Architecture]]
-- [[Devops handbook]]
 
 ## TODO
 

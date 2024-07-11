@@ -1,6 +1,6 @@
 Fortunately, [Brendan Gregg](https://oreil.ly/dhd5O), a performance engineer at Netflix, came up with [flame graphs](https://oreil.ly/2kCDd), an ingenious kind of diagram for stack traces that can be gathered from almost any system.
 
-Microprofile 
+[[Microprofile]]
   
 Throughput may be traded off against latency, and workload affects the optimum choice.
 
@@ -11,4 +11,3 @@ When you make this change in a benchmark, the code runs three times faster. I wo
 JitWatch
 
 #java #dev #todo
-#draft
