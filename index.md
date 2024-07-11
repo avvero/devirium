@@ -5,6 +5,7 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
+- [[Gradle зависимости]]
 - [[Vertica]]
 - [[Колоночная база данных]]
 - [[Upsert in postgresql]]
@@ -24,7 +25,6 @@ Devirium is my digital garden.
 - [[Postgresql]]
 - [[parade of horrors]]
 - [[OLAP и OLTP]]
-- [[Nullius in Verba]]
 
 ## TODO
 
