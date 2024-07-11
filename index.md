@@ -5,6 +5,18 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
+- [[Дедлайн становится сроком раньше которого задача выполнена не будет]]
+- [[Девайс с экраном для показа google auth токенов]]
+- [[Границы личного времени выстроить строго]]
+- [[Выделение из фичи основной и важной части]]
+- [[Выбираю зарядку]]
+- [[Все везде и сразу]]
+- [[Вопросы к компании для собеседования]]
+- [[Возвращение статуса в api]]
+- [[Видео про тесты]]
+- [[Видео о java17]]
+- [[Ваши пушки прозаржавели]]
+- [[аффирмация]]
 - [[Аксиомы разработки]]
 - [[97 вещей Java]]
 - [[Tight coupling]]
@@ -13,18 +25,6 @@ Devirium is my digital garden.
 - [[Schema in database]]
 - [[Real world cryptography]]
 - [[Postgres can ignore index in favor of scan]]
-- [[Null saturation]]
-- [[Naming for services]]
-- [[Multi column index in postgres]]
-- [[Learning PostgreSQL]]
-- [[MockService]]
-- [[lily 58 pro]]
-- [[Jupyter Java kernel]]
-- [[Gradle task time measure ]]
-- [[Computer Science curriculum.]]
-- [[1492 Завоевание рая]]
-- [[Fundamentals of Software Architecture]]
-- [[Everything on team leadership]]
 
 ## TODO
 
