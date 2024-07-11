@@ -1,4 +1,4 @@
-Нашел интересные ресурсы, которые нужно посмотреть, изучить
+Нашел интересные ресурсы, которые нужно посмотреть, изучить.
 
 https://crashedmind.github.io/PlantUMLHitchhikersGuide/C4/c4.html#c4-lightweight-software-architecture-description-method
 
