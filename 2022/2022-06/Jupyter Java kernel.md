@@ -1,4 +1,3 @@
-Link [](https://github.com/SpencerPark/IJava)
+Jupyter Java kernel https://github.com/SpencerPark/IJava
 
-#java #jupyter 
-#draft
+#java #jupyter
