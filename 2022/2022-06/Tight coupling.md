@@ -3,4 +3,4 @@
 
 Tight coupling: In some cases, tight coupling leads to complex and difficult- to-change data structures. Since business requirements change with time, some requirements might become obsolete. Modeling generalization and specialization (for example a part-time student is a student) in a tightly coupled way may cause problems.
 
-#postgresql #database #design
+#postgresql #design #database

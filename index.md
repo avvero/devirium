@@ -5,10 +5,10 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
+- [[Tight coupling]]
 - [[Visualising software architecture]]
 - [[Run redis client on mac]]
 - [[Schema in database]]
-- [[Tight coupling]]
 - [[Real world cryptography]]
 - [[Postgres can ignore index in favor of scan]]
 - [[Null saturation]]
