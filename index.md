@@ -5,6 +5,12 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
+- [[Visualising software architecture]]
+- [[Tight coupling]]
+- [[Schema in database]]
+- [[Run redis client on mac]]
+- [[Real world cryptography]]
+- [[Postgres can ignore index in favor of scan]]
 - [[Null saturation]]
 - [[Naming for services]]
 - [[Multi column index in postgres]]
@@ -19,12 +25,6 @@ Devirium is my digital garden.
 - [[Everything on team leadership]]
 - [[Email-Driven Architecture]]
 - [[Devops handbook]]
-- [[CUPID]]
-- [[Сервис автоответчик для тестов]]
-- [[Практики разработки]]
-- [[Как разговаривать с мудаками]]
-- [[Джедайские техники]]
-- [[Vertica]]
 
 ## TODO
 

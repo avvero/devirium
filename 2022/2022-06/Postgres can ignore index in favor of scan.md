@@ -3,4 +3,3 @@ For very small tables, for example a cities lookup table, an index may be undesi
 Postgres will determine that the dataset is so small that it’s not worth the overhead of reading through the index and then fetching the data from disk. Random I/O is much slower than sequential, so the cost of a sequential scan is lower than that of the random I/O introduced by reading the index and selectively finding the data on disk. Performing index tuning should be done on production, or on a staging environment that is as close to production as possible. On the Heroku Postgres database platform it is possible to copy your production database to a different environment [quite easily](https://devcenter.heroku.com/articles/heroku-postgres-import-export#export).
 
 #postgresql #index 
-#draft
