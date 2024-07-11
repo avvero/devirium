@@ -87,7 +87,8 @@ jobs:
               content=$(git show "HEAD:$file" | jq -sR .)
               links=$(./script/find-links "$file")
 
-              json_data="{\"file\":\"$file\",\"content\":$content, \"links\": $links}"
+              filename=$(basename "$file")
+              json_data="{\"file\":\"$filename\",\"path\":\"$file\",\"content\":$content, \"links\": $links}"
 
               echo "JSON Data: $json_data"
               response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
