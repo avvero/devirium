@@ -1,4 +1,3 @@
-Ссылка https://github.com/ossu/computer-science
+Open Source Society University - https://github.com/ossu/computer-science
 
-#learn #education
-#draft
+#course #todo
