@@ -1,3 +1,3 @@
 Evolvability - Способность меняться, быть гибким, легким, минимизируют издержки на сопровождение?
 
-#evolvability
+#evolvability #term

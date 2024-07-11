@@ -47,4 +47,4 @@ class TimingsListener implements TaskExecutionListener, BuildListener {
 gradle.addListener new TimingsListener()
 ```
 
-#gradle #metric #time
+#gradle #time

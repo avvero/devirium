@@ -13,4 +13,4 @@ The five CUPID properties are:
 
 Эмпатия - думать о тех, кто будет читать ваш код.
 
-#code #solid #design #idiomatic #practice #empathy 
+#code #solid #design #practice

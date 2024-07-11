@@ -10,4 +10,4 @@ When you make this change in a benchmark, the code runs three times faster. I wo
 
 JitWatch
 
-#java #dev #todo
+#java #dev #wtf
