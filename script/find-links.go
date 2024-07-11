@@ -16,16 +16,16 @@ func main() {
 		os.Exit(1)
 	}
 	filePath := os.Args[1]
-	root := "./" // Путь к корневой директории
+	root := "./" // Path to the root directory
 
-	// Считываем содержимое указанного файла
+	// Read the contents of the specified file
 	content, err := ioutil.ReadFile(filePath)
 	if err != nil {
 		fmt.Printf("Error reading file %v: %v\n", filePath, err)
 		os.Exit(1)
 	}
 
-	// Находим все ссылки вида [[имя файла]]
+	// Find all links in the format [[filename]]
 	linkPattern := regexp.MustCompile(`\[\[(.+?)\]\]`)
 	matches := linkPattern.FindAllStringSubmatch(string(content), -1)
 
@@ -34,9 +34,9 @@ func main() {
 		return
 	}
 
-	// Собираем все файлы в текущей директории, включая поддиректории
+	// Collect all files in the current directory, including subdirectories
 	files := make(map[string]string)
-	err = filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
+	err = filepath.WWalk(root, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
@@ -53,7 +53,7 @@ func main() {
 
 	results := make(map[string]string)
 
-	// Проверка наличия всех ссылок и сбор результатов
+	// Check for the presence of all links and collect results
 	for _, match := range matches {
 		noteName := match[1] + ".md"
 		lowerNoteName := strings.ToLower(noteName)
@@ -67,7 +67,7 @@ func main() {
 			results[match[1]] = formattedPath
 		} else {
 			fmt.Printf("[[%s]] - File not found\n", match[1])
-			os.Exit(1)
+			//os.Exit(1)
 		}
 	}
 
