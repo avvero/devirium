@@ -6,8 +6,8 @@ Devirium is my digital garden.
 
 ## Последние заметки
 - [[Tight coupling]]
-- [[Visualising software architecture]]
 - [[Run redis client on mac]]
+- [[Visualising software architecture]]
 - [[Schema in database]]
 - [[Real world cryptography]]
 - [[Postgres can ignore index in favor of scan]]
