@@ -5,6 +5,11 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
+- [[Naming for services]]
+- [[Multi column index in postgres]]
+- [[MockService]]
+- [[lily 58 pro]]
+- [[Learning PostgreSQL]]
 - [[Jupyter Java kernel]]
 - [[Gradle task time measure ]]
 - [[Computer Science curriculum.]]
@@ -20,11 +25,6 @@ Devirium is my digital garden.
 - [[Джедайские техники]]
 - [[Vertica]]
 - [[Write ahead log files]]
-- [[Backend for Frontend (BFF) as API Gateway]]
-- [[Architecture decision record]]
-- [[Типы данных в postresql]]
-- [[Gradle зависимости]]
-- [[Колоночная база данных]]
 
 ## TODO
 
