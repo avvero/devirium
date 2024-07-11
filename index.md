@@ -5,9 +5,10 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
-- [[Learning PostgreSQL]]
+- [[Null saturation]]
 - [[Naming for services]]
 - [[Multi column index in postgres]]
+- [[Learning PostgreSQL]]
 - [[MockService]]
 - [[lily 58 pro]]
 - [[Jupyter Java kernel]]
@@ -24,7 +25,6 @@ Devirium is my digital garden.
 - [[Как разговаривать с мудаками]]
 - [[Джедайские техники]]
 - [[Vertica]]
-- [[Write ahead log files]]
 
 ## TODO
 

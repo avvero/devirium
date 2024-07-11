@@ -2,4 +2,4 @@ While Postgres has the ability to create multi-column indexes, it’s important 
 
 https://devcenter.heroku.com/articles/postgresql-indexes
 
-#postgresql #index
+#index #postgresql
