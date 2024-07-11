@@ -5,6 +5,13 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
+- [[Типы данных в postresql]]
+- [[Сервис автоответчик для тестов]]
+- [[Практики разработки]]
+- [[Как разговаривать с мудаками]]
+- [[Джедайские техники]]
+- [[1492 Завоевание рая]]
+- [[Write ahead log files]]
 - [[Gradle зависимости]]
 - [[Vertica]]
 - [[Колоночная база данных]]
@@ -18,13 +25,6 @@ Devirium is my digital garden.
 - [[Throughput]]
 - [[tangents]]
 - [[Tablespace]]
-- [[suppressed premises]]
-- [[Serial type]]
-- [[Security through abscurity]]
-- [[Postresql и serializable]]
-- [[Postgresql]]
-- [[parade of horrors]]
-- [[OLAP и OLTP]]
 
 ## TODO
 
