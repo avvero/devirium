@@ -61,8 +61,7 @@ func main() {
 			actualFileName := filepath.Base(path)
 			if actualFileName != noteName {
 				fmt.Printf("Case mismatch for link [[%s]]: expected %s but found %s\n", match[1], noteName, actualFileName)
-				//os.Exit(1)
-				// Continue without exiting
+				os.Exit(1)
 			}
 			formattedPath := strings.ReplaceAll(strings.TrimSuffix(path, filepath.Ext(path)), " ", "-")
 			results[match[1]] = formattedPath

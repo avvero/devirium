@@ -5,6 +5,7 @@ title: Welcome to Devirium.
 Devirium is my digital garden.
 
 ## Последние заметки
+- [[Vertica]]
 - [[Write ahead log files]]
 - [[Backend for Frontend (BFF) as API Gateway]]
 - [[Architecture decision record]]
@@ -15,7 +16,6 @@ Devirium is my digital garden.
 - [[Джедайские техники]]
 - [[1492 Завоевание рая]]
 - [[Gradle зависимости]]
-- [[Vertica]]
 - [[Колоночная база данных]]
 - [[Upsert in postgresql]]
 - [[Understanding Arguments]]
