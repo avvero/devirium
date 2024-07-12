@@ -1,4 +1,1 @@
-Книга
-
-#book #read #architecture #development 
-#draft
+#book #architecture #dev
