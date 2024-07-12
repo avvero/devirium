@@ -12,6 +12,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 
 ## TODO
 
+- No links in `https://avvero.github.io/devirium/2022/2022-07/Sha2-is-not-suitable-for-hashing-secrets`
 - Issue with simbols in name in link `Из [[Логика А.М.Руденко]]`
 - Continue link for long notes
 - Check tag correctness
@@ -26,6 +27,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Научный подход](2022/2022-08/Научный-подход.md)
+- [Направления логики](2022/2022-08/Направления-логики.md)
 - [Ищу сервис анализа текста](2022/2022-08/Ищу-сервис-анализа-текста.md)
 - [Импликация](2022/2022-08/Импликация.md)
 - [Видишь что-то не правильное и вступаешь в конфликт с этим](2022/2022-08/Видишь-что-то-не-правильное-и-вступаешь-в-конфликт-с-этим.md)
@@ -44,5 +47,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Pass properties to runs script for spring boot](2022/2022-07/Pass-properties-to-runs-script-for-spring-boot.md)
 - [Monitoring is a test too](2022/2022-07/Monitoring-is-a-test-too.md)
 - [Minimize API](2022/2022-07/Minimize-API.md)
-- [Java Best Practices by Michael Simens](2022/2022-07/Java-Best-Practices-by-Michael-Simens.md)
-- [Jacoco покрытие для lombok](2022/2022-07/Jacoco-покрытие-для-lombok.md)
