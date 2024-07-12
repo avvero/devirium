@@ -24,6 +24,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Jar decompiler in Docker](Jar-decompiler-in-Docker.md)
 - [Digital garden](2024-07/Digital-garden.md)
 - [The Beginner’s Guide to Deliberate Practice](The-Beginner’s-Guide-to-Deliberate-Practice.md)
 - [Yenly](Yenly.md)
@@ -43,4 +44,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Gping](2023/2023-07/Gping.md)
 - [Discord integration](2023/2023-04/Discord-integration.md)
 - [Colima](2023/2023-04/Colima.md)
-- [Docker compose INTERNAL ERROR: cannot create temporary directory](2023/2023-01/Docker-compose-INTERNAL-ERROR:-cannot-create-temporary-directory.md)
