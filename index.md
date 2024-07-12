@@ -1,14 +1,17 @@
 ---
-title: Welcome to Devirium.
+title: Devirium
 ---
 
-Devirium is my digital garden.
+Welcome to my [digital garden](https://maggieappleton.com/garden-history) of learning notes. I've decided to [learn in public](https://dev.to/jbranchaud/how-i-learned-to-learn-in-public-2f4m) by sharing my progress here. Through this, I aim to develop a [Spaced Repetition](https://til.yenly.wtf/notes/spaced-repetition) learning habit.
+
+In this collection, you'll find code snippets, review materials, and sometimes just headers as reminders to revisit topics. The content will range from initial ideas to more developed thoughts, growing spontaneously over time.
+
+[[How I Built Devirium]]
 
 ## TODO
 
-- Описать index
+- How I Built Devirium
 - Дневная заметка
-- Популярные теги на index
 
 ## Популярные теги
 - #logic
@@ -18,6 +21,9 @@ Devirium is my digital garden.
 - #design
 
 ## Последние заметки
+- [How I Built Devirium](How-I-Built-Devirium.md)
+- [Spaced Repetition](Spaced-Repetition.md)
+- [Yenly](Yenly.md)
 - [Sketchboard.me](2023/2023-11/Sketchboard.me.md)
 - [Okhttp3 mock server](2024/2024-05/Okhttp3-mock-server.md)
 - [Gdx](2024/2024-05/Gdx.md)
@@ -35,6 +41,3 @@ Devirium is my digital garden.
 - [Docker compose INTERNAL ERROR: cannot create temporary directory](2023/2023-01/Docker-compose-INTERNAL-ERROR:-cannot-create-temporary-directory.md)
 - [Tinkercad](2022/2022-12/Tinkercad.md)
 - [Graalvm build for embedded kafka](2022/2022-11/Graalvm-build-for-embedded-kafka.md)
-- [Выбираю мышь](2022/2022-10/Выбираю-мышь.md)
-- [Выбираю монитор](2022/2022-10/Выбираю-монитор.md)
-- [Integer to bit converter](2022/2022-10/Integer-to-bit-converter.md)
