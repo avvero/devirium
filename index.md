@@ -14,6 +14,7 @@ Devirium is my digital garden.
 - Поменять имя файла на верхний регистр
 
 ## Последние заметки
+- [[Sketchboard.me]]
 - [[Okhttp3 mock server]]
 - [[Gdx]]
 - [[Gitverse]]
@@ -33,7 +34,6 @@ Devirium is my digital garden.
 - [[Выбираю мышь]]
 - [[Выбираю монитор]]
 - [[Integer to bit converter]]
-- [[Embedded kafka container]]
 
 ## TODO
 
