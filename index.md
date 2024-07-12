@@ -4,13 +4,14 @@ title: Devirium
 
 Welcome to my [digital garden](https://maggieappleton.com/garden-history) of learning notes (some in Russian, some in English). I've decided to [learn in public](https://dev.to/jbranchaud/how-i-learned-to-learn-in-public-2f4m) by sharing my progress here. Through this, I aim to develop a [Spaced Repetition](https://til.yenly.wtf/notes/spaced-repetition) learning habit.
 
-In this collection, you'll find code snippets, review materials, and sometimes just headers as reminders to revisit topics. The content will range from initial ideas to more developed thoughts, growing spontaneously over time. 
+In this collection, you'll find code snippets, review materials, and sometimes just headers as reminders to revisit topics. The content will range from initial ideas to more developed thoughts, growing spontaneously over time.
+
+For updates, join my Telegram channel: https://t.me/devirium
 
 [[How I Built Devirium]]
 
 ## TODO
 
-- Link to channel of updates - https://t.me/devirium
 - Check tag correctness
 - How I Built Devirium
 - Daily note
