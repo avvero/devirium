@@ -11,16 +11,16 @@ In this collection, you'll find code snippets, review materials, and sometimes j
 ## TODO
 
 - How I Built Devirium
-- Дневная заметка
+- Daily note
 
-## Популярные теги
+## Top tags
 - #logic
 - #fun
 - #philosophy
 - #development
 - #design
 
-## Последние заметки
+## Last notes
 - [How I Built Devirium](How-I-Built-Devirium.md)
 - [Spaced Repetition](Spaced-Repetition.md)
 - [Yenly](Yenly.md)
