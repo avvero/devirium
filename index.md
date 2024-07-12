@@ -14,6 +14,10 @@ Devirium is my digital garden.
 - Поменять имя файла на верхний регистр
 
 ## Последние заметки
+- [[Work hard to justify existence]]
+- [[When LeetCode wants you to succeed]]
+- [[Vertical slice architecture]]
+- [[The highlander rule for java]]
 - [[Everything on team leadership]]
 - [[Пока вы не довернете людям, они вас не разочаруют]]
 - [[New books to read]]
@@ -30,10 +34,6 @@ Devirium is my digital garden.
 - [[Дедлайн становится сроком раньше которого задача выполнена не будет]]
 - [[Все везде и сразу]]
 - [[Возвращение статуса в api]]
-- [[Видео про тесты]]
-- [[Видео о java17]]
-- [[Ваши пушки прозаржавели]]
-- [[аффирмация]]
 
 ## TODO
 
