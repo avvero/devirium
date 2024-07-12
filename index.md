@@ -2,14 +2,15 @@
 title: Devirium
 ---
 
-Welcome to my [digital garden](https://maggieappleton.com/garden-history) of learning notes. I've decided to [learn in public](https://dev.to/jbranchaud/how-i-learned-to-learn-in-public-2f4m) by sharing my progress here. Through this, I aim to develop a [Spaced Repetition](https://til.yenly.wtf/notes/spaced-repetition) learning habit.
+Welcome to my [digital garden](https://maggieappleton.com/garden-history) of learning notes (some in Russian, some in English). I've decided to [learn in public](https://dev.to/jbranchaud/how-i-learned-to-learn-in-public-2f4m) by sharing my progress here. Through this, I aim to develop a [Spaced Repetition](https://til.yenly.wtf/notes/spaced-repetition) learning habit.
 
-In this collection, you'll find code snippets, review materials, and sometimes just headers as reminders to revisit topics. The content will range from initial ideas to more developed thoughts, growing spontaneously over time.
+In this collection, you'll find code snippets, review materials, and sometimes just headers as reminders to revisit topics. The content will range from initial ideas to more developed thoughts, growing spontaneously over time. 
 
 [[How I Built Devirium]]
 
 ## TODO
 
+- Link to channel of updates - https://t.me/devirium
 - Check tag correctness
 - How I Built Devirium
 - Daily note
@@ -22,6 +23,8 @@ In this collection, you'll find code snippets, review materials, and sometimes j
 - #design
 
 ## Last notes
+- [Digital garden](2024-07/Digital-garden.md)
+- [The Beginner’s Guide to Deliberate Practice](The-Beginner’s-Guide-to-Deliberate-Practice.md)
 - [Yenly](Yenly.md)
 - [Spaced Repetition](Spaced-Repetition.md)
 - [How I Built Devirium](How-I-Built-Devirium.md)
@@ -40,5 +43,3 @@ In this collection, you'll find code snippets, review materials, and sometimes j
 - [Discord integration](2023/2023-04/Discord-integration.md)
 - [Colima](2023/2023-04/Colima.md)
 - [Docker compose INTERNAL ERROR: cannot create temporary directory](2023/2023-01/Docker-compose-INTERNAL-ERROR:-cannot-create-temporary-directory.md)
-- [Tinkercad](2022/2022-12/Tinkercad.md)
-- [Graalvm build for embedded kafka](2022/2022-11/Graalvm-build-for-embedded-kafka.md)
