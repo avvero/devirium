@@ -57,7 +57,7 @@ func main() {
 			inSection = true
 			newContent.WriteString(line + "\n")
 			newContent.WriteString(generateNewSection(files))
-		} else if inSection && strings.HasPrefix(line, "- [[") {
+		} else if inSection && strings.HasPrefix(line, "- [") {
 			continue
 		} else {
 			newContent.WriteString(line + "\n")
@@ -81,7 +81,7 @@ func generateNewSection(files []fileInfo) string {
 	var section strings.Builder
 	for _, file := range files {
 		name := strings.TrimSuffix(filepath.Base(file.path), filepath.Ext(file.path))
-		section.WriteString(fmt.Sprintf("- [[%s]]\n", name))
+		section.WriteString(fmt.Sprintf("- [%s](%s)\n", name, file.path))
 	}
 	return section.String()
 }
