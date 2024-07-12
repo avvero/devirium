@@ -12,6 +12,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 
 ## TODO
 
+- Issue with simbols in name in link `Из [[Логика А.М.Руденко]]`
 - Continue link for long notes
 - Check tag correctness
 - How I Built Devirium

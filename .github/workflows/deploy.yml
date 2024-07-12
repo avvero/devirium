@@ -56,26 +56,6 @@ jobs:
           cd quartz
           npx quartz build
 
-      - name: Append Query Strings to Assets
-        run: |
-          node -e "
-          const fs = require('fs');
-          const path = require('path');
-          function appendQueryStrings(filePath, version) {
-            const content = fs.readFileSync(filePath, 'utf8');
-            const updatedContent = content.replace(/(\.css|\.js)\"/g, `$1?v=${version}\"`);
-            fs.writeFileSync(filePath, updatedContent, 'utf8');
-          }
-          const publicDir = path.join(__dirname, 'quartz', 'public');
-          const version = Date.now();
-          fs.readdirSync(publicDir).forEach(file => {
-            const filePath = path.join(publicDir, file);
-            if (fs.lstatSync(filePath).isFile()) {
-              appendQueryStrings(filePath, version);
-            }
-          });
-          "
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -91,7 +71,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          headers: |
-            /index.html Cache-Control: no-cache
-            /assets/* Cache-Control: max-age=31536000
