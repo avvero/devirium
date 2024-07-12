@@ -1,5 +1,3 @@
-# Tower of Hanoi
-
 Хорошее описание решения - https://www.digitalocean.com/community/tutorials/tower-of-hanoi
 
 ```java
@@ -15,4 +13,3 @@
 ```
 
 #java #algorithm
-#draft

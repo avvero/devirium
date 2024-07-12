@@ -1,5 +1,0 @@
-
-[Ссылка](https://guides.hexlet.io/version-managers/)
-
-#hexlet #version #java 
-#draft

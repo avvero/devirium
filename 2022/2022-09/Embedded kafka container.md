@@ -101,4 +101,3 @@ public class KafkaEmbeddedContainer extends GenericContainer<KafkaEmbeddedContai
 ```
 
 #test-containers #kafka #test
-#draft
