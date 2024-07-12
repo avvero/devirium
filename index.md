@@ -27,6 +27,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Data partitioning](2022/2022-08/Data-partitioning.md)
+- [Confucius](2022/2022-08/Confucius.md)
 - [YAGNI](2022/2022-08/YAGNI.md)
 - [TDD, Where Did It All Go Wrong](2022/2022-08/TDD,-Where-Did-It-All-Go-Wrong.md)
 - [TBD and feature isolation](2022/2022-08/TBD-and-feature-isolation.md)
@@ -37,10 +39,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [How queries in postgresql work](2022/2022-08/How-queries-in-postgresql-work.md)
 - [Functionality isolation](2022/2022-08/Functionality-isolation.md)
 - [Duct-taping programming](2022/2022-08/Duct-taping-programming.md)
-- [Data partitioning](2022/2022-08/Data-partitioning.md)
 - [Create big architecture on the paper and throw it over the wall](2022/2022-08/Create-big-architecture-on-the-paper-and-throw-it-over-the-wall.md)
 - [Continuous improvement](2022/2022-08/Continuous-improvement.md)
-- [Confucius](2022/2022-08/Confucius.md)
 - [Cluster Indexing](2022/2022-08/Cluster-Indexing.md)
 - [Backward and forward compatibility](2022/2022-08/Backward-and-forward-compatibility.md)
 - [ACID](2022/2022-08/ACID.md)

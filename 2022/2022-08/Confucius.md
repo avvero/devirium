@@ -1,5 +1,3 @@
-# Confucius
-
 First, by reflection, which is noblest;
 Second, by imitation, which is easiest;
 Third by experience, which is the bitterest.
