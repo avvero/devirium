@@ -29,5 +29,4 @@ Authorization: token xxx
 GET https://httpbin.org/basic-auth/user/passwd HTTP/1.1
 Authorization: Basic user:passwd
 
-#httpclient #http #vscode #rest
-#draft
+#http #vscode #rest

@@ -1,4 +1,3 @@
-Deletes table completely and instantly
+Operation, deletes table completely and instantly.
 
-#postgresql 
-#draft
+#postgresql
