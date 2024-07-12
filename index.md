@@ -27,6 +27,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Однажды Диоген увидел, как разработчик читает требования и плачет](2024-07/Однажды-Диоген-увидел,-как-разработчик-читает-требования-и-плачет.md)
 - [Научный подход](2022/2022-08/Научный-подход.md)
 - [Направления логики](2022/2022-08/Направления-логики.md)
 - [Ищу сервис анализа текста](2022/2022-08/Ищу-сервис-анализа-текста.md)
@@ -46,4 +47,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [PostgreSQL index naming convention](2022/2022-07/PostgreSQL-index-naming-convention.md)
 - [Pass properties to runs script for spring boot](2022/2022-07/Pass-properties-to-runs-script-for-spring-boot.md)
 - [Monitoring is a test too](2022/2022-07/Monitoring-is-a-test-too.md)
-- [Minimize API](2022/2022-07/Minimize-API.md)
