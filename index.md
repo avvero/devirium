@@ -10,6 +10,7 @@ In this collection, you'll find code snippets, review materials, and sometimes j
 
 ## TODO
 
+- Check tag correctness
 - How I Built Devirium
 - Daily note
 
@@ -21,9 +22,9 @@ In this collection, you'll find code snippets, review materials, and sometimes j
 - #design
 
 ## Last notes
-- [How I Built Devirium](How-I-Built-Devirium.md)
-- [Spaced Repetition](Spaced-Repetition.md)
 - [Yenly](Yenly.md)
+- [Spaced Repetition](Spaced-Repetition.md)
+- [How I Built Devirium](How-I-Built-Devirium.md)
 - [Sketchboard.me](2023/2023-11/Sketchboard.me.md)
 - [Okhttp3 mock server](2024/2024-05/Okhttp3-mock-server.md)
 - [Gdx](2024/2024-05/Gdx.md)

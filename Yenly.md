@@ -1,3 +1,3 @@
 https://yenly.wtf
 
-#gardener #digital-garden #inspiration
+#gardener #digital_garden #inspiration

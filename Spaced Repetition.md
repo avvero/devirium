@@ -4,4 +4,4 @@ When we learn something new, we are using our working memory. Our working memory
 
 Learning and relearning is the way to set it into longer-term memory storage.
 
-#digital-garden #term
+#digital_garden #term
