@@ -4,7 +4,6 @@
 
 **Vertical partitioning** involves creating tables with fewer columns and using additional tables to store the remaining columns. Normalization also involves this splitting of columns across tables, but vertical partitioning goes beyond that and partitions columns even when already normalized.
 
-Взято из [](https://en.wikipedia.org/wiki/Partition_(database))
+Взято из https://en.wikipedia.org/wiki/Partition_(database)
 
-#database #partitioning 
-#draft
+#database #partitioning

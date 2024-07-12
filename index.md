@@ -12,9 +12,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 
 ## TODO
 
+- Support images - Data partitioning.md
 - Preview external links in notes
-- No links in `https://avvero.github.io/devirium/2022/2022-07/Sha2-is-not-suitable-for-hashing-secrets`
-- Issue with simbols in name in link `Из [[Логика А.М.Руденко]]`
 - Continue link for long notes
 - Check tag correctness
 - How I Built Devirium
@@ -28,23 +27,23 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
-- [ИТ менеджеры становятся все трусливее](2024-07/ИТ-менеджеры-становятся-все-трусливее.md)
-- [Однажды Диоген увидел, как разработчик читает требования и плачет](2024-07/Однажды-Диоген-увидел,-как-разработчик-читает-требования-и-плачет.md)
-- [Научный подход](2022/2022-08/Научный-подход.md)
-- [Направления логики](2022/2022-08/Направления-логики.md)
-- [Ищу сервис анализа текста](2022/2022-08/Ищу-сервис-анализа-текста.md)
-- [Импликация](2022/2022-08/Импликация.md)
-- [Видишь что-то не правильное и вступаешь в конфликт с этим](2022/2022-08/Видишь-что-то-не-правильное-и-вступаешь-в-конфликт-с-этим.md)
-- [Vscode rest client](2022/2022-07/Vscode-rest-client.md)
-- [Trunk based development](2022/2022-07/Trunk-based-development.md)
-- [Truncate](2022/2022-07/Truncate.md)
-- [The art of computer programming](2022/2022-07/The-art-of-computer-programming.md)
-- [Team topologies](2022/2022-07/Team-topologies.md)
-- [Suppressed premises](2022/2022-07/Suppressed-premises.md)
-- [Sound and unsound argument](2022/2022-07/Sound-and-unsound-argument.md)
-- [Smocker](2022/2022-07/Smocker.md)
-- [Sha2 is not suitable for hashing secrets](2022/2022-07/Sha2-is-not-suitable-for-hashing-secrets.md)
-- [Rick Esli](2022/2022-07/Rick-Esli.md)
-- [Raft algorithm](2022/2022-07/Raft-algorithm.md)
-- [PostgreSQL index naming convention](2022/2022-07/PostgreSQL-index-naming-convention.md)
-- [Pass properties to runs script for spring boot](2022/2022-07/Pass-properties-to-runs-script-for-spring-boot.md)
+- [YAGNI](2022/2022-08/YAGNI.md)
+- [TDD, Where Did It All Go Wrong](2022/2022-08/TDD,-Where-Did-It-All-Go-Wrong.md)
+- [TBD and feature isolation](2022/2022-08/TBD-and-feature-isolation.md)
+- [SQL interview questions](2022/2022-08/SQL-interview-questions.md)
+- [Shuharri](2022/2022-08/Shuharri.md)
+- [Micro http server on java](2022/2022-08/Micro-http-server-on-java.md)
+- [I know the secret](2022/2022-08/I-know-the-secret.md)
+- [How queries in postgresql work](2022/2022-08/How-queries-in-postgresql-work.md)
+- [Functionality isolation](2022/2022-08/Functionality-isolation.md)
+- [Duct-taping programming](2022/2022-08/Duct-taping-programming.md)
+- [Data partitioning](2022/2022-08/Data-partitioning.md)
+- [Create big architecture on the paper and throw it over the wall](2022/2022-08/Create-big-architecture-on-the-paper-and-throw-it-over-the-wall.md)
+- [Continuous improvement](2022/2022-08/Continuous-improvement.md)
+- [Confucius](2022/2022-08/Confucius.md)
+- [Cluster Indexing](2022/2022-08/Cluster-Indexing.md)
+- [Backward and forward compatibility](2022/2022-08/Backward-and-forward-compatibility.md)
+- [ACID](2022/2022-08/ACID.md)
+- [Эффект градирни](2022/2022-08/Эффект-градирни.md)
+- [Хранилище для json с api](2022/2022-08/Хранилище-для-json-с-api.md)
+- [Современные идолы разработки](2022/2022-08/Современные-идолы-разработки.md)

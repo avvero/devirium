@@ -1,8 +1,5 @@
-# Shu Ha Ri
-
 - следуй правилу
 - сломай правила
-- отделение от правил
+- отдалиться от правил
 
-#scrum #principle #shuhari #practice
-#draft
+#scrum #principle #practice

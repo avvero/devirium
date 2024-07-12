@@ -1,5 +1,3 @@
-# TDD, Where Did It All Go Wrong
-
 https://www.youtube.com/watch?v=EZ05e7EMOLM&ab_channel=DevTernityConference
 
 Simon VV
@@ -28,4 +26,3 @@ Notes I made during this presentation (just a dump, might be useful to some):
 - Private methods (these are implementation details)
 
 #tdd #code #testing #tests
-#draft

@@ -1,5 +1,3 @@
-# Functionality isolation
-
 Could be represented at least with:
 
 - package by feature design
@@ -8,4 +6,3 @@ Could be represented at least with:
 - api versioning
 
 #design #architecture
-#draft

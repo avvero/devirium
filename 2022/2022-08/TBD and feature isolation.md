@@ -1,11 +1,9 @@
 # Trunk-Based Development и изоляция фичей
 
-Всем привет. Я хотел бы зафиксировать тут свои мысли после вчерашней встречи. Хочу начать с начала - с примитивов (опорные понятия), что мы используем и их отношением. 
-
 Trunk-Based Development определяется механизмом работы в git c ветками и ничем другим
-```
-A source-control branching model, where developers collaborate on code in a single branch called ‘trunk’ *, resist any pressure to create other long-lived development branches by employing documented techniques. 
-```
+
+> A source-control branching model, where developers collaborate on code in a single branch called ‘trunk’ *, resist any pressure to create other long-lived development branches by employing documented techniques. 
+
 Источник https://trunkbaseddevelopment.com/
 
 Фича-флаги не являются явлением, которое определяет TBD. Фича-флаги не являются частью TBD. TBD можно строить без фичафлагов. Собственно watch так и делал 2 года. 
@@ -29,4 +27,3 @@ A source-control branching model, where developers collaborate on code in a sing
 Третий вывод: примитивами в разговорах и рассуждениях должны быть "TBD" и "функциональная изоляция в составе N инструментов". Строить рассуждения и делать выводы исключительно вокруг "TBD и фича-флаги" является не корректным сужением перспективы, которое вводит в заблуждение и ведет к неправильным выводам.
 
 #tbd #feature #isolation #insight
-#draft

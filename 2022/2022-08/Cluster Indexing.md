@@ -3,4 +3,3 @@ A cluster index means telling the database to store the close values actually cl
 https://stackoverflow.com/questions/4796548/about-clustered-index-in-postgres
 
 #database #index
-#draft

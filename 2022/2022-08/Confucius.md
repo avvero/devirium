@@ -35,4 +35,3 @@ Teach him how to grow his own rice and you will save his life.
 We have two lives, and the second begins when we realize we only have one.
 
 #philosophy #confucius
-#draft

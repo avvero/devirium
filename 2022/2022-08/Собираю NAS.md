@@ -2,5 +2,4 @@
 
 Jonsbo N1 Mini Case
 
-#build #pc #nas
-#draft
+#build #pc #nas #notg
