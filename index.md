@@ -12,6 +12,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 
 ## TODO
 
+- Change link to notes in configuration
 - Support images - Data partitioning.md
 - Preview external links in notes
 - Continue link for long notes
