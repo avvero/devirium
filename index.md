@@ -11,6 +11,11 @@ Devirium is my digital garden.
 - Популярные теги на index
 
 ## Популярные теги
+- #logic
+- #fun
+- #philosophy
+- #development
+- #design
 
 ## Последние заметки
 - [Sketchboard.me](2023/2023-11/Sketchboard.me.md)
@@ -33,7 +38,3 @@ Devirium is my digital garden.
 - [Выбираю мышь](2022/2022-10/Выбираю-мышь.md)
 - [Выбираю монитор](2022/2022-10/Выбираю-монитор.md)
 - [Integer to bit converter](2022/2022-10/Integer-to-bit-converter.md)
-
-## TODO
-
-#draft
