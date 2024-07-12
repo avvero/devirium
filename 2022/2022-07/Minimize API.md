@@ -1,6 +1,5 @@
+Из [[Java Best Practices by Michael Simens]]
+
 Минимизирует апи
 
-[[Java Best Practices by Michael Simens]]
-
-#practice #design #api 
-#draft
+#practice #design #api
