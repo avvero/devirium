@@ -11,5 +11,5 @@
 
 Я назвал этот подход: "Hitchhiking driven development" (HDD).
 
-#fun #development
+#humor #development
 #draft

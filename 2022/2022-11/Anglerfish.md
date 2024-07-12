@@ -6,5 +6,5 @@
 
 Или по другому: Методу губы накрасили
 
-#development #practice #fun #design #dirty_code #todo
+#development #practice #humor #design #dirty_code #todo
 #draft

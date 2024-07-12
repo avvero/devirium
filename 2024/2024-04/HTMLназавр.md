@@ -2,5 +2,5 @@
 
 HTMLназавр
 
-#fun #html
+#humor #html
 #draft

@@ -1,4 +1,4 @@
 # One man, one job
 
-#fun #camus #nazarov
+#humor #camus #nazarov
 #draft

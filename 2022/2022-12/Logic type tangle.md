@@ -21,5 +21,5 @@
 ```
 
 
-#development #practice #fun #design #dirty_code
+#development #practice #humor #design #dirty_code
 #draft

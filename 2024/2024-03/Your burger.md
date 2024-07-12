@@ -5,5 +5,5 @@
 ![alt text](<Your burger/image3.png>)
 ![alt text](<Your burger/image4.png>)
 
-#fun
+#humor
 #draft

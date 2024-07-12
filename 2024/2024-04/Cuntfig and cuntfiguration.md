@@ -1,4 +1,4 @@
 # Cuntfig and cuntfiguration
 
-#fun #configuration
+#humor #configuration
 #draft

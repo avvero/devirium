@@ -3,5 +3,5 @@
 Референс: Тарантино о ТопГанн
 Хеллдайверс это про геев.
 
-#fun #game #helldivers #todo
+#humor #game #helldivers #todo
 #draft

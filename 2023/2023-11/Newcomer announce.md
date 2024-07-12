@@ -13,5 +13,5 @@ R. A. Salvatore
 https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewBook?id=0
 Этот материал может быть защищен авторским правом.
 
-#fun
+#humor
 #draft
