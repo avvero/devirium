@@ -25,6 +25,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Импликация](2022/2022-08/Импликация.md)
+- [Видишь что-то не правильное и вступаешь в конфликт с этим](2022/2022-08/Видишь-что-то-не-правильное-и-вступаешь-в-конфликт-с-этим.md)
 - [Vscode rest client](2022/2022-07/Vscode-rest-client.md)
 - [Trunk based development](2022/2022-07/Trunk-based-development.md)
 - [Truncate](2022/2022-07/Truncate.md)
@@ -43,5 +45,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Java Best Practices by Michael Simens](2022/2022-07/Java-Best-Practices-by-Michael-Simens.md)
 - [Jacoco покрытие для lombok](2022/2022-07/Jacoco-покрытие-для-lombok.md)
 - [Index’s scan in postgresql](2022/2022-07/Index’s-scan-in-postgresql.md)
-- [Index statistics](2022/2022-07/Index-statistics.md)
-- [How to Design Programs](2022/2022-07/How-to-Design-Programs.md)

@@ -34,11 +34,17 @@ jobs:
       - name: Clone content repository
         run: git clone git@github.com:avvero/devirium.git quartz_content
 
+      - name: Clear Quartz content directory
+        run: rm -rf quartz/content/*
+
       - name: Copy content to Quartz
         run: cp -r quartz_content/* quartz/content/
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
+
+      - name: Clear Node.js cache
+        run: npm cache clean --force
 
       - name: Install Dependencies
         run: |
@@ -49,6 +55,26 @@ jobs:
         run: |
           cd quartz
           npx quartz build
+
+      - name: Append Query Strings to Assets
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+          function appendQueryStrings(filePath, version) {
+            const content = fs.readFileSync(filePath, 'utf8');
+            const updatedContent = content.replace(/(\.css|\.js)\"/g, `$1?v=${version}\"`);
+            fs.writeFileSync(filePath, updatedContent, 'utf8');
+          }
+          const publicDir = path.join(__dirname, 'quartz', 'public');
+          const version = Date.now();
+          fs.readdirSync(publicDir).forEach(file => {
+            const filePath = path.join(publicDir, file);
+            if (fs.lstatSync(filePath).isFile()) {
+              appendQueryStrings(filePath, version);
+            }
+          });
+          "
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -65,3 +91,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          headers: |
+            /index.html Cache-Control: no-cache
+            /assets/* Cache-Control: max-age=31536000
