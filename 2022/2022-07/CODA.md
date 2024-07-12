@@ -6,5 +6,4 @@ Reasonable assumption of dark code
 
 Understanding of assemble program dependencies
 
-#coda #architecture #design #whatisit #methodology 
-#draft
+#coda #architecture #design #methodology 

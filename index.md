@@ -12,35 +12,36 @@ For updates, join my Telegram channel: https://t.me/devirium
 
 ## TODO
 
+- Continue link for long notes
 - Check tag correctness
 - How I Built Devirium
 - Daily note
 
 ## Top tags
-- #logic
 - #fun
+- #logic
 - #philosophy
 - #development
 - #design
 
 ## Last notes
-- [Jar decompiler in Docker](Jar-decompiler-in-Docker.md)
-- [Digital garden](2024-07/Digital-garden.md)
-- [The Beginner’s Guide to Deliberate Practice](The-Beginner’s-Guide-to-Deliberate-Practice.md)
-- [Yenly](Yenly.md)
-- [Spaced Repetition](Spaced-Repetition.md)
-- [How I Built Devirium](How-I-Built-Devirium.md)
-- [Sketchboard.me](2023/2023-11/Sketchboard.me.md)
-- [Okhttp3 mock server](2024/2024-05/Okhttp3-mock-server.md)
-- [Gdx](2024/2024-05/Gdx.md)
-- [Gitverse](2024/2024-04/Gitverse.md)
-- [Попробовал expected(jsonString) == actual(jsonString)](2024/2024-02/Попробовал-expected(jsonString)-==-actual(jsonString).md)
-- [Rest-assured](2024/2024-02/Rest-assured.md)
-- [Infoq](2024-07/Infoq.md)
-- [Diktat](2024-07/Diktat.md)
-- [Threadshing](2023/2023-11/Threadshing.md)
-- [Prohairesis](2023/2023-11/Prohairesis.md)
-- [Warp](2023/2023-07/Warp.md)
-- [Gping](2023/2023-07/Gping.md)
-- [Discord integration](2023/2023-04/Discord-integration.md)
-- [Colima](2023/2023-04/Colima.md)
+- [Cracking the coding interview](2022/2022-07/Cracking-the-coding-interview.md)
+- [Biased perspective](2022/2022-07/Biased-perspective.md)
+- [Confirmation bias](2022/2022-07/Confirmation-bias.md)
+- [Code review](2022/2022-07/Code-review.md)
+- [CODA](2022/2022-07/CODA.md)
+- [Big(O)](2022/2022-07/Big(O).md)
+- [Appeal to authority](2021/2021-11/Appeal-to-authority.md)
+- [Эффект должен быть длительным](2022/2022-07/Эффект-должен-быть-длительным.md)
+- [Эвристика](2022/2022-07/Эвристика.md)
+- [Человек-бензопила](2022/2022-07/Человек-бензопила.md)
+- [Хай чувак, решил сегодня забить на работу](2022/2022-07/Хай-чувак,-решил-сегодня-забить-на-работу.md)
+- [Факт](2022/2022-07/Факт.md)
+- [Учебник логики](2022/2022-07/Учебник-логики.md)
+- [Узелки на сетях](2022/2022-07/Узелки-на-сетях.md)
+- [У меня $attr шутка, но я вам ее не расскажу](2022/2022-07/У-меня-$attr-шутка,-но-я-вам-ее-не-расскажу.md)
+- [Термины и разные смыслы](2022/2022-07/Термины-и-разные-смыслы.md)
+- [Странное такси](2022/2022-07/Странное-такси.md)
+- [Статья про тестинг трофеи](2022/2022-07/Статья-про-тестинг-трофеи.md)
+- [ССАКА](2022/2022-07/ССАКА.md)
+- [ССАКА ДА СРАКА](2022/2022-07/ССАКА-ДА-СРАКА.md)
