@@ -9,7 +9,8 @@ Devirium is my digital garden.
 - Описать index
 - Дневная заметка
 - Популярные теги на index
-- прибрать теги - упростить
+
+## Популярные теги
 
 ## Последние заметки
 - [Sketchboard.me](2023/2023-11/Sketchboard.me.md)
