@@ -1,6 +1,1 @@
-# Family Guy
-
-Начал пересматривать
-
-#show
-#draft
+#tv_show

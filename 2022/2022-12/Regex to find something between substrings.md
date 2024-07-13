@@ -1,5 +1,3 @@
-# Regex to find something between substrings
-
 ```java
     /**
      * Matches fieldName in string name="fieldName"
@@ -13,4 +11,3 @@
 ```
 
 #development #java #regex
-#draft

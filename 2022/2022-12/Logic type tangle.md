@@ -1,8 +1,6 @@
-# Logic type tangle
-
 Одна из [[Developer dirty technics]]
 
-Этот метод вытянул из себя кусок бизнеслогики, я бы отделял бизнес логикику и интеграцию, например
+Этот метод вытянул из себя кусок бизнес логики, я бы отделял бизнес логикику и интеграцию, например
 вместо
 ```java
     private static boolean processForCorrespondingRequestedDocument(VerificationProcessSumSub process, RequestedDocumentEntity requestedDocument) {
@@ -21,5 +19,4 @@
 ```
 
 
-#development #practice #humor #design #dirty_code
-#draft
+#development #practice #humor #design #dirty #code

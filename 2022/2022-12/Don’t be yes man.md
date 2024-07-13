@@ -9,7 +9,6 @@ I want people who can challenge:
 • the status quo
 • the direction of the team
 
-I don't want to hire mindless robots, but people who I can trust to get the right job done
+I don't want to hire mindless robots, but people who I can trust to get the right job done.
 
-#development #culture 
-#draft
+#development #culture

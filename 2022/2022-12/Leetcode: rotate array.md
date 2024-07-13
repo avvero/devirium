@@ -1,5 +1,3 @@
-# Leetcode: rotate array
-
 Не рабочий, но сохраню
 ```java
 class Solution {
@@ -60,4 +58,3 @@ class Solution {
 ```
 
 #algorithm #leetcode
-#draft

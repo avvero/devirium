@@ -1,5 +1,3 @@
-# UNIQUE NULLS NOT DISTINCT
-
 В базах по умолчанию null's трактуются как различные (distinct) значения.
 
 Пример из https://nidhig631.medium.com/unique-nulls-not-distinct-in-postgresql-15-cbef8cf0269f
@@ -65,4 +63,3 @@ SELECT * FROM old_style;
 ```
 
 #database #postgresql #constraint
-#draft
