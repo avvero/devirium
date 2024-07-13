@@ -1,4 +1,3 @@
-# WET principle
+Write Everything Twice
 
 #development #wet #principle
-#draft

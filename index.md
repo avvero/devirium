@@ -29,6 +29,12 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [You code it your run it](2022/2022-11/You-code-it-your-run-it.md)
+- [Word stemming](2022/2022-11/Word-stemming.md)
+- [Stemming providers](2022/2022-11/Stemming-providers.md)
+- [WET principle](2022/2022-11/WET-principle.md)
+- [Swept under carpet](2022/2022-11/Swept-under-carpet.md)
+- [Rule of three](2022/2022-11/Rule-of-three.md)
 - [Inline method technic](2022/2022-11/Inline-method-technic.md)
 - [I know functional programming](2022/2022-11/I-know-functional-programming.md)
 - [Hurl](2022/2022-11/Hurl.md)
@@ -43,9 +49,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Arrange Act Assert](2022/2022-11/Arrange-Act-Assert.md)
 - [Arduino](2022/2022-11/Arduino.md)
 - [Arduino: Hello world](2022/2022-11/Arduino:-Hello-world.md)
-- [Arduino: blink](2022/2022-11/Arduino:-blink.md)
-- [Anglerfish](2022/2022-11/Anglerfish.md)
-- [У коровы зад в говне](2022/2022-11/У-коровы-зад-в-говне.md)
-- [Триангуляция](2022/2022-11/Триангуляция.md)
-- [Тест не должен дублировать код](2022/2022-11/Тест-не-должен-дублировать-код.md)
-- [Сужение перспективы](2022/2022-11/Сужение-перспективы.md)

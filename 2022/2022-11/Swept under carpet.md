@@ -1,6 +1,5 @@
-# Swept under carpet
+Один из [[Developer dirty technics]]
 
-Это когда максимально страшный код заворачивается в метод
+Это когда максимально страшный код заворачивается в метод.
 
-#development #practice #humor #design #dirty_code
-#draft
+#development #practice #humor #design #dirty #code
