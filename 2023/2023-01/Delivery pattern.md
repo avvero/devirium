@@ -1,6 +1,5 @@
-At least once
-Exactly once
-At most once
+- At least once
+- Exactly once
+- At most once
 
-#pattern #delivery #kafka 
-#draft
+#pattern #delivery #kafka

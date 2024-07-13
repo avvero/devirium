@@ -2,5 +2,4 @@ Log slow query with threshold by adding this line to the configuration file(It a
 
 hibernate.session.events.log.LOG_QUERIES_SLOWER_THAN_MS=30
 
-#sql #hibernate #metric 
-#draft
+#sql #hibernate #metric

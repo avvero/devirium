@@ -1,8 +1,5 @@
-# Code should be self-revealing
+From [[Java code style about var]]
 
 Code should be self-revealing
 
-[[Java code style about var]]
-
-#java #code-style #practice #clean-code #design
-#draft
+#java #practice #code #clean #design

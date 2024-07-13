@@ -1,5 +1,3 @@
-# Java code style about var
-
 Link https://openjdk.org/projects/amber/guides/lvti-style-guide
 
 P1. Reading code is more important than writing code.
@@ -26,5 +24,4 @@ G6. Take care when using var with diamond or generic methods.
 
 G7. Take care when using var with literals.
 
-#java #var #code-style #practice
-#draft
+#java #var #code #style #practice

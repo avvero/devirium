@@ -7,4 +7,3 @@ docker rm -f $(docker ps -a -q)
 ```
 
 #docker #docker_compose #issue #error
-#draft
