@@ -1,5 +1,3 @@
-# Arduino: blink
-
 ```c
 void setup() {
   // put your setup code here, to run once:
@@ -16,4 +14,3 @@ void loop() {
 ```
 
 #arduino
-#draft

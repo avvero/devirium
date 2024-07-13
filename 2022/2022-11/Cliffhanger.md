@@ -1,5 +1,3 @@
-# Cliffhanger
-
 Одна из [[Developer dirty technics]]
 
 Когда от метода отрезается важный для понимания кусок.
@@ -18,5 +16,4 @@ public Value updateAttribute(Attribute attribute) {
 }
 ```
 
-#development #practice #humor #design #dirty_code #todo
-#draft
+#development #practice #humor #design #dirty #code

@@ -1,5 +1,3 @@
-# Arduino project: Hello world
-
 ```c
 int val;  // define variable val
 void setup() {
@@ -16,4 +14,3 @@ void loop() {
 ```
 
 #arduino
-#draft
