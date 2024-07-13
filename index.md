@@ -29,6 +29,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [A garden should be shared](A-garden-should-be-shared.md)
 - [Log long sql queries](2023/2023-01/Log-long-sql-queries.md)
 - [Leetcode therapy](2023/2023-01/Leetcode-therapy.md)
 - [Java code style about var](2023/2023-01/Java-code-style-about-var.md)
@@ -48,4 +49,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Regex to find something between substrings](2022/2022-12/Regex-to-find-something-between-substrings.md)
 - [Optimization Java application](2022/2022-12/Optimization-Java-application.md)
 - [Logic type tangle](2022/2022-12/Logic-type-tangle.md)
-- [Leetcode: rotate array](2022/2022-12/Leetcode:-rotate-array.md)
