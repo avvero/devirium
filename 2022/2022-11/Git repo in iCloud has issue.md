@@ -17,5 +17,4 @@ mv .git/refs/heads/master\ 2 .git/refs/heads/master
 mv .git/refs/remotes/origin/master\ 2 .git/refs/remotes/origin/master
 ```
 
-#git #icloud #issue #fix #error
-#draft
+#git #icloud #issue

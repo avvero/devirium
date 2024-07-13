@@ -29,6 +29,15 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Inline method technic](2022/2022-11/Inline-method-technic.md)
+- [I know functional programming](2022/2022-11/I-know-functional-programming.md)
+- [Hurl](2022/2022-11/Hurl.md)
+- [How to communicate effectively as a developer](2022/2022-11/How-to-communicate-effectively-as-a-developer.md)
+- [Graalvm build for embedded kafka](2022/2022-11/Graalvm-build-for-embedded-kafka.md)
+- [Git repo in iCloud has issue](2022/2022-11/Git-repo-in-iCloud-has-issue.md)
+- [Fuck Around And Find Out](2022/2022-11/Fuck-Around-And-Find-Out.md)
+- [Do not write tests for package main](2022/2022-11/Do-not-write-tests-for-package-main.md)
+- [Defect insertion](2022/2022-11/Defect-insertion.md)
 - [Cyclomatic complexity](2022/2022-11/Cyclomatic-complexity.md)
 - [Cliffhanger](2022/2022-11/Cliffhanger.md)
 - [Arrange Act Assert](2022/2022-11/Arrange-Act-Assert.md)
@@ -40,12 +49,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Триангуляция](2022/2022-11/Триангуляция.md)
 - [Тест не должен дублировать код](2022/2022-11/Тест-не-должен-дублировать-код.md)
 - [Сужение перспективы](2022/2022-11/Сужение-перспективы.md)
-- [Средняя величина](2022/2022-11/Средняя-величина.md)
-- [Скрытые источники необъективности](2022/2022-11/Скрытые-источники-необъективности.md)
-- [Практически все имеют доход ниже среднего](2022/2022-11/Практически-все-имеют-доход-ниже-среднего.md)
-- [Опросы и либералы](2022/2022-11/Опросы-и-либералы.md)
-- [Нулевая гипотеза](2022/2022-11/Нулевая-гипотеза.md)
-- [Давайте перестанем голосовать](2024/2024-02/Давайте-перестанем-голосовать.md)
-- [Мнение большинства](2022/2022-11/Мнение-большинства.md)
-- [Как лгать при помощи статистики](2022/2022-11/Как-лгать-при-помощи-статистики.md)
-- [Закон средних чисел](2022/2022-11/Закон-средних-чисел.md)

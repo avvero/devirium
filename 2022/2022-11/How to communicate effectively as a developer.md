@@ -1,10 +1,8 @@
-Article - [](https://www.karlsutt.com/articles/communicating-effectively-as-a-developer/)
+Из [[Разбор полетов]]
 
-Нашел в [[Разбор полетов]]
+https://www.karlsutt.com/articles/communicating-effectively-as-a-developer
 
-Больше эмпатии
-
-Low-resolution (Low resolution) writing - сокращеное письмо без деталей
+>Больше эмпатии
+>Low-resolution (Low resolution) writing - сокращенное письмо без деталей
 
 #development #communication #empathy #practice
-#draft

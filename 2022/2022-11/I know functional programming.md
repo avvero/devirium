@@ -1,6 +1,5 @@
-# I know functional programming
+Одна из [[Developer dirty technics]]
 
-Когда посреди императивного кода кусок функциональщины без предупреждения и без смысла
+Когда посреди императивного кода кусок функциональщины без предупреждения и без смысла.
 
-#development #practice #humor #design #dirty_code
-#draft
+#development #practice #humor #design #dirty

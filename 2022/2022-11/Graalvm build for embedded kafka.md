@@ -1,12 +1,10 @@
-
 Use 
 ```bash
 java -agentlib:native-image-agent=config-output-dir=ConfigFolderName -jar build/libs/embedded-kafka-0.0.1-SNAPSHOT.jar
 ```
 to get configurations
 
-
-github tocken - TOKEN
+github token - TOKEN
 
 ## Login to github
 ```bash
@@ -27,4 +25,5 @@ jar cmvf META-INF/MANIFEST.MF <new-jar-filename>.jar  <files to include>
 
 native-image -jar ./build/libs/demo-0.0.1-SNAPSHOT-plain.jar
 ```
-#draft
+
+#graalvm

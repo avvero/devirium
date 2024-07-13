@@ -1,8 +1,6 @@
-# Hurl
-
 Hurl is a command line tool that runs HTTP requests defined in a simple plain text format.
 
-```
+```bash
 # Get home:
 GET https://example.org
 
@@ -20,4 +18,3 @@ HTTP/1.1 302
 Site - https://hurl.dev/
 
 #tool #cli #rest #http #request
-#draft
