@@ -20,6 +20,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 - Check tag correctness
 - How I Built Devirium
 - Daily note
+- About Me - https://nick.groenen.me/resume.html
 
 ## Top tags
 - #humor
@@ -29,6 +30,12 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Lamport timestamps](Lamport-timestamps.md)
+- [CRDT](CRDT.md)
+- [Linearizability](Linearizability.md)
+- [Serializability](Serializability.md)
+- [Jzhao](Jzhao.md)
+- [Digital garden](2024-07/Digital-garden.md)
 - [A garden should be shared](A-garden-should-be-shared.md)
 - [Log long sql queries](2023/2023-01/Log-long-sql-queries.md)
 - [Leetcode therapy](2023/2023-01/Leetcode-therapy.md)
@@ -43,9 +50,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Математика для гуманитариев](2023/2023-01/Математика-для-гуманитариев.md)
 - [WRK](2022/2022-12/WRK.md)
 - [UNIQUE NULLS NOT DISTINCT](2022/2022-12/UNIQUE-NULLS-NOT-DISTINCT.md)
-- [Tinkercad](2022/2022-12/Tinkercad.md)
-- [Socks proxy](2022/2022-12/Socks-proxy.md)
-- [Rest naming reference](2022/2022-12/Rest-naming-reference.md)
-- [Regex to find something between substrings](2022/2022-12/Regex-to-find-something-between-substrings.md)
-- [Optimization Java application](2022/2022-12/Optimization-Java-application.md)
-- [Logic type tangle](2022/2022-12/Logic-type-tangle.md)

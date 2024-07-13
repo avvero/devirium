@@ -14,6 +14,8 @@
 - https://github.com/MaggieAppleton/digital-gardeners
 - https://digitalgarden.guidopercu.dev/
 - https://joelhooks.com/digital-garden/
+- https://oliverfalvai.com/evergreen/my-quartz-+-obsidian-note-publishing-setup
+- https://oliverfalvai.com/Evergreen/Inspiring-gardens
 
 #article
 #draft
