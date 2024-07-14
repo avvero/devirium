@@ -189,4 +189,3 @@ Link to the project repository with test demonstrations - [https://github.com/av
 Thank you for your attention to the article, and good luck in your endeavor to write effective and fast tests!
 
 #article #java #spring #native #graal
-#draft

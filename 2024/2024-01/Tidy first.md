@@ -9,14 +9,13 @@
 
 Интеграция tiding into development workflow.
 
-Рассказал о [[Guard Clause pattern]]
+Рассказал о [[Guard Clause pattern]].
 
 Призвал Delete dead code, если код не выполняется - его нужно удалить.
 
-Призвал выравнивать код под один стиль - normalize symmetry 
+Призвал выравнивать код под один стиль - normalize symmetry.
 
-Поясняющее переменные
-Явные переменные - explicit
+Поясняющее переменные. Явные переменные - explicit.
 
 [[Name the method after the purpose]]
 
@@ -34,5 +33,4 @@ Reading order
 
 и другое.
 
-#book #development 
-#draft
+#book #development

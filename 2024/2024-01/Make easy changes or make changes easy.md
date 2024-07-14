@@ -1,5 +1,3 @@
-
-
-[[Tidy first]]
-#design 
-#draft
+Из  [[Tidy first]]
+-
+#design
