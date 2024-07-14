@@ -1,5 +1,3 @@
-# Декларация BOM для testcontainers
-
 ## 1 Вариант
 
 Источник - https://java.testcontainers.org
@@ -35,6 +33,4 @@ dependencyManagement {
 }
 ```
 
-
-#test-containers #bom #spring/boot/3
-#draft
+#test_containers #bom #spring_boot

@@ -1,3 +1,3 @@
 Непрерывное улучшение 
 
-#insight #dev #cicd
+#thought #dev #cicd
