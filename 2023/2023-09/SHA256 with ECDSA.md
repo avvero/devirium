@@ -1,5 +1,3 @@
-# SHA256 with ECDSA
-
 To generate private key do
 ```bash
 openssl ecparam -genkey -name prime256v1 -out ec_private.pem
@@ -15,4 +13,3 @@ openssl ec -in ec_private.pem -pubout -out ec_public.pem
 Java обычно предпочитает ключи в формате PKCS#8. 
 
 #sha #cryptography #java
-#draft

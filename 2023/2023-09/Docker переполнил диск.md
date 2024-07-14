@@ -1,5 +1,3 @@
-## Проверка
-
 ```bash
 df -h
 ```
@@ -13,4 +11,3 @@ docker system prune -a -f
 И удалилось немного файлов
 
 #docker #file
-#draft

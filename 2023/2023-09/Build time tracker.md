@@ -1,6 +1,6 @@
 Ссылка [](https://github.com/passy/build-time-tracker-plugin)
 
-```
+```groovy
 plugins {
     id "net.rdrei.android.buildtimetracker" version "0.11.0"
 }
@@ -28,7 +28,7 @@ buildtimetracker {
 
 Отчет в таком виде 
 
-```
+```groovy
 SUCCESS: Executed 377 tests in 2m 50s
 
 == CSV Build Time Summary ==
@@ -50,5 +50,4 @@ Total build time: 3:10.145
 == BUILD SUCCESSFUL ==
 ```
 
-#gradle 
-#draft
+#gradle

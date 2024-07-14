@@ -1,8 +1,6 @@
-# Spring Test Slices
-
 https://www.baeldung.com/spring-tests
 
-```
+```java
 @JsonTest: Registers JSON relevant components
 @DataJpaTest: Registers JPA beans, including the ORM available
 @JdbcTest: Useful for raw JDBC tests, takes care of the data source and in memory DBs without ORM frills
@@ -12,4 +10,3 @@ https://www.baeldung.com/spring-tests
 ```
 
 #test #spring
-#draft

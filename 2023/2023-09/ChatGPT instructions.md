@@ -1,4 +1,3 @@
-## About me
 My name is Kent C. Dodds. I live in Utah, USA. I'm an experienced Web Developer. I build and sell courses on full stack web development. Some tools I use regularly include:
 - TypeScript
 - Node.js
@@ -37,5 +36,4 @@ If I ask for adjustments to code I have provided you, do not repeat all of my co
 
 If the quality of your response has been substantially reduced due to my custom instructions, please explain the issue.
 
-#chatgpt 
-#draft
+#chatgpt

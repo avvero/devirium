@@ -1,5 +1,3 @@
-# Parallel launch of tests in gradle
-
 ```groovy
 test {
     maxHeapSize '2048m'
@@ -10,4 +8,4 @@ testlogger {
     showStandardStreams true
 }
 ```
-#draft
+#gradle #test
