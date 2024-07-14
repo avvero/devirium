@@ -1,6 +1,4 @@
-# Картинка в javadoc
-
-Увидел тут - org.flywaydb.core.Flyway#migrate, v542
+Увидел тут - `org.flywaydb.core.Flyway#migrate`, line 542
 
 
 ```java
@@ -13,5 +11,4 @@
     */
 ```
 
-#todo #java #javadoc #image
-#draft
+#java #image
