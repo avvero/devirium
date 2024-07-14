@@ -1,5 +1,3 @@
-# Configuration for hikari pool
-
 ```properties
 spring.datasource.hikari.connection-timeout=5000
 spring.datasource.hikari.max-lifetime=300000
@@ -11,4 +9,3 @@ spring.datasource.hikari.maximum-pool-size=50
 ```
 
 #configuration #spring #database #hikari
-#draft

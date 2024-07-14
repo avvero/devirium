@@ -1,5 +1,3 @@
-# Gatling сценарий для post запроса
-
 ```java
 package computerdatabase;
 
@@ -41,5 +39,4 @@ public class ComputerDatabaseSimulation extends Simulation {
 }
 ```
 
-#test #testing #loadtesting #gatling
-#draft
+#test #testing #load_testing #gatling

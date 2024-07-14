@@ -1,5 +1,3 @@
-# Testing trophy
-
 ## Хорошие статьи на этот счет 
 
 https://itnext.io/front-end-testing-strategy-5fddfd463feb
@@ -15,6 +13,5 @@ we get feedback from real usage, the less time/money/opportunity we
 spend on behavior that doesn’t matter.»
 
 [[Tidy first]]
-
-#testing #testingtrophy 
-#draft
+-
+#testing #testing_trophy 
