@@ -1,7 +1,3 @@
-# FlightRecorder
-
-Java Flight Recorder
-
 To enable set in gradle 
 ```groovy
 test {
@@ -16,4 +12,3 @@ bootRun {
 ```
 
 #java #jfr #jvm
-#draft

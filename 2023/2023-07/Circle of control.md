@@ -1,5 +1,5 @@
-«We control our reasoned choice and all acts that depend on that moral will.»
+Из [[Daily Stoic]]
 
-[[Daily Stoic]]
-#philosophy #stoicism #Epictetus 
-#draft
+>We control our reasoned choice and all acts that depend on that moral will.
+
+#philosophy #stoicism #epictetus

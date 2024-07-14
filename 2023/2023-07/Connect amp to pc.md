@@ -51,4 +51,3 @@ If you're lucky, you'll be able to go through the Calibration prompts as usual..
 So far I haven't noticed any glaring issues with latency, notes buzzing, etc. And it has put the biggest smile on my face, so all that struggling to get this up and running was (mostly) worth it. :)
 
 #rocksmith #guitar
-#draft

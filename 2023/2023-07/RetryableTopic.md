@@ -1,6 +1,4 @@
-# RetryableTopic
-
-org.springframework.kafka.annotation.RetryableTopic
+`org.springframework.kafka.annotation.RetryableTopic`
 
 ```java
 @RetryableTopic(
@@ -18,4 +16,3 @@ org.springframework.kafka.annotation.RetryableTopic
 ```
 
 #kafka #topic #retry
-#draft

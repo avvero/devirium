@@ -1,3 +1,1 @@
-
-#stoicism 
-#draft
+#stoicism #phrase
