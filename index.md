@@ -30,6 +30,11 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Платон как мастер мышления и философ будущего](2023/2023-03/Платон-как-мастер-мышления-и-философ-будущего.md)
+- [Обмен мнениями не достаточен](2023/2023-03/Обмен-мнениями-не-достаточен.md)
+- [Мышление - разговор души с самой собой](2023/2023-03/Мышление---разговор-души-с-самой-собой.md)
+- [Мнение уважаем, но за ложные знамения отвечать нужно](2023/2023-03/Мнение-уважаем,-но-за-ложные-знамения-отвечать-нужно.md)
+- [Кумулятивный аргумент](2023/2023-03/Кумулятивный-аргумент.md)
 - [Допускаю что в сказанном вами что-то есть](2023/2023-03/Допускаю-что-в-сказанном-вами-что-то-есть.md)
 - [Как читать Платона](2023/2023-03/Как-читать-Платона.md)
 - [Казуистика](2023/2023-03/Казуистика.md)
@@ -45,8 +50,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Ten books to become a better programmer](2023/2023-01/Ten-books-to-become-a-better-programmer.md)
 - [The Pragmatic Programmer](2023/2023-01/The-Pragmatic-Programmer.md)
 - [Sloth](2023/2023-01/Sloth.md)
-- [Shortening a program too much](2023/2023-01/Shortening-a-program-too-much.md)
-- [Reading code is more important than writing code](2023/2023-01/Reading-code-is-more-important-than-writing-code.md)
-- [Project amber guides](2023/2023-01/Project-amber-guides.md)
-- [Minimize the scope of local variables](2023/2023-01/Minimize-the-scope-of-local-variables.md)
-- [Lamport timestamps](Lamport-timestamps.md)
