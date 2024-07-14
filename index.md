@@ -30,6 +30,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Автобиография Бенджамина Франклина](2023/2023-10/Автобиография-Бенджамина-Франклина.md)
+- [300.ya.ru](2023/2023-10/300.ya.ru.md)
 - [Spring Test Slices](2023/2023-09/Spring-Test-Slices.md)
 - [Spring rest contract](2023/2023-09/Spring-rest-contract.md)
 - [SHA256 with ECDSA](2023/2023-09/SHA256-with-ECDSA.md)
@@ -48,5 +50,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Инкубатор](2023/2023-09/Инкубатор.md)
 - [Догматизм](2023/2023-09/Догматизм.md)
 - [Диоген катает бочку](2023/2023-09/Диоген-катает-бочку.md)
-- [Диоген 2](2023/2023-09/Диоген-2.md)
-- [Госип дривен девелопмент](2023/2023-09/Госип-дривен-девелопмент.md)
