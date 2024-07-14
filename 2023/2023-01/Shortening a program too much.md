@@ -1,8 +1,5 @@
-# Shortening a program too much
+From [[Java code style about var]]
 
 Shortening a program too much can omit information that’s useful for understanding the program. The central issue here is to find the right size for the program such that understandability is maximized.
 
-[[Java code style about var]]
-
-#java #code-style #practice #clean-code #design
-#draft
+#code #clean #practice #design

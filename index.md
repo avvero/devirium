@@ -30,6 +30,13 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Ten books to become a better programmer](2023/2023-01/Ten-books-to-become-a-better-programmer.md)
+- [The Pragmatic Programmer](2023/2023-01/The-Pragmatic-Programmer.md)
+- [Sloth](2023/2023-01/Sloth.md)
+- [Shortening a program too much](2023/2023-01/Shortening-a-program-too-much.md)
+- [Reading code is more important than writing code](2023/2023-01/Reading-code-is-more-important-than-writing-code.md)
+- [Project amber guides](2023/2023-01/Project-amber-guides.md)
+- [Minimize the scope of local variables](2023/2023-01/Minimize-the-scope-of-local-variables.md)
 - [Lamport timestamps](Lamport-timestamps.md)
 - [CRDT](CRDT.md)
 - [Linearizability](Linearizability.md)
@@ -43,10 +50,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Hungarian notation](2023/2023-01/Hungarian-notation.md)
 - [Docker compose INTERNAL ERROR: cannot create temporary directory](2023/2023-01/Docker-compose-INTERNAL-ERROR:-cannot-create-temporary-directory.md)
 - [Delivery pattern](2023/2023-01/Delivery-pattern.md)
-- [Кто рождается в споре](2023/2023-01/Кто-рождается-в-споре.md)
-- [Count sql statement](2023/2023-01/Count-sql-statement.md)
-- [Code should be self-revealing](2023/2023-01/Code-should-be-self-revealing.md)
-- [Очередной раз про end-to-end тесты](2023/2023-01/Очередной-раз-про-end-to-end-тесты.md)
-- [Математика для гуманитариев](2023/2023-01/Математика-для-гуманитариев.md)
-- [WRK](2022/2022-12/WRK.md)
-- [UNIQUE NULLS NOT DISTINCT](2022/2022-12/UNIQUE-NULLS-NOT-DISTINCT.md)
