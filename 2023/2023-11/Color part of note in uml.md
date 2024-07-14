@@ -1,5 +1,3 @@
-# Color part of note in uml
-
 ```plantuml
 @startuml
 
@@ -30,4 +28,3 @@ end note
 ```
 
 #plantuml #uml #schema
-#draft

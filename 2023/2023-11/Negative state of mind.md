@@ -1,6 +1,3 @@
-[[Daily Stoic]]
-
-Negative state of mind
-
+Из [[Daily Stoic]]
+-
 #philosophy #stoicism
-#draft

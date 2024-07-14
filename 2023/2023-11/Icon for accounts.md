@@ -1,4 +1,3 @@
-
 Сгенерируй картинку для сервиса, которая будет использоваться в качестве icon для проекта в intellij idea и git. Сервис: Accounts, It is client balances and operations to update balances
 
 ```json
@@ -29,4 +28,5 @@ Icon for accounts2.png
     }
   ]
 }```
-#draft
+
+#image #ai

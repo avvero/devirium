@@ -5,4 +5,3 @@
 Freedom - https://vc.ru/u/28558-eugene-skvortsov/673294-kak-otkryt-kartu-freedom-finance-pri-pomoshchi-tinkoff-moy-opyt
 
 #payment
-#draft

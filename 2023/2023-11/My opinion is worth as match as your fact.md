@@ -1,5 +1,3 @@
-Ricky Gervais
-> My opinion is worth as match as your fact
+Автор: Ricky Gervais
 
 #logic #arguing #humor #fact
-#draft

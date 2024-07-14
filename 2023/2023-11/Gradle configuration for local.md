@@ -1,5 +1,3 @@
-# Gradle configuration for local
-
 https://docs.gitlab.com/ee/ci/variables/predefined_variables.html
 
 ```groovy
@@ -12,4 +10,3 @@ if (System.getenv("CI") == "true") {
 ```
 
 #gradle #build #ci
-#draft

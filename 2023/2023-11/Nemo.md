@@ -1,4 +1,3 @@
-Nemo - Rule engine in rust
+Rule engine in rust
 
-#rust #rule #software #todo
-#draft
+#rust #rule #software

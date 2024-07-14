@@ -1,3 +1,0 @@
-
-#idea #bot
-#draft

@@ -1,7 +1,6 @@
-Locality - all thing are close
-Locality gives better performance for nosql
+Из [[Designing Data Intensive Applications]]
 
-[[Designing Data Intensive Applications]]
+Locality - all thing are close.
+Locality gives better performance for nosql.
 
 #term
-#draft

@@ -7,5 +7,4 @@
 - [[Swept under carpet]]
 - [[Logic type tangle]]
 
-#development #practice #humor #design #dirty_code
-#draft
+#development #practice #humor #design #dirty #code

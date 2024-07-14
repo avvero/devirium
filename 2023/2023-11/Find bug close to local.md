@@ -1,6 +1,5 @@
-Make change with confidence and speed
-[[Testing trophy]]
-!Find bug close to local.jpg
+Связано с [[Testing trophy]].
 
-#test #testingtrophy #testing
-#draft
+Make change with confidence and speed. !Find bug close to local.jpg
+
+#test #testing_trophy #testing
