@@ -1,4 +1,3 @@
-
 ```groovy
 import io.vertx.core.Vertx
 import io.vertx.core.http.RequestOptions
@@ -32,4 +31,3 @@ class AsyncExampleSpec extends Specification {
 ```
 
 #testing #java #spring #spock
-#draft

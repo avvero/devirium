@@ -1,6 +1,3 @@
-# Spring cache context in test
-
-
 ```properties
 fx.logback.logger.package.org.springframework.test.context.cache=DEBUG
 ```
@@ -12,4 +9,3 @@ test {
 ```
 
 #spring #test
-#draft

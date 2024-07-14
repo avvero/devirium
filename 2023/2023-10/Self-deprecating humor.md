@@ -1,6 +1,5 @@
+Из [[A guide to the good life]]
+
 Самоуничижительный / осуждающий юмор как защита от оскорблений.
 
-[[A guide to the good life]]
-
-#stoicism 
-#draft
+#stoicism

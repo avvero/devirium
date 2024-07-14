@@ -1,5 +1,3 @@
-# Spring context cache issue
-
 Столкнулся с тем, что кеш контекста растет в тестах, пока не нашел как решить, но вот что нагуглил:
 
 - https://github.com/spring-projects/spring-framework/issues/12334
@@ -10,4 +8,3 @@
 - https://github.com/spring-projects/spring-framework/issues/26266
 
 #spring #issue #context #cache
-#draft
