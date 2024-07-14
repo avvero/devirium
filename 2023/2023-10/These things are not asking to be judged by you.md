@@ -1,4 +1,2 @@
-
-[[Daily Stoic]]
-#stoicism #markus-aurelius 
-#draft
+Из [[Daily Stoic]]
+#stoicism #markus_aurelius

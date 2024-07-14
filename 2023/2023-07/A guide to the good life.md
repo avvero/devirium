@@ -1,2 +1,1 @@
-#book #stoicism #philosophy 
-#draft
+#book #stoicism #philosophy

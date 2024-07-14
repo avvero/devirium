@@ -1,4 +1,4 @@
-[[A guide to the good life]]
+Из [[A guide to the good life]]
 
 #stoicism #seneca 
 #draft
