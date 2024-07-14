@@ -1,5 +1,3 @@
-# Spring logback Java configuration
-
 From https://logback.qos.ch/manual/configuration.html
 > Given that Groovy is a full-fledged language, we have dropped support for logback.groovy in order to protect the innocent.
 
@@ -22,5 +20,4 @@ java.lang.IllegalStateException: Could not initialize Logback logging from class
 
 Почему не попросим? Не получается 
 
-#article #spring #logging #todo
-#draft
+#article #spring #logging #draft

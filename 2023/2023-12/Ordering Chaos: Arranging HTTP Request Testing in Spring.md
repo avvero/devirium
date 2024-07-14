@@ -279,4 +279,3 @@ Link to the project repository with demonstration tests - https://github.com/avv
 Thank you for your attention to the article, and good luck in your pursuit of writing effective and reliable tests!
 
 #article #java #spring #tdd #spock
-#draft

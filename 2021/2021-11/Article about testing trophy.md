@@ -36,5 +36,5 @@
 
 https://docs.pact.io/faq/convinceme - тут можно почитать о том, почему Contract tests save development time, суть та же и для TT.
 
-#testing #testingtrophy 
+#testing #testing_trophy 
 #draft

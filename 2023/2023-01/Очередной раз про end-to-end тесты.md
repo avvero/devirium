@@ -27,4 +27,4 @@ entityBatch = {ArrayList@23671}  size = 20
 
  Payload разбивается на массив строк тут - org.springframework.messaging.handler.invocation.InvocableHandlerMethod#invoke и дальше передается не ConsumerRecord, а список строк.
 
-#test #testing #testingtrophy 
+#test #testing #testing_trophy 

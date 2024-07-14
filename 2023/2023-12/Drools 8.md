@@ -1,5 +1,3 @@
-# Drools 8
-
 - Rules on pure java, Drools 8 offers an alternative way of writing rules in combination with Rule Unit - https://docs.drools.org/8.29.0.Final/drools-docs/docs-website/drools/KIE/index.html#rule-unit-dsl_packaging-deploying
 - quarkus extension, native?
 - modular engine for ai
@@ -31,5 +29,4 @@ https://docs.kogito.kie.org/1.20.0/html_single/
 
 https://blog.kie.org/2022/10/drools-8-final-toward-a-modular-and-cloud-native-rule-engine.html
 
-#rule-engine #drools
-#draft
+#rule_engine #drools

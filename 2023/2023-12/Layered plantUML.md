@@ -1,5 +1,3 @@
-# Layered plantUML
-
 1. Слой интеграций
 2. Слои детализации 
 
@@ -8,4 +6,3 @@ PlantUML диаграмма с отображением слоев, как в ph
 Почему стали использовать hlv? Потому что с сиквенсами сложно.
 
 #idea #plantuml #design #hlv #architecture
-#draft

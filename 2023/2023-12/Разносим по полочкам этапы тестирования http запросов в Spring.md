@@ -276,4 +276,3 @@ def "Forecast for provided city London is 42"() {
 Спасибо за внимание к статье, и удачи в вашем стремлении к написанию эффективных и надежных тестов!
 
 #article #java #spring #tdd #spock
-#draft

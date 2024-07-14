@@ -64,4 +64,3 @@ Perfect run2.png
 }
 ```
 #leetcode #idea
-#draft
