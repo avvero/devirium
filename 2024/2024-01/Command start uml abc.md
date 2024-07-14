@@ -1,3 +1,1 @@
-
 #idea #development #uml
-#draft

@@ -1,5 +1,3 @@
-# Code-First и Design-First
-
+Подходы к документации
 
 #api #documentation
-#draft

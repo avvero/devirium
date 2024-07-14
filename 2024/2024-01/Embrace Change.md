@@ -1,5 +1,3 @@
-Связано с [[Evolvability]]
-
-[[Tidy first]]
-#development 
-#draft
+Из [[Tidy first]]. Связано с [[Evolvability]].
+-
+#development

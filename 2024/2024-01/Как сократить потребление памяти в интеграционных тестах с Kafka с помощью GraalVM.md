@@ -195,4 +195,3 @@ TestContainersBenchmark.emkNativeKafkaStartAndReady         ss   10  0,521 ± 0,
 Добавил информацию бенчмарков JMH для оценки времени запуска и операционной готовности контейнеров.
 
 #article #java #spring #native #graal
-#draft

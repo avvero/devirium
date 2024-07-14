@@ -1,5 +1,3 @@
-# Публикация в maven central
-
 ## Рабочая
 
 
@@ -63,4 +61,3 @@ gpg --keyserver keys.openpgp.org --search-keys
 ```
 
 #java #library #maven
-#draft

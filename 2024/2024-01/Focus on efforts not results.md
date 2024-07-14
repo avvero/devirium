@@ -1,3 +1,1 @@
-
 #epictetus #philosophy #stoicism
-#draft
