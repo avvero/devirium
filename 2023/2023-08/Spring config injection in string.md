@@ -1,5 +1,3 @@
-# Spring config injection in string
-
 ```java
 	@RetryableTopic(attempts = "#{__this.config.retryAttempts}",
 			backoff = @Backoff(delayExpression = "#{__this.config.retryDelay.toMillis()}"),
@@ -12,4 +10,3 @@
 ```
 
 #java #spring #configuration
-#draft

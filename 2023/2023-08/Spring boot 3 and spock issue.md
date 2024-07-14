@@ -1,11 +1,9 @@
-# Spring boot 3 and spock issue
-
 Reverences: 
 - https://github.com/spockframework/spock/issues/1748
 - https://github.com/spockframework/spock/issues/1539
 
 Такие зависимости работают верно
-```
+```groovy
 plugins {
     id 'java'
     id 'groovy'
@@ -44,4 +42,3 @@ test {
 ```
 
 #spock #spring #java
-#draft

@@ -30,6 +30,13 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Spring config injection in string](2023/2023-08/Spring-config-injection-in-string.md)
+- [Spring boot 3 and spock issue](2023/2023-08/Spring-boot-3-and-spock-issue.md)
+- [Someone says something rude—it’s your sensitivity that interpreted their remark this way](2023/2023-08/Someone-says-something-rude—it’s-your-sensitivity-that-interpreted-their-remark-this-way.md)
+- [Serenity Prayer](2023/2023-08/Serenity-Prayer.md)
+- [People have power over you if](2023/2023-08/People-have-power-over-you-if.md)
+- [Loop Unrolling](2023/2023-08/Loop-Unrolling.md)
+- [Daily Stoic](2023/2023-08/Daily-Stoic.md)
 - [Риски и принятия](2021/2021-11/Риски-и-принятия.md)
 - [И стоящие часы два раза в день верны](2023/2023-11/И-стоящие-часы-два-раза-в-день-верны.md)
 - [Сениор - самая авторитетная обезьяна в стае](2024/2024-01/Сениор---самая-авторитетная-обезьяна-в-стае.md)
@@ -43,10 +50,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Если бы все инженеры мира](2023/2023-12/Если-бы-все-инженеры-мира.md)
 - [Твое тело принадлежит улью](2024/2024-06/Твое-тело-принадлежит-улью.md)
 - [Пожелаем не страдать от отсутствия алкоголя](2024/2024-01/Пожелаем-не-страдать-от-отсутствия-алкоголя.md)
-- [У меня никогда не было другого бога, кроме собственного тела](2024/2024-05/У-меня-никогда-не-было-другого-бога,-кроме-собственного-тела.md)
-- [Security through abscurity](2021/2021-11/Security-through-abscurity.md)
-- [Работаю за деньги](2021/2021-11/Работаю-за-деньги.md)
-- [Жизнь это то время которое мы проводим между туалетом и работой](2024/2024-04/Жизнь-это-то-время-которое-мы-проводим-между-туалетом-и-работой.md)
-- [Не нужно давать моральную оценку](2023/2023-08/Не-нужно-давать-моральную-оценку.md)
-- [Если есть мнение - мните его](2023/2023-08/Если-есть-мнение---мните-его.md)
-- [Warp](2023/2023-07/Warp.md)

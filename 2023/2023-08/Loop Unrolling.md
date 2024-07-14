@@ -22,4 +22,3 @@ jl (jump to)
 Статья - [](https://medium.com/@Styp/observing-java-19-jvm-optimization-with-jmh-hsdis-perfasm-part-i-e80c4907e2f9)
 
 #java #jit
-#draft
