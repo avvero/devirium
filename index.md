@@ -31,6 +31,11 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Можно ли делать слои в приложении как это делается в докере?](2024/2024-02/Можно-ли-делать-слои-в-приложении-как-это-делается-в-докере?.md)
+- [Курс по Английскому](2024/2024-02/Курс-по-Английскому.md)
+- [Картинки ИТ личности и спорт](2024/2024-02/Картинки-ИТ-личности-и-спорт.md)
+- [Давайте перестанем голосовать](2024/2024-02/Давайте-перестанем-голосовать.md)
+- [Ведро в углу](2024/2024-02/Ведро-в-углу.md)
 - [Tidy first](2024/2024-01/Tidy-first.md)
 - [Spring JPA Stream query](2024/2024-01/Spring-JPA-Stream-query.md)
 - [Speculative design](2024/2024-01/Speculative-design.md)
@@ -46,8 +51,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Embrace Change](2024/2024-01/Embrace-Change.md)
 - [Docusaurus](2024/2024-01/Docusaurus.md)
 - [Coupling](2024/2024-01/Coupling.md)
-- [Command start uml abc](2024/2024-01/Command-start-uml-abc.md)
-- [Cohesion order](2024/2024-01/Cohesion-order.md)
-- [Cohesion and Coupling](2024/2024-01/Cohesion-and-Coupling.md)
-- [Code-First и Design-First](2024/2024-01/Code-First-и-Design-First.md)
-- [CMU Intro to Database Systems](2024/2024-01/CMU-Intro-to-Database-Systems.md)
