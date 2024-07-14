@@ -1,5 +1,3 @@
-# Spring boot 3 testcontainers
-
 https://spring.io/blog/2023/06/23/improved-testcontainers-support-in-spring-boot-3-1
 
 ## Launch locally with testcontainers
@@ -28,5 +26,4 @@ public class TestSandboxApplication {
 }
 ```
 
-#spring/boot/3 #test-containers
-#draft
+#spring_boot #test_containers

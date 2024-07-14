@@ -1,6 +1,5 @@
+Из [[Designing Data Intensive Applications]]
+
 Triple : Mike likes banana
 
-[[Designing Data Intensive Applications]]
-
 #storage
-#draft

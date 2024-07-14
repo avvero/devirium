@@ -1,4 +1,3 @@
-Your logical fallacy - https://yourlogicalfallacyis.com/ambiguity
+https://yourlogicalfallacyis.com/ambiguity
 
-#logic #sophistry   
-#draft
+#logic #sophistry

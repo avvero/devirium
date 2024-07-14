@@ -1,6 +1,3 @@
-# Thread per core model
-
-[[Java Multithreading, Concurrency & Performance Optimization]]
-
+Из [[Java Multithreading, Concurrency & Performance Optimization]]
+-
 #software #io #multithreading
-#draft
