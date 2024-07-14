@@ -30,6 +30,13 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [What you've just said is one of the most insanely idiotic things I have ever heard](2023/2023-04/What-you've-just-said-is-one-of-the-most-insanely-idiotic-things-I-have-ever-heard.md)
+- [Mathematics for Computer Science](2023/2023-04/Mathematics-for-Computer-Science.md)
+- [Longest increasing subsequence](2023/2023-04/Longest-increasing-subsequence.md)
+- [Floyd's cycle-finding algorithm](2023/2023-04/Floyd's-cycle-finding-algorithm.md)
+- [Discord integration](2023/2023-04/Discord-integration.md)
+- [Colima](2023/2023-04/Colima.md)
+- [Another assert json library 2](2023/2023-04/Another-assert-json-library-2.md)
 - [Что истинно то мое](2023/2023-04/Что-истинно-то-мое.md)
 - [Человек должен накапливать знания](2023/2023-04/Человек-должен-накапливать-знания.md)
 - [Философия сложных времен](2023/2023-04/Философия-сложных-времен.md)
@@ -43,10 +50,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Поутру следует сказать себе](2023/2023-04/Поутру-следует-сказать-себе.md)
 - [Подмена тезиса](2023/2023-04/Подмена-тезиса.md)
 - [Пантеизм](2023/2023-04/Пантеизм.md)
-- [Не давать согласие на эмоции](2023/2023-04/Не-давать-согласие-на-эмоции.md)
-- [Натуралистическая ошибка](2023/2023-04/Натуралистическая-ошибка.md)
-- [Мотивированная рациональность](2023/2023-04/Мотивированная-рациональность.md)
-- [Книги по стоицизму](2023/2023-04/Книги-по-стоицизму.md)
-- [Картинка в javadoc](2023/2023-04/Картинка-в-javadoc.md)
-- [Как быть стоиком](2023/2023-04/Как-быть-стоиком.md)
-- [Истина принадлежит всем](2023/2023-04/Истина-принадлежит-всем.md)

@@ -1,5 +1,3 @@
-# Another assert json library 
-
 Использую, очень нравится
 
 http://jsonassert.skyscreamer.org/
@@ -14,4 +12,3 @@ JSONAssert.assertEquals("""{
 Описание механизма сравнения тел из pact [[JSON body matching rules]]. Может пригодиться.
 
 #test #assert #json #java
-#draft

@@ -1,5 +1,3 @@
-# Longest increasing subsequence
-
 > Лучшее решение - nlogn Patience sorting, работает за счет того, что гарантирует минимальный набор "стопок", через которые можно составить последовательность, ответ будет равен числу "стопок".
 
 Мое решение с n^2:
@@ -80,4 +78,3 @@ public int lengthOfLIS(int[] nums) {
 ```
 
 #algorithm
-#draft

@@ -1,5 +1,3 @@
-# colima 
-
 Fix issue https://github.com/testcontainers/testcontainers-java/issues/5034
 but some time stops working
 
@@ -7,10 +5,10 @@ During my tests, I couldn't make ryuk work with colima out of the box. I managed
 From that point onwards, together with what is described in the documentation, all my project's tests worked flawlessly.
 
 1. Install Colima: brew install colima
-1. Install docker: brew install docker
-1. Start Colima with an assigned IP address: colima start --network-address --cpu 1 --memory 1
-1. Colima automatically creates and sets a docker context named colima, therefore docker commands on the command line work out of the box
-1. To use with testcontainers, make sure the following environment variables are set on your session:
+2. Install docker: brew install docker
+3. Start Colima with an assigned IP address: colima start --network-address --cpu 1 --memory 1
+4. Colima automatically creates and sets a docker context named colima, therefore docker commands on the command line work out of the box
+5. To use with testcontainers, make sure the following environment variables are set on your session:
 ```
 export TESTCONTAINERS_HOST_OVERRIDE=$(colima ls -j | jq -r '.address')
 export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
@@ -34,5 +32,4 @@ brew cleanup
 sudo rm -rf /opt/colima
 rm -rf .docker .lima .colima
 
-#colima #docker #mac #test-containers
-#draft
+#colima #docker #mac #test_containers

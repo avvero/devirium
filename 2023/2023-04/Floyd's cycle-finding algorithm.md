@@ -1,5 +1,3 @@
-# Floyd's cycle-finding algorithm
-
 x mod L = Z
 
 <p align="center">
@@ -27,4 +25,3 @@ public int findDuplicate(int[] nums) {
 ```
 
 #algorithm #loop #joma #leetcode
-#draft

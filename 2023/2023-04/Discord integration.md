@@ -1,5 +1,3 @@
-# Discord integration
-
 API - https://discord.com/developers/docs/interactions/receiving-and-responding#receiving-an-interaction
 
 https://f9f0-18-194-182-248.ngrok-free.app/discord
@@ -13,4 +11,5 @@ Content-Type: application/json
     "text": "hi",
 }
 ```
-#draft
+
+#api #discord
