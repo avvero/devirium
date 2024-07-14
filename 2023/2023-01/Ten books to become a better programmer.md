@@ -1,5 +1,3 @@
-# Ten books to become a better programmer
-
 1. [[The Pragmatic Programmer]]
 2. [[Cracking the coding interview]]
 3. Clean code
