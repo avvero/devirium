@@ -1,6 +1,3 @@
-[[Daily Stoic]]
-
-Never complain, never explain
+Из [[Daily Stoic]]
 
 #philosophy #stoicism
-#draft

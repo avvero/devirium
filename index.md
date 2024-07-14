@@ -30,6 +30,11 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Prohairesis](2023/2023-11/Prohairesis.md)
+- [Pets vs. Cattle](2023/2023-11/Pets-vs.-Cattle.md)
+- [OrbStack](2023/2023-11/OrbStack.md)
+- [Newcomer announce](2023/2023-11/Newcomer-announce.md)
+- [Never complain, never explain](2023/2023-11/Never-complain,-never-explain.md)
 - [Nemo](2023/2023-11/Nemo.md)
 - [Negative state of mind](2023/2023-11/Negative-state-of-mind.md)
 - [My opinion is worth as match as your fact](2023/2023-11/My-opinion-is-worth-as-match-as-your-fact.md)
@@ -45,8 +50,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Gradle configuration for local](2023/2023-11/Gradle-configuration-for-local.md)
 - [Genver](2023/2023-11/Genver.md)
 - [Generative AI for Everyone](2023/2023-11/Generative-AI-for-Everyone.md)
-- [Games: hive and beebot](2023/2023-11/Games:-hive-and-beebot.md)
-- [Find bug close to local](2023/2023-11/Find-bug-close-to-local.md)
-- [Developer dirty technics](2023/2023-11/Developer-dirty-technics.md)
-- [Color part of note in uml](2023/2023-11/Color-part-of-note-in-uml.md)
-- [CI time](2023/2023-11/CI-time.md)

@@ -1,5 +1,5 @@
-prohairesis - Reasoned choice 
+Из [[Daily Stoic]]
 
-[[Daily Stoic]]
-#Epictetus 
-#draft
+prohairesis - reasoned choice 
+
+#epictetus
