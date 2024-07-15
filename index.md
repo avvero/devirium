@@ -13,8 +13,9 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
-- [Docusaurus](2024-07/Docusaurus.md)
+- [Тестовая заметка](Тестовая-заметка.md)
 - [Redoc](2024-07/Redoc.md)
+- [Docusaurus](2024-07/Docusaurus.md)
 - [Сенека: О сотворении землетрясений](review/Сенека:-О-сотворении-землетрясений.md)
 - [ChatGPT instructions 2](2024-07/ChatGPT-instructions-2.md)
 - [Через оценку повлиять на восприятие](2024-07/Через-оценку-повлиять-на-восприятие.md)
@@ -32,7 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Совершенный код](2024-07/Совершенный-код.md)
 - [How to design programs](2024-07/How-to-design-programs.md)
 - [Понятийный аппарат должен соответствовать предметной области](2024-07/Понятийный-аппарат-должен-соответствовать-предметной-области.md)
-- [То что было красивой абстрактной фантазией](2024-07/То-что-было-красивой-абстрактной-фантазией.md)
 
 ## Top tags
 - #humor

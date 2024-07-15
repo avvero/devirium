@@ -4,8 +4,8 @@ https://github.com/Redocly/redoc
 
 Functionality:
 - Split, Merge specifications
-- Build single-file html documentation from opena-api specification
+- Build single-file HTML documentation from OpenAPI specification
 
-Doesn't support api execution on documentation page.
+Doesn't support API execution on documentation page.
 
 #api #documentation
