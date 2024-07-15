@@ -18,6 +18,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [У числа пи в конце только нули](2024/2024-04/У-числа-пи-в-конце-только-нули.md)
 - [How I Built Devirium](2024-07/How-I-Built-Devirium.md)
 - [New line in markdown](2024-07/New-line-in-markdown.md)
 - [Java для скриптов](2024-07/Java-для-скриптов.md)
@@ -37,4 +38,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Нереалистичные ожидания](2022/2022-07/Нереалистичные-ожидания.md)
 - [Нелинейная зависимость длительности от сложности](2022/2022-07/Нелинейная-зависимость-длительности-от-сложности.md)
 - [Лайфхак для разработки библиотек](2022/2022-07/Лайфхак-для-разработки-библиотек.md)
-- [Backend for Frontend (BFF) as API Gateway](2022/2022-06/Backend-for-Frontend-(BFF)-as-API-Gateway.md)
