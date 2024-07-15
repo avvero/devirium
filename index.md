@@ -24,7 +24,6 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Your burger](2024/2024-03/Your-burger.md)
 - [Деплой без релиза опасен для здоровья](2022/2022-10/Деплой-без-релиза-опасен-для-здоровья.md)
 - [Бот вместо меня](2022/2022-08/Бот-вместо-меня.md)
-- [У числа пи в конце только нули](2024/2024-04/У-числа-пи-в-конце-только-нули.md)
 - [How I Built Devirium](2024-07/How-I-Built-Devirium.md)
 - [New line in markdown](2024-07/New-line-in-markdown.md)
 - [Java для скриптов](2024-07/Java-для-скриптов.md)
@@ -38,3 +37,4 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [A leader leads](2024-07/A-leader-leads.md)
 - [Повышение лояльности сотрудника](Повышение-лояльности-сотрудника.md)
 - [Podlodka](2024-07/Podlodka.md)
+- [Кеш инструкций](Кеш-инструкций.md)
