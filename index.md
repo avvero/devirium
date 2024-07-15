@@ -33,6 +33,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [How I Built Devirium](2024-07/How-I-Built-Devirium.md)
 - [New line in markdown](2024-07/New-line-in-markdown.md)
 - [Java для скриптов](2024-07/Java-для-скриптов.md)
 - [Приимущеcтво работать в компании долго](2024-07/Приимущеcтво-работать-в-компании-долго.md)
@@ -52,4 +53,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Нелинейная зависимость длительности от сложности](2022/2022-07/Нелинейная-зависимость-длительности-от-сложности.md)
 - [Лайфхак для разработки библиотек](2022/2022-07/Лайфхак-для-разработки-библиотек.md)
 - [Backend for Frontend (BFF) as API Gateway](2022/2022-06/Backend-for-Frontend-(BFF)-as-API-Gateway.md)
-- [Как стать базированным разработчиком](2023/2023-07/Как-стать-базированным-разработчиком.md)
