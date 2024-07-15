@@ -4,7 +4,7 @@ title: Devirium
 
 Welcome to my [digital garden](https://maggieappleton.com/garden-history) of learning notes (some in Russian, some in English). I've decided to [learn in public](https://dev.to/jbranchaud/how-i-learned-to-learn-in-public-2f4m) by sharing my progress here. Through this, I aim to develop a [Spaced Repetition](https://til.yenly.wtf/notes/spaced-repetition) learning habit.
 
-In this collection, you'll find code snippets, review materials, and sometimes just headers as reminders to revisit topics. The content will range from initial ideas to more developed thoughts, growing spontaneously over time.
+In this collection, you’ll find code snippets, review materials, and sometimes just headers as reminders to revisit topics. It mainly covers software engineering, with a few snippets in Java and Go. You’ll also find philosophy from the Hellenes (a fancy way to say “ancient Greeks”), silly jokes, and other interesting things I’ve encountered. Most of it is in Russian, with some in English.
 
 For updates, join my Telegram channel: https://t.me/devirium
 

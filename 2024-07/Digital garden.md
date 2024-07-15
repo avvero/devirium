@@ -5,6 +5,8 @@
 >A garden is usually a place where things grow.
 >Gardens can be very personal and full of whimsy or a garden can be a source of food and substance.
 
+https://maggieappleton.com/garden-history
+
 Известные мне:
 - https://www.dschapman.com/notes/
 - [[Yenly]]
