@@ -33,6 +33,12 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Locality of Behaviour](2024-07/Locality-of-Behaviour.md)
+- [Design review](2024-07/Design-review.md)
+- [A leader leads](2024-07/A-leader-leads.md)
+- [Повышение лояльности сотрудника](Повышение-лояльности-сотрудника.md)
+- [Podlodka](2024-07/Podlodka.md)
+- [Кеш инструкций](Кеш-инструкций.md)
 - [Выбираю зарядку](2022/2022-07/Выбираю-зарядку.md)
 - [Почему RB tree называется самобалансирующимся](2022/2022-07/Почему-RB-tree-называется-самобалансирующимся.md)
 - [Нереалистичные ожидания](2022/2022-07/Нереалистичные-ожидания.md)
@@ -47,9 +53,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Gradle configuration for local](2023/2023-11/Gradle-configuration-for-local.md)
 - [YAGNI](2022/2022-08/YAGNI.md)
 - [Картинки ИТ личности и спорт](2024/2024-02/Картинки-ИТ-личности-и-спорт.md)
-- [I know the secret](2022/2022-08/I-know-the-secret.md)
-- [Deterministic, Nondeterministic, idempotency](2022/2022-07/Deterministic,-Nondeterministic,-idempotency.md)
-- [How to Reduce Memory Consumption in Integration Tests with Kafka Using GraalVM](2024/2024-01/How-to-Reduce-Memory-Consumption-in-Integration-Tests-with-Kafka-Using-GraalVM.md)
-- [Как сократить потребление памяти в интеграционных тестах с Kafka с помощью GraalVM](2024/2024-01/Как-сократить-потребление-памяти-в-интеграционных-тестах-с-Kafka-с-помощью-GraalVM.md)
-- [Our adventures with GraalVM — The good, the bad and the ugly](2023/2023-07/Our-adventures-with-GraalVM-—-The-good,-the-bad-and-the-ugly.md)
-- [_Тэги](_Тэги.md)
