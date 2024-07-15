@@ -12,13 +12,6 @@ For updates, join my Telegram channel: https://t.me/devirium
 
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
-## Top tags
-- #humor
-- #logic
-- #philosophy
-- #development
-- #design
-
 ## Last notes
 - [Нужен один день, чтобы воспитать сенатора](2024/2024-04/Нужен-один-день,-чтобы-воспитать-сенатора.md)
 - [Камю и ИТ](2024/2024-04/Камю-и-ИТ.md)
@@ -40,3 +33,10 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Нереалистичные ожидания](2022/2022-07/Нереалистичные-ожидания.md)
 - [Нелинейная зависимость длительности от сложности](2022/2022-07/Нелинейная-зависимость-длительности-от-сложности.md)
 - [Лайфхак для разработки библиотек](2022/2022-07/Лайфхак-для-разработки-библиотек.md)
+
+## Top tags
+- #humor
+- #logic
+- #philosophy
+- #development
+- #design
