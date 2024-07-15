@@ -1,5 +1,3 @@
-# Morrowind tabs
-
 https://www.reddit.com/r/stylophone/comments/eourqc/morrowind_tabs/
 
 ```
@@ -7,4 +5,3 @@ https://www.reddit.com/r/stylophone/comments/eourqc/morrowind_tabs/
 ```
 
 #stylophone #morrowind #music
-#draft

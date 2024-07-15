@@ -225,4 +225,3 @@ Link to the project repository demonstrating the tests - [sandbox/bot](https://g
 Thank you for your attention to the article, and good luck in your pursuit of writing effective and visible tests!
 
 #idea #article
-#draft

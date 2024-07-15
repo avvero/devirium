@@ -1,4 +1,1 @@
-# Mistral
-
 #llm #ai
-#draft
