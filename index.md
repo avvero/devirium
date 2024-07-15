@@ -13,6 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Кант утверждает, что ты достигаешь своего предназначения](2024-07/Кант-утверждает,-что-ты-достигаешь-своего-предназначения.md)
 - [The highlander rule for java](review/The-highlander-rule-for-java.md)
 - [Redoc](2024-07/Redoc.md)
 - [Docusaurus](2024-07/Docusaurus.md)
@@ -32,7 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [New line in markdown](2024-07/New-line-in-markdown.md)
 - [Совершенный код](2024-07/Совершенный-код.md)
 - [How to design programs](2024-07/How-to-design-programs.md)
-- [Понятийный аппарат должен соответствовать предметной области](2024-07/Понятийный-аппарат-должен-соответствовать-предметной-области.md)
 
 ## Top tags
 - #humor
