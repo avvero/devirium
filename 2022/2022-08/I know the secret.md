@@ -14,4 +14,4 @@ https://emn178.github.io/online-tools/sha256.html
 Я знаю один секрет и вот пруф: 696057b2ca0b01db2f7ea70d2f878eac363b52c8245e65ce06d2a1ac793f1397, https://emn178.github.io/online-tools/sha256.html 
 `Я буду в Crypto3`
 
-#i_know_the_secret #humor #idea #secret
+#humor #idea #secret

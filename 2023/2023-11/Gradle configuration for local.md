@@ -9,4 +9,4 @@ if (System.getenv("CI") == "true") {
 }
 ```
 
-#gradle #build #ci
+#gradle #build #cicd

@@ -4,4 +4,4 @@ The phrase "correlation does not imply causation" refers to **the inability to 
 - Влияние пиратов на глобальное потепление
 - Закричал петух и встало солнце
 
-#sophistry #phrase #causation #reason
+#sophistry #phrase #reason
