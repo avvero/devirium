@@ -1,5 +1,3 @@
-# VPN Опыт китайцев
-
 статья со ссылками
 https://habr.com/ru/articles/731608/
 
@@ -18,4 +16,3 @@ https://github.com/XTLS/Xray-core/releases/tag/v1.8.3
 https://habr.com/ru/articles/727868/
 
 #vpn
-#draft

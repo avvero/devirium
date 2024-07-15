@@ -1,6 +1,3 @@
-# The Currents of Space
-
-Азимов
+Автор: Азимов
 
 #book
-#draft

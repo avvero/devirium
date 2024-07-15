@@ -213,4 +213,3 @@ You can explore the code and more detailed discussions in the examples module of
 [Link to the article]
 
 #article #test #kafka
-#draft

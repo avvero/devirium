@@ -1,5 +1,3 @@
-# Package by layer and package by feature
-
 Package by feature
 ```
 com.myapp
@@ -29,8 +27,6 @@ com.myapp
 └── controller
 ```
 
-
 https://medium.com/sahibinden-technology/package-by-layer-vs-package-by-feature-7e89cde2ae3a
 
 #development #architecture #design
-#draft
