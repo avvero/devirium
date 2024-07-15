@@ -31,6 +31,9 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Voice notes](2024/2024-05/Voice-notes.md)
+- [Postel's law](2024/2024-05/Postel's-law.md)
+- [Perception vs perspective](2024/2024-05/Perception-vs-perspective.md)
 - [Okhttp3 mock server](2024/2024-05/Okhttp3-mock-server.md)
 - [It world](2024/2024-05/It-world.md)
 - [Gdx](2024/2024-05/Gdx.md)
@@ -48,6 +51,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Все должны выполнять свою социальную роль](2024/2024-05/Все-должны-выполнять-свою-социальную-роль.md)
 - [В новостях суперземли говорят по сети распространяется лживая пропаганда врагов демократии](2024/2024-05/В-новостях-суперземли-говорят-по-сети-распространяется-лживая-пропаганда-врагов-демократии.md)
 - [Wisdom is the most conformist thing you can imagine](2024/2024-04/Wisdom-is-the-most-conformist-thing-you-can-imagine.md)
-- [Refresh properties in runtime](2024/2024-04/Refresh-properties-in-runtime.md)
-- [One man, one job](2024/2024-04/One-man,-one-job.md)
-- [Morrowind tabs](2024/2024-04/Morrowind-tabs.md)
