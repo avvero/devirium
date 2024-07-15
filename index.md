@@ -13,6 +13,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Дао Винни-Пуха](2024-07/Дао-Винни-Пуха.md)
+- [Кант жив](2024-07/Кант-жив.md)
 - [Нужен один день, чтобы воспитать сенатора](2024/2024-04/Нужен-один-день,-чтобы-воспитать-сенатора.md)
 - [Камю и ИТ](2024/2024-04/Камю-и-ИТ.md)
 - [Your burger](2024/2024-03/Your-burger.md)
@@ -31,8 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Выбираю зарядку](2022/2022-07/Выбираю-зарядку.md)
 - [Почему RB tree называется самобалансирующимся](2022/2022-07/Почему-RB-tree-называется-самобалансирующимся.md)
 - [Нереалистичные ожидания](2022/2022-07/Нереалистичные-ожидания.md)
-- [Нелинейная зависимость длительности от сложности](2022/2022-07/Нелинейная-зависимость-длительности-от-сложности.md)
-- [Лайфхак для разработки библиотек](2022/2022-07/Лайфхак-для-разработки-библиотек.md)
 
 ## Top tags
 - #humor
