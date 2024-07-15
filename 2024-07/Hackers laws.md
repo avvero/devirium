@@ -1,4 +1,3 @@
-Ссылка на гит - https://github.com/dwmkerr/hacker-laws
+https://github.com/dwmkerr/hacker-laws
 
-#principle #development #todo
-#draft
+#principle #development

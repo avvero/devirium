@@ -1,5 +1,3 @@
-# Digital garden
-
 >Не одноразовые
 >Вeчноцветущие 
 
@@ -17,5 +15,4 @@
 - https://oliverfalvai.com/evergreen/my-quartz-+-obsidian-note-publishing-setup
 - https://oliverfalvai.com/Evergreen/Inspiring-gardens
 
-#article
-#draft
+#article #draft
