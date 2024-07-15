@@ -33,6 +33,13 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [New line in markdown](2024-07/New-line-in-markdown.md)
+- [Java для скриптов](2024-07/Java-для-скриптов.md)
+- [Приимущеcтво работать в компании долго](2024-07/Приимущеcтво-работать-в-компании-долго.md)
+- [Совершенный код](2024-07/Совершенный-код.md)
+- [How to design programs](2024-07/How-to-design-programs.md)
+- [Понятийный аппарат должен соответствовать предметной области](2024-07/Понятийный-аппарат-должен-соответствовать-предметной-области.md)
+- [То что было красивой абстрактной фантазией](2024-07/То-что-было-красивой-абстрактной-фантазией.md)
 - [Locality of Behaviour](2024-07/Locality-of-Behaviour.md)
 - [Design review](2024-07/Design-review.md)
 - [A leader leads](2024-07/A-leader-leads.md)
@@ -46,10 +53,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Лайфхак для разработки библиотек](2022/2022-07/Лайфхак-для-разработки-библиотек.md)
 - [Backend for Frontend (BFF) as API Gateway](2022/2022-06/Backend-for-Frontend-(BFF)-as-API-Gateway.md)
 - [Как стать базированным разработчиком](2023/2023-07/Как-стать-базированным-разработчиком.md)
-- [Не ставьте себя перед ложными выборами](2021/2021-11/Не-ставьте-себя-перед-ложными-выборами.md)
-- [They do not saw](2021/2021-11/They-do-not-saw.md)
-- [Имперские амбиции компаний](2022/2022-07/Имперские-амбиции-компаний.md)
-- [Correlation does not imply causation](2023/2023-03/Correlation-does-not-imply-causation.md)
-- [Gradle configuration for local](2023/2023-11/Gradle-configuration-for-local.md)
-- [YAGNI](2022/2022-08/YAGNI.md)
-- [Картинки ИТ личности и спорт](2024/2024-02/Картинки-ИТ-личности-и-спорт.md)
