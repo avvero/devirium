@@ -13,6 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [ChatGPT instructions 2](2024-07/ChatGPT-instructions-2.md)
 - [Через оценку повлиять на восприятие](2024-07/Через-оценку-повлиять-на-восприятие.md)
 - [ИТ менеджеры становятся все трусливее](2024-07/ИТ-менеджеры-становятся-все-трусливее.md)
 - [Если нет авторитета, то сам факт оценки может быть не приятен](2024-07/Если-нет-авторитета,-то-сам-факт-оценки-может-быть-не-приятен.md)
@@ -32,7 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Locality of Behaviour](2024-07/Locality-of-Behaviour.md)
 - [Design review](2024-07/Design-review.md)
 - [A leader leads](2024-07/A-leader-leads.md)
-- [Повышение лояльности сотрудника](review/Повышение-лояльности-сотрудника.md)
 
 ## Top tags
 - #humor
