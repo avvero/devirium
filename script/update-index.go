@@ -24,7 +24,9 @@ func main() {
 			return err
 		}
 		if !info.IsDir() && filepath.Ext(info.Name()) == ".md" && info.Name() != "index.md" {
-			files = append(files, fileInfo{path, info})
+			if !containsDraftTag(path) {
+				files = append(files, fileInfo{path, info})
+			}
 		}
 		return nil
 	})
@@ -75,6 +77,28 @@ func main() {
 	}
 
 	fmt.Println("index.md updated successfully")
+}
+
+func containsDraftTag(filePath string) bool {
+	file, err := os.Open(filePath)
+	if err != nil {
+		log.Printf("Error opening file %s: %v\n", filePath, err)
+		return false
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		if strings.Contains(scanner.Text(), "#draft") {
+			return true
+		}
+	}
+
+	if err := scanner.Err(); err != nil {
+		log.Printf("Error scanning file %s: %v\n", filePath, err)
+	}
+
+	return false
 }
 
 func generateNewSection(files []fileInfo) string {
