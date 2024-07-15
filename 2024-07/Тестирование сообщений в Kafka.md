@@ -206,5 +206,4 @@ public class RecordCaptorConfiguration {
 
 ## Идеи для картинки 
 
-#article #test #kafka
-#draft
+#article #test #kafka #draft
