@@ -10,6 +10,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 
 [[How I Built Devirium]]
 
+P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
+
 ## Top tags
 - #humor
 - #logic
