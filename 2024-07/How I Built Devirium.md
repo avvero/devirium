@@ -26,12 +26,12 @@ me ->>+ rep: Update notes
 rep -->>+ send_note: on push
 loop for each note
     send_note ->>+ send_note: Resolve markdown links  
+    send_note ->>+ bot: POST /git/webhook
+    bot ->>+ bot: Compose message
+    bot ->>+ tg: /sendMessage
+    tg ->>- bot: ok
+    bot ->>- send_note: ok
 end
-send_note ->>+ bot: POST /git/webhook
-bot ->>+ bot: Compose message
-bot ->>+ tg: /sendMessage
-tg ->>- bot: ok
-bot ->>- send_note: ok
 
 rep -->>+ deploy: on push
 deploy ->>+ deploy: Clone Quartz repository<br>Clone content repository<br>Clear Quartz content directory
