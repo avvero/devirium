@@ -30,14 +30,14 @@ end
 send_note ->>+ bot: POST /git/webhook
 bot ->>+ bot: Compose message
 bot ->>+ tg: /sendMessage
-tg ->>- bot: 
-bot ->>- send_note: 
+tg ->>- bot: ok
+bot ->>- send_note: ok
 
 rep -->>+ deploy: on push
 deploy ->>+ deploy: Clone Quartz repository<br>Clone content repository<br>Clear Quartz content directory
 deploy ->>+ deploy: npx quartz build
 deploy ->>+ pages: Deploy
-pages ->>- deploy: 
+pages ->>- deploy: ok
 ```
 
 #devirium
