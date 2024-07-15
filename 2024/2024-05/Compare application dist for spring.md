@@ -1,5 +1,3 @@
-# Compare application dist for spring
-
 ```java
 import java.io.File;
 import java.util.ArrayList;
@@ -73,4 +71,3 @@ public class JarComparator {
 ```
 
 #jar #build #spring
-#draft

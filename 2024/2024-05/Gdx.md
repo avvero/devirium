@@ -1,6 +1,4 @@
-# GDX
-
-```
+```bash
 java -jar gdx-setup.jar
 ```
 
@@ -16,4 +14,3 @@ java -jar gdx-setup.jar
 ```
 
 #game #development
-#draft

@@ -1,5 +1,3 @@
-# okhttp3 mock server
-
 ```java
 @Bean
 MockWebServer growthBookMockWebServer() throws IOException {
@@ -21,5 +19,4 @@ public GrowthBookProviderConfigProperties growthBookProviderConfigPropertiesTest
 }
 ```
 
-#mockservice #http
-#draft
+#mock #http
