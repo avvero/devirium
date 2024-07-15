@@ -18,6 +18,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [Нужен один день, чтобы воспитать сенатора](2024/2024-04/Нужен-один-день,-чтобы-воспитать-сенатора.md)
 - [Давайте перестанем голосовать](2024/2024-02/Давайте-перестанем-голосовать.md)
 - [Камю и ИТ](2024/2024-04/Камю-и-ИТ.md)
 - [Your burger](2024/2024-03/Your-burger.md)
@@ -37,4 +38,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [A leader leads](2024-07/A-leader-leads.md)
 - [Повышение лояльности сотрудника](Повышение-лояльности-сотрудника.md)
 - [Podlodka](2024-07/Podlodka.md)
-- [Кеш инструкций](Кеш-инструкций.md)
