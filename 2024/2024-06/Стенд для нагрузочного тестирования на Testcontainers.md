@@ -362,4 +362,4 @@ Testcontainers существенно упрощает создание окру
 
 Спасибо за внимание к статье, и удачи в вашем стремлении к написанию полезных тестов!
 
-#article #todo #testcontainers
+#article #testcontainers

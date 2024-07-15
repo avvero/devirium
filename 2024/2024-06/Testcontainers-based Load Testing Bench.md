@@ -370,4 +370,4 @@ The provided configuration examples for Gatling, Wrk, and Yandex.Tank, along wit
 
 Thank you for your attention to this article, and good luck in your endeavor to write useful tests!
 
-#article #todo #testcontainers
+#article #testcontainers
