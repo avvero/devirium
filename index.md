@@ -26,7 +26,7 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Locality of Behaviour](2024-07/Locality-of-Behaviour.md)
 - [Design review](2024-07/Design-review.md)
 - [A leader leads](2024-07/A-leader-leads.md)
-- [Повышение лояльности сотрудника](Повышение-лояльности-сотрудника.md)
+- [Повышение лояльности сотрудника](review/Повышение-лояльности-сотрудника.md)
 - [Podlodka](2024-07/Podlodka.md)
 - [Выбираю зарядку](2022/2022-07/Выбираю-зарядку.md)
 - [Почему RB tree называется самобалансирующимся](2022/2022-07/Почему-RB-tree-называется-самобалансирующимся.md)
