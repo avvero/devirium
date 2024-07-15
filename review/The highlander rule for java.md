@@ -1,5 +1,5 @@
-https://youtu.be/MYEx0kO2-8A?t=456
+Это когда весь код приложения в одном файле.
 
-Первый раз слышу? Что это?
+Из https://youtu.be/MYEx0kO2-8A?t=456
 
-#wtf #draft
+#design #code
