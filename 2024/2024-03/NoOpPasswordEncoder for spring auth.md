@@ -1,5 +1,3 @@
-# NoOpPasswordEncoder for spring auth
-
 If one doesn't need to encode basic auth password
 
 ```java
@@ -9,5 +7,4 @@ public PasswordEncoder passwordEncoder() {
 }
 ```
 
-#spring #security #fix
-#draft
+#spring #security

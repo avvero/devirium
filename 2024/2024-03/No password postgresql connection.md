@@ -1,5 +1,3 @@
-# No password postgresql connection
-
 Use property POSTGRES_HOST_AUTH_METHOD - https://hub.docker.com/_/postgres
 
 ```java
@@ -17,5 +15,4 @@ org.postgresql.shaded.com.ongres.scram.common.util.CryptoUtil.hi
 org.postgresql.shaded.com.ongres.scram.common.ScramMechanisms.saltedPassword
 ```
 
-#test-containers #postgresql #authentication #fix
-#draft
+#test_containers #postgresql #authentication
