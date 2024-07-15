@@ -6,5 +6,4 @@ CRDT stands for conflict-free/commutative/convergent replicated data type. CRDTs
 
 >I’ll note here that the term ‘conflict-free’ is a little misleading. It’s not that conflict doesn’t ever occur, but rather that CRDTs are always able to determine how to resolve the conflict up front (without user intervention)
 
--
 #algorithm #distributed #crdt

@@ -12,6 +12,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 
 ## TODO
 
+- do not notify if file changes directory
 - Reread [[Tidy first]]
 - In md we need extra \n to create a line - https://devirium.avvero.pw/2022/2022-11/%D0%A3-%D0%BA%D0%BE%D1%80%D0%BE%D0%B2%D1%8B-%D0%B7%D0%B0%D0%B4-%D0%B2-%D0%B3%D0%BE%D0%B2%D0%BD%D0%B5
 - Change link to notes in configuration
@@ -31,6 +32,9 @@ For updates, join my Telegram channel: https://t.me/devirium
 - #design
 
 ## Last notes
+- [The highlander rule for java](The-highlander-rule-for-java.md)
+- [Страсти по Лейбовицу](2024-07/Страсти-по-Лейбовицу.md)
+- [CRDT](2024-07/CRDT.md)
 - [Testcontainers-based Load Testing Bench](2024/2024-06/Testcontainers-based-Load-Testing-Bench.md)
 - [Стенд для нагрузочного тестирования на Testcontainers](2024/2024-06/Стенд-для-нагрузочного-тестирования-на-Testcontainers.md)
 - [Как я пишу статьи](2024/2024-02/Как-я-пишу-статьи.md)
@@ -48,6 +52,3 @@ For updates, join my Telegram channel: https://t.me/devirium
 - [Learn Git Branching](2024-07/Learn-Git-Branching.md)
 - [Infoq](2024-07/Infoq.md)
 - [Htmx](2024-07/Htmx.md)
-- [High Bandwidth and High Latency](2024-07/High-Bandwidth-and-High-Latency.md)
-- [Hackers laws](2024-07/Hackers-laws.md)
-- [Foreign key, Append-only, Soft-delete](2024-07/Foreign-key,-Append-only,-Soft-delete.md)
