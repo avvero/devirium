@@ -1,3 +1,3 @@
-Из [[Tidy first]] связано с [[Evolvability]].
+Из [[Tidy first]], связано с [[Evolvability]].
 -
 #development #debug
