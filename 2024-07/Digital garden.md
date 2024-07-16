@@ -7,6 +7,8 @@
 
 https://maggieappleton.com/garden-history
 
+https://www.swyx.io/learn-in-public
+
 Известные мне:
 - https://www.dschapman.com/notes/
 - [[Yenly]]

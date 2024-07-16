@@ -13,6 +13,9 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Learn In Public](review/Learn-In-Public.md)
+- [Проветримся](review/Проветримся.md)
+- [Podlodka #381 - Стоицизм](review/Podlodka-#381---Стоицизм.md)
 - [Embrace Change](2024/2024-01/Embrace-Change.md)
 - [How I Built Devirium](2024-07/How-I-Built-Devirium.md)
 - [Не ставьте себя перед ложным выбором](2021/2021-11/Не-ставьте-себя-перед-ложным-выбором.md)
@@ -30,9 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Кант жив](2024-07/Кант-жив.md)
 - [Нужен один день, чтобы воспитать сенатора](2024/2024-04/Нужен-один-день,-чтобы-воспитать-сенатора.md)
 - [Камю и ИТ](2024/2024-04/Камю-и-ИТ.md)
-- [Your burger](2024/2024-03/Your-burger.md)
-- [Деплой без релиза опасен для здоровья](2022/2022-10/Деплой-без-релиза-опасен-для-здоровья.md)
-- [New line in markdown](2024-07/New-line-in-markdown.md)
 
 ## Top tags
 - #humor
