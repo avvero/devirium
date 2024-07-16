@@ -105,8 +105,14 @@ func generateNewSection(files []fileInfo) string {
 	var section strings.Builder
 	for _, file := range files {
 		name := strings.TrimSuffix(filepath.Base(file.path), filepath.Ext(file.path))
-		path := strings.ReplaceAll(file.path, " ", "-")
+		path := sanitizePath(file.path)
 		section.WriteString(fmt.Sprintf("- [%s](%s)\n", name, path))
 	}
 	return section.String()
+}
+
+func sanitizePath(path string) string {
+	path = strings.ReplaceAll(path, " ", "-")
+	path = strings.ReplaceAll(path, "#", "")
+	return path
 }

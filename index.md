@@ -13,7 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
-- [Podlodka #381 - Стоицизм](review/Podlodka-#381---Стоицизм.md)
+- [Podlodka #381 - Стоицизм](review/Podlodka-381---Стоицизм.md)
 - [Learn In Public](review/Learn-In-Public.md)
 - [Проветримся](review/Проветримся.md)
 - [Embrace Change](2024/2024-01/Embrace-Change.md)
