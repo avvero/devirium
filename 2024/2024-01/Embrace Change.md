@@ -1,3 +1,3 @@
-Из [[Tidy first]]. Связано с [[Evolvability]]
+Из [[Tidy first]]. Связано с [[Evolvability]].
 -
 #development
