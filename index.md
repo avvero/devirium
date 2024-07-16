@@ -13,6 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Embrace Change](2024/2024-01/Embrace-Change.md)
 - [Не ставьте себя перед ложным выбором](2021/2021-11/Не-ставьте-себя-перед-ложным-выбором.md)
 - [Кант утверждает, что ты достигаешь своего предназначения](2024-07/Кант-утверждает,-что-ты-достигаешь-своего-предназначения.md)
 - [The highlander rule for java](review/The-highlander-rule-for-java.md)
@@ -32,7 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Деплой без релиза опасен для здоровья](2022/2022-10/Деплой-без-релиза-опасен-для-здоровья.md)
 - [How I Built Devirium](2024-07/How-I-Built-Devirium.md)
 - [New line in markdown](2024-07/New-line-in-markdown.md)
-- [Совершенный код](2024-07/Совершенный-код.md)
 
 ## Top tags
 - #humor

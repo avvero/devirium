@@ -8,5 +8,8 @@ save:
 	git commit -m "update"
 	git push
 
+find:
+	find . -type f | grep -i "$(name)"
+
 # Создание новой заметки
 new:
