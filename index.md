@@ -13,6 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Debug note](review/Debug-note.md)
 - [CommonMark Specification](review/CommonMark-Specification.md)
 - [Якове, брате, еби лежа](review/Якове,-брате,-еби-лежа.md)
 - [Инфляция удовольствия](review/Инфляция-удовольствия.md)
@@ -32,7 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [ИТ менеджеры становятся все трусливее](2024-07/ИТ-менеджеры-становятся-все-трусливее.md)
 - [Если нет авторитета, то сам факт оценки может быть не приятен](2024-07/Если-нет-авторитета,-то-сам-факт-оценки-может-быть-не-приятен.md)
 - [Егор Бугаенко](2024-07/Егор-Бугаенко.md)
-- [Дао Винни-Пуха](2024-07/Дао-Винни-Пуха.md)
 
 ## Top tags
 - #humor
