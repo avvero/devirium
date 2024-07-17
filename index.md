@@ -13,6 +13,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Инфляция удовольствия](review/Инфляция-удовольствия.md)
+- [Якове, брате, еби лежа](review/Якове,-брате,-еби-лежа.md)
 - [Podlodka #381 - Стоицизм](review/Podlodka-381---Стоицизм.md)
 - [Learn In Public](review/Learn-In-Public.md)
 - [Проветримся](review/Проветримся.md)
@@ -31,8 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Егор Бугаенко](2024-07/Егор-Бугаенко.md)
 - [Дао Винни-Пуха](2024-07/Дао-Винни-Пуха.md)
 - [Кант жив](2024-07/Кант-жив.md)
-- [Нужен один день, чтобы воспитать сенатора](2024/2024-04/Нужен-один-день,-чтобы-воспитать-сенатора.md)
-- [Камю и ИТ](2024/2024-04/Камю-и-ИТ.md)
 
 ## Top tags
 - #humor
