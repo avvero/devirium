@@ -1,0 +1,92 @@
+name: Daily Job
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+
+jobs:
+  send-notes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.16'
+
+      - name: Compile random-note
+        run: |
+          echo "Compiling script/random-note.go"
+          go build -o script/random-note script/random-note.go
+
+      - name: Get random note path
+        id: get-random-note
+        run: |
+          # Run the random-note script to get the path
+          file_path=$(./script/random-note)
+          echo "::set-output name=file_path::$file_path"
+
+      - name: Check links in the file
+        id: check-links
+        run: |
+          #!/bin/bash
+
+          set -e
+
+          file="${{ steps.get-random-note.outputs.file_path }}"
+          if [[ -n "$file" ]]; then
+            echo "Checking links in file: $file"
+            ./script/find-links "$file" || { echo "Error processing file $file with script/find-links.go"; exit 1; }
+            echo ""
+          fi
+
+      - name: Send notification on failure
+        if: failure()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          #!/bin/bash
+
+          send_telegram_message() {
+            local message=$1
+            curl -s -X POST "https://api.telegram.org/$TELEGRAM_TOKEN/sendMessage" \
+              -H "Content-Type: application/json" \
+              -d "{\"chat_id\":\"$TELEGRAM_CHAT_ID\", \"text\":\"$message\"}" > /dev/null
+          }
+
+          send_telegram_message "Error: Link checking failed in the file ${{ steps.get-random-note.outputs.file_path }}."
+
+      - name: Send file content and links
+        if: success()
+        env:
+          SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
+        run: |
+          #!/bin/bash
+
+          set -e
+
+          file="${{ steps.get-random-note.outputs.file_path }}"
+          if [[ -n "$file" ]]; then
+            echo "Processing file: $file"
+            content=$(git show "HEAD:$file" | jq -sR .)
+            links=$(./script/find-links "$file")
+
+            filename=$(basename "$file")
+            json_data="{\"file\":\"$filename\",\"path\":\"$file\",\"content\":$content, \"links\": $links}"
+
+            echo "JSON Data: $json_data"
+            response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
+            echo "Server response: $response"
+            if [ "$response" -ne 200 ]; then
+              message="Failed to send notes to server for file $file. Response code: $response"
+              echo "$message"
+              exit 1
+            fi
+            echo ""
+          fi
