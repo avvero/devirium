@@ -5,7 +5,5 @@ tags: [java, test, debug]
 author: John Doe
 ---
 
-# My first blog post
-
 This is my first blog #debug post.
 I'm using MarkdownDB to manage my blog posts.
