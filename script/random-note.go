@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-// getMdFiles retrieves all .md files in the repository that contain the specified tag
+// getMdFiles retrieves all .md files in the repository that do not contain the specified tag
 func getMdFiles(root string, tag string) ([]string, error) {
 	var files []string
 	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
@@ -24,7 +24,7 @@ func getMdFiles(root string, tag string) ([]string, error) {
 				log.Printf("Error reading file %s: %v", path, err)
 				return nil
 			}
-			if containsTag {
+			if !containsTag {
 				files = append(files, path)
 			}
 		}
@@ -53,14 +53,13 @@ func containsTag(filePath string, tag string) (bool, error) {
 func main() {
 	rand.Seed(time.Now().UnixNano())
 	root := "."
-	excludeTag := "#debug"
 
-	mdFiles, err := getMdFiles(root, excludeTag)
+	mdFiles, err := getMdFiles(root, "#debug")
 	if err != nil {
 		log.Fatalf("Failed to get .md files: %v", err)
 	}
 	if len(mdFiles) == 0 {
-		log.Fatalf("No valid .md files found without %s tag", excludeTag)
+		log.Fatalf("No valid .md files found without %s tag", "#debug")
 	}
 
 	randomFile := mdFiles[rand.Intn(len(mdFiles))]
