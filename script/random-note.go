@@ -11,21 +11,30 @@ import (
 	"time"
 )
 
-func getMdFiles(root string) ([]string, error) {
+// getMdFiles retrieves all .md files in the repository that contain the specified tag
+func getMdFiles(root string, tag string) ([]string, error) {
 	var files []string
 	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
 		if !info.IsDir() && filepath.Ext(path) == ".md" {
-			files = append(files, path)
+			containsTag, err := containsTag(path, tag)
+			if err != nil {
+				log.Printf("Error reading file %s: %v", path, err)
+				return nil
+			}
+			if containsTag {
+				files = append(files, path)
+			}
 		}
 		return nil
 	})
 	return files, err
 }
 
-func containsDraftTag(filePath string) (bool, error) {
+// containsTag checks if a file contains the specified tag
+func containsTag(filePath string, tag string) (bool, error) {
 	file, err := os.Open(filePath)
 	if err != nil {
 		return false, err
@@ -34,7 +43,7 @@ func containsDraftTag(filePath string) (bool, error) {
 
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
-		if strings.Contains(scanner.Text(), "#draft") {
+		if strings.Contains(scanner.Text(), tag) {
 			return true, nil
 		}
 	}
@@ -44,31 +53,16 @@ func containsDraftTag(filePath string) (bool, error) {
 func main() {
 	rand.Seed(time.Now().UnixNano())
 	root := "."
+	excludeTag := "#debug"
 
-	mdFiles, err := getMdFiles(root)
+	mdFiles, err := getMdFiles(root, excludeTag)
 	if err != nil {
 		log.Fatalf("Failed to get .md files: %v", err)
 	}
 	if len(mdFiles) == 0 {
-		log.Fatalf("No .md files found")
+		log.Fatalf("No valid .md files found without %s tag", excludeTag)
 	}
 
-	for {
-		if len(mdFiles) == 0 {
-			log.Fatalf("No valid .md files found without #draft tag")
-		}
-		randomIndex := rand.Intn(len(mdFiles))
-		randomFile := mdFiles[randomIndex]
-		isDraft, err := containsDraftTag(randomFile)
-		if err != nil {
-			log.Printf("Error reading file %s: %v", randomFile, err)
-			mdFiles = append(mdFiles[:randomIndex], mdFiles[randomIndex+1:]...)
-			continue
-		}
-		if !isDraft {
-			fmt.Println(randomFile)
-			break
-		}
-		mdFiles = append(mdFiles[:randomIndex], mdFiles[randomIndex+1:]...)
-	}
+	randomFile := mdFiles[rand.Intn(len(mdFiles))]
+	fmt.Println(randomFile)
 }
