@@ -23,6 +23,8 @@ jobs:
         run: |
           echo "Compiling script/random-note.go"
           go build -o script/random-note script/random-note.go
+          echo "Compiling script/find-links.go"
+          go build -o script/find-links script/find-links.go
 
       - name: Get random note path
         id: get-random-note
