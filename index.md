@@ -21,7 +21,7 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Инфляция удовольствия](2024-07/Инфляция-удовольствия.md)
 - [Podlodka #381 - Стоицизм](review/Podlodka-381---Стоицизм.md)
 - [Learn In Public](2024-07/Learn-In-Public.md)
-- [Проветримся](review/Проветримся.md)
+- [Проветримся](2024-07/Проветримся.md)
 - [Embrace Change](2024/2024-01/Embrace-Change.md)
 - [How I Built Devirium](2024-07/How-I-Built-Devirium.md)
 - [Не ставьте себя перед ложным выбором](2021/2021-11/Не-ставьте-себя-перед-ложным-выбором.md)
