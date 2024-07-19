@@ -19,7 +19,7 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [CommonMark Specification](2024-07/CommonMark-Specification.md)
 - [Якове, брате, еби лежа](2024-07/Якове,-брате,-еби-лежа.md)
 - [Инфляция удовольствия](2024-07/Инфляция-удовольствия.md)
-- [Podlodka #381 - Стоицизм](review/Podlodka-381---Стоицизм.md)
+- [Podlodka #381 - Стоицизм](2024-07/Podlodka-381---Стоицизм.md)
 - [Learn In Public](2024-07/Learn-In-Public.md)
 - [Проветримся](2024-07/Проветримся.md)
 - [Embrace Change](2024/2024-01/Embrace-Change.md)
