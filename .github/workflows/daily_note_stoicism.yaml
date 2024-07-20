@@ -1,8 +1,8 @@
-name: Daily Job
+name: Daily Job (Stoicism note)
 
 on:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "0 2 * * *"
 
 jobs:
   send-notes:
@@ -30,7 +30,7 @@ jobs:
         id: get-random-note
         run: |
           # Run the random-note script to get the path
-          file_path=$(./script/random-note)
+          file_path=$(./script/random-note "stoicism")
           echo "::set-output name=file_path::$file_path"
 
       - name: Check links in the file
