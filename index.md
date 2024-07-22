@@ -13,8 +13,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
-- [History of Philosophy - Summarized & Visualized](2024-07/History-of-Philosophy---Summarized-&-Visualized.md)
 - [Интерес начинается там где что-то происходит](2024-07/Интерес-начинается-там-где-что-то-происходит.md)
+- [History of Philosophy - Summarized & Visualized](2024-07/History-of-Philosophy---Summarized-&-Visualized.md)
 - [Стабильный и не стабильный API](2024-07/Стабильный-и-не-стабильный-API.md)
 - [Radiot](2021/2021-11/Radiot.md)
 - [Написание статьи: подход фермера](2024-07/Написание-статьи:-подход-фермера.md)
