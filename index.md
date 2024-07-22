@@ -13,6 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Amplicode](2024-07/Amplicode.md)
 - [Опора автора при написании текста](2024-07/Опора-автора-при-написании-текста.md)
 - [FOMO](2024-07/FOMO.md)
 - [Интерес начинается там где что-то происходит](2024-07/Интерес-начинается-там-где-что-то-происходит.md)
@@ -26,7 +27,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Self-deprecating humor](2023/2023-10/Self-deprecating-humor.md)
 - [Что работодателям не нравится больше](draft/Что-работодателям-не-нравится-больше.md)
 - [Grade declarative](draft/Grade-declarative.md)
-- [Инструменты для эффективной разработки и развертывания web-приложений](draft/Инструменты-для-эффективной-разработки-и-развертывания-web-приложений.md)
 - [Эмоции выдают за мнение](2024-07/Эмоции-выдают-за-мнение.md)
 - [Teach Yourself Computer Science](draft/Teach-Yourself-Computer-Science.md)
 - [Главная проблема канцелярского стиля](2024-07/Главная-проблема-канцелярского-стиля.md)
