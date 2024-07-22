@@ -13,6 +13,15 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [History of Philosophy - Summarized & Visualized](draft/History-of-Philosophy---Summarized-&-Visualized.md)
+- [Стабильный и не стабильный API](draft/Стабильный-и-не-стабильный-API.md)
+- [Что работодателям не нравится больше](draft/Что-работодателям-не-нравится-больше.md)
+- [Grade declarative](draft/Grade-declarative.md)
+- [Инструменты для эффективной разработки и развертывания web-приложений](draft/Инструменты-для-эффективной-разработки-и-развертывания-web-приложений.md)
+- [Если у читателя нет запроса](draft/Если-у-читателя-нет-запроса.md)
+- [Опора автора при написании текста](draft/Опора-автора-при-написании-текста.md)
+- [Написание статьи: подход фермера](draft/Написание-статьи:-подход-фермера.md)
+- [Написание статьи: подход охотника](draft/Написание-статьи:-подход-охотника.md)
 - [Эмоции выдают за мнение](2024-07/Эмоции-выдают-за-мнение.md)
 - [Teach Yourself Computer Science](draft/Teach-Yourself-Computer-Science.md)
 - [Главная проблема канцелярского стиля](2024-07/Главная-проблема-канцелярского-стиля.md)
@@ -24,15 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Якове, брате, еби лежа](2024-07/Якове,-брате,-еби-лежа.md)
 - [Инфляция удовольствия](2024-07/Инфляция-удовольствия.md)
 - [Podlodka #381 - Стоицизм](2024-07/Podlodka-381---Стоицизм.md)
-- [Learn In Public](2024-07/Learn-In-Public.md)
-- [Проветримся](2024-07/Проветримся.md)
-- [Embrace Change](2024/2024-01/Embrace-Change.md)
-- [How I Built Devirium](2024-07/How-I-Built-Devirium.md)
-- [Не ставьте себя перед ложным выбором](2021/2021-11/Не-ставьте-себя-перед-ложным-выбором.md)
-- [Кант утверждает, что ты достигаешь своего предназначения](2024-07/Кант-утверждает,-что-ты-достигаешь-своего-предназначения.md)
-- [The highlander rule for java](2024-07/The-highlander-rule-for-java.md)
-- [Redoc](2024-07/Redoc.md)
-- [Docusaurus](2024-07/Docusaurus.md)
 
 ## Top tags
 - #humor
