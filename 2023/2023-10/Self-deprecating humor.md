@@ -1,4 +1,4 @@
-Из [[A guide to the good life]]
+Из [[A guide to the good life]].
 
 Самоуничижительный / осуждающий юмор как защита от оскорблений.
 

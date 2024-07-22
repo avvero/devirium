@@ -13,6 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Self-deprecating humor](2023/2023-10/Self-deprecating-humor.md)
 - [History of Philosophy - Summarized & Visualized](draft/History-of-Philosophy---Summarized-&-Visualized.md)
 - [Стабильный и не стабильный API](draft/Стабильный-и-не-стабильный-API.md)
 - [Что работодателям не нравится больше](draft/Что-работодателям-не-нравится-больше.md)
@@ -32,7 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [CommonMark Specification](2024-07/CommonMark-Specification.md)
 - [Якове, брате, еби лежа](2024-07/Якове,-брате,-еби-лежа.md)
 - [Инфляция удовольствия](2024-07/Инфляция-удовольствия.md)
-- [Podlodka #381 - Стоицизм](2024-07/Podlodka-381---Стоицизм.md)
 
 ## Top tags
 - #humor
