@@ -13,6 +13,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Teach Yourself Computer Science](2024-07/Teach-Yourself-Computer-Science.md)
+- [Gradle declarative](2024-07/Gradle-declarative.md)
 - [Написание статьи: подход фермера](2024-07/Написание-статьи:-подход-фермера.md)
 - [Amplicode](2024-07/Amplicode.md)
 - [Опора автора при написании текста](2024-07/Опора-автора-при-написании-текста.md)
@@ -26,9 +28,7 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Тексты беззащитны перед невеждой](2023/2023-03/Тексты-беззащитны-перед-невеждой.md)
 - [Self-deprecating humor](2023/2023-10/Self-deprecating-humor.md)
 - [Что работодателям не нравится больше](draft/Что-работодателям-не-нравится-больше.md)
-- [Grade declarative](draft/Grade-declarative.md)
 - [Эмоции выдают за мнение](2024-07/Эмоции-выдают-за-мнение.md)
-- [Teach Yourself Computer Science](draft/Teach-Yourself-Computer-Science.md)
 - [Главная проблема канцелярского стиля](2024-07/Главная-проблема-канцелярского-стиля.md)
 - [Парцелляция](2024-07/Парцелляция.md)
 - [Remark](2024-07/Remark.md)
