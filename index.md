@@ -13,6 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Написание статьи: подход фермера](2024-07/Написание-статьи:-подход-фермера.md)
 - [Amplicode](2024-07/Amplicode.md)
 - [Опора автора при написании текста](2024-07/Опора-автора-при-написании-текста.md)
 - [FOMO](2024-07/FOMO.md)
@@ -20,7 +21,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [History of Philosophy - Summarized & Visualized](2024-07/History-of-Philosophy---Summarized-&-Visualized.md)
 - [Стабильный и не стабильный API](2024-07/Стабильный-и-не-стабильный-API.md)
 - [Radiot](2021/2021-11/Radiot.md)
-- [Написание статьи: подход фермера](2024-07/Написание-статьи:-подход-фермера.md)
 - [Написание статьи: подход охотника](2024-07/Написание-статьи:-подход-охотника.md)
 - [Если у читателя нет запроса](2024-07/Если-у-читателя-нет-запроса.md)
 - [Тексты беззащитны перед невеждой](2023/2023-03/Тексты-беззащитны-перед-невеждой.md)
