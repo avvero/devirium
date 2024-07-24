@@ -13,6 +13,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Тональность текста](2024-07/Тональность-текста.md)
+- [Можете продолжать хранить информацию в своей головек](draft/Можете-продолжать-хранить-информацию-в-своей-головек.md)
 - [Teach Yourself Computer Science](2024-07/Teach-Yourself-Computer-Science.md)
 - [Gradle declarative](2024-07/Gradle-declarative.md)
 - [Написание статьи: подход фермера](2024-07/Написание-статьи:-подход-фермера.md)
@@ -31,8 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Эмоции выдают за мнение](2024-07/Эмоции-выдают-за-мнение.md)
 - [Главная проблема канцелярского стиля](2024-07/Главная-проблема-канцелярского-стиля.md)
 - [Парцелляция](2024-07/Парцелляция.md)
-- [Remark](2024-07/Remark.md)
-- [Quartz 4](2024-07/Quartz-4.md)
 
 ## Top tags
 - #humor
