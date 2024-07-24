@@ -14,6 +14,7 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 
 ## Last notes
 - [Новая библия комедии](2024-07/Новая-библия-комедии.md)
+- [Ядерный взрыв переживут три вещи](draft/Ядерный-взрыв-переживут-три-вещи.md)
 - [Identity operator proposal](2024-07/Identity-operator-proposal.md)
 - [К длинному тексту - договор с читателем](2024-07/К-длинному-тексту---договор-с-читателем.md)
 - [Из чего состоит статья](2024-07/Из-чего-состоит-статья.md)
@@ -32,7 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [FOMO](2024-07/FOMO.md)
 - [Интерес начинается там где что-то происходит](2024-07/Интерес-начинается-там-где-что-то-происходит.md)
 - [History of Philosophy - Summarized & Visualized](2024-07/History-of-Philosophy---Summarized-&-Visualized.md)
-- [Стабильный и не стабильный API](2024-07/Стабильный-и-не-стабильный-API.md)
 
 ## Top tags
 - #humor
