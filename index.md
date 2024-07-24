@@ -13,9 +13,9 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Разговор с самим собой](draft/Разговор-с-самим-собой.md)
 - [Все в куче или все по полочкам](2024-07/Все-в-куче-или-все-по-полочкам.md)
 - [One pile technic](2024/2024-01/One-pile-technic.md)
-- [Разговор с самим собой](draft/Разговор-с-самим-собой.md)
 - [Меня спросили, зачем мне знать про тональности текста](2024-07/Меня-спросили,-зачем-мне-знать-про-тональности-текста.md)
 - [Тональность текста](2024-07/Тональность-текста.md)
 - [Можете продолжать хранить информацию в своей головек](draft/Можете-продолжать-хранить-информацию-в-своей-головек.md)
@@ -38,5 +38,5 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - #humor
 - #logic
 - #philosophy
-- #development
 - #design
+- #development
