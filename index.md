@@ -13,6 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Как найти ссылки удерживающие в памяти объект](2024-07/Как-найти-ссылки-удерживающие-в-памяти-объект.md)
 - [Разговор с самим собой](draft/Разговор-с-самим-собой.md)
 - [Все в куче или все по полочкам](2024-07/Все-в-куче-или-все-по-полочкам.md)
 - [One pile technic](2024/2024-01/One-pile-technic.md)
@@ -32,11 +33,10 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Написание статьи: подход охотника](2024-07/Написание-статьи:-подход-охотника.md)
 - [Если у читателя нет запроса](2024-07/Если-у-читателя-нет-запроса.md)
 - [Тексты беззащитны перед невеждой](2023/2023-03/Тексты-беззащитны-перед-невеждой.md)
-- [Self-deprecating humor](2023/2023-10/Self-deprecating-humor.md)
 
 ## Top tags
 - #humor
 - #logic
 - #philosophy
-- #design
 - #development
+- #design
