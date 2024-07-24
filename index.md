@@ -13,7 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
-- [Из чего состоит статья](draft/Из-чего-состоит-статья.md)
+- [Из чего состоит статья](2024-07/Из-чего-состоит-статья.md)
 - [Можете отказаться от ведения документации и хранить информацию в своей голове](draft/Можете-отказаться-от-ведения-документации-и-хранить-информацию-в-своей-голове.md)
 - [Как найти ссылки удерживающие в памяти объект](2024-07/Как-найти-ссылки-удерживающие-в-памяти-объект.md)
 - [Разговор с самим собой](draft/Разговор-с-самим-собой.md)
