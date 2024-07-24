@@ -13,6 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [К длинному тексту - договор с читателем](2024-07/К-длинному-тексту---договор-с-читателем.md)
 - [Из чего состоит статья](2024-07/Из-чего-состоит-статья.md)
 - [Можете отказаться от ведения документации и хранить информацию в своей голове](draft/Можете-отказаться-от-ведения-документации-и-хранить-информацию-в-своей-голове.md)
 - [Как найти ссылки удерживающие в памяти объект](2024-07/Как-найти-ссылки-удерживающие-в-памяти-объект.md)
@@ -32,7 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Стабильный и не стабильный API](2024-07/Стабильный-и-не-стабильный-API.md)
 - [Radiot](2021/2021-11/Radiot.md)
 - [Написание статьи: подход охотника](2024-07/Написание-статьи:-подход-охотника.md)
-- [Если у читателя нет запроса](2024-07/Если-у-читателя-нет-запроса.md)
 
 ## Top tags
 - #humor
