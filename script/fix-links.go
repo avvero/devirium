@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
+	"log"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -10,10 +11,9 @@ import (
 )
 
 func main() {
-	root := "./" // Путь к корневой директории с заметками
+	root := "./"
 	files := make(map[string]string)
 
-	// Собираем все файлы
 	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
@@ -29,7 +29,6 @@ func main() {
 		return
 	}
 
-	// Проверяем ссылки и исправляем их
 	err = filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
@@ -70,7 +69,7 @@ func findAndFixLinks(filePath, content string, files map[string]string) string {
 				updatedContent = strings.ReplaceAll(updatedContent, match[0], fmt.Sprintf("[[%s]]", strings.TrimSuffix(actualFileName, ".md")))
 			}
 		} else {
-			fmt.Printf("Missing file for link in %s: [[%s]]\n", filePath, match[1])
+			log.Fatalf("Missing file for link in %s: [[%s]]", filePath, match[1])
 
 			// Создаем недостающий файл в папке "missing"
 			// newFilePath := filepath.Join(missingDir, noteName)
