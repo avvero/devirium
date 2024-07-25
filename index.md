@@ -2,7 +2,7 @@
 title: Devirium
 ---
 
-Welcome to my [digital garden](https://maggieappleton.com/garden-history) of notes. In this collection, you’ll find short atomic theses about software engineering, code snippets that describe design patterns or solve problems I’ve faced, and sometimes just headers linking to sources as reminders to revisit topics. You’ll also find philosophical pieces from the Hellenes (a fancy way to say “ancient Greeks”), silly jokes, and other interesting things I’ve encountered. Most of it is in Russian, with some in English.
+Welcome to my [digital garden](https://maggieappleton.com/garden-history) of notes. In this collection, you’ll find short atomic theses about software engineering, code snippets that describe design patterns or solve problems I’ve faced, and sometimes just headers linking to sources as reminders to revisit topics. You’ll also find wisdom from the Hellenes (a fancy way to say “ancient Greeks”), silly jokes from me, and other interesting things I’ve encountered. Most of it is in Russian, with some in English.
 
 For updates, join my Telegram channel: https://t.me/devirium
 
