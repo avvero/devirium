@@ -13,8 +13,9 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Душевная Россия: муж и жена](2024-07/Душевная-Россия:-муж-и-жена.md)
 - [Новая библия комедии](2024-07/Новая-библия-комедии.md)
-- [Ядерный взрыв переживут три вещи](draft/Ядерный-взрыв-переживут-три-вещи.md)
+- [Ядерный взрыв переживут три вещи](2024-07/Ядерный-взрыв-переживут-три-вещи.md)
 - [Identity operator proposal](2024-07/Identity-operator-proposal.md)
 - [К длинному тексту - договор с читателем](2024-07/К-длинному-тексту---договор-с-читателем.md)
 - [Из чего состоит статья](2024-07/Из-чего-состоит-статья.md)
@@ -32,7 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Опора автора при написании текста](2024-07/Опора-автора-при-написании-текста.md)
 - [FOMO](2024-07/FOMO.md)
 - [Интерес начинается там где что-то происходит](2024-07/Интерес-начинается-там-где-что-то-происходит.md)
-- [History of Philosophy - Summarized & Visualized](2024-07/History-of-Philosophy---Summarized-&-Visualized.md)
 
 ## Top tags
 - #humor
