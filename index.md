@@ -11,6 +11,9 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [All PRs should be sqash-merged, no exceptions](2022/2022-11/All-PRs-should-be-sqash-merged,-no-exceptions.md)
+- [Экстремальное программирование](2022/2022-11/Экстремальное-программирование.md)
+- [Логика А.М.Руденко](2022/2022-08/Логика-А.М.Руденко.md)
 - [Data partitioning](2022/2022-08/Data-partitioning.md)
 - [Душевная Россия: муж и жена](2024-07/Душевная-Россия:-муж-и-жена.md)
 - [Новая библия комедии](2024-07/Новая-библия-комедии.md)
@@ -28,9 +31,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Gradle declarative](2024-07/Gradle-declarative.md)
 - [Написание статьи: подход фермера](2024-07/Написание-статьи:-подход-фермера.md)
 - [Amplicode](2024-07/Amplicode.md)
-- [Опора автора при написании текста](2024-07/Опора-автора-при-написании-текста.md)
-- [FOMO](2024-07/FOMO.md)
-- [Интерес начинается там где что-то происходит](2024-07/Интерес-начинается-там-где-что-то-происходит.md)
 
 ## Top tags
 - #humor
