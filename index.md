@@ -13,6 +13,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Data partitioning](2022/2022-08/Data-partitioning.md)
 - [Можете отказаться от ведения документации и хранить информацию в своей голове](draft/Можете-отказаться-от-ведения-документации-и-хранить-информацию-в-своей-голове.md)
 - [Душевная Россия: муж и жена](2024-07/Душевная-Россия:-муж-и-жена.md)
 - [Новая библия комедии](2024-07/Новая-библия-комедии.md)
@@ -32,7 +33,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Amplicode](2024-07/Amplicode.md)
 - [Опора автора при написании текста](2024-07/Опора-автора-при-написании-текста.md)
 - [FOMO](2024-07/FOMO.md)
-- [Интерес начинается там где что-то происходит](2024-07/Интерес-начинается-там-где-что-то-происходит.md)
 
 ## Top tags
 - #humor

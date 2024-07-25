@@ -26,8 +26,8 @@ func main() {
 		os.Exit(1)
 	}
 
-	// Find all links in the format [[filename]]
-	linkPattern := regexp.MustCompile(`\[\[(.+?)\]\]`)
+	// Find all image links
+	linkPattern := regexp.MustCompile(`!\[.*?\]\((.+?\.(png|jpg|jpeg))\)`)
 	matches := linkPattern.FindAllStringSubmatch(string(content), -1)
 
 	if len(matches) == 0 {
@@ -56,15 +56,15 @@ func main() {
 
 	// Check for the presence of all links and collect results
 	for _, match := range matches {
-		noteName := match[1] + ".md"
-		lowerNoteName := strings.ToLower(noteName)
-		if path, exists := files[lowerNoteName]; exists {
+		imageName := match[1]
+		lowerImageName := strings.ToLower(imageName)
+		if path, exists := files[lowerImageName]; exists {
 			actualFileName := filepath.Base(path)
-			if actualFileName != noteName {
-				fmt.Printf("Case mismatch for link [[%s]]: expected %s but found %s\n", match[1], noteName, actualFileName)
+			if actualFileName != imageName {
+				fmt.Printf("Case mismatch for link ![Alt text](%s): expected %s but found %s\n", match[1], imageName, actualFileName)
 				os.Exit(1)
 			}
-			formattedPath := strings.ReplaceAll(strings.TrimSuffix(path, filepath.Ext(path)), " ", "-")
+			formattedPath := strings.ReplaceAll(path, " ", "-")
 			results[match[1]] = formattedPath
 		} else {
 			log.Fatalf("[[%s]] - File not found\n", match[1])

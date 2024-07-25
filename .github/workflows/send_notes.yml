@@ -24,6 +24,11 @@ jobs:
           echo "Compiling script/find-links.go"
           go build -o script/find-links script/find-links.go
 
+      - name: Compile find-images
+        run: |
+          echo "Compiling script/find-images.go"
+          go build -o script/find-images script/find-images.go
+
       - name: Check links in changed files
         id: check-links
         run: |
@@ -43,26 +48,10 @@ jobs:
             if [[ -n "$file" ]]; then
               echo "Checking links in file: $file"
               ./script/find-links "$file" || { echo "Error processing file $file with script/find-links.go"; exit 1; }
+              ./script/find-images "$file" || { echo "Error processing file $file with script/find-images.go"; exit 1; }
               echo ""
             fi
           done < changed_files.txt
-
-      - name: Send notification on failure
-        if: failure()
-        env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          #!/bin/bash
-
-          send_telegram_message() {
-            local message=$1
-            curl -s -X POST "https://api.telegram.org/$TELEGRAM_TOKEN/sendMessage" \
-              -H "Content-Type: application/json" \
-              -d "{\"chat_id\":\"$TELEGRAM_CHAT_ID\", \"text\":\"$message\"}" > /dev/null
-          }
-
-          send_telegram_message "Error: Link checking failed in one of the files."
 
       - name: List and send changed files
         if: success()
@@ -86,9 +75,10 @@ jobs:
               echo "Processing file: $file"
               content=$(git show "HEAD:$file" | jq -sR .)
               links=$(./script/find-links "$file")
+              images=$(./script/find-images "$file")
 
               filename=$(basename "$file")
-              json_data="{\"file\":\"$filename\",\"path\":\"$file\",\"content\":$content, \"links\": $links}"
+              json_data="{\"file\":\"$filename\",\"path\":\"$file\",\"content\":$content, \"links\": $links, \"images\": $images}"
 
               echo "JSON Data: $json_data"
               response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
