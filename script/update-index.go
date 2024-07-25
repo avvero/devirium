@@ -15,6 +15,8 @@ type fileInfo struct {
 	info os.FileInfo
 }
 
+var ignoreTags = []string{"#draft", "#ignore", "#cv", "#aboutme"}
+
 func main() {
 	root := "."
 	var files []fileInfo
@@ -24,7 +26,7 @@ func main() {
 			return err
 		}
 		if !info.IsDir() && filepath.Ext(info.Name()) == ".md" && info.Name() != "index.md" {
-			if !containsDraftTag(path) {
+			if !containsIgnoredTags(path) {
 				files = append(files, fileInfo{path, info})
 			}
 		}
@@ -79,7 +81,7 @@ func main() {
 	fmt.Println("index.md updated successfully")
 }
 
-func containsDraftTag(filePath string) bool {
+func containsIgnoredTags(filePath string) bool {
 	file, err := os.Open(filePath)
 	if err != nil {
 		log.Printf("Error opening file %s: %v\n", filePath, err)
@@ -89,8 +91,10 @@ func containsDraftTag(filePath string) bool {
 
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
-		if strings.Contains(scanner.Text(), "#draft") {
-			return true
+		for _, tag := range ignoreTags {
+			if strings.Contains(scanner.Text(), tag) {
+				return true
+			}
 		}
 	}
 
