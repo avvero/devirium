@@ -11,6 +11,8 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [If emoting is the only participation](2024-07/If-emoting-is-the-only-participation.md)
+- [cv](draft/cv.md)
 - [All PRs should be sqash-merged, no exceptions](2022/2022-11/All-PRs-should-be-sqash-merged,-no-exceptions.md)
 - [Экстремальное программирование](2022/2022-11/Экстремальное-программирование.md)
 - [Логика А.М.Руденко](2022/2022-08/Логика-А.М.Руденко.md)
@@ -29,8 +31,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Тональность текста](2024-07/Тональность-текста.md)
 - [Teach Yourself Computer Science](2024-07/Teach-Yourself-Computer-Science.md)
 - [Gradle declarative](2024-07/Gradle-declarative.md)
-- [Написание статьи: подход фермера](2024-07/Написание-статьи:-подход-фермера.md)
-- [Amplicode](2024-07/Amplicode.md)
 
 ## Top tags
 - #humor
