@@ -82,3 +82,5 @@ https://habr.com/ru/users/Avvero/publications/articles
 
 English - Professional working proficiency
 Russian - Native or bilingual proficiency
+
+#cv

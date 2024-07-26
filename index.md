@@ -13,7 +13,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 ## Last notes
 - [25 июля сербы заняли Жепу](2024-07/25-июля-сербы-заняли-Жепу.md)
 - [If emoting is the only participation](2024-07/If-emoting-is-the-only-participation.md)
-- [cv](draft/cv.md)
 - [All PRs should be sqash-merged, no exceptions](2022/2022-11/All-PRs-should-be-sqash-merged,-no-exceptions.md)
 - [Экстремальное программирование](2022/2022-11/Экстремальное-программирование.md)
 - [Логика А.М.Руденко](2022/2022-08/Логика-А.М.Руденко.md)
@@ -31,6 +30,7 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Меня спросили, зачем мне знать про тональности текста](2024-07/Меня-спросили,-зачем-мне-знать-про-тональности-текста.md)
 - [Тональность текста](2024-07/Тональность-текста.md)
 - [Teach Yourself Computer Science](2024-07/Teach-Yourself-Computer-Science.md)
+- [Gradle declarative](2024-07/Gradle-declarative.md)
 
 ## Top tags
 - #humor
