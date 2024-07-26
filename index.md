@@ -2,15 +2,15 @@
 title: Devirium
 ---
 
-Welcome to my [digital garden](https://maggieappleton.com/garden-history) of notes. In this collection, you’ll find short atomic theses about software engineering, code snippets that describe design patterns or solve problems I’ve faced, and sometimes just headers linking to sources as reminders to revisit topics. You’ll also find wisdom from the Hellenes (a fancy way to say “ancient Greeks”), silly jokes from me, and other interesting things I’ve encountered. Most of it is in Russian, with some in English.
+Добро пожаловать в мой [цифровой сад](https://maggieappleton.com/garden-history) заметок. Меня зовут Антон, я идентифицирую себя как Senior Software Developer. В этой коллекции вы найдете мои записи о разработке программного обеспечения, фрагменты кода, описывающие шаблоны проектирования или решающие проблемы, с которыми я сталкивался, а иногда просто заголовки с ссылками на источники как напоминание о необходимости вернуться к теме. Также здесь есть мудрость эллинов (вычурный способ сказать "древние греки"), мои шутки и другие интересные вещи, с которыми я столкнулся. Большая часть написана на русском языке, часть на английском.
 
-For updates, join my Telegram channel: https://t.me/devirium
+Для обновлений присоединяйтесь к моему каналу в Telegram: https://t.me/devirium
 
 [[How I Built Devirium]]
 
-P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
+P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
-## Last notes
+## Последние заметки
 - [Критикуешь - предлагай](2024-07/Критикуешь---предлагай.md)
 - [Сопровождать статью резюме](2024-07/Сопровождать-статью-резюме.md)
 - [Не кормите читателя с ложечки, а дайте ему самому выбрать интересное](2024-07/Не-кормите-читателя-с-ложечки,-а-дайте-ему-самому-выбрать-интересное.md)
@@ -32,7 +32,7 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [One pile technic](2024/2024-01/One-pile-technic.md)
 - [Меня спросили, зачем мне знать про тональности текста](2024-07/Меня-спросили,-зачем-мне-знать-про-тональности-текста.md)
 
-## Top tags
+## Популярные тэги
 - #humor
 - #logic
 - #philosophy
