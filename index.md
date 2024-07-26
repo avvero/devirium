@@ -11,6 +11,7 @@ For updates, join my Telegram channel: https://t.me/devirium
 P.S.: If you see a note marked with the #draft tag, it means that it's not fully ready to present the idea or it contains a dirty joke that I haven't managed to hide yet.
 
 ## Last notes
+- [Не кормите читателя с ложечки, а дайте ему самому выбрать интересное](2024-07/Не-кормите-читателя-с-ложечки,-а-дайте-ему-самому-выбрать-интересное.md)
 - [25 июля сербы заняли Жепу](2024-07/25-июля-сербы-заняли-Жепу.md)
 - [If emoting is the only participation](2024-07/If-emoting-is-the-only-participation.md)
 - [All PRs should be sqash-merged, no exceptions](2022/2022-11/All-PRs-should-be-sqash-merged,-no-exceptions.md)
@@ -30,7 +31,6 @@ P.S.: If you see a note marked with the #draft tag, it means that it's not fully
 - [Меня спросили, зачем мне знать про тональности текста](2024-07/Меня-спросили,-зачем-мне-знать-про-тональности-текста.md)
 - [Тональность текста](2024-07/Тональность-текста.md)
 - [Teach Yourself Computer Science](2024-07/Teach-Yourself-Computer-Science.md)
-- [Gradle declarative](2024-07/Gradle-declarative.md)
 
 ## Top tags
 - #humor
