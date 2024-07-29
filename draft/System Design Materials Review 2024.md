@@ -5,8 +5,14 @@
 - Книга [[Designing Data Intensive Applications]]
 - Книга [[System Design Interview: An Insider’s Guide]]
 - [Обзор книги "Software Architecture for Busy Developers"](https://tellmeabout.tech/review-software-architecture-for-busy-developers-5b5abda1121e) 
-- Что-нибудь про кеш
 - Книга "Enterprise Integration Patterns"
+- Книга "Learning DDD"
+- The Twelve-Factor App
+- Книга "Software Architecture: The Hard parts"
+- Книга "Building Secure and Reliable Systems"
+
+Отдельные элементы:
+- Кеш и его типы
 - System Context Diagram из https://c4model.com/ - Этот вид диаграмм отлично показывает границы нашей системы и точки взаимодействия.
 - UDP, TCP/IP
 - DNS
