@@ -7,4 +7,6 @@
 - https://github.com/spring-projects/spring-boot/issues/37129
 - https://github.com/spring-projects/spring-framework/issues/26266
 
-#spring #issue #context #cache
+А вот тут нашел - "Устранение утечек в spring tests".
+
+#spring #issue #context #caching

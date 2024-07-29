@@ -12,13 +12,13 @@
 - Книга "Building Secure and Reliable Systems"
 
 Отдельные элементы:
-- Кеш и его типы
-- System Context Diagram из https://c4model.com/ - Этот вид диаграмм отлично показывает границы нашей системы и точки взаимодействия.
+- [[Caching Design Pattern]]
+- https://restfulapi.net/rest-put-vs-post
+- HTTP/HTTPS разных версий: 1, 2, 3
 - UDP, TCP/IP
 - DNS
-- HTTP/HTTPS разных версий: 1, 2, 3
-- rest post vs put, idempotancy
 - Webscokets
+- System Context Diagram из https://c4model.com/ - Этот вид диаграмм отлично показывает границы нашей системы и точки взаимодействия.
 + Реверс прокси
 
 Разное:
