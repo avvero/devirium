@@ -1,0 +1,1 @@
+Из [[Designing Data Intensive Applications]].
