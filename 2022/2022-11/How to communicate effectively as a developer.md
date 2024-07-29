@@ -1,6 +1,6 @@
 Из [[Разбор полетов]].
 
-![](team-chat-example.png)
+![](team-chat-example.jpg)
 
 Low-resolution (Low resolution) writing - very little context, too much reliance on pronouns and unclear references.
 

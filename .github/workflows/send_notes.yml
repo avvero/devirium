@@ -1,9 +1,15 @@
 name: Send Notes on Commit
 
+# on:
+#   push:
+#     paths:
+#       - '**/*.md'
+
 on:
-  push:
-    paths:
-      - '**/*.md'
+  workflow_run:
+    workflows: ["Deploy Quartz site to GitHub Pages"]
+    types:
+      - completed
 
 jobs:
   send-notes:
