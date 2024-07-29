@@ -17,7 +17,11 @@
 - UDP, TCP/IP
 - DNS
 - HTTP/HTTPS разных версий: 1, 2, 3
+- rest post vs put, idempotancy
 - Webscokets
 + Реверс прокси
+
+Разное:
+- Топ 100 вопросов
 
 #design #draft
