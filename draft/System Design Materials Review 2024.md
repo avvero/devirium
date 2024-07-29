@@ -6,5 +6,12 @@
 - Книга [[System Design Interview: An Insider’s Guide]]
 - [Обзор книги "Software Architecture for Busy Developers"](https://tellmeabout.tech/review-software-architecture-for-busy-developers-5b5abda1121e) 
 - Что-нибудь про кеш
+- Книга "Enterprise Integration Patterns"
+- System Context Diagram из https://c4model.com/ - Этот вид диаграмм отлично показывает границы нашей системы и точки взаимодействия.
+- UDP, TCP/IP
+- DNS
+- HTTP/HTTPS разных версий: 1, 2, 3
+- Webscokets
+- Реверс прокси
 
 #design #draft
