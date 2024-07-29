@@ -13,7 +13,7 @@
 
 Отдельные элементы:
 - [[Caching Design Pattern]]
-- https://restfulapi.net/rest-put-vs-post
+- PUT vs POST and idempotence: https://restfulapi.net/rest-put-vs-post
 - HTTP/HTTPS разных версий: 1, 2, 3
 - UDP, TCP/IP
 - DNS
