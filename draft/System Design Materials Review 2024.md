@@ -4,5 +4,6 @@
 - Курс [[Distributed Systems]]
 - Книга [[Designing Data Intensive Applications]]
 - Книга [[System Design Interview: An Insider’s Guide]]
+- [Обзор книги "Software Architecture for Busy Developers"](https://tellmeabout.tech/review-software-architecture-for-busy-developers-5b5abda1121e) 
 
 #design #draft
