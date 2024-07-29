@@ -57,7 +57,7 @@ func main() {
 
 	for scanner.Scan() {
 		line := scanner.Text()
-		if strings.TrimSpace(line) == "## Last notes" {
+		if strings.TrimSpace(line) == "## Последние заметки" {
 			inSection = true
 			newContent.WriteString(line + "\n")
 			newContent.WriteString(generateNewSection(files))

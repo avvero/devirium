@@ -84,7 +84,7 @@ func main() {
 
 	for scanner.Scan() {
 		line := scanner.Text()
-		if strings.TrimSpace(line) == "## Top tags" {
+		if strings.TrimSpace(line) == "## Популярные тэги" {
 			inSection = true
 			newContent.WriteString(line + "\n")
 			newContent.WriteString(generatePopularTagsSection(topTags))
