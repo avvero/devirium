@@ -1,8 +1,11 @@
-Из [[Разбор полетов]]
+Из [[Разбор полетов]].
+
+![](team-chat-example.png)
 
 https://www.karlsutt.com/articles/communicating-effectively-as-a-developer
 
->Больше эмпатии
->Low-resolution (Low resolution) writing - сокращенное письмо без деталей
+Low-resolution (Low resolution) writing - very little context, too much reliance on pronouns and unclear references.
 
-#development #communication #empathy #practice
+>Communicating effectively as an engineer means empathically increasing the resolution of your writing.
+
+#development #communication
