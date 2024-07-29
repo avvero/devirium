@@ -11,12 +11,12 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
+- [How to communicate effectively as a developer](2022/2022-11/How-to-communicate-effectively-as-a-developer.md)
 - [Architecture Tradeoff Analysis Method](2024-07/Architecture-Tradeoff-Analysis-Method.md)
 - [System Design Interview: An Insider’s Guide](2023/2023-11/System-Design-Interview:-An-Insider’s-Guide.md)
 - [Distributed Systems](2024-07/Distributed-Systems.md)
 - [Designing Data Intensive Applications](2022/2022-07/Designing-Data-Intensive-Applications.md)
 - [Martin Kleppmann](2024-07/Martin-Kleppmann.md)
-- [How to communicate effectively as a developer](2022/2022-11/How-to-communicate-effectively-as-a-developer.md)
 - [Scalability](2024-07/Scalability.md)
 - [Reliability](2024-07/Reliability.md)
 - [Prefer tolerating faults over preventing faults](2024-07/Prefer-tolerating-faults-over-preventing-faults.md)
