@@ -11,6 +11,9 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
+- [Scalability parameters](2024-07/Scalability-parameters.md)
+- [Decouple the places where people make the most mistakes from the places where they can cause failures](2024-07/Decouple-the-places-where-people-make-the-most-mistakes-from-the-places-where-they-can-cause-failures.md)
+- [Sacrifice reliability in order to reduce development cost](2024-07/Sacrifice-reliability-in-order-to-reduce-development-cost.md)
 - [Знак призыва](2024-07/Знак-призыва.md)
 - [Shared-nothing architecture](2024-07/Shared-nothing-architecture.md)
 - [How dns works](2024-07/How-dns-works.md)
@@ -28,9 +31,6 @@ P.S.: Если вы видите заметку с тегом #draft, это з�
 - [Scalability](2024-07/Scalability.md)
 - [Reliability](2024-07/Reliability.md)
 - [Prefer tolerating faults over preventing faults](2024-07/Prefer-tolerating-faults-over-preventing-faults.md)
-- [Критикуешь - предлагай](2024-07/Критикуешь---предлагай.md)
-- [Сопровождать статью резюме](2024-07/Сопровождать-статью-резюме.md)
-- [Не кормите читателя с ложечки, а дайте ему самому выбрать интересное](2024-07/Не-кормите-читателя-с-ложечки,-а-дайте-ему-самому-выбрать-интересное.md)
 
 
 ## Популярные тэги
