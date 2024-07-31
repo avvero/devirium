@@ -11,6 +11,7 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
+- [Сениор это жрец](2022/2022-07/Сениор-это-жрец.md)
 - [Scalability parameters](2024-07/Scalability-parameters.md)
 - [Decouple the places where people make the most mistakes from the places where they can cause failures](2024-07/Decouple-the-places-where-people-make-the-most-mistakes-from-the-places-where-they-can-cause-failures.md)
 - [Sacrifice reliability in order to reduce development cost](2024-07/Sacrifice-reliability-in-order-to-reduce-development-cost.md)
@@ -30,7 +31,6 @@ P.S.: Если вы видите заметку с тегом #draft, это з�
 - [Martin Kleppmann](2024-07/Martin-Kleppmann.md)
 - [Scalability](2024-07/Scalability.md)
 - [Reliability](2024-07/Reliability.md)
-- [Prefer tolerating faults over preventing faults](2024-07/Prefer-tolerating-faults-over-preventing-faults.md)
 
 
 ## Популярные тэги
