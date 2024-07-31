@@ -11,6 +11,8 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
+- [Архитектура на стыке с философией](draft/Архитектура-на-стыке-с-философией.md)
+- [Residuality Theory](2024-07/Residuality-Theory.md)
 - [Сениор это жрец](2022/2022-07/Сениор-это-жрец.md)
 - [Scalability parameters](2024-07/Scalability-parameters.md)
 - [Decouple the places where people make the most mistakes from the places where they can cause failures](2024-07/Decouple-the-places-where-people-make-the-most-mistakes-from-the-places-where-they-can-cause-failures.md)
@@ -29,8 +31,6 @@ P.S.: Если вы видите заметку с тегом #draft, это з�
 - [Distributed Systems](2024-07/Distributed-Systems.md)
 - [Designing Data Intensive Applications](2022/2022-07/Designing-Data-Intensive-Applications.md)
 - [Martin Kleppmann](2024-07/Martin-Kleppmann.md)
-- [Scalability](2024-07/Scalability.md)
-- [Reliability](2024-07/Reliability.md)
 
 
 ## Популярные тэги
