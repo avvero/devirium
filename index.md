@@ -11,7 +11,7 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
-- [Dota 2 marketers have slimed their way into my coding lair](draft/Dota-2-marketers-have-slimed-their-way-into-my-coding-lair.md)
+- [Dota 2 marketers have slithered their way into my coding lair](2024-08/Dota-2-marketers-have-slithered-their-way-into-my-coding-lair.md)
 - [Goth](2024-08/Goth.md)
 - [Чем смешнее вы хотите быть](2024-08/Чем-смешнее-вы-хотите-быть.md)
 - [Европа сможет экспортировать юмор](2024-08/Европа-сможет-экспортировать-юмор.md)
