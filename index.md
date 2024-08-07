@@ -11,6 +11,8 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
+- [Искусство спора](2024-08/Искусство-спора.md)
+- [Стендап в основном строится на том](2024-08/Стендап-в-основном-строится-на-том.md)
 - [Token Bucket Algorithm](2024-08/Token-Bucket-Algorithm.md)
 - [С каждым днем мы все дальше от Бога](2024-08/С-каждым-днем-мы-все-дальше-от-Бога.md)
 - [Dota 2 marketers have slithered their way into my coding lair](2024-08/Dota-2-marketers-have-slithered-their-way-into-my-coding-lair.md)
@@ -29,8 +31,6 @@ P.S.: Если вы видите заметку с тегом #draft, это з�
 - [Decouple the places where people make the most mistakes from the places where they can cause failures](2024/2024-07/Decouple-the-places-where-people-make-the-most-mistakes-from-the-places-where-they-can-cause-failures.md)
 - [Sacrifice reliability in order to reduce development cost](2024/2024-07/Sacrifice-reliability-in-order-to-reduce-development-cost.md)
 - [Знак призыва](2024/2024-07/Знак-призыва.md)
-- [Shared-nothing architecture](2024/2024-07/Shared-nothing-architecture.md)
-- [How dns works](2024/2024-07/How-dns-works.md)
 
 
 ## Популярные тэги
