@@ -1,8 +1,8 @@
 name: Daily Job (Stoicism note)
 
-on:
-  schedule:
-    - cron: "0 2 * * *"
+# on:
+#   schedule:
+#     - cron: "0 2 * * *"
 
 jobs:
   send-notes:
