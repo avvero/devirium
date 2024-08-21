@@ -12,18 +12,49 @@
 
 ## Сценарий 
 
-Давайте представим, что перед нами сервис, который обрабатывает запрос на регистрацию клиента и отправляет событие о завершении такой регистрации в кафку. 
-
-Для начала предлагаю рассмотреть пример реализации, который в моем понимании, является антипатерном и далее рассмотрим исправленную версию метода.
+Давайте представим, что перед нами сервис, который обрабатывает запрос на регистрацию клиента и отправляет событие о завершении такой регистрации в Kafka. Я покажу пример реализации, который считаю антипаттерном, и предложу исправленный вариант.
 
 ### Вариант 1: Methodcentipede
 
-Код
+В коде Java ниже вы можете увидеть класс RegistrationService, который обрабатывает запрос и отправляет событие.
+```java
+public class RegistrationService {
+
+    private final ClientRepository clientRepository;
+    private final KafkaTemplate<Object, Object> kafkaTemplate;
+    private final ObjectMapper objectMapper;
+
+    public void registerClient(RegistrationController.RegistrationRequest request) {
+        var client = clientRepository.save(Client.builder()
+                .email(request.email())
+                .firstName(request.firstName())
+                .lastName(request.lastName())
+                .build());
+        sendEvent(client);
+    }
+
+    @SneakyThrows
+    private void sendEvent(Client client) {
+        var event = RegistrationEvent.builder()
+                .clientId(client.getId())
+                .email(client.getEmail())
+                .firstName(client.getFirstName())
+                .lastName(client.getLastName())
+                .build();
+        Message message = MessageBuilder
+                .withPayload(objectMapper.writeValueAsString(event))
+                .setHeader(KafkaHeaders.TOPIC, "topic-registration")
+                .setHeader(KafkaHeaders.KEY, client.getEmail())
+                .build();
+        kafkaTemplate.send(message).get();
+    }
+
+    @Builder
+    public record RegistrationEvent(int clientId, String email, String firstName, String lastName) {}
+}
 ```
 
-```
-
-Схема представлена ниже
+Структуру кода упрощенно можно представить в таком виде
 
 ```plantuml
 @startuml
@@ -35,25 +66,48 @@ skinparam rectangular true
 @enduml
 ```
 
-Первое наблюдение такое: Из методов формируется неразрывная цепочка по которой перетекает масса данных. Код разделен на методы таким образом, что весь процесс обработки просто вытянуть в некий пайплайн данных и нарезан на методы. Цепочка не разрывна, методы в середине цепочке ответственны не только за логику, непосредственно описанную в теле метода, но и за всю логику вызываемого ими методов. 
+Здесь видно, что методы образуют неразрывную цепочку по которой перетекает масса данных как по длинной узкой кишке. Методы в середине цепочке ответственны не только за логику, непосредственно описанную в теле метода, но и за всю логику вызываемого ими методов и его контракт (например необходимость в обработке конкретных ошибок). Все методы следующие перед вызываемым наследуют всю сложность, например если `kafkaTemplate.send` имеет сайд-эффект в виде отправке события, то и вызывающий его `sendEvent` уже перестает быть чистой функцией и имеет уже минимум тот же сайд-эффект. Часть контракта метода `sendEvent` являются как ошибся связанные непосредственно с отправкой сообщений, так и связанные с сериализацией.
 
-Все методы следующие перед вызываемым наследуют всю сложность, например если kafkaTemplate.send является не чистой функцией (есть сайд эффект), то то и вызывающий его sendEvent чисто функцией не является и наследует сайд эффект.
+Хотя метод registerClient выглядит компактно, вызов метода sendEvent может затруднить понимание, поскольку он обрабатывает как создание события, так и его отправку. При дальнейшем расширении функционала это может стать проблемой. Unit тестирование методов при данном подходе будет представлять вызов для разработчика - нет возможности проверить логику мапинга в объект события изолированно от отправки - придется мокировать.
 
-Логика будто бы разделена, но за счет того, что это все сцеплено вместе
-
-Код метода обработки описанного запроса представлен ниже.
-
-Методы атрофируются с точки зрения ответственности, границы которой в общейй цепочке размыты. При этом методы сохраняют собственные названия. Но вляются ничем иным, как частью пайплайна.
-
-Тестирование затруднено тем, что мы вынуждены тестировать иили всю цепочку следующих методов, учитывая особенности (сайд эффекты и прочую недетрминипованность)
-
-Цель стремиться к методам с четкой ответственность, к чистым функциям.
-
-### Вариант реализации: Чистая функция
+### Вариант 2: Чистая функция
 
 Код
-```
+```java
+public class RegistrationService2 {
 
+    private final ClientRepository clientRepository;
+    private final KafkaTemplate<Object, Object> kafkaTemplate;
+    private final ObjectMapper objectMapper;
+
+    @SneakyThrows
+    public void registerClient(RegistrationController.RegistrationRequest request) {
+        var client = clientRepository.save(Client.builder()
+                .email(request.email())
+                .firstName(request.firstName())
+                .lastName(request.lastName())
+                .build());
+        Message<String> message = mapToEventMessage(client);
+        kafkaTemplate.send(message).get();
+    }
+
+    private Message<String> mapToEventMessage(Client client) throws JsonProcessingException {
+        var event = RegistrationEvent.builder()
+                .clientId(client.getId())
+                .email(client.getEmail())
+                .firstName(client.getFirstName())
+                .lastName(client.getLastName())
+                .build();
+        return MessageBuilder
+                .withPayload(objectMapper.writeValueAsString(event))
+                .setHeader(KafkaHeaders.TOPIC, "topic-registration")
+                .setHeader(KafkaHeaders.KEY, event.email)
+                .build();
+    }
+
+    @Builder
+    public record RegistrationEvent(int clientId, String email, String firstName, String lastName) {}
+}
 ```
 
 Схема представлена ниже
@@ -72,16 +126,26 @@ component kafkaTemplate.send
 @enduml
 ```
 
+Здесь видно, что метода `sendEvent` вовсе нет и за отправку отвечает `kafkaTemplate.send`. Весь процесс построения сообщения для Kafka вынесен в отдельный метод `mapToEventMessage`. Метод `mapToEventMessage` не имеет сайд эффектов, граница его ответственности четко очерчена. Исключения, связанные с сериализацией и отправкой сообщений, являются часть контракта отдельных методов и могут быть индивидуально обработаны. 
 
-
-Когда функция детерминированная и не имеет побочных эффектов, мы называем её "чистой" функцией. Чистые функции:
+Метод `mapToEventMessage` является чистой функцией. Когда функция детерминированная и не имеет побочных эффектов, мы называем её "чистой" функцией. Чистые функции:
 - проще читать,
 - проще отлаживать,
 - проще тестировать,
 - не зависят от порядка, в котором они вызываются,
-- просто запустить параллельно (одновременно).
+- просто запустить параллельно.
 
-Чистые функции независимы от времени. Недетерминизм и побочные эффекты добавляют понятие времени. Если функция зависит от чего-то, что может случиться, а может не случиться и меняет что-то за пределами своих границ, то она неожиданно становится зависимой от времени.
+## Как прийти к такому варианту
+
+Основная рекомендация для решения подобных проблем это pile technic когда мы собираем весь код в кучу и только потом делаем а не делим сразу по ходу мысли
+
+Не пилить на методы до того как код написан 
+
+## Резюме
+
+Второй вариант лучше соответствует принципам и паттернам проектирования, таким как SRP, SoC, и инкапсуляция. Это делает код более модульным, гибким и удобным для расширения и поддержки, что особенно важно в долгосрочных проектах.
+
+Разделение ответственности и снижение
 
 ===
 
