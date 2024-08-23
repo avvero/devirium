@@ -26,4 +26,8 @@
 Разное:
 - Топ 100 вопросов
 
+Многопоточка:
+- Atomic + ReentrantReadWriteLock
+- transactional outbox
+
 #design #draft
