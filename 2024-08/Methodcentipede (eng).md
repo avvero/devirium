@@ -1,14 +1,14 @@
 ![alt text](MethodcentipedeWithDuck2s.png)
 
-Когда-то в детстве я лежал на кровати и долго разглядывал узоры на старом советском ковре, видя в них животных и фантастические фигуры. Теперь я чаще смотрю на код, но в моем сознании по-прежнему рождаются похожие образы. Как и на ковре, эти образы складываются в повторяющиеся паттерны. Они могут быть как приятными, так и отталкивающими. Сегодня я хочу рассказать вам о таком неприятном паттерне, который встречается в программировании.
+When I was a child, I used to lie on the bed and gaze for a long time at the patterns on an old Soviet rug, seeing animals and fantastical figures within them. Now, I more often look at code, but similar images still emerge in my mind. Like on the rug, these images form repetitive patterns. They can be either pleasing or repulsive. Today, I want to tell you about one such unpleasant pattern that can be found in programming.
 
-## Сценарий 
+## Scenario
 
-Представьте себе сервис, который обрабатывает запрос на регистрацию клиента и отправляет событие об этом в систему. В статье я покажу пример реализации, который считаю антипаттерном, и предложу исправленный вариант.
+Imagine a service that processes a client registration request and sends an event about it to the system. In this article, I will show an implementation example that I consider an antipattern and suggest an improved version.
 
-### Вариант 1: Methodcentipede
+### Option 1: Methodcentipede
 
-В коде Java ниже представлен код класса RegistrationService, который обрабатывает запрос и отправляет событие.
+The Java code below shows the code of the `RegistrationService` class, which processes the request and sends the event.
 
 ```java
 public class RegistrationService {
@@ -47,23 +47,23 @@ public class RegistrationService {
 }
 ```
 
-Структуру кода упрощенно можно представить в таком виде:
+The structure of the code can be simplified as follows:
 
 ```plantuml
 @startuml
 skinparam rectangular true
 
-[registerClient] --> [sendEvent]: Client object
-[sendEvent] --> [kafkaTemplate.send]: Message object
+[registerClient] --> [sendEvent]
+[sendEvent] --> [kafkaTemplate.send]
 
 @enduml
 ```
 
-Здесь видно, что методы образуют неразрывную цепочку, по которой перетекает поток данных, как по длинной узкой кишке. Методы в середине этой цепочки ответственны не только за логику, непосредственно описанную в их теле, но и за логику вызываемых ими методов и их контракты (например, необходимость обработки определённых ошибок). Все методы, предшествующие вызываемому, наследуют всю его сложность. Например, если `kafkaTemplate.send` имеет сайд-эффект в виде отправки события, то и вызывающий его `sendEvent` приобретает тот же сайд-эффект. Метод `sendEvent` также несёт ответственность за сериализацию, включая обработку её ошибок. Тестирование отдельных частей кода усложняется тем, что нет возможности проверить каждую часть изолированно без использования моков.
+Here, you can see that the methods form an unbroken chain through which the data flow, like through a long, narrow intestine. The methods in the middle of this chain are responsible not only for the logic directly described in their body but also for the logic of the methods they call and their contracts (e.g., the need to handle specific errors). All methods preceding the invoked one inherit its entire complexity. For example, if `kafkaTemplate.send` has a side effect of sending an event, then the calling `sendEvent` method also acquires the same side effect. The `sendEvent` method also becomes responsible for serialization, including handling its errors. Testing individual parts of the code becomes more challenging because there is no way to test each part in isolation without using mocks.
 
-### Вариант 2: Исправленный вариант
+### Option 2: Improved Version
 
-Код:
+Code:
 
 ```java
 public class RegistrationService {
@@ -102,7 +102,7 @@ public class RegistrationService {
 }
 ```
 
-Схема представлена ниже:
+The diagram is shown below:
 
 ```plantuml
 @startuml
@@ -118,45 +118,45 @@ component kafkaTemplate.send
 @enduml
 ```
 
-Здесь видно, что метода `sendEvent` вовсе нет, и за отправку отвечает `kafkaTemplate.send`. Весь процесс построения сообщения для Kafka вынесен в отдельный метод `mapToEventMessage`. Метод `mapToEventMessage` не имеет сайд-эффектов, граница его ответственности четко очерчена. Исключения, связанные с сериализацией и отправкой сообщений, являются частью контракта отдельных методов и могут быть индивидуально обработаны.
+Here, you can see that the `sendEvent` method is completely absent, and `kafkaTemplate.send` is responsible for sending the message. The entire process of constructing the message for Kafka has been moved to a separate `mapToEventMessage` method. The `mapToEventMessage` method has no side effects, and its responsibility boundaries are clearly defined. Exceptions related to serialization and message sending are part of the individual methods' contracts and can be handled separately.
 
-Метод `mapToEventMessage` является чистой функцией. Когда функция детерминированная и не имеет побочных эффектов, мы называем её "чистой" функцией. Чистые функции:
-- проще читать,
-- проще отлаживать,
-- проще тестировать,
-- не зависят от порядка, в котором они вызываются,
-- просто запустить параллельно.
+The `mapToEventMessage` method is a pure function. When a function is deterministic and has no side effects, we call it a "pure" function. Pure functions are:
+- easier to read,
+- easier to debug,
+- easier to test,
+- independent of the order in which they are called,
+- simple to run in parallel.
 
-## Рекомендации
+## Recommendations
 
-Я бы предложил следующие техники, которые помогут избежать подобных антипаттернов в коде:
-- Подход Testing Trophy
-- Техника One Pile
+I would suggest the following techniques that can help avoid such antipatterns in the code:
+- Testing Trophy Approach
+- One Pile Technique
 - Test-Driven Development (TDD)
 
-Все эти техники тесно связаны и взаимно дополняют друг друга.
+All these techniques are closely related and complement each other.
 
 ### Testing Trophy
 
-Это подход к покрытию кода тестами, при котором акцент делается на интеграционные тесты, проверяющие контракт сервиса в целом. Unit-тесты используются для отдельных функций, которые сложно или дорого тестировать через интеграционные тесты. Тесты с подобным подходом я описывал в своих статьях: https://habr.com/ru/articles/781812/, https://habr.com/ru/articles/804673/, https://habr.com/ru/articles/797049. 
+This is an approach to test coverage that emphasizes integration tests, which verify the service's contract as a whole. Unit tests are used for individual functions that are difficult or costly to test through integration tests. I have described tests with this approach in my articles: [habr.com/ru/articles/781812](https://habr.com/ru/articles/781812/), [habr.com/ru/articles/804673](https://habr.com/ru/articles/804673/), [habr.com/ru/articles/797049](https://habr.com/ru/articles/797049/).
 
 ### One Pile
 
-Эта техника описана в книге "Tidy First?" Кента Бека. Основная мысль: чтение и понимание кода сложнее, чем его написание. Если код разбит на слишком много мелких частей, может быть полезно сначала объединить его в одно целое, чтобы увидеть общую структуру и логику, а затем снова разделить на более понятные куски.
+This technique is described in Kent Beck's book "Tidy First?" The main idea is that reading and understanding code is harder than writing it. If the code is broken into too many small parts, it may be helpful to first combine it into a whole to see the overall structure and logic, and then break it down again into more understandable pieces.
 
-В контексте данной статьи предлагается не разделять код на методы до тех пор, пока он не будет обеспечивать выполнение требуемого контракта.
+In the context of this article, it is suggested not to break the code into methods until it ensures the fulfillment of the required contract.
 
-### Testing Driven Development
+### Test-Driven Development
 
-Этот подход позволяет разделить усилия на написание кода для реализации контракта и на формирование дизайна кода. Мы не пытаемся сразу сделать хороший дизайн и написать код, соответствующий требованиям, а разделяем эти задачи. Процесс разработки выглядит следующим образом:
-1. Пишем тесты для контракта сервиса, используя подход Testing Trophy.
-2. Пишем код в стиле One Pile, добиваясь того, чтобы он обеспечивал выполнение требуемого контракта. Не обращаем внимания на качество дизайна кода.
-3. Делаем рефакторинг кода. Весь код написан, у нас есть полное представление о реализации и возможных узких местах.
+This approach allows separating the efforts of writing code to implement the contract and designing the code. We don't try to create a good design and write code that meets the requirements simultaneously, but instead, we separate these tasks. The development process looks like this:
+1. Write tests for the service contract using the Testing Trophy approach.
+2. Write code in the One Pile style, ensuring that it fulfills the required contract. Don't worry about code design quality.
+3. Refactor the code. All the code is written, and we have a complete understanding of the implementation and potential bottlenecks.
 
-## Заключение
+## Conclusion
 
-В статье рассмотрен пример антипаттерна, который может привести к сложностям в поддержке и тестировании кода. Подходы, такие как Testing Trophy, One Pile и Test-Driven Development, позволяют структурировать работу таким образом, чтобы код не превращался в непроходимый лабиринт. Инвестируя время в правильную организацию кода, мы закладываем основу для долговременной устойчивости и простоты сопровождения наших программных продуктов.
+The article discusses an example of an antipattern that can lead to difficulties in maintaining and testing code. Approaches like Testing Trophy, One Pile, and Test-Driven Development allow you to structure your work in a way that prevents code from turning into an impenetrable labyrinth. By investing time in the proper organization of code, we lay the foundation for the long-term sustainability and ease of maintenance of our software products.
 
-Спасибо за внимание к статье, и удачи в вашем стремлении к написанию простого кода!
+Thank you for your attention to the article, and good luck in your quest for writing simple code!
 
 #code #design
