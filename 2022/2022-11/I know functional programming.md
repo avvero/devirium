@@ -2,4 +2,4 @@
 
 Когда посреди императивного кода кусок функциональщины без предупреждения и без смысла.
 
-#development #practice #humor #design #dirty
+#code #design #pattern #antipattern #draft

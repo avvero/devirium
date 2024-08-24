@@ -6,5 +6,6 @@
 - [[I know functional programming]]
 - [[Swept under carpet]]
 - [[Logic type tangle]]
+- [[Methodcentipede]]
 
-#development #practice #humor #design #dirty #code
+#code #design #pattern #antipattern #article #draft

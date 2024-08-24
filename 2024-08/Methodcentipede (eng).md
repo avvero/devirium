@@ -4,7 +4,7 @@ When I was a child, I used to lie on the bed and gaze for a long time at the pat
 
 ## Scenario
 
-Imagine a service that processes a client registration request and sends an event about it to the system. In this article, I will show an implementation example that I consider an antipattern and suggest an improved version.
+Imagine a service that processes a client registration request and sends an event about it to the Kafka. In this article, I will show an implementation example that I consider an antipattern and suggest an improved version.
 
 ### Option 1: Methodcentipede
 
@@ -138,7 +138,7 @@ All these techniques are closely related and complement each other.
 
 ### Testing Trophy
 
-This is an approach to test coverage that emphasizes integration tests, which verify the service's contract as a whole. Unit tests are used for individual functions that are difficult or costly to test through integration tests. I have described tests with this approach in my articles: [habr.com/ru/articles/781812](https://habr.com/ru/articles/781812/), [habr.com/ru/articles/804673](https://habr.com/ru/articles/804673/), [habr.com/ru/articles/797049](https://habr.com/ru/articles/797049/).
+This is an approach to test coverage that emphasizes integration tests, which verify the service's contract as a whole. Unit tests are used for individual functions that are difficult or costly to test through integration tests. I have described tests with this approach in my articles: [Ordering Chaos: Arranging HTTP Request Testing in Spring](https://medium.com/@avvero.abernathy/ordering-chaos-arranging-http-request-testing-in-spring-c625520d2418), [Enhancing the Visibility of Integration Tests](https://medium.com/@avvero.abernathy/enhancing-the-visibility-of-http-tests-24ce9493aae3), [Isolation in Testing with Kafka](https://medium.com/@avvero.abernathy/isolation-in-testing-with-kafka-16e00f5d5d7e).
 
 ### One Pile
 
@@ -159,4 +159,4 @@ The article discusses an example of an antipattern that can lead to difficulties
 
 Thank you for your attention to the article, and good luck in your quest for writing simple code!
 
-#code #design
+#code #design #pattern #antipattern

@@ -38,4 +38,4 @@ P.S.: Если вы видите заметку с тегом #draft, это з�
 - #logic
 - #philosophy
 - #design
-- #development
+- #book

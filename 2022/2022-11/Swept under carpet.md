@@ -2,4 +2,4 @@
 
 Это когда максимально страшный код заворачивается в метод.
 
-#development #practice #humor #design #dirty #code
+#code #design #pattern #antipattern #draft

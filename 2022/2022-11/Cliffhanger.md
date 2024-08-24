@@ -16,4 +16,4 @@ public Value updateAttribute(Attribute attribute) {
 }
 ```
 
-#development #practice #humor #design #dirty #code
+#code #design #pattern #antipattern #draft
