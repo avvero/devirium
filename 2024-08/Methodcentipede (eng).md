@@ -138,7 +138,7 @@ All these techniques are closely related and complement each other.
 
 ### Testing Trophy
 
-This is an approach to test coverage that emphasizes integration tests, which verify the service's contract as a whole. Unit tests are used for individual functions that are difficult or costly to test through integration tests. I have described tests with this approach in my articles: [Ordering Chaos: Arranging HTTP Request Testing in Spring](https://medium.com/@avvero.abernathy/ordering-chaos-arranging-http-request-testing-in-spring-c625520d2418), [Enhancing the Visibility of Integration Tests](https://medium.com/@avvero.abernathy/enhancing-the-visibility-of-http-tests-24ce9493aae3), [Isolation in Testing with Kafka](https://medium.com/@avvero.abernathy/isolation-in-testing-with-kafka-16e00f5d5d7e).
+This is an approach to test coverage that emphasizes integration tests, which verify the service's contract as a whole. Unit tests are used for individual functions that are difficult or costly to test through integration tests. I have described tests with this approach in my articles: [Ordering Chaos: Arranging HTTP Request Testing in Spring](https://dzone.com/articles/arranging-http-request-testing-in-spring), [Enhancing the Visibility of Integration Tests](https://dzone.com/articles/enhancing-the-visibility-of-integration-tests), [Isolation in Testing with Kafka](https://dzone.com/articles/isolation-in-testing-with-kafka).
 
 ### One Pile
 
