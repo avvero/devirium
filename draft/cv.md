@@ -12,7 +12,7 @@ My main tech stack includes Java, Spring Boot, and Kafka. I am passionate about 
 
 ### Libertex Group - Technical Lead - september 2022 - Present
 
-Optimizing Developer Efficiency: Consistently improve developer workflows by implementing and enhancing testing processes, including automated tests and other projects, significantly boosting development efficiency.
+Optimizing Developer Efficiency: Consistently improve developer workflows by implementing and enhancing testing processes, including automated tests and other projects, significantly boosting development efficiency. Established development standards for sprint processes involving Kafka and testing. The methods and approaches implemented led to an increase in code coverage by tests to 80-90%.
 
 Consistent Leadership in Development: Successfully led development teams on multiple occasions, ensuring reliable and predictable project execution.
 
