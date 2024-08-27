@@ -8,4 +8,4 @@ npx quartz sync --no-pull
 ```
 , она же делает и коммит.
 
-#quartz #digital_garden
+#quartz #garden

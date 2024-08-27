@@ -4,4 +4,4 @@
 
 https://jamesclear.com/beginners-guide-deliberate-practice
 
-#draft #digital_garden
+#draft #garden

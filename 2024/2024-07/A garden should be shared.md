@@ -4,4 +4,4 @@ The goal of digital gardening should be to tap into your network’s collective 
 
 Quartz is designed first and foremost as a tool for publishing digital gardens to the web. To me, digital gardening is not just passive knowledge collection. It’s a form of expression and sharing.
 
-#digital_garden
+#garden

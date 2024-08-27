@@ -1,3 +1,20 @@
+Представьте что вы ведет заметки, ваша база наполняется, граф растет, все прекрасно и чудесно, а что дальше? А том что дальше я бы хотел рассказать в этой статье.
+
+Много прекрасных статей рассказывают о том как вести заметки 
+А что дальше? Делиться ими!
+
+## Что такое цифровой сад
+
+Добро пожаловать в мой [цифровой сад](https://maggieappleton.com/garden-history) заметок. 
+
+From [Philosophy of Quartz](https://quartz.jzhao.xyz/philosophy)
+
+The goal of digital gardening should be to tap into your network’s collective intelligence to create constructive feedback loops. If done well, I have a shareable representation of my thoughts that I can send out into the world and people can respond. Even for my most half-baked thoughts, this helps me create a feedback cycle to strengthen and fully flesh out that idea.
+
+Quartz is designed first and foremost as a tool for publishing digital gardens to the web. To me, digital gardening is not just passive knowledge collection. It’s a form of expression and sharing.
+
+https://jamesclear.com/beginners-guide-deliberate-practice
+
 >Не одноразовые
 >Вeчноцветущие 
 
@@ -8,6 +25,13 @@
 https://maggieappleton.com/garden-history
 
 https://www.swyx.io/learn-in-public
+
+## Как сделать
+
+## Мой цифровой сад
+
+
+## Цифровые сады известных людей
 
 Известные мне:
 - https://www.dschapman.com/notes/
@@ -47,4 +71,6 @@ https://www.swyx.io/learn-in-public
 
 If you want to see your own on here, submit a [Pull Request adding yourself to this file](https://github.com/jackyzha0/quartz/blob/v4/docs/showcase.md)!
 
-#article #draft #digital_garden #draft
+## Заключение 
+
+#article #draft #garden

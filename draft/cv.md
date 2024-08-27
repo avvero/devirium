@@ -1,6 +1,6 @@
 Anton Belyaev
 
-Technical Le
+Technical Lead
 
 As a dedicated and passionate developer, I thrive on designing innovative applications and crafting high-quality code. My enthusiasm particularly lies in Test-Driven Development (TDD) and the Testing Trophy approach.
 
@@ -12,11 +12,11 @@ My main tech stack includes Java, Spring Boot, and Kafka. I am passionate about 
 
 ### Libertex Group - Technical Lead - september 2022 - Present
 
-My responsibility:
-- Designing, implementing, and supporting high available evolvable services (java, spring, drools, PostgreSQL, Kafka, Docker, spock)
-- Defining back-end architecture
-- Analyzing and decomposing business tasks
-- Translating business requirements into technical solutions
+Optimizing Developer Efficiency: Consistently improve developer workflows by implementing and enhancing testing processes, including automated tests and other projects, significantly boosting development efficiency.
+
+Consistent Leadership in Development: Successfully led development teams on multiple occasions, ensuring reliable and predictable project execution.
+
+Successful CRM Migration Project: Completed a CRM migration project within 4 weeks, code writing, managing a team of 4 developers, 3 testers, and a DevOps engineer. The project included data migration and the integration of a new service.
 
 ### Libertex Group - Head of CI/CD sub-stream during Engineering Transformation - августа 2022 - сентября 2022
 Joined the CI/CD sub-stream in its advanced stages of an engineering transformation in August 2022. Leveraging my expertise, I rejuvenated and spearheaded the initiative:
@@ -84,4 +84,4 @@ https://habr.com/ru/users/Avvero/publications/articles
 English - Professional working proficiency
 Russian - Native or bilingual proficiency
 
-#cv
+#cv #draft
