@@ -3,9 +3,14 @@
 Много прекрасных статей рассказывают о том как вести заметки 
 А что дальше? Делиться ими!
 
+Заметки в цифровой сад. Заметки отлично для этого подходят, потому что они по своей сути представляю собой не набор отполированных статьей к публикации, а скорее 
+
 ## Что такое цифровой сад
 
 Добро пожаловать в мой [цифровой сад](https://maggieappleton.com/garden-history) заметок. 
+
+> My small collection highlighted a number of sites that are taking a new approach to the way we publish personal knowledge on the web.
+> They're not following the conventions of the "personal blog," as we've come to know it. Rather than presenting a set of polished articles, displayed in reverse chronological order, these sites act more like free form, work-in-progress wikis.
 
 From [Philosophy of Quartz](https://quartz.jzhao.xyz/philosophy)
 
