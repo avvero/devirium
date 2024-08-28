@@ -28,13 +28,7 @@
 >Everything is arranged and connected in ways that allow you to explore.
 >Joel focused on the process of digital gardening, emphasising the slow growth of ideas through writing, rewriting, editing, and revising thoughts in public. Instead of slapping Fully Formed Opinions up on the web and never changing them.
 
-From [Philosophy of Quartz](https://quartz.jzhao.xyz/philosophy)
-
 The goal of digital gardening should be to tap into your network’s collective intelligence to create constructive feedback loops. If done well, I have a shareable representation of my thoughts that I can send out into the world and people can respond. Even for my most half-baked thoughts, this helps me create a feedback cycle to strengthen and fully flesh out that idea.
-
-Quartz is designed first and foremost as a tool for publishing digital gardens to the web. To me, digital gardening is not just passive knowledge collection. It’s a form of expression and sharing.
-
-https://jamesclear.com/beginners-guide-deliberate-practice
 
 >Не одноразовые
 >Вeчноцветущие 
@@ -60,11 +54,15 @@ The Six Patterns of Gardening
 - Gardens are imperfect by design. They don't hide their rough edges or claim to be a permanent source of truth.
 - Gardens are meant to be shared.
 
-## Зачем делиться ?
+## Зачем делиться / Learning in Public
+
+Open Source Your Knowledge
 
 Зачем это мне. 
 1. Мне нравится как другие ведут сады, мне интересно их читать, я хотел бы делать так же.
 2. Publishing imperfect and early ideas requires that we make the status of our notes clear to readers.
+3. A habit of creating learning exhaust. Whatever your thing is, make the thing you wish you had found when you were learning. https://www.swyx.io/learn-in-public
+4. Получить фидбек - The goal of digital gardening should be to tap into your network’s collective intelligence to create constructive feedback loops.
 
 ## Как делиться
 
@@ -77,6 +75,10 @@ Tools like Obsidian, TiddlyWiki, and Notion are all great options. Many of them 
 However, many of these no-code tools still feel like cookie-cutter solutions. Rather than allowing people to design the information architecture and spatial layouts of their gardens, they inevitably force people into pre-made arrangements. This doesn't meant they don't "count,” as "real” gardens, but simply that they limit their gardeners to some extent. You can't design different types of links, novel features, experimental layouts, or custom architecture. They're pre-fab houses instead of raw building materials.
 
 Для себя я выбрал кварц.
+
+From [Philosophy of Quartz](https://quartz.jzhao.xyz/philosophy)
+
+Quartz is designed first and foremost as a tool for publishing digital gardens to the web. To me, digital gardening is not just passive knowledge collection. It’s a form of expression and sharing.
 
 ## Мой цифровой сад
 
