@@ -76,8 +76,6 @@ However, many of these no-code tools still feel like cookie-cutter solutions. Ra
 
 Для себя я выбрал кварц.
 
-From [Philosophy of Quartz](https://quartz.jzhao.xyz/philosophy)
-
 Quartz is designed first and foremost as a tool for publishing digital gardens to the web. To me, digital gardening is not just passive knowledge collection. It’s a form of expression and sharing.
 
 ## Мой цифровой сад
@@ -87,6 +85,8 @@ Quartz is designed first and foremost as a tool for publishing digital gardens t
 ## References and Further Reading
 
 У концепции есть философия и история, я не буду их пересказывать, лишь представлю ссылки на то, где про это можно почитать подбронее - https://maggieappleton.com.
+
+From [Philosophy of Quartz](https://quartz.jzhao.xyz/philosophy)
 
 ## Цифровые сады известных людей
 
@@ -129,5 +129,7 @@ Quartz is designed first and foremost as a tool for publishing digital gardens t
 If you want to see your own on here, submit a [Pull Request adding yourself to this file](https://github.com/jackyzha0/quartz/blob/v4/docs/showcase.md)!
 
 ## Заключение 
+
+Теги: obsidian, организация работы, заметки
 
 #article #draft #garden
