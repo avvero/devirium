@@ -29,7 +29,7 @@ Core principles of gardening:
 
 ### Learning in Public
 
-This point may raise questions, as it suggests sharing something for free, i.e., as a gift. The approach implies that you publicly document your steps, thoughts, mistakes, and successes in mastering a new topic or skill. This allows you not only to share the result but also to demonstrate the thinking and learning process, which can be useful to others.
+This point may raise questions, as it suggests sharing something for free. The approach implies that you publicly document your steps, thoughts, mistakes, and successes in mastering a new topic or skill. This allows you not only to share the result but also to demonstrate the thinking and learning process, which can be useful to others.
 
 Besides altruistic motives, personal interest is worth noting. Sometimes I am lazy to clearly formulate thoughts in notes, which then backfires — I can't understand what I meant. It's amusing how I always rely on my future superpower to decipher my own nonsensical notes — a belief that remains unshakable, though entirely unfounded. But when it comes to others, I don’t allow such naivety. Knowing that my note might not only attract attention but also genuinely help someone motivates me to make an effort and articulate the thought properly.
 
@@ -43,7 +43,7 @@ I chose [Quartz](https://quartz.jzhao.xyz/) for myself. It is a free static gene
 
 ## My Digital Garden
 
-As mentioned, I store my notes in a public Git repository. Changes are automatically published on GitHub Pages and available on [my digital garden page](https://devirium.avvero.pw). The design, solution scheme, and GitHub Actions scripts are available for review in [this note](https://devirium.avvero.pw/2024/2024-07/How-I-Built-Devirium) if you want to create something similar. Some use RSS for updates, while I use a Telegram channel for this purpose. It is specifically an update channel, messages are not posted separately.
+As mentioned, I store my notes in a public Git repository. Most of it is in Russian, with some in English. Changes are automatically published on GitHub Pages and available on [my digital garden page](https://devirium.avvero.pw). The design, solution scheme, and GitHub Actions scripts are available for review in [this note](https://devirium.avvero.pw/2024/2024-07/How-I-Built-Devirium) if you want to create something similar. Some use RSS for updates, while I use a Telegram channel for this purpose. It is specifically an update channel, messages are not posted separately.
 
 ## Materials for Further Study
 
