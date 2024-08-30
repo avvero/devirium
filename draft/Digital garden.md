@@ -33,17 +33,11 @@
 
 ## Как делиться
 
-The current state of web development helped here too. While it feels like we've been in a slow descent into a horrifyingly complex and bloated web development process, a number of recent tools have made it easier to get a fully customised website up and running. Services like Netlify and Vercel have taken the pain out of deployment. Static site generators like Jekyll, Gatsby, 11ty and Next make it easier to build sophisticated websites that auto-generate pages, and take care of grunt work like optimising load time, images, and SEO.
+В настоящее время наличие удобных инструментов сделали создание полностью настраиваемого сайта гораздо проще. Сервисы, такие как Netlify и Vercel, устранили сложности с развертыванием. Генераторы статических сайтов, такие как Jekyll, Gatsby, 11ty и Next, упрощают создание сложных сайтов, которые автоматически генерируют страницы и занимаются рутинной работой, такой как оптимизация времени загрузки, изображений и SEO. 
 
-These services are trying to find a happy middle ground between tediously hand-coding solutions, and being trapped in the restrictions of Wordpress or Squarespace.
+Obsidian предлагает возможность публикации заметок через свою платформу, выглядит идеальным решением, но оно не бесплатное. К тому же использование данной услуги не выглядит как "независимое владение". 
 
-Tools like Obsidian, TiddlyWiki, and Notion are all great options. Many of them offer fancy features like nested folders, Bi-Directional Links, footnotes, and visual graphs.
-
-However, many of these no-code tools still feel like cookie-cutter solutions. Rather than allowing people to design the information architecture and spatial layouts of their gardens, they inevitably force people into pre-made arrangements. This doesn't meant they don't "count,” as "real” gardens, but simply that they limit their gardeners to some extent. You can't design different types of links, novel features, experimental layouts, or custom architecture. They're pre-fab houses instead of raw building materials.
-
-Для себя я выбрал кварц.
-
-Quartz is designed first and foremost as a tool for publishing digital gardens to the web. To me, digital gardening is not just passive knowledge collection. It’s a form of expression and sharing.
+Для себя я выбрал [Quartz](https://quartz.jzhao.xyz/). Это бесплатный статический генератор на основе контента в формате Markdown. Quartz разработан прежде всего как инструмент для публикации цифровых садов в интернете. В основе Quartz лежит принцип, что он должен быть достаточно простым в использовании для людей без технического опыта, но при этом достаточно мощным, чтобы опытные разработчики могли настроить его так, как им нужно.
 
 ## Мой цифровой сад
 
