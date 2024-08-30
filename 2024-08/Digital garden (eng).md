@@ -1,3 +1,5 @@
+![alt text](DigitalGarden.jpg)
+
 The topic of note-taking remains relevant today. We know the benefits it provides to the author. We are familiar with various approaches to note-taking, tools that can be used, and we have choices. Imagine you have found your approach, your tool, and your note base is growing and pleasing to the eye. What next? I want to discuss one path of development in this area.
 
 This article is dedicated to the concept of a digital garden — the philosophy of publicly maintaining personal notes.
@@ -41,7 +43,7 @@ I chose [Quartz](https://quartz.jzhao.xyz/) for myself. It is a free static gene
 
 ## My Digital Garden
 
-As mentioned, I store my notes in a public Git repository. Changes are automatically published on GitHub Pages and available on [my digital garden page](https://devirium.avvero.pw). The design, solution scheme, and GitHub Actions scripts are available for review in [this note](https://devirium.avvero.pw/2024/2024-07/How-I-Built-Devirium/) if you want to create something similar. Some use RSS for updates, while I use [a Telegram channel](https://t.me/devirium) for this purpose. It is specifically an update channel, messages are not posted separately.
+As mentioned, I store my notes in a public Git repository. Changes are automatically published on GitHub Pages and available on [my digital garden page](https://devirium.avvero.pw). The design, solution scheme, and GitHub Actions scripts are available for review in [this note](https://devirium.avvero.pw/2024/2024-07/How-I-Built-Devirium/) if you want to create something similar. Some use RSS for updates, while I use a Telegram channel for this purpose. It is specifically an update channel, messages are not posted separately.
 
 ## Materials for Further Study
 
