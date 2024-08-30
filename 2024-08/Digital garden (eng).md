@@ -43,7 +43,7 @@ I chose [Quartz](https://quartz.jzhao.xyz/) for myself. It is a free static gene
 
 ## My Digital Garden
 
-As mentioned, I store my notes in a public Git repository. Changes are automatically published on GitHub Pages and available on [my digital garden page](https://devirium.avvero.pw). The design, solution scheme, and GitHub Actions scripts are available for review in [this note](https://devirium.avvero.pw/2024/2024-07/How-I-Built-Devirium/) if you want to create something similar. Some use RSS for updates, while I use a Telegram channel for this purpose. It is specifically an update channel, messages are not posted separately.
+As mentioned, I store my notes in a public Git repository. Changes are automatically published on GitHub Pages and available on [my digital garden page](https://devirium.avvero.pw). The design, solution scheme, and GitHub Actions scripts are available for review in [this note](https://devirium.avvero.pw/2024/2024-07/How-I-Built-Devirium) if you want to create something similar. Some use RSS for updates, while I use a Telegram channel for this purpose. It is specifically an update channel, messages are not posted separately.
 
 ## Materials for Further Study
 
