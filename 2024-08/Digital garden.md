@@ -45,7 +45,7 @@ Obsidian предлагает возможность публикации зам
 
 ## Материалы для дальнейшего изучения
 
-У концепции есть философия и история, я не буду их пересказывать, лишь представлю ссылки на то, где можно почитать подробнее: https://maggieappleton.com. Примеры цифровых садов можно найти на страницах https://github.com/MaggieAppleton/digital-gardeners и https://github.com/jackyzha0/quartz/blob/v4/docs/showcase.md, а также через поиск в GitHub, если репозиторий помечен соответствующей темой — https://github.com/topics/digital-garden.
+У концепции есть философия и история, я не буду их пересказывать, лишь представлю ссылки на то, где можно почитать подробнее: [https://maggieappleton.com](https://maggieappleton.com). Примеры цифровых садов можно найти на страницах [https://github.com/MaggieAppleton/digital-gardeners](https://github.com/MaggieAppleton/digital-gardeners) и [https://github.com/jackyzha0/quartz/blob/v4/docs/showcase.md](https://github.com/jackyzha0/quartz/blob/v4/docs/showcase.md), а также через поиск в GitHub, если репозиторий помечен соответствующей темой — [https://github.com/topics/digital-garden](https://github.com/topics/digital-garden).
 
 ## Заключение
 

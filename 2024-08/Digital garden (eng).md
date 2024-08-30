@@ -1,56 +1,54 @@
-Тема ведения заметок остается актуальной и по сей день. Мы знаем, какую пользу это приносит автору. Знакомы с различными подходами к ведению заметок. Известны инструменты, которые можно использовать, и у нас есть выбор. Представьте, что вы нашли свой подход, инструмент, и база заметок растет и радует глаз. А что дальше? Об одном из путей развития этой темы я хочу рассказать.
+The topic of note-taking remains relevant today. We know the benefits it provides to the author. We are familiar with various approaches to note-taking, tools that can be used, and we have choices. Imagine you have found your approach, your tool, and your note base is growing and pleasing to the eye. What next? I want to discuss one path of development in this area.
 
-Эта статья посвящена концепции цифрового сада — философии публичного ведения личных заметок.
+This article is dedicated to the concept of a digital garden — the philosophy of publicly maintaining personal notes.
 
-## Мой путь
+## My Path
 
-Последние 20 лет я вел заметки методами, которые не отличались ни систематичностью, ни надежностью, ни пользой: бумажные записные книжки, текстовые файлы, Evernote и другие приложения, названия которых уже выветрились из памяти. Три года назад я начал вести заметки в стиле Zettelkasten (насколько я его понял и адаптировал для себя). Я узнал о таком подходе от [Rob Muhlestein](https://github.com/rwxrob), на которого наткнулся на Twitch. Эксперименты привели меня к сегодняшнему способу ведения заметок: в виде файлов Markdown, которые хранятся в Git-репозитории. На компьютере я работаю с ними в VSCode, на телефоне использую стандартное приложение "Заметки". Почему не Obsidian? Я пробовал и решил остаться на VSCode по следующим причинам:
-1. VSCode — это базовый редактор, который у меня и так всегда открыт и используется, в том числе для ведения рабочих файлов.
-2. Я не смог наладить синхронизацию Obsidian через Git, а синхронизация через iCloud вызывает зависания в приложении на телефоне.
-3. Мне необходимо максимально быстро открывающееся приложение на телефоне, чтобы я смог в любой момент успеть записать ускользающую мысль, перед тем как, например, потянуться к рулону туалетной бумаги и не испытывать дискомфорт от ожидания. При этом наличие базы заметок на телефоне мне требуется значительно реже, чем необходимость что-то срочно записать.
+For the past 20 years, I have kept notes using methods that lacked systematization, reliability, or usefulness: paper notebooks, text files, Evernote, and other applications whose names have faded from memory. Three years ago, I started using the Zettelkasten style (as I understood and adapted it for myself). I learned about this approach from [Rob Muhlestein](https://github.com/rwxrob) whom I encountered on Twitch. Experiments led me to my current note-taking method: in the form of Markdown files stored in a Git repository. On my computer, I work with them in VSCode, and on my phone, I use the default "Notes" app. Why not Obsidian? I tried it and decided to stick with VSCode for the following reasons:
+1. VSCode is a basic editor that is always open and used for work files.
+2. I could not set up Obsidian synchronization via Git, and iCloud synchronization caused app crashes on my phone.
+3. I need a quickly accessible app on my phone to jot down fleeting thoughts before, for example, reaching for a roll of toilet paper and experiencing discomfort from waiting. At the same time, I need the note base on my phone much less frequently than the need to urgently write something down.
 
-К слову, разделение приложений для записи внезапных мыслей и основной базы имеет плюс: появляется ритуал переноса заметок из приложения на телефоне в основную базу. Я пересматриваю свежие записи, ставлю теги, дополняю детали. Это позволяет еще раз коснуться записанной мысли и увеличить шансы не забыть ее.
+Separating apps for sudden thoughts and the main base has an advantage: it creates a ritual of transferring notes from the phone app to the main base. I review fresh notes, tag them, and add details. This allows me to revisit the recorded thought and increase the chances of not forgetting it.
 
-## Что такое цифровой сад
+## What is a Digital Garden
 
-Фраза "цифровой сад" — это метафора, описывающая подход к ведению заметок. Это не просто набор инструментов, таких как плагины для WordPress или шаблоны Jekyll. Идея сада нам всем знакома — это место, где что-то растет. Сады могут быть очень личными и наполненными фигурками гномов, или они могут быть источником пищи и жизненной силы. И кто знает, что увидит внезапный гость вашего сада? Вас в прекрасной пижаме с бокалом свежего сока под яблоней? Или быть может стоящим кверху задом, пытающегося навести хоть немного порядка и вырвать сорняки?
+The phrase "digital garden" is a metaphor describing an approach to note-taking. It is not just a set of tools like WordPress plugins or Jekyll templates. The idea of a garden is familiar to all of us — it is a place where something grows. Gardens can be very personal and filled with gnome figurines, or they can be sources of food and vitality. And who knows what a sudden visitor to your garden might see? You in a lovely pajama with a glass of fresh juice under an apple tree? Or perhaps standing upside down, trying to bring a bit of order and pull out weeds?
 
-Метафора цифрового садоводства подчеркивает медленный рост идей через написание, переписывание, редактирование и пересмотр мыслей в публичном пространстве. Вместо фиксированных мнений, которые никогда не меняются, этот подход позволяет идеям развиваться со временем. Цель цифрового садоводства — использовать коллективный интеллект вашей сети для создания конструктивных циклов обратной связи. Если все сделать правильно, то у вас будет доступное представление собственных мыслей, которое можно "отправить" в мир, и люди смогут на него реагировать. Даже для самых сырых идей это помогает создать цикл обратной связи, чтобы укрепить и полностью развить эту идею.
+The digital gardening metaphor emphasizes the slow growth of ideas through writing, rewriting, editing, and revisiting thoughts in a public space. Instead of fixed opinions that never change, this approach allows ideas to develop over time. The goal of digital gardening is to use the collective intelligence of your network to create constructive feedback loops. If done right, you will have an accessible representation of your thoughts that can be "sent out" into the world, and people will be able to respond to it. Even for the most raw ideas, it helps to create a feedback loop to strengthen and fully develop the idea.
 
-Основные принципы садоводства:
-1. Связи вместо временных линий. Сады организованы вокруг контекстуальных связей и ассоциативных связей; концепции и темы внутри каждой заметки определяют, как она связана с другими. Дата публикации не является самым важным аспектом текста.
-2. Непрерывный рост. Сады никогда не заканчиваются, они постоянно растут, развиваются и меняются, как реальный сад.
-3. Несовершенство. Сады по своей сути несовершенны. Они не скрывают свои шероховатости и не претендуют на звание постоянного источника истины.
-4. Обучение на виду. Для создания конструктивных циклов обратной связи.
-5. Личное и экспериментальное. Сады по своей природе не однородны. Вы можете посадить те же семена, что и ваш сосед, но получите разное расположение растений. Вы организуете сад вокруг идей и средств, которые соответствуют вашему способу мышления, а не по чужому стандартному шаблону.
-6. Независимое владение. Садоводство — это создание своего маленького уголка в интернете, который вы полностью контролируете.
+Core principles of gardening:
+1. Connections over timelines. Gardens are organized around contextual and associative connections; concepts and themes within each note define how it relates to others. The publication date is not the most important aspect of the text.
+2. Continuous growth. Gardens never end; they are constantly growing, evolving, and changing, like a real garden.
+3. Imperfection. Gardens are inherently imperfect. They do not hide their rough edges and do not claim to be a permanent source of truth.
+4. Learning in public. To create constructive feedback loops.
+5. Personal and experimental. Gardens are inherently heterogeneous. You may plant the same seeds as your neighbor but get a different arrangement of plants. You organize the garden around ideas and means that fit your way of thinking rather than a standard template.
+6. Independent ownership. Gardening is about creating your own little corner of the internet that you fully control.
 
-### Обучение на виду
+### Learning in Public
 
-Этот пункт может вызвать вопросы, так как предлагает делиться чем-то безвозмездно, т.е. даром. Подход предполагает, что вы публично документируете свои шаги, размышления, ошибки и успехи в процессе освоения новой темы или навыка. Это позволяет не только делиться результатом, но и демонстрировать процесс мышления и обучения, что может быть полезно для других.
+This point may raise questions, as it suggests sharing something for free, i.e., as a gift. The approach implies that you publicly document your steps, thoughts, mistakes, and successes in mastering a new topic or skill. This allows you not only to share the result but also to demonstrate the thinking and learning process, which can be useful to others.
 
-Помимо альтруистических мотивов, хочется подчеркнуть и личный интерес. Иногда я ленюсь четко формулировать мысли в заметках, что потом оборачивается против меня — я сам не могу понять, что хотел сказать. Забавно, как я всегда полагаюсь на свою будущую суперспособность расшифровать собственные бестолковые записи — вера в это непоколебима, хоть и совершенно не оправдана. Но когда дело касается других, я такой наивности не позволяю. Осознание того, что моя заметка может не только привлечь внимание, но и реально кому-то помочь, мотивирует меня приложить усилия и сформулировать мысль нормально.
+Besides altruistic motives, personal interest is worth noting. Sometimes I am lazy to clearly formulate thoughts in notes, which then backfires — I can't understand what I meant. It's amusing how I always rely on my future superpower to decipher my own nonsensical notes — a belief that remains unshakable, though entirely unfounded. But when it comes to others, I don’t allow such naivety. Knowing that my note might not only attract attention but also genuinely help someone motivates me to make an effort and articulate the thought properly.
 
-## Как делиться
+## How to Share
 
-Сегодня удобные инструменты сделали создание полностью настраиваемого сайта гораздо проще. Сервисы, такие как Netlify и Vercel, устранили сложности с развертыванием. Генераторы статических сайтов, такие как Jekyll, Gatsby, 11ty и Next, упрощают создание сложных сайтов, которые автоматически генерируют страницы и занимаются оптимизацией времени загрузки, изображений и SEO.
+Today, convenient tools have made creating a fully customizable website much easier. Services like Netlify and Vercel have removed deployment complexities. Static site generators like Jekyll, Gatsby, 11ty, and Next simplify creating complex sites that automatically generate pages and handle load time, image optimization, and SEO.
 
-Obsidian предлагает возможность публикации заметок через свою платформу по подписке. Использование этой услуги не выглядит как "независимое владение".
+Obsidian offers the ability to publish notes through its subscription platform. Using this service does not feel like "independent ownership."
 
-Для себя я выбрал [Quartz](https://quartz.jzhao.xyz/). Это бесплатный статический генератор на основе контента в формате Markdown. Quartz разработан прежде всего как инструмент для публикации цифровых садов в интернете. Он достаточно прост в использовании для людей без технического опыта, но достаточно мощен для настройки опытными разработчиками.
+I chose [Quartz](https://quartz.jzhao.xyz/) for myself. It is a free static generator based on Markdown content. Quartz is designed primarily as a tool for publishing digital gardens on the internet. It is simple enough for people without technical experience but powerful enough for customization by experienced developers.
 
-## Мой цифровой сад
+## My Digital Garden
 
-Как я писал выше, я храню свои заметки в публичном Git-репозитории. Изменения автоматически публикуются на GitHub Pages и доступны на странице [моего цифрового сада](https://devirium.avvero.pw). Дизайн, схема решения и скрипты Github Actions доступны для ознакомления в [заметке](https://devirium.avvero.pw/2024/2024-07/How-I-Built-Devirium/), если вы захотите сделать нечто подобное. Кто-то использует RSS для получения обновлений, я же для этой цели использую [канал в Telegram](https://t.me/devirium). Это именно канал обновлений, сообщения в него не публикуются отдельно.
+As mentioned, I store my notes in a public Git repository. Changes are automatically published on GitHub Pages and available on [my digital garden page](https://devirium.avvero.pw). The design, solution scheme, and GitHub Actions scripts are available for review in [this note](https://devirium.avvero.pw/2024/2024-07/How-I-Built-Devirium/) if you want to create something similar. Some use RSS for updates, while I use [a Telegram channel](https://t.me/devirium) for this purpose. It is specifically an update channel, messages are not posted separately.
 
-## Материалы для дальнейшего изучения
+## Materials for Further Study
 
-У концепции есть философия и история, я не буду их пересказывать, лишь представлю ссылки на то, где можно почитать подробнее: https://maggieappleton.com. Примеры цифровых садов можно найти на страницах https://github.com/MaggieAppleton/digital-gardeners и https://github.com/jackyzha0/quartz/blob/v4/docs/showcase.md, а также через поиск в GitHub, если репозиторий помечен соответствующей темой — https://github.com/topics/digital-garden.
+The concept has a philosophy and history; I won't retell them but will provide links where you can read more: [https://maggieappleton.com](https://maggieappleton.com). Examples of digital gardens can be found at [https://github.com/MaggieAppleton/digital-gardeners](https://github.com/MaggieAppleton/digital-gardeners) and [https://github.com/jackyzha0/quartz/blob/v4/docs/showcase.md](https://github.com/jackyzha0/quartz/blob/v4/docs/showcase.md), as well as through GitHub search if the repository is tagged with the relevant topic — [https://github.com/topics/digital-garden](https://github.com/topics/digital-garden).
 
-## Заключение
+## Conclusion
 
-Заведение цифрового сада стало логическим продолжением моего пути, начатого с применения метода Zettelkasten. Как это повлияло на меня? После первоначальных усилий на настройку и развертывание системы, я практически не занимаюсь ее обслуживанием, за исключением редких проблем. И теперь я продолжаю отправлять свои заметки в Git. Единственное, я стал стараться делать их более понятными.
+Establishing a digital garden has been a logical continuation of my journey, started with the Zettelkasten method. How has it affected me? After the initial effort to set up and deploy the system, I hardly maintain it except for occasional issues. And now I continue to push my notes to Git. The only thing is, I have started to make them more understandable.
 
-Спасибо за внимание к статье, и удачи в вашем стремлении к упорядочиванию мыслей и созданию эффективного пространства для идей!
-
-#article #garden
+Thank you for reading the article, and good luck in your quest for organizing thoughts and creating an effective space for ideas!
