@@ -8,6 +8,7 @@
 - [[Logic type tangle]]
 - [[Methodcentipede]]
 - [[Оптимизация вынесением общего кода]]
+- [[Игра в Крокодил]]
 
 ## Draft 1
 
