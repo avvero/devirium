@@ -1,17 +1,10 @@
 # Тестирование сообщений в Kafka
 
->Kafka Message Testing
->Kafka Testing: Verifying Message
-
 Данная статья предлагает подход по написанию интеграционных тестов для приложений с Kafka, позволяющий сосредоточиться на спецификации взаимодействия, делая тесты более читаемыми и легкими для поддержки. Представленный подход не только повышает эффективность тестирования, но и способствует лучшему пониманию интеграционных процессов в приложении.
 
-Данная статья опирается на три концепции?, изложенные в соответствующих статьях: [написание тестов с четким разделением на отдельные этапы Arrange-Act-Assert](https://habr.com/ru/articles/781812/), [Изоляция в тестах с Kafka](https://habr.com/ru/articles/797049/) и [использование инструментов повешения наглядности тестов](https://habr.com/ru/articles/804673/). Рекомендую ознакомиться с указанными перед погружением в материал данной.
+Данная статья опирается на три идеи, изложенные в соответствующих статьях: [написание тестов с четким разделением на отдельные этапы Arrange-Act-Assert](https://habr.com/ru/articles/781812/), [изоляция в тестах с Kafka](https://habr.com/ru/articles/797049/) и [использование инструментов повешения наглядности тестов](https://habr.com/ru/articles/804673/). Рекомендую с ними ознакомиться перед погружением в материал данной.
 
-## Реализация
-
-Предлагаю рассмотреть на примере.
-
-### Демонстрационный сценарий
+## Демонстрационный сценарий
 
 Возьмем в качестве примера телеграм-бот, который перенаправляет запросы к OpenAI API и возвращает результат пользователю. В случае если запрос в open ai нарушает правила безопасности системы, клиент получит об этом сообщение. Дополнительно будет отправлено сообщение в kafka для системы поведенческого контроля, чтобы товарищ менеджер мог связаться с пользователем и рассказать, что его запрос оказался слишком пикантным даже для нашего робота и попросить его пересмотреть свои предпочтения.
 
@@ -54,9 +47,9 @@ ServiceA -> tg--: request
 
 ### Объект захвата сообщений
 
-В качестве основного инструмента тестирования будет использоваться объект захвата сообщений - [RecordCaptor](https://github.com/avvero/kafka-test-support/blob/sb3/kafka-support/src/main/java/pw/avvero/test/kafka/RecordCaptor.java), он по сути работы очень похож на объект захвата исходящих запросов [RequestCaptor](https://github.com/avvero/spring-sandbox/blob/main/request-captor/src/main/java/pw/avvero/test/http/RequestCaptor.java), о котором можно почитать в статье [Разносим по полочкам этапы тестирования http запросов в Spring](https://habr.com/ru/articles/781812/).
+В качестве основного инструмента тестирования будет использоваться объект захвата сообщений - [RecordCaptor](https://github.com/avvero/kafka-test-support/blob/sb3/kafka-support/src/main/java/pw/avvero/test/kafka/RecordCaptor.java), он по сути своей работы очень похож на объект захвата исходящих запросов [RequestCaptor](https://github.com/avvero/spring-sandbox/blob/main/request-captor/src/main/java/pw/avvero/test/http/RequestCaptor.java), о котором можно почитать в статье [Разносим по полочкам этапы тестирования http запросов в Spring](https://habr.com/ru/articles/781812/).
 
-Захват сообщений будет выполняться через стандартный консумер Kafka. Список топиков нужно указать явно через параметр конфигурации.
+Захват сообщений будет выполняться через стандартный консумер Kafka. Список топиков нужно указывать явно через параметр конфигурации.
 
 ```java
 @KafkaListener(id = "recordCaptor", topics = "#{'${test.record-captor.topics}'.split(',')}", groupId = "test")
@@ -66,7 +59,7 @@ public void eventCaptorListener(ConsumerRecord<Object, Object> record,
     recordCaptor.capture(recordSnapshot);
 }
 ```
-Объект `RecordCaptor` накапливает "образы" сообщений из Kafka.
+Объект `RecordCaptor` накапливает информацию из захваченных сообщений.
 
 Использование подобного подхода требует соблюдение [изоляции в тестах с Kafka](https://habr.com/ru/articles/797049/). Ожидание подтверждения смещения перед проверкой результатов теста необходимо осуществить с помощью метода `pw.avvero.emk.KafkaSupport#waitForPartitionOffsetCommit`.
 
@@ -129,8 +122,8 @@ def "User Message Processing with OpenAI"() {
         }
         },
         "error": {
-        "code": "content_policy_violation",
-        "message": "Your request was rejected as a result of our safety system."
+            "code": "content_policy_violation",
+            "message": "Your request was rejected as a result of our safety system."
         }
     }""", message.value as String, false)
 }
@@ -144,7 +137,7 @@ def "User Message Processing with OpenAI"() {
 5. Проверки запросов к OpenAI и Telegram  
 6. Проверки сообщения в Kafka
 
-Использование `JSONAssert.assertEquals` в данном случае позволяет обеспечить консистентность представления данных на разных уровнях присутствия - в Kafka сообщениях и тестах. Это значительно упрощает процесс тестирования, обеспечивая гибкость сравнения и точность диагностики ошибок.
+Использование `JSONAssert.assertEquals` в данном случае позволяет за счет общего формата обеспечить консистентность представления данных на разных уровнях присутствия - в Kafka сообщениях, логах и тестах. Это значительно упрощает процесс тестирования, обеспечивая гибкость сравнения и точность диагностики ошибок.
 
 В статье представлен пример с json форматом сообщений, другие форматы представлений не рассматриваются, но описанный подход не накладывает ограничений к формату.
 
@@ -200,6 +193,8 @@ public class RecordCaptorConfiguration {
 Код [OffsetComparisonFrame](https://github.com/avvero/kafka-test-support/blob/sb3/kafka-support/src/main/java/pw/avvero/test/kafka/OffsetSnapshotFrame.java) доступен для ознакомления.
 
 ## Заключение
+
+Тестирование сообщений в Kafka с использованием предложенного подхода не только упрощает процесс написания тестов, но и делает его более структурированным и понятным. Применение инструментов, таких как `RecordCaptor`, а также соблюдение принципов изоляции и четкого разделения этапов тестирования, позволяют достигать высокой точности и эффективности. 
 
 Ссылка на репозиторий проект с демонстрацией тестов - [sandbox/bot](https://github.com/avvero/kafka-test-support/tree/sb3/example-testcontainers).
 
