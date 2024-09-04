@@ -172,9 +172,11 @@ when:
 def message = recordCaptor.getRecords("topicC", "20000000").last       <-- используем ключ
 ```
 
-В случае, если подобный вариант не подходит, необходимо описать ключи для сообщений или использовать механизм индексирования сообщений.
+В случае, если подобный вариант не подходит, необходимо описать собственные индексы по параметрам сообщения, на основе которых нужно строить поиск. Пример можно посмотреть в тестах [PolicyViolationTestsCustomIndex.groovy](https://github.com/avvero/kafka-test-support/blob/sb3/example-testcontainers/src/test/groovy/pw/avvero/example/feature1/PolicyViolationTestsCustomIndex.groovy).
 
 ### Подключение RecordCaptor
+
+Код под подключения `RecordCaptor` выглядит следующим образом:
 
 ```java
 @TestConfiguration(proxyBeanMethods = false)
@@ -193,7 +195,9 @@ public class RecordCaptorConfiguration {
 
 ## OffsetSnapshotFrame
 
-Опыт показал, что работа с приложениями использующими Kafka, требует аккуратности и дополнительных инструментов, облегчающих понимание состояние консумеров и статуса потребления сообщений. Для данной задачи предлагается использовать логирование со снимком состояния консумер групп и топиков. 
+Опыт показал, что работа с приложениями использующими Kafka, требует инструментов, облегчающих понимание состояния консумеров и статуса потребления сообщений. Для данной задачи можно в операции ожидания подтверждения смещения сверять офсеты топиков и консумер групп и выводить в лог расхождения, например так, как показано на рисунке:
+![alt text](KafkaMessageTesting-OffsetComparisonFrame.png)
+Код [OffsetComparisonFrame](https://github.com/avvero/kafka-test-support/blob/sb3/kafka-support/src/main/java/pw/avvero/test/kafka/OffsetSnapshotFrame.java) доступен для ознакомления.
 
 ## Заключение
 
