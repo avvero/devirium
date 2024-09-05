@@ -2,7 +2,7 @@
 
 This article offers an approach to writing integration tests for Kafka-based applications that focuses on interaction specification, making tests more readable and easier to maintain. The proposed method not only enhances testing efficiency but also contributes to a better understanding of the integration processes within the application.
 
-The article builds on three ideas presented in relevant articles: [writing tests with a clear separation of Arrange-Act-Assert stages](https://hackernoon.com/writing-effective-integration-tests-in-spring-organized-testing-strategies-for-http-request-mocking), [isolation in Kafka tests](https://hackernoon.com/streamlining-kafka-integration-testing-isolation-with-testcontainers-and-spring-boot-31), and [using tools to enhance test visibility](https://hackernoon.com/creating-effective-integration-tests-best-practices-and-tools-within-the-spring-framework). I recommend reviewing these before delving into the material of this article.
+The article builds on three ideas presented in relevant articles: [writing tests with a clear separation of Arrange-Act-Assert stages](https://dzone.com/articles/arranging-http-request-testing-in-spring), [isolation in Kafka tests](https://dzone.com/articles/isolation-in-testing-with-kafka), and [using tools to enhance test visibility](https://dzone.com/articles/enhancing-the-visibility-of-integration-tests). I recommend reviewing these before delving into the material of this article.
 
 ## Demonstration Scenario
 
@@ -47,7 +47,7 @@ ServiceA -> tg--: request
 
 ### Message Capture
 
-The main testing tool will be the message capture object — [RecordCaptor](https://github.com/avvero/kafka-test-support/blob/sb3/kafka-support/src/main/java/pw/avvero/test/kafka/RecordCaptor.java). Its operation is quite similar to the outgoing request capture object — [RequestCaptor](https://github.com/avvero/spring-sandbox/blob/main/request-captor/src/main/java/pw/avvero/test/http/RequestCaptor.java), which can be read about in the article [Ordering Chaos: Arranging HTTP Request Testing in Spring](https://hackernoon.com/writing-effective-integration-tests-in-spring-organized-testing-strategies-for-http-request-mocking).
+The main testing tool will be the message capture object — [RecordCaptor](https://github.com/avvero/kafka-test-support/blob/sb3/kafka-support/src/main/java/pw/avvero/test/kafka/RecordCaptor.java). Its operation is quite similar to the outgoing request capture object — [RequestCaptor](https://github.com/avvero/spring-sandbox/blob/main/request-captor/src/main/java/pw/avvero/test/http/RequestCaptor.java), which can be read about in the article [Ordering Chaos: Arranging HTTP Request Testing in Spring](https://dzone.com/articles/arranging-http-request-testing-in-spring).
 
 Message capture will be performed through a standard Kafka consumer. The list of topics must be specified explicitly via a configuration parameter.
 
@@ -62,7 +62,7 @@ public void eventCaptorListener(ConsumerRecord<Object, Object> record,
 
 The `RecordCaptor` object accumulates information from captured messages.
 
-Using this approach requires adhering to [isolation in Kafka tests](https://hackernoon.com/streamlining-kafka-integration-testing-isolation-with-testcontainers-and-spring-boot-31). Waiting for offset commit confirmation before verifying test results should be done using the [KafkaSupport#waitForPartitionOffsetCommit](https://github.com/avvero/kafka-test-support/blob/6595086188252f4ed89dff24e2129d75e26d9ece/kafka-support/src/main/java/pw/avvero/test/kafka/KafkaSupport.java#L109) method.
+Using this approach requires adhering to [isolation in Kafka tests](https://dzone.com/articles/isolation-in-testing-with-kafka). Waiting for offset commit confirmation before verifying test results should be done using the [KafkaSupport#waitForPartitionOffsetCommit](https://github.com/avvero/kafka-test-support/blob/6595086188252f4ed89dff24e2129d75e26d9ece/kafka-support/src/main/java/pw/avvero/test/kafka/KafkaSupport.java#L109) method.
 
 ### Test Example
 
