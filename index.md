@@ -11,8 +11,8 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
-- [Тестирование сообщений в Kafka](draft/Тестирование-сообщений-в-Kafka.md)
-- [Kafka Message Testing](draft/Kafka-Message-Testing.md)
+- [Kafka Message Testing](2024-09/Kafka-Message-Testing.md)
+- [Тестирование сообщений в Kafka](2024-09/Тестирование-сообщений-в-Kafka.md)
 - [Игра в Крокодил](2024-09/Игра-в-Крокодил.md)
 - [Digital garden (eng)](2024/2024-08/Digital-garden-(eng).md)
 - [Digital garden](2024/2024-08/Digital-garden.md)
