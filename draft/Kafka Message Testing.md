@@ -47,7 +47,7 @@ ServiceA -> tg--: request
 
 ### Message Capture
 
-The main testing tool will be the message capture object — [RecordCaptor](https://github.com/avvero/kafka-test-support/blob/sb3/kafka-support/src/main/java/pw/avvero/test/kafka/RecordCaptor.java). Its operation is quite similar to the outgoing request capture object—[RequestCaptor](https://github.com/avvero/spring-sandbox/blob/main/request-captor/src/main/java/pw/avvero/test/http/RequestCaptor.java), which can be read about in the article [Breaking Down the Stages of HTTP Request Testing in Spring](https://habr.com/ru/articles/781812/).
+The main testing tool will be the message capture object — [RecordCaptor](https://github.com/avvero/kafka-test-support/blob/sb3/kafka-support/src/main/java/pw/avvero/test/kafka/RecordCaptor.java). Its operation is quite similar to the outgoing request capture object—[RequestCaptor](https://github.com/avvero/spring-sandbox/blob/main/request-captor/src/main/java/pw/avvero/test/http/RequestCaptor.java), which can be read about in the article [Ordering Chaos: Arranging HTTP Request Testing in Spring](https://medium.com/@avvero.abernathy/ordering-chaos-arranging-http-request-testing-in-spring-c625520d2418).
 
 Message capture will be performed through a standard Kafka consumer. The list of topics must be specified explicitly via a configuration parameter.
 
@@ -62,7 +62,7 @@ public void eventCaptorListener(ConsumerRecord<Object, Object> record,
 
 The `RecordCaptor` object accumulates information from captured messages.
 
-Using this approach requires adhering to [isolation in Kafka tests](https://habr.com/ru/articles/797049/). Waiting for offset commit confirmation before verifying test results should be done using the [KafkaSupport#waitForPartitionOffsetCommit](https://github.com/avvero/kafka-test-support/blob/6595086188252f4ed89dff24e2129d75e26d9ece/kafka-support/src/main/java/pw/avvero/test/kafka/KafkaSupport.java#L109) method.
+Using this approach requires adhering to [isolation in Kafka tests](https://medium.com/@avvero.abernathy/isolation-in-testing-with-kafka-16e00f5d5d7e). Waiting for offset commit confirmation before verifying test results should be done using the [KafkaSupport#waitForPartitionOffsetCommit](https://github.com/avvero/kafka-test-support/blob/6595086188252f4ed89dff24e2129d75e26d9ece/kafka-support/src/main/java/pw/avvero/test/kafka/KafkaSupport.java#L109) method.
 
 ### Test Example
 
@@ -197,7 +197,7 @@ The code for [OffsetComparisonFrame](https://github.com/avvero/kafka-test-suppor
 
 Testing messages in Kafka using the proposed approach not only simplifies test writing but also makes it more structured and understandable. Utilizing tools like `RecordCaptor`, as well as adhering to isolation principles and clear separation of test stages, ensures high accuracy and efficiency.
 
-Link to the project repository with test demonstrations — [sandbox/bot](https://github.com/avvero/kafka-test-support/tree/sb3/example-testcontainers).
+Link to the project repository with test demonstrations — [kafka-test-support](https://github.com/avvero/kafka-test-support/tree/sb3/example-testcontainers).
 
 Thank you for reading the article, and good luck in your efforts to write effective and clear tests!
 
