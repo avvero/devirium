@@ -11,8 +11,8 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
-- [No Silver Bullet – essence and accident in software engineering](2024-09/No-Silver-Bullet-–-essence-and-accident-in-software-engineering.md)
 - [Consistency As Logical Monotonicity (CALM)](2024-09/Consistency-As-Logical-Monotonicity-(CALM).md)
+- [No Silver Bullet – essence and accident in software engineering](2024-09/No-Silver-Bullet-–-essence-and-accident-in-software-engineering.md)
 - [Страусиный алгоритм](2024-09/Страусиный-алгоритм.md)
 - [Kafka Message Testing](2024-09/Kafka-Message-Testing.md)
 - [Тестирование сообщений в Kafka](2024-09/Тестирование-сообщений-в-Kafka.md)

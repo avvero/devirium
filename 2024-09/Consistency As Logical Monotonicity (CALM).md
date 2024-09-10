@@ -1,4 +1,4 @@
-Theorem. Consistency As Logical Monotonicity (CALM). 
+Theorem.
 
 Logically monotonic distributed code is eventually consistent without any need for consensus protocols (distributed locks, two-phase commit, etc.)
 
