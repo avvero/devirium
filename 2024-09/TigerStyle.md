@@ -9,10 +9,12 @@ Style of coding with philosophy:
 - - [[Splitting code into functions requires taste]]
 - - - [[Centralize control flow]]
 - - - [[Centralize state manipulation]]
-
+- - Explicitly pass options to library functions at the call site, instead of relying on the defaults
+- Performance - Think about performance from the outset, from the beginning
+- Developer Experience
 
 Details - https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/TIGER_STYLE.md.
 
 Includes [[Negative Space Programming]].
 
-#design #clean #code #draft
+#design #clean #code
