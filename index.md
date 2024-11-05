@@ -11,9 +11,9 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
+- [Читатель вкладывает в чтение самого себя](2024-11/Читатель-вкладывает-в-чтение-самого-себя.md)
 - [Vertical slice architecture](2024-11/Vertical-slice-architecture.md)
 - [The Tyranny of Metrics](2024-11/The-Tyranny-of-Metrics.md)
-- [Читатель вкладывает в чтение самого себя](2024-11/Читатель-вкладывает-в-чтение-самого-себя.md)
 - [TriLM - llamafile](2024-11/TriLM---llamafile.md)
 - [The visual guide for joins](2024-11/The-visual-guide-for-joins.md)
 - [Undetectable AI Free & Best AI Detector Online](2024-11/Undetectable-AI-Free-&-Best-AI-Detector-Online.md)
