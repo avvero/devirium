@@ -7,6 +7,8 @@ sudo systemctl start docker
 sudo usermod -aG docker $USER
 newgrp docker
 docker ps
+
+docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p 8080:8080 amir20/dozzle:latest
 ```
 
 
@@ -44,10 +46,6 @@ alias dockerx="docker -H=your-remote-server.org:2375"
 #### For ssh
 ```bash
 export DOCKER_HOST="ssh://username@your-remote-server.org"
-```
-
-```bash
-docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p 8080:8080 amir20/dozzle:latest
 ```
 
 #docker
