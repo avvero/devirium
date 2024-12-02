@@ -1,3 +1,7 @@
+
+## На удаленной машине
+
+1. Установить Docker. Ниже список команд, которые нужно выполнить последовательно:
 ```bash
 sudo apt update
 sudo apt install -y docker.io
@@ -6,34 +10,43 @@ sudo systemctl start docker
 
 sudo usermod -aG docker $USER
 newgrp docker
+```
+2. Проверить Docker. Запустить команду:
+```bash
 docker ps
-
+```
+3. (опционально) Запустить dozzle для доступа к логам.
+```bash
 docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p 8080:8080 amir20/dozzle:latest
 ```
-
-
-## On remote server
+4. Открыть файл `sudo nano /lib/systemd/system/docker.service` и изменить настройку `ExecStart`.
 ```bash
-sudo nano /lib/systemd/system/docker.service
-
 ExecStart=/usr/bin/dockerd -H unix:///var/run/docker.sock -H tcp://0.0.0.0:2375
-
+```
+5. Перезапустить Docker.
+```bash
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
-
+6. Проверить состояние службы Docker
+```bash
+sudo systemctl status docker
+```
+7. Проверить, что Docker порт используется
 To Check:
 ```bash
 sudo systemctl status docker
 sudo ss -tuln | grep 2375
 ```
 
-## On local
-To check:
+
+## На локальной машине
+1. Проверить доступность удаленного Docker
 ```bash
 docker -H tcp://10.30.128.212:2375 ps
 ```
-To configure:
+
+2. Прописать переменную
 ```bash
 export DOCKER_HOST="tcp://10.30.128.212:2375"
 ```
