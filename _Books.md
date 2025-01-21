@@ -1,8 +1,11 @@
 ## 2025
+
+- [[Kotlin in Action]]
 - [[Принципы юнит-тестирования]]
 - The Lord of the Rings
 
 ## 2024
+
 - [[Пиши, сокращай]]
 - [[Tidy first]]
 - Азимов: The naked sun
