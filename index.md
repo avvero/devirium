@@ -11,8 +11,8 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
-- [Predicates and empty collections](2025-01/Predicates-and-empty-collections.md)
 - [Vacuous truth](2025-01/Vacuous-truth.md)
+- [Predicates and empty collections](2025-01/Predicates-and-empty-collections.md)
 - [Я понял Японию. От драконов до покемонов](2025-01/Я-понял-Японию.-От-драконов-до-покемонов.md)
 - [Использование моков для внепроцессных зависимостей](2025-01/Использование-моков-для-внепроцессных-зависимостей.md)
 - [High Plains Drifter v2](2025-01/High-Plains-Drifter-v2.md)
