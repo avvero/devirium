@@ -11,6 +11,7 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
+- [_Books](_Books.md)
 - [Dependency Rule](2025-02/Dependency-Rule.md)
 - [Добавление зависимости для бинов](2025/2025-01/Добавление-зависимости-для-бинов.md)
 - [Вывод имен бинов в лог](2025/2025-01/Вывод-имен-бинов-в-лог.md)
@@ -21,7 +22,6 @@ P.S.: Если вы видите заметку с тегом #draft, это з�
 - [High Plains Drifter v2](2025/2025-01/High-Plains-Drifter-v2.md)
 - [Stylistic conventions in Kotlin for using read-only properties instead of functions](2025/2025-01/Stylistic-conventions-in-Kotlin-for-using-read-only-properties-instead-of-functions.md)
 - [invokedynamic](2025/2025-01/invokedynamic.md)
-- [_Books](_Books.md)
 - [_Movies](_Movies.md)
 - [_Games](_Games.md)
 - [Mind reading](2025/2025-01/Mind-reading.md)

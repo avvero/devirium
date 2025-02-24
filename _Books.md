@@ -1,5 +1,6 @@
 ## 2025
 
+- Angry Tests
 - [[Kotlin in Action]]
 - [[Принципы юнит-тестирования]]
 - The Lord of the Rings
