@@ -94,5 +94,8 @@ Brooks: The mythical man-month
 1. Carcharodons books: Red Tithe, Outer Dark, Silent Hunters
 2. Domain Driven Design
 3. Путь королей (The Way of Kings), Брэндон Сандерсон
+4. [[We, Programmers]]
+5. [[Книга Екклесиаста]]
+6. Скальци Джон - Краснорубашечники
 
 #book
