@@ -1,0 +1,3 @@
+Big Bang Integration Testing is a unique software testing technique that brings all system elements together in one breathtaking instant. It allows developers to examine how all the modules interact with each other and identify any potential issues or conflicts that may arise in this big integrated unit. Big Bang Integration testing is essential to understand the system’s capabilities fully and as a large picture, offers a holistic view of the system’s functionality ensuring that all the integrated components work harmoniously.
+
+#testing
