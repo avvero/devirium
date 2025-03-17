@@ -11,6 +11,7 @@
 + [[Digital garden]], [[Digital garden (eng)]]
 + [[Тестирование сообщений в Kafka]], [[Kafka Message Testing]]
 - [[Pact 34]]
+- [[Интеграционные тесты медленнее unit-тестов]]
 - [[Современные идолы разработки]]
 - [[Developer dirty technics]]
 - [[Оптимизация вынесением общего кода]]
