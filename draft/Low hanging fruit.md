@@ -35,7 +35,7 @@
 
 ![alt text](Low-hanging-fruit-how-dare-you.jpg)
 
-Автор крайне возмущён и потрясён до глубины души.
+Автор глубоко потрясён.
 
 ### "Low-hanging fruit" в программировании
 

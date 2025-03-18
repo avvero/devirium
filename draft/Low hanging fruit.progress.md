@@ -1,3 +1,5 @@
+Заметки по ходу написания [[Low hanging fruit]].
+
 ## Картинка
 
 Нарисуй картинку
@@ -148,3 +150,4 @@ improvement an intrinsic part of professionalism?
 
 "Правило бойскаута" — оставь код чище, чем нашёл — звучит круто. 
 
+#draft 
