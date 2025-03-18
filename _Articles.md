@@ -10,9 +10,9 @@
 + [[Methodcentipede]], [[Methodcentipede (eng)]]
 + [[Digital garden]], [[Digital garden (eng)]]
 + [[Тестирование сообщений в Kafka]], [[Kafka Message Testing]]
++ [[Low hanging fruit]]
 - [[Pact 34]]
 - [[Интеграционные тесты медленнее unit-тестов]]
-- [[Low hanging fruit]]
 - TDD как инструмент промт-инженера
 - [[Современные идолы разработки]]
 - [[Developer dirty technics]]
