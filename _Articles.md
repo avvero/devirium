@@ -11,6 +11,7 @@
 + [[Digital garden]], [[Digital garden (eng)]]
 + [[Тестирование сообщений в Kafka]], [[Kafka Message Testing]]
 + [[Low hanging fruit]]
+- [[Wiremock test suit]]
 - [[Pact 34]]
 - [[Интеграционные тесты медленнее unit-тестов]]
 - TDD как инструмент промт-инженера

@@ -2,6 +2,8 @@
 + [[Разносим по полочкам этапы тестирования http запросов в Spring]], [[Ordering Chaos: Arranging HTTP Request Testing in Spring]]
 + [[Повышаем наглядность интеграционных тестов]], [[Enhancing the Visibility of Integration Tests]]
 
+Об использовании в проекте [[Интеграционное тестирование в проекте]]
+
 TODO:
 - response builder chain - [[wiremock-chain-poc]].
 
