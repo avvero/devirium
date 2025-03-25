@@ -2,4 +2,4 @@
 
 Узнал из [[Разбор полетов]].
 
-#book #design #interview
+#design #interview

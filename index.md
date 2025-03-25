@@ -11,26 +11,26 @@ title: Devirium
 P.S.: Если вы видите заметку с тегом #draft, это значит, что она еще не полностью готова к представлению идеи или содержит грязную шутку, которую я еще не успел скрыть.
 
 ## Последние заметки
+- [ System Design - The Big Archive](2025-03/-System-Design---The-Big-Archive.md)
 - [Имена в Троецарствии и плохие имена переменных](limbo/Имена-в-Троецарствии-и-плохие-имена-переменных.md)
 - [Odontodactylus scyllarus](2025-03/Odontodactylus-scyllarus.md)
-- [ System Design - The Big Archive](2025-03/-System-Design---The-Big-Archive.md)
-- [Spring Bean Lifecycle](draft/Spring-Bean-Lifecycle.md)
 - [_Books](_Books.md)
 - [Интеграционное тестирование в проекте](2025-03/Интеграционное-тестирование-в-проекте.md)
-- [Делегирование в Kotlin](2025-03/Делегирование-в-Kotlin.md)
+- [Spring Bean Lifecycle](2025-03/Spring-Bean-Lifecycle.md)
 - [Low hanging fruit](2025-03/Low-hanging-fruit.md)
+- [Делегирование в Kotlin](2025-03/Делегирование-в-Kotlin.md)
 - [Книга Екклесиаста](2025/2025-02/Книга-Екклесиаста.md)
 - [Если тест не падал, он бесполезен](2025/2025-02/Если-тест-не-падал,-он-бесполезен.md)
 - [Благодать](2025/2025-02/Благодать.md)
 - [We, Programmers](2025/2025-02/We,-Programmers.md)
-- [Dependency Rule](2025/2025-02/Dependency-Rule.md)
-- [Big Bang Integration Testing](2025-03/Big-Bang-Integration-Testing.md)
-- [_Movies](_Movies.md)
 - [Avito playbook](draft/Avito-playbook.md)
-- [Я понял Японию. От драконов до покемонов](2025/2025-01/Я-понял-Японию.-От-драконов-до-покемонов.md)
-- [Юнит-тесты в реактивном стеке](2025/2025-01/Юнит-тесты-в-реактивном-стеке.md)
-- [Хороший юнит-тест](2025/2025-01/Хороший-юнит-тест.md)
-- [Хороший критерий определения качества кода](2025/2025-01/Хороший-критерий-определения-качества-кода.md)
+- [_Movies](_Movies.md)
+- [Big Bang Integration Testing](2025-03/Big-Bang-Integration-Testing.md)
+- [Dependency Rule](2025/2025-02/Dependency-Rule.md)
+- [Добавление зависимости для бинов](2025/2025-01/Добавление-зависимости-для-бинов.md)
+- [Вывод имен бинов в лог](2025/2025-01/Вывод-имен-бинов-в-лог.md)
+- [Vacuous truth](2025/2025-01/Vacuous-truth.md)
+- [Predicates and empty collections](2025/2025-01/Predicates-and-empty-collections.md)
 
 
 ## Популярные тэги
