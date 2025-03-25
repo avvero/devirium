@@ -7,6 +7,7 @@
 
 ## 2024
 
+- Atomic Kotlin
 - [[Пиши, сокращай]]
 - [[Tidy first]]
 - Азимов: The naked sun
