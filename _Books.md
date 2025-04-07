@@ -98,5 +98,6 @@ Brooks: The mythical man-month
 4. [[We, Programmers]]
 5. [[Книга Екклесиаста]]
 6. Скальци Джон - Краснорубашечники
+7. Стругацкие
 
 #book
