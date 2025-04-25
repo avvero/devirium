@@ -141,6 +141,12 @@ val methodCaptor = serverMock.method(
 
 Как можно проверить, что мы ответили?
 
+## Stateful Behaviour
+
+## Дальнейшее развитие 
+
+Переход на stub и отказ от wiremock
+
 ## Заключение
 
 #testing #wiremock #article #draft
