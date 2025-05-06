@@ -1,5 +1,3 @@
-# Статьи
-
 + [[Разносим по полочкам этапы тестирования http запросов в Spring]], [[Ordering Chaos: Arranging HTTP Request Testing in Spring]]
 + [[Изоляция в тестах]] Писать не нужно, все отлично отражено в статье Мартина
 + [[Как сократить потребление памяти в интеграционных тестах с Kafka с помощью GraalVM]], [[How to Reduce Memory Consumption in Integration Tests with Kafka Using GraalVM]]

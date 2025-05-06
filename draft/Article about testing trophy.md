@@ -98,4 +98,8 @@ https://docs.pact.io/faq/convinceme - тут можно почитать о то
 - [Testing of Microservices](https://engineering.atspotify.com/2018/01/testing-of-microservices/)
 - [On the Diverse And Fantastical Shapes of Testing](https://martinfowler.com/articles/2021-test-shapes.html)
 
+## Комментарии к статье "Пара советов по покрытию тестами проекта на SpringBoot"
+
+[[Комментарии к статье "Пара советов по покрытию тестами проекта на SpringBoot"]]
+
 #testing #testing_trophy #draft
