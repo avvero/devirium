@@ -63,7 +63,7 @@ def openaiRequestCaptor = restExpectation.openai.completions(withSuccess("""{...
 
 Полный код тестов - pw.avvero.spring.sandbox.bot.wiremock.FeatureWiremockGTestsStep1.
 
-## Ошибки приложения
+## Эмуляция ошибок
 
 В случае, если openai на запрос отвечает 404 NOT_FOUND или 403 FORBIDDEN, метод отвечает 500, в телеграм запросов не идет.
 
