@@ -101,5 +101,6 @@ Brooks: The mythical man-month
 7. Стругацкие
 8. Пламя над бездной (англ. A Fire upon the Deep), Вернор Виндж
 9. Тереза Ракен
+10. https://ru.hexlet.io/pages/recommended-books
 
 #book

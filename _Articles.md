@@ -10,6 +10,7 @@
 + [[Тестирование сообщений в Kafka]], [[Kafka Message Testing]]
 + [[Low hanging fruit]]
 - [[Wiremock test suit]]
+- [[Evolvability]]
 - [[Pact 34]]
 - [[Интеграционные тесты медленнее unit-тестов?]]
 - TDD как инструмент промт-инженера
