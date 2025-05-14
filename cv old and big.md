@@ -8,8 +8,6 @@ My main tech stack includes Java, Spring Boot, and Kafka. I am passionate about 
 
 -----
 
-Вот исправленный текст:
-
 ### Август 2024
 
 **Проект:** Миграция на новую CRM, определённый набор фичей, строгий дедлайн в 1 месяц.
