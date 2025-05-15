@@ -10,7 +10,7 @@
 + [[Тестирование сообщений в Kafka]], [[Kafka Message Testing]]
 + [[Low hanging fruit]]
 - [[Wiremock test suit]]
-- [[TBD and feature isolation]].
+- [[Код, который умеет меняться]]
 - [[Evolvability]]
 - [[Pact 34]]
 - [[Интеграционные тесты медленнее unit-тестов?]]
