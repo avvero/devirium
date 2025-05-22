@@ -9,6 +9,7 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
+- [ASUS ROG Strix XG27AQDMG](2025-05/ASUS-ROG-Strix-XG27AQDMG.md)
 - [Влияние удержания горизонта базы данных PostgreSQL](2025-05/Влияние-удержания-горизонта-базы-данных-PostgreSQL.md)
 - [Зов чугуна](2025-05/Зов-чугуна.md)
 - [TBD and feature isolation](2022/2022-08/TBD-and-feature-isolation.md)
@@ -28,7 +29,6 @@ title: Devirium
 - [Принципы юнит-тестирования](2025/2025-01/Принципы-юнит-тестирования.md)
 - [The Best Programmers I Know](2025-05/The-Best-Programmers-I-Know.md)
 - [flyde.dev](2025/2025-04/flyde.dev.md)
-- [Использование рабочего кода в тестах](2025/2025-04/Использование-рабочего-кода-в-тестах.md)
 
 
 ## Популярные тэги
