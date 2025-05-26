@@ -9,6 +9,8 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
+- [Actor-observer bias](2025-05/Actor-observer-bias.md)
+- [Ты можешь что-то думать](draft/Ты-можешь-что-то-думать.md)
 - [ASUS ROG Strix XG27AQDMG](2025-05/ASUS-ROG-Strix-XG27AQDMG.md)
 - [Влияние удержания горизонта базы данных PostgreSQL](2025-05/Влияние-удержания-горизонта-базы-данных-PostgreSQL.md)
 - [Зов чугуна](2025-05/Зов-чугуна.md)
@@ -27,8 +29,6 @@ title: Devirium
 - [Fail fast](2025-05/Fail-fast.md)
 - [Подлинные абстракции открываются, не изобретаются](2025-05/Подлинные-абстракции-открываются,-не-изобретаются.md)
 - [Принципы юнит-тестирования](2025/2025-01/Принципы-юнит-тестирования.md)
-- [The Best Programmers I Know](2025-05/The-Best-Programmers-I-Know.md)
-- [flyde.dev](2025/2025-04/flyde.dev.md)
 
 
 ## Популярные тэги
