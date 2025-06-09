@@ -9,7 +9,7 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
-- [Сизифов труд](2025-06/Сизифов-труд.md)
+- [Сизифу трут](2025-06/Сизифу-трут.md)
 - [_Books](_Books.md)
 - [Actor-observer bias](2025/2025-05/Actor-observer-bias.md)
 - [Ты можешь что-то думать](draft/Ты-можешь-что-то-думать.md)
