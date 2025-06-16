@@ -9,6 +9,10 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
+- [ibanez af75g-bkf](2025-06/ibanez-af75g-bkf.md)
+- [Premature Design Is Not Design](2025-06/Premature-Design-Is-Not-Design.md)
+- [Правило капрала](2025-06/Правило-капрала.md)
+- [Ясно, понятно](2025-06/Ясно,-понятно.md)
 - [Сизифу трут](2025-06/Сизифу-трут.md)
 - [_Books](_Books.md)
 - [Actor-observer bias](2025/2025-05/Actor-observer-bias.md)
@@ -25,10 +29,6 @@ title: Devirium
 - [Техника упрощённого взвешивания интересов](2025/2025-05/Техника-упрощённого-взвешивания-интересов.md)
 - [Balance Check](2025/2025-05/Balance-Check.md)
 - [Планировщик ресурсов](2025/2025-05/Планировщик-ресурсов.md)
-- [Dominant Resource Fairness](2025/2025-05/Dominant-Resource-Fairness.md)
-- [Ошибка атрибуции](2025/2025-05/Ошибка-атрибуции.md)
-- [Fail fast](2025/2025-05/Fail-fast.md)
-- [Подлинные абстракции открываются, не изобретаются](2025/2025-05/Подлинные-абстракции-открываются,-не-изобретаются.md)
 
 
 ## Популярные тэги
