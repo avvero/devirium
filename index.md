@@ -9,9 +9,9 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
+- [Правило капрала](2025-06/Правило-капрала.md)
 - [ibanez af75g-bkf](2025-06/ibanez-af75g-bkf.md)
 - [Premature Design Is Not Design](2025-06/Premature-Design-Is-Not-Design.md)
-- [Правило капрала](2025-06/Правило-капрала.md)
 - [Ясно, понятно](2025-06/Ясно,-понятно.md)
 - [Сизифу трут](2025-06/Сизифу-трут.md)
 - [_Books](_Books.md)
