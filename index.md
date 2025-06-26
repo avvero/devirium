@@ -36,4 +36,4 @@ title: Devirium
 - #philosophy
 - #logic
 - #design
-- #book
+- #testing
