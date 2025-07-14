@@ -9,6 +9,8 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
+- [_Books](_Books.md)
+- [MongoDB и геопространственные индексы](draft/MongoDB-и-геопространственные-индексы.md)
 - [Моррология](draft/Моррология.md)
 - [Дом Хлаалу](2025-07/Дом-Хлаалу.md)
 - [Почему нам стыдно верить в астрологию](2025-07/Почему-нам-стыдно-верить-в-астрологию.md)
@@ -21,14 +23,12 @@ title: Devirium
 - [Premature Design Is Not Design](2025/2025-06/Premature-Design-Is-Not-Design.md)
 - [Ясно, понятно](2025/2025-06/Ясно,-понятно.md)
 - [Сизифу трут](2025/2025-06/Сизифу-трут.md)
-- [_Books](_Books.md)
 - [Actor-observer bias](2025/2025-05/Actor-observer-bias.md)
 - [ASUS ROG Strix XG27AQDMG](2025/2025-05/ASUS-ROG-Strix-XG27AQDMG.md)
 - [Влияние удержания горизонта базы данных PostgreSQL](2025/2025-05/Влияние-удержания-горизонта-базы-данных-PostgreSQL.md)
 - [Зов чугуна](2025/2025-05/Зов-чугуна.md)
 - [TBD and feature isolation](2022/2022-08/TBD-and-feature-isolation.md)
 - [Процесс разработки с фича-командами](2025/2025-05/Процесс-разработки-с-фича-командами.md)
-- [Gambale chop builder](2025/2025-05/Gambale-chop-builder.md)
 
 
 ## Популярные тэги
