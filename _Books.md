@@ -108,5 +108,7 @@ Brooks: The mythical man-month
 13. Генрих Альтшуллер, книги по ТРИЗ. 
 14. Кит Бургун, «Теория геймдизайна».
 15. Ганс-Юрген Шёниг, PostgreSQL. 
+16. Computer Networking: A Top-Down Approach
+17. https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf
 
 #book
