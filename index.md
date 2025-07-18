@@ -9,6 +9,7 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
+- [Выяснить тезис](draft/Выяснить-тезис.md)
 - [_Books](_Books.md)
 - [New line in markdown](2024/2024-07/New-line-in-markdown.md)
 - [Сениор это когда](2025/2025-05/Сениор-это-когда.md)
@@ -28,7 +29,6 @@ title: Devirium
 - [Actor-observer bias](2025/2025-05/Actor-observer-bias.md)
 - [ASUS ROG Strix XG27AQDMG](2025/2025-05/ASUS-ROG-Strix-XG27AQDMG.md)
 - [Влияние удержания горизонта базы данных PostgreSQL](2025/2025-05/Влияние-удержания-горизонта-базы-данных-PostgreSQL.md)
-- [Зов чугуна](2025/2025-05/Зов-чугуна.md)
 
 
 ## Популярные тэги
