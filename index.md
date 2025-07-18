@@ -9,7 +9,7 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
-- [Релокация](draft/Релокация.md)
+- [Релокация](2025-07/Релокация.md)
 - [Выяснить тезис](draft/Выяснить-тезис.md)
 - [_Books](_Books.md)
 - [New line in markdown](2024/2024-07/New-line-in-markdown.md)
