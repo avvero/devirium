@@ -9,6 +9,7 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
+- [Shift-left](2025-07/Shift-left.md)
 - [README](draft/game/project/README.md)
 - [Выяснить тезис](2025-07/Выяснить-тезис.md)
 - [Релокация](2025-07/Релокация.md)
@@ -28,7 +29,6 @@ title: Devirium
 - [Premature Design Is Not Design](2025/2025-06/Premature-Design-Is-Not-Design.md)
 - [Ясно, понятно](2025/2025-06/Ясно,-понятно.md)
 - [Сизифу трут](2025/2025-06/Сизифу-трут.md)
-- [Actor-observer bias](2025/2025-05/Actor-observer-bias.md)
 
 
 ## Популярные тэги
