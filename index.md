@@ -9,6 +9,7 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
+- [ГУС](2025-07/ГУС.md)
 - [Shift-left](2025-07/Shift-left.md)
 - [README](draft/game/project/README.md)
 - [Выяснить тезис](2025-07/Выяснить-тезис.md)
@@ -28,7 +29,6 @@ title: Devirium
 - [ibanez af75g-bkf](2025/2025-06/ibanez-af75g-bkf.md)
 - [Premature Design Is Not Design](2025/2025-06/Premature-Design-Is-Not-Design.md)
 - [Ясно, понятно](2025/2025-06/Ясно,-понятно.md)
-- [Сизифу трут](2025/2025-06/Сизифу-трут.md)
 
 
 ## Популярные тэги
