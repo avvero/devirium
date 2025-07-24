@@ -25,6 +25,13 @@ func main() {
 		if err != nil {
 			return err
 		}
+		// игнорируем директории, содержащие "draft" в пути
+		if strings.Contains(path, string(filepath.Separator)+"draft"+string(filepath.Separator)) {
+			if info.IsDir() {
+				return filepath.SkipDir
+			}
+			return nil
+		}
 		if !info.IsDir() && filepath.Ext(info.Name()) == ".md" && info.Name() != "index.md" {
 			if !containsIgnoredTags(path) {
 				files = append(files, fileInfo{path, info})
