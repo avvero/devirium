@@ -26,7 +26,7 @@ func main() {
 			return err
 		}
 		// игнорируем директории, содержащие "draft" в пути
-		if strings.Contains(path, string(filepath.Separator)+"draft"+string(filepath.Separator)) {
+		if strings.Contains(path, "draft") {
 			if info.IsDir() {
 				return filepath.SkipDir
 			}
