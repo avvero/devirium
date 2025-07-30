@@ -110,5 +110,17 @@ Brooks: The mythical man-month
 15. Ганс-Юрген Шёниг, PostgreSQL. 
 16. Computer Networking: A Top-Down Approach
 17. https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf
+18. Вавилонские книги
+19. Дэн Симонс Троя
+20. Что делать?
+21. Понедельник начинается в субботу
+22. Песнь о Нибелунгах
+23. Волшебник Земноморья
+24. Записки из мертвого дома
+25. Pragmatic System Design
+26. Кнут
+27. Database internals
+28. Макконел
+29. Five line of code
 
 #book
