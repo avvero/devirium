@@ -9,6 +9,7 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
+- [Плодородная почва](2025-08/Плодородная-почва.md)
 - [Интеграционное тестирование в проекте](2025/2025-03/Интеграционное-тестирование-в-проекте.md)
 - [_Books](_Books.md)
 - [Деплой без релиза](2025/2025-07/Деплой-без-релиза.md)
@@ -28,7 +29,6 @@ title: Devirium
 - [Evidence Based Design](2025/2025-06/Evidence-Based-Design.md)
 - [Правило капрала](2025/2025-06/Правило-капрала.md)
 - [ibanez af75g-bkf](2025/2025-06/ibanez-af75g-bkf.md)
-- [Premature Design Is Not Design](2025/2025-06/Premature-Design-Is-Not-Design.md)
 
 
 ## Популярные тэги
