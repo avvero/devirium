@@ -35,5 +35,5 @@ title: Devirium
 - #humor
 - #philosophy
 - #logic
-- #testing
 - #design
+- #testing
