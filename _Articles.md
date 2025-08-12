@@ -9,7 +9,7 @@
 + [[Digital garden]], [[Digital garden (eng)]]
 + [[Тестирование сообщений в Kafka]], [[Kafka Message Testing]]
 + [[Low hanging fruit]]
-+ [[Код, не боящийся изменений]]
++ [[Код, не боящийся изменений]], [[Code That Isn’t Afraid of Change]]
 - [[Wiremock test suit]]
 - [[Evolvability]]
 - [[Pact 34]]

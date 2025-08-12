@@ -14,7 +14,7 @@ Some people, at that point, leave for another company - hoping to find a good pr
 
 ## Ability to Change
 
-Everything discussed in this article can be summed up in one word - evolvability. Evolvability is the ability of a system to change: to evolve, adapt, expand, or grow over time without requiring a complete rewrite. What matters is not just whether changes are possible, but how hard those changes are to make. The ideal scenario: adding the same feature should take roughly the same amount of effort in the first month of a project’s life as it does two or three years later. When I talk about code flexibility, I also mean its ability to change.
+Everything discussed in this article can be summed up in one word - [[Evolvability]]. Evolvability is the ability of a system to change: to evolve, adapt, expand, or grow over time without requiring a complete rewrite. What matters is not just whether changes are possible, but how hard those changes are to make. The ideal scenario: adding the same feature should take roughly the same amount of effort in the first month of a project’s life as it does two or three years later. When I talk about code flexibility, I also mean its ability to change.
 
 Evolvability is the opposite of software entropy: as a project ages, its development speed drops, and adding new features or fixing bugs becomes harder and harder. Each step requires more effort and time, which slows development velocity.
 
@@ -101,4 +101,4 @@ That bit about "letting the code rest" wasn’t just a throwaway line. There’s
 
 The ability to change isn’t about a specific language or framework - it’s about an approach to development. It’s about building systems that can shed their skin, drop their tail, grow new limbs - and still keep doing their job. There’s no silver bullet, but there is a mindset: don’t carve everything in granite, be ready for change, stay open to it, and don’t fall so in love with your own solutions that you become blind to better ones.
 
-#article
+#article #ignore
