@@ -11,7 +11,6 @@
 + [[Low hanging fruit]]
 + [[Код, не боящийся изменений]], [[Code That Isn’t Afraid of Change]]
 - [[Wiremock test suit]]
-- [[Evolvability]]
 - [[Pact 34]]
 - [[Интеграционные тесты медленнее unit-тестов?]]
 - TDD как инструмент промт-инженера
@@ -25,8 +24,7 @@
 - [[Article about testing trophy]]
 - [[Публикация артефакта в sonatype]]
 - [[Как я пишу статьи]]
-- [[Давайте перестанем голосовать]]
-- Memory leak in Spring
+- [[Утечка памяти в тестах spring]]
 - [[Производительность в тестах]] [[No password postgresql connection]]
 - [[Не очевидные вещи про @DirtiesContext]]
 - Система бесконечного доверия людям
