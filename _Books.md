@@ -114,13 +114,14 @@ Brooks: The mythical man-month
 19. Дэн Симонс Троя
 20. Что делать?
 21. Понедельник начинается в субботу
-22. Песнь о Нибелунгах
-23. Волшебник Земноморья
-24. Записки из мертвого дома
-25. Pragmatic System Design
-26. Кнут
-27. Database internals
-28. Макконел
-29. Five line of code
+22. Стажеры
+23. Песнь о Нибелунгах
+24. Волшебник Земноморья
+25. Записки из мертвого дома
+26. Pragmatic System Design
+27. Кнут
+28. Database internals
+29. Макконел
+30. Five line of code
 
 #book
