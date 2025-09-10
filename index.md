@@ -9,8 +9,8 @@ title: Devirium
 [[How I Built Devirium]]
 
 ## Последние заметки
-- [Индексы с INCLUDE в PostgreSQL](2025-09/Индексы-с-INCLUDE-в-PostgreSQL.md)
 - [Перфоманс-ревью против лишних сеньоров](2025-09/Перфоманс-ревью-против-лишних-сеньоров.md)
+- [Индексы с INCLUDE в PostgreSQL](2025-09/Индексы-с-INCLUDE-в-PostgreSQL.md)
 - [_Books](_Books.md)
 - [На глиняных ногах](2025-09/На-глиняных-ногах.md)
 - [Код, не боящийся изменений](2025/2025-08/Код,-не-боящийся-изменений.md)
@@ -35,5 +35,5 @@ title: Devirium
 - #humor
 - #philosophy
 - #logic
-- #testing
 - #design
+- #testing
