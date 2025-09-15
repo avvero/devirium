@@ -1,5 +1,6 @@
 ## 2025
 
+- [[Патриот]]
 - [[На глиняных ногах]]
 - [[Делай деньги]]
 - [[К оружию! К оружию!]]
@@ -98,35 +99,36 @@ Brooks: The mythical man-month
 
 ## Почитать
 
-1. Carcharodons books: Red Tithe, Outer Dark, Silent Hunters
-2. Domain Driven Design
-3. Путь королей (The Way of Kings), Брэндон Сандерсон
-4. [[We, Programmers]]
-5. [[Книга Екклесиаста]]
-6. Скальци Джон - Краснорубашечники
-7. Стругацкие
-8. Пламя над бездной (англ. A Fire upon the Deep), Вернор Виндж
-9. Тереза Ракен
-10. https://ru.hexlet.io/pages/recommended-books
-11. Курт Воннегут
-12. Эрик Эванс, «Предметно-ориентированное проектирование».
-13. Генрих Альтшуллер, книги по ТРИЗ. 
-14. Кит Бургун, «Теория геймдизайна».
-15. Ганс-Юрген Шёниг, PostgreSQL. 
-16. Computer Networking: A Top-Down Approach
-17. https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf
-18. Вавилонские книги
-19. Дэн Симонс Троя
-20. Что делать?
-21. Понедельник начинается в субботу
-22. Стажеры
-23. Песнь о Нибелунгах
-24. Волшебник Земноморья
-25. Записки из мертвого дома
-26. Pragmatic System Design
-27. Кнут
-28. Database internals
-29. Макконел
-30. Five line of code
+1. Пратчет - Доджер
+2. Carcharodons books: Red Tithe, Outer Dark, Silent Hunters
+3. Domain Driven Design
+4. Путь королей (The Way of Kings), Брэндон Сандерсон
+5. [[We, Programmers]]
+6. [[Книга Екклесиаста]]
+7. Скальци Джон - Краснорубашечники
+8. Стругацкие
+9. Пламя над бездной (англ. A Fire upon the Deep), Вернор Виндж
+10. Тереза Ракен
+11. https://ru.hexlet.io/pages/recommended-books
+12. Курт Воннегут
+13. Эрик Эванс, «Предметно-ориентированное проектирование».
+14. Генрих Альтшуллер, книги по ТРИЗ. 
+15. Кит Бургун, «Теория геймдизайна».
+16. Ганс-Юрген Шёниг, PostgreSQL. 
+17. Computer Networking: A Top-Down Approach
+18. https://beej.us/guide/bgnet/pdf/bgnet_usl_c_1.pdf
+19. Вавилонские книги
+20. Дэн Симонс Троя
+21. Что делать?
+22. Понедельник начинается в субботу
+23. Стажеры
+24. Песнь о Нибелунгах
+25. Волшебник Земноморья
+26. Записки из мертвого дома
+27. Pragmatic System Design
+28. Кнут
+29. Database internals
+30. Макконел
+31. Five line of code
 
 #book
