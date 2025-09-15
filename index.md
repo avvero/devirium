@@ -6,7 +6,7 @@ title: Duckuments
 
 Для обновлений есть канал "Держи записку сениора": https://t.me/duckumentz. Держи записку сениора, чтобы рука была на пульсе технологий!
 
-[[How I Built Devirium]]
+[[How I Built Digital Garden]]
 
 ## Последние заметки
 - [GNU Terry Pratchett](2025-09/GNU-Terry-Pratchett.md)
