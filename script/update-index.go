@@ -48,8 +48,8 @@ func main() {
 		return files[i].info.ModTime().After(files[j].info.ModTime())
 	})
 
-	if len(files) > 20 {
-		files = files[:20]
+	if len(files) > 50 {
+		files = files[:50]
 	}
 
 	indexFilePath := filepath.Join(root, "index.md")
