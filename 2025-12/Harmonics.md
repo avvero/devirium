@@ -16,7 +16,7 @@ Indeed, these standing waves can exist at all the integer divisions of the wave 
 
 In all but some esoteric cases, the first harmonic (the fundamental, called f) is the pitch that you'll perceive when you listen to the sound of the plucked string. The second harmonic (also called the first 'overtone') is half the wavelength of the fundamental and therefore twice the frequency. In isolation we would perceive this as a tone exactly one octave above the fundamental.
 
-The third harmonic has a frequency of 3f (which is the perfect fifth, one and a half octaves above the fundamental) and the fourth harmonic, with a frequency of 4f, defines the second octave above the fundamental. The next three harmonics then lie within the next octave, and the eighth harmonic defines the third octave above the fundamental. And so it goes on...
+The third harmonic has a frequency of 3f (which is the perfect fifth, one and a half octaves above the fundamental) and the fourth harmonic, with a frequency of 4f, defines the second octave above the fundamental. The next three harmonics then lie within the next octave, and the eighth harmonic defines the third octave above the fundamental.
 
 [[Synth Secrets]]
 
