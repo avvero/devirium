@@ -19,3 +19,5 @@ In all but some esoteric cases, the first harmonic (the fundamental, called f) i
 The third harmonic has a frequency of 3f (which is the perfect fifth, one and a half octaves above the fundamental) and the fourth harmonic, with a frequency of 4f, defines the second octave above the fundamental. The next three harmonics then lie within the next octave, and the eighth harmonic defines the third octave above the fundamental. And so it goes on...
 
 [[Synth Secrets]]
+
+#synth
