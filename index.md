@@ -5,13 +5,13 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [_Books](_Books.md)
 - [tremolo](2025-12/tremolo.md)
 - [vibrato](2025-12/vibrato.md)
 - [famitracker](2025-12/famitracker.md)
 - [furnace](2025-12/furnace.md)
 - [Envelopes](2025-12/Envelopes.md)
 - [Ведьмы за границей](2025-12/Ведьмы-за-границей.md)
-- [_Books](_Books.md)
 - [Contour](2025-12/Contour.md)
 - [Ноты и частоты](2025/2025-11/Ноты-и-частоты.md)
 - [sawtooth wave](2025-12/sawtooth-wave.md)
