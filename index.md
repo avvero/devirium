@@ -5,6 +5,8 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [_Books](_Books.md)
+- [Лорды и леди](2025-12/Лорды-и-леди.md)
 - [Patch and tweak](2025-12/Patch-and-tweak.md)
 - [Applying The Filter](2025-12/Applying-The-Filter.md)
 - [Low-pass RC filter](2025-12/Low-pass-RC-filter.md)
@@ -14,7 +16,6 @@ title: _
 - [in phase](2025-12/in-phase.md)
 - [square wave](2025-12/square-wave.md)
 - [out of phase](2025-12/out-of-phase.md)
-- [_Books](_Books.md)
 - [tremolo](2025-12/tremolo.md)
 - [vibrato](2025-12/vibrato.md)
 - [famitracker](2025-12/famitracker.md)
@@ -54,7 +55,6 @@ title: _
 - [Wio Terminal](2025/2025-10/Wio-Terminal.md)
 - [Виталистическая мысль](2025/2025-10/Виталистическая-мысль.md)
 - [All writers are little rivers](2025/2025-10/All-writers-are-little-rivers.md)
-- [Вдруг я в порыве своего высокимерия](limbo/Вдруг-я-в-порыве-своего-высокимерия.md)
 
 
 ## Популярные тэги
