@@ -5,6 +5,7 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Patch and tweak](2025-12/Patch-and-tweak.md)
 - [Applying The Filter](2025-12/Applying-The-Filter.md)
 - [Low-pass RC filter](2025-12/Low-pass-RC-filter.md)
 - [EDU DIY Labor](2025/2025-11/EDU-DIY-Labor.md)
@@ -54,7 +55,6 @@ title: _
 - [Виталистическая мысль](2025/2025-10/Виталистическая-мысль.md)
 - [All writers are little rivers](2025/2025-10/All-writers-are-little-rivers.md)
 - [Вдруг я в порыве своего высокимерия](limbo/Вдруг-я-в-порыве-своего-высокимерия.md)
-- [Как ворваться в мир meshtastic?](2025/2025-10/Как-ворваться-в-мир-meshtastic?.md)
 
 
 ## Популярные тэги
