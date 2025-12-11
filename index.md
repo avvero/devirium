@@ -5,6 +5,7 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Asyn profiler](2025-12/Asyn-profiler.md)
 - [_Books](_Books.md)
 - [Лорды и леди](2025-12/Лорды-и-леди.md)
 - [Patch and tweak](2025-12/Patch-and-tweak.md)
@@ -54,7 +55,6 @@ title: _
 - [CounterFit](2025/2025-10/CounterFit.md)
 - [Wio Terminal](2025/2025-10/Wio-Terminal.md)
 - [Виталистическая мысль](2025/2025-10/Виталистическая-мысль.md)
-- [All writers are little rivers](2025/2025-10/All-writers-are-little-rivers.md)
 
 
 ## Популярные тэги
