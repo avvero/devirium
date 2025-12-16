@@ -140,5 +140,6 @@ Brooks: The mythical man-month
 29. Database internals
 30. Макконел
 31. Five line of code
+32. Час быка
 
 #book
