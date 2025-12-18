@@ -141,5 +141,6 @@ Brooks: The mythical man-month
 30. Макконел
 31. Five line of code
 32. Час быка
+33. Nonviolent Communication: A Language of Life: Life-Changing Tools for Healthy Relationships
 
 #book

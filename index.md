@@ -5,12 +5,13 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Чаепьёт](2025-12/Чаепьёт.md)
+- [_Books](_Books.md)
 - [Личный долг без права требования: пересечение этических школ](2025-12/Личный-долг-без-права-требования:-пересечение-этических-школ.md)
 - [Астабильный мультивибратор](2025-12/Астабильный-мультивибратор.md)
 - [Passive RC filters have no resonant frequencies](2025-12/Passive-RC-filters-have-no-resonant-frequencies.md)
 - [Hi-pass RC filter schema](2025-12/Hi-pass-RC-filter-schema.md)
 - [Low-pass RC filter schema](2025-12/Low-pass-RC-filter-schema.md)
-- [_Books](_Books.md)
 - [Asyn profiler](2025-12/Asyn-profiler.md)
 - [Лорды и леди](2025-12/Лорды-и-леди.md)
 - [Patch and tweak](2025-12/Patch-and-tweak.md)
@@ -54,7 +55,6 @@ title: _
 - [HackRF](2025/2025-11/HackRF.md)
 - [Meshtastic cli](2025/2025-11/Meshtastic-cli.md)
 - [Понюшка](2025/2025-11/Понюшка.md)
-- [Шмяк](2025/2025-11/Шмяк.md)
 
 
 ## Популярные тэги
