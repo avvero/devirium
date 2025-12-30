@@ -5,6 +5,7 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Не квантовать](2025-12/Не-квантовать.md)
 - [Carpe Jugulum. Хватай за горло](2025-12/Carpe-Jugulum.-Хватай-за-горло.md)
 - [_Books](_Books.md)
 - [Денги стоят того](limbo/Денги-стоят-того.md)
@@ -54,7 +55,6 @@ title: _
 - [dtop](2025/2025-11/dtop.md)
 - [Docker pretty container list](2025/2025-11/Docker-pretty-container-list.md)
 - [Python web server from folder](2025/2025-11/Python-web-server-from-folder.md)
-- [Remove docker - cloud-init](2025/2025-11/Remove-docker---cloud-init.md)
 
 
 ## Популярные тэги
