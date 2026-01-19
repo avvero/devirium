@@ -5,6 +5,7 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Postgtresql c pg_stat_statements](2026-01/Postgtresql-c-pg_stat_statements.md)
 - [Агентность](2026-01/Агентность.md)
 - [Ресентимент](2026-01/Ресентимент.md)
 - [Формула выхода](2026-01/Формула-выхода.md)
@@ -54,7 +55,6 @@ title: _
 - [Postgres requests for transactions activity](2025/2025-11/Postgres-requests-for-transactions-activity.md)
 - [Synth Secrets](2025/2025-11/Synth-Secrets.md)
 - [Eventually positive test scenarios](2025/2025-11/Eventually-positive-test-scenarios.md)
-- [Fritzing](2025/2025-11/Fritzing.md)
 
 
 ## Популярные тэги
