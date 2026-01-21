@@ -5,8 +5,8 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
-- [Trigger, a Gate, and a pitch CV](2026-01/Trigger,-a-Gate,-and-a-pitch-CV.md)
 - [Лидовое побоище](2026-01/Лидовое-побоище.md)
+- [Trigger, a Gate, and a pitch CV](2026-01/Trigger,-a-Gate,-and-a-pitch-CV.md)
 - [pg_advisory_lock](2026-01/pg_advisory_lock.md)
 - [Gridfinity](2026-01/Gridfinity.md)
 - [Карл Юнг](2026-01/Карл-Юнг.md)
