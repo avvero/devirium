@@ -1,0 +1,3 @@
+A pull-up resistor is a resistor used in digital logic circuits to ensure a signal line defaults to a known "high" logic state (like VCC) when no other signal is driving it, preventing it from "floating" at an undefined voltage, often used with switches to pull an input high until the switch connects it to ground (creating a low signal). It prevents unpredictable behavior by giving an unconnected pin a defined default voltage, commonly used with microcontrollers and buttons. 
+
+#electronics
