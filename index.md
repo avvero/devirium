@@ -5,6 +5,9 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Royal Enfield Shotgun 650](2026-02/Royal-Enfield-Shotgun-650.md)
+- [honda rebel 1100](2026-02/honda-rebel-1100.md)
+- [honda s660](2026-02/honda-s660.md)
 - [Context Portal](2026-02/Context-Portal.md)
 - [context7](2026-02/context7.md)
 - [Learn gdscript](2026-02/Learn-gdscript.md)
@@ -52,9 +55,6 @@ title: _
 - [Транзистор и конденсатор](2025/2025-12/Транзистор-и-конденсатор.md)
 - [filters](2025/2025-12/filters.md)
 - [in phase](2025/2025-12/in-phase.md)
-- [square wave](2025/2025-12/square-wave.md)
-- [out of phase](2025/2025-12/out-of-phase.md)
-- [tremolo](2025/2025-12/tremolo.md)
 
 
 ## Популярные тэги
