@@ -5,6 +5,10 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Dots and Ties](2026-03/Dots-and-Ties.md)
+- [Music Theory for the 21st-Century Classroom](2026-03/Music-Theory-for-the-21st-Century-Classroom.md)
+- [Tenebyss](2026-03/Tenebyss.md)
+- [Dark System](2026-03/Dark-System.md)
 - [MCP Memory Keeper](2026-03/MCP-Memory-Keeper.md)
 - [_Books](_Books.md)
 - [Мрачный Жнец](2026-03/Мрачный-Жнец.md)
@@ -51,10 +55,6 @@ title: _
 - [Hi-pass RC filter schema](2025/2025-12/Hi-pass-RC-filter-schema.md)
 - [Low-pass RC filter schema](2025/2025-12/Low-pass-RC-filter-schema.md)
 - [Asyn profiler](2025/2025-12/Asyn-profiler.md)
-- [Лорды и леди](2025/2025-12/Лорды-и-леди.md)
-- [Patch and tweak](2025/2025-12/Patch-and-tweak.md)
-- [Applying The Filter](2025/2025-12/Applying-The-Filter.md)
-- [Low-pass RC filter](2025/2025-12/Low-pass-RC-filter.md)
 
 
 ## Популярные тэги
