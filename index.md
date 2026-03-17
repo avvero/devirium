@@ -6,6 +6,7 @@ title: _
 
 ## Последние заметки
 - [Dots and Ties](2026-03/Dots-and-Ties.md)
+- [Open Game Art](2026-03/Open-Game-Art.md)
 - [The ultimate introduction to Godot 4](2026-03/The-ultimate-introduction-to-Godot-4.md)
 - [VNCCS](2026-03/VNCCS.md)
 - [Рэдволл](2026-03/Рэдволл.md)
@@ -54,7 +55,6 @@ title: _
 - [Чаепьёт](2025/2025-12/Чаепьёт.md)
 - [Личный долг без права требования: пересечение этических школ](2025/2025-12/Личный-долг-без-права-требования:-пересечение-этических-школ.md)
 - [Астабильный мультивибратор](2025/2025-12/Астабильный-мультивибратор.md)
-- [Passive RC filters have no resonant frequencies](2025/2025-12/Passive-RC-filters-have-no-resonant-frequencies.md)
 
 
 ## Популярные тэги
