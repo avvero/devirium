@@ -6,6 +6,6 @@ A tie links two notes together to create a new duration. Ties occur between note
 
 A dot added to a note increases the duration of that note by half. A second dot represents half the value of the first dot, or a quarter of the original duration. (These are known as double dotted notes.)
 
-From [[Music Theory for the 21st-Century Classroom]]
+From [[Music Theory for the 21st Century Classroom]]
 
 #music #theory
