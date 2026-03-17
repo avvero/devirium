@@ -6,6 +6,8 @@ title: _
 
 ## Последние заметки
 - [Dots and Ties](2026-03/Dots-and-Ties.md)
+- [VNCCS](2026-03/VNCCS.md)
+- [Рэдволл](2026-03/Рэдволл.md)
 - [Music Theory for the 21st-Century Classroom](2026-03/Music-Theory-for-the-21st-Century-Classroom.md)
 - [Tenebyss](2026-03/Tenebyss.md)
 - [Dark System](2026-03/Dark-System.md)
@@ -53,8 +55,6 @@ title: _
 - [Астабильный мультивибратор](2025/2025-12/Астабильный-мультивибратор.md)
 - [Passive RC filters have no resonant frequencies](2025/2025-12/Passive-RC-filters-have-no-resonant-frequencies.md)
 - [Hi-pass RC filter schema](2025/2025-12/Hi-pass-RC-filter-schema.md)
-- [Low-pass RC filter schema](2025/2025-12/Low-pass-RC-filter-schema.md)
-- [Asyn profiler](2025/2025-12/Asyn-profiler.md)
 
 
 ## Популярные тэги
