@@ -1,4 +1,4 @@
 # Игры
 
-- Silent Hill 2 (2024 video game)
-- 
+- [2026-03] Crimson Desert
+- [2026-03] Resident Evil Requiem
