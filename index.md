@@ -5,6 +5,7 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Claude code cheat sheet](2026-04/Claude-code-cheat-sheet.md)
 - [Hold to your belief](2026-04/Hold-to-your-belief.md)
 - [Explore others path](2026-04/Explore-others-path.md)
 - [Don't cop out with a vote](2026-04/Don't-cop-out-with-a-vote.md)
@@ -54,7 +55,6 @@ title: _
 - [pg_advisory_lock](2026/2026-01/pg_advisory_lock.md)
 - [Gridfinity](2026/2026-01/Gridfinity.md)
 - [Карл Юнг](2026/2026-01/Карл-Юнг.md)
-- [Поддай пару](2026/2026-01/Поддай-пару.md)
 
 
 ## Популярные тэги
