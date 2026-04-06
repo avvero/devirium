@@ -1,0 +1,3 @@
+Glass-box testing (also known as white-box, clear-box, or structural testing) is a software testing method where the internal structure, design, and implementation of the code are known to the tester. Unlike black-box testing, which focuses on functional requirements and inputs/outputs, glass-box testing uses internal knowledge of the software to guide the selection of test data and ensure comprehensive code coverage.
+
+#testing
