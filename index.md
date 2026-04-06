@@ -6,7 +6,7 @@ title: _
 
 ## Последние заметки
 - [Hold to your belief](2026-04/Hold-to-your-belief.md)
-- [Exploer others path](2026-04/Exploer-others-path.md)
+- [Explore others path](2026-04/Explore-others-path.md)
 - [Don't cop out with a vote](2026-04/Don't-cop-out-with-a-vote.md)
 - [_Books](_Books.md)
 - [Glass Box Testing](2026-04/Glass-Box-Testing.md)
