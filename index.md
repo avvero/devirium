@@ -5,6 +5,10 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Summary - master my stories](2026-04/Summary---master-my-stories.md)
+- [When you refuse to make yourself helpless](2026-04/When-you-refuse-to-make-yourself-helpless.md)
+- [Don't back away or weaken the argument](2026-04/Don't-back-away-or-weaken-the-argument.md)
+- [Антропоморфная персонификация](2026-04/Антропоморфная-персонификация.md)
 - [Claude code cheat sheet](2026-04/Claude-code-cheat-sheet.md)
 - [Hold to your belief](2026-04/Hold-to-your-belief.md)
 - [Explore others path](2026-04/Explore-others-path.md)
@@ -51,10 +55,6 @@ title: _
 - [Невоодушевленный предмет](2026/2026-01/Невоодушевленный-предмет.md)
 - [Онтологический статус](2026/2026-01/Онтологический-статус.md)
 - [Лидовое побоище](2026/2026-01/Лидовое-побоище.md)
-- [Trigger, a Gate, and a pitch CV](2026/2026-01/Trigger,-a-Gate,-and-a-pitch-CV.md)
-- [pg_advisory_lock](2026/2026-01/pg_advisory_lock.md)
-- [Gridfinity](2026/2026-01/Gridfinity.md)
-- [Карл Юнг](2026/2026-01/Карл-Юнг.md)
 
 
 ## Популярные тэги
