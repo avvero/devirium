@@ -5,6 +5,10 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Звездные войны. Траун](2026-04/Звездные-войны.-Траун.md)
+- [_Books](_Books.md)
+- [Чему учил Будда](2026-04/Чему-учил-Будда.md)
+- [Anthropic courses](2026-04/Anthropic-courses.md)
 - [Summary - master my stories](2026-04/Summary---master-my-stories.md)
 - [When you refuse to make yourself helpless](2026-04/When-you-refuse-to-make-yourself-helpless.md)
 - [Don't back away or weaken the argument](2026-04/Don't-back-away-or-weaken-the-argument.md)
@@ -13,7 +17,6 @@ title: _
 - [Hold to your belief](2026-04/Hold-to-your-belief.md)
 - [Explore others path](2026-04/Explore-others-path.md)
 - [Don't cop out with a vote](2026-04/Don't-cop-out-with-a-vote.md)
-- [_Books](_Books.md)
 - [Glass Box Testing](2026-04/Glass-Box-Testing.md)
 - [_Games](_Games.md)
 - [Санта-Хрякус](2026-04/Санта-Хрякус.md)
@@ -52,14 +55,11 @@ title: _
 - [openclaw](2026/2026-02/openclaw.md)
 - [Кустыня](2026/2026-01/Кустыня.md)
 - [Flute](2026/2026-01/Flute.md)
-- [Невоодушевленный предмет](2026/2026-01/Невоодушевленный-предмет.md)
-- [Онтологический статус](2026/2026-01/Онтологический-статус.md)
-- [Лидовое побоище](2026/2026-01/Лидовое-побоище.md)
 
 
 ## Популярные тэги
 - #humor
 - #philosophy
-- #logic
 - #book
+- #logic
 - #testing
