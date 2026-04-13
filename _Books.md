@@ -1,5 +1,6 @@
 ## 2026
 
+- [[Nonviolent Communication]]
 - [[Звездные войны. Траун]]
 - [[Чему учил Будда]]
 - Angry Tests Vol.2
