@@ -5,6 +5,9 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [grill-me](2026-05/grill-me.md)
+- [Skills For Real Engineers](2026-05/Skills-For-Real-Engineers.md)
+- [Matt Pocock](2026-05/Matt-Pocock.md)
 - [_Books](_Books.md)
 - [Твой первый трек](2026-05/Твой-первый-трек.md)
 - [Траун: Доминация - Грядущий Хаос](2026-05/Траун:-Доминация---Грядущий-Хаос.md)
@@ -52,9 +55,6 @@ title: _
 - [Royal Enfield Shotgun 650](2026/2026-02/Royal-Enfield-Shotgun-650.md)
 - [honda rebel 1100](2026/2026-02/honda-rebel-1100.md)
 - [honda s660](2026/2026-02/honda-s660.md)
-- [Context Portal](2026/2026-02/Context-Portal.md)
-- [context7](2026/2026-02/context7.md)
-- [Learn gdscript](2026/2026-02/Learn-gdscript.md)
 
 
 ## Популярные тэги
