@@ -14,4 +14,6 @@ C major
 .-E:  G  A  B
 ```
 
+Взято с https://op-forums.com/t/ep-133-k-o-ii-applied-music-theory/25653
+
 #synth #ep133
