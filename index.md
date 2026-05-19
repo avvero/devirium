@@ -5,6 +5,8 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [EP-133 Pad note mapping](2026-05/EP-133-Pad-note-mapping.md)
+- [EP-133 Scale codes](2026-05/EP-133-Scale-codes.md)
 - [EP-133 Default samples listing](2026-05/EP-133-Default-samples-listing.md)
 - [EP-133 Default Preset Banks](2026-05/EP-133-Default-Preset-Banks.md)
 - [grill-me](2026-05/grill-me.md)
@@ -53,8 +55,6 @@ title: _
 - [MCP Memory Keeper](2026/2026-03/MCP-Memory-Keeper.md)
 - [Мрачный Жнец](2026/2026-03/Мрачный-Жнец.md)
 - [Критика "мнения"](2026/2026-03/Критика-"мнения".md)
-- [Мор, ученик Смерти](2026/2026-02/Мор,-ученик-Смерти.md)
-- [Royal Enfield Shotgun 650](2026/2026-02/Royal-Enfield-Shotgun-650.md)
 
 
 ## Популярные тэги
