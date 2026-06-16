@@ -5,6 +5,8 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [rtk](2026/2026-06/rtk.md)
+- [caveman](2026/2026-06/caveman.md)
 - [Qwart](2026/2026-06/Qwart.md)
 - [Поедание хенкалины](limbo/Поедание-хенкалины.md)
 - [Аллергия на тополиный пух](limbo/Аллергия-на-тополиный-пух.md)
@@ -53,8 +55,6 @@ title: _
 - [Open Game Art](2026/2026-03/Open-Game-Art.md)
 - [The ultimate introduction to Godot 4](2026/2026-03/The-ultimate-introduction-to-Godot-4.md)
 - [VNCCS](2026/2026-03/VNCCS.md)
-- [Рэдволл](2026/2026-03/Рэдволл.md)
-- [Music Theory for the 21st Century Classroom](2026/2026-03/Music-Theory-for-the-21st-Century-Classroom.md)
 
 
 ## Популярные тэги
