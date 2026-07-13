@@ -5,6 +5,7 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Конфуций и го](2026-07/Конфуций-и-го.md)
 - [Axelix](2026-07/Axelix.md)
 - [СТАФФ Инженеры](2026-07/СТАФФ-Инженеры.md)
 - [Genome](2026-07/Genome.md)
@@ -54,7 +55,6 @@ title: _
 - [Focus on that you really want](2026/2026-03/Focus-on-that-you-really-want.md)
 - [Trying to win an argument](2026/2026-03/Trying-to-win-an-argument.md)
 - [Crucial Conversations](2026/2026-03/Crucial-Conversations.md)
-- [Фэкхем-Холл](2026/2026-03/Фэкхем-Холл.md)
 
 
 ## Популярные тэги
