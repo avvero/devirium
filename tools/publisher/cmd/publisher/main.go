@@ -21,14 +21,14 @@ const defaultCorrectorPrompt = `Check the note below for grammatical errors. If 
 
 func main() {
 	var (
-		repoRoot     = flag.String("repo", ".", "path to git repo (content root)")
-		baseRef      = flag.String("base", "HEAD~1", "base git ref for diff (empty = list all *.md at head)")
-		headRef      = flag.String("head", "HEAD", "head git ref for diff")
-		dryRun       = flag.Bool("dry-run", false, "log actions instead of calling Telegram/OpenAI")
-		deviriumLink = flag.String("devirium-link", envOr("DEVIRIUM_LINK", "https://devirium.com"), "public site base URL")
-		tgBase       = flag.String("telegram-base", envOr("TELEGRAM_URI", "https://api.telegram.org"), "telegram API base")
-		openaiBase   = flag.String("openai-base", envOr("OPENAI_URI", "https://api.openai.com"), "openai API base")
-		correctorModel = flag.String("corrector-model", envOr("CORRECTOR_MODEL", "gpt-4"), "openai model for corrector")
+		repoRoot        = flag.String("repo", ".", "path to git repo (content root)")
+		baseRef         = flag.String("base", "HEAD~1", "base git ref for diff (empty = list all *.md at head)")
+		headRef         = flag.String("head", "HEAD", "head git ref for diff")
+		dryRun          = flag.Bool("dry-run", false, "log actions instead of calling Telegram/OpenAI")
+		deviriumLink    = flag.String("devirium-link", envOr("DEVIRIUM_LINK", "https://duckuments.avvero.pw"), "public site base URL")
+		tgBase          = flag.String("telegram-base", envOr("TELEGRAM_URI", "https://api.telegram.org"), "telegram API base")
+		openaiBase      = flag.String("openai-base", envOr("OPENAI_URI", "https://api.openai.com"), "openai API base")
+		correctorModel  = flag.String("corrector-model", envOr("CORRECTOR_MODEL", "gpt-4"), "openai model for corrector")
 		correctorPrompt = flag.String("corrector-prompt", envOr("CORRECTOR_PROMPT", defaultCorrectorPrompt), "corrector prompt")
 	)
 	flag.Parse()
