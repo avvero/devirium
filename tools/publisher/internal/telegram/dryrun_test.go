@@ -7,6 +7,10 @@ import (
 )
 
 func TestDryRunSendMessagePrintsCurl(t *testing.T) {
+	t.Setenv("HTTPS_PROXY", "")
+	t.Setenv("https_proxy", "")
+	t.Setenv("HTTP_PROXY", "")
+	t.Setenv("http_proxy", "")
 	var buf bytes.Buffer
 	c := NewDryRun("https://api.telegram.org", "TOKEN", &buf)
 	res, err := c.SendMessage("chat", "hello 'world'", "MarkdownV2")
@@ -20,7 +24,7 @@ func TestDryRunSendMessagePrintsCurl(t *testing.T) {
 	if !strings.Contains(out, "curl -sS -X POST") {
 		t.Errorf("missing curl: %s", out)
 	}
-	if !strings.Contains(out, "https://api.telegram.org/TOKEN/sendMessage?disable_web_page_preview=true") {
+	if !strings.Contains(out, "https://api.telegram.org/botTOKEN/sendMessage?disable_web_page_preview=true") {
 		t.Errorf("missing URL: %s", out)
 	}
 	if !strings.Contains(out, `"chat_id":"chat"`) {
@@ -38,11 +42,38 @@ func TestDryRunSendPhotoPrintsCurl(t *testing.T) {
 		t.Fatal(err)
 	}
 	out := buf.String()
-	if !strings.Contains(out, "/TOKEN/sendPhoto") {
+	if !strings.Contains(out, "/botTOKEN/sendPhoto") {
 		t.Errorf("missing URL: %s", out)
 	}
 	if !strings.Contains(out, `"photo":"https://x/pic.png"`) {
 		t.Errorf("missing photo: %s", out)
+	}
+}
+
+func TestDryRunIncludesProxyFlag(t *testing.T) {
+	t.Setenv("HTTPS_PROXY", "http://10.0.1.80:8118")
+	var buf bytes.Buffer
+	c := NewDryRun("https://api.telegram.org", "TOKEN", &buf)
+	if _, err := c.SendMessage("c", "hi", "MarkdownV2"); err != nil {
+		t.Fatal(err)
+	}
+	if !strings.Contains(buf.String(), "-x 'http://10.0.1.80:8118'") {
+		t.Errorf("missing proxy flag: %s", buf.String())
+	}
+}
+
+func TestDryRunNoProxyFlagWhenUnset(t *testing.T) {
+	t.Setenv("HTTPS_PROXY", "")
+	t.Setenv("https_proxy", "")
+	t.Setenv("HTTP_PROXY", "")
+	t.Setenv("http_proxy", "")
+	var buf bytes.Buffer
+	c := NewDryRun("https://api.telegram.org", "TOKEN", &buf)
+	if _, err := c.SendMessage("c", "hi", "MarkdownV2"); err != nil {
+		t.Fatal(err)
+	}
+	if strings.Contains(buf.String(), " -x ") {
+		t.Errorf("unexpected proxy flag: %s", buf.String())
 	}
 }
 

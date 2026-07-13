@@ -43,6 +43,18 @@ Env: `TELEGRAM_TOKEN`, `DEVIRIUM_CHAT_ID`, `DEVIRIUM_GARDENER_CHAT_ID`,
 `OPENAI_TOKEN`, plus optional `DEVIRIUM_LINK`, `TELEGRAM_URI`, `OPENAI_URI`,
 `CORRECTOR_MODEL`, `CORRECTOR_PROMPT`.
 
+## Proxy
+
+Every HTTP call (OpenAI + Telegram) honours `HTTPS_PROXY` / `HTTP_PROXY` /
+`NO_PROXY` from the environment. In `--dry-run` the emitted curl commands
+include the matching `-x <proxy>` flag so the printout is reproducible.
+
+```
+HTTPS_PROXY=http://10.0.1.80:8118 \
+TELEGRAM_TOKEN=... DEVIRIUM_CHAT_ID=... DEVIRIUM_GARDENER_CHAT_ID=... OPENAI_TOKEN=... \
+go run ./cmd/publisher --repo "$(git rev-parse --show-toplevel)"
+```
+
 ## Layout
 
 - `cmd/publisher` — main

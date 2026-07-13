@@ -28,7 +28,7 @@ func TestSendMessage(t *testing.T) {
 	if got.MessageID != 42 {
 		t.Errorf("id=%d", got.MessageID)
 	}
-	if !strings.Contains(gotPath, "/TOKEN/sendMessage") {
+	if !strings.Contains(gotPath, "/botTOKEN/sendMessage") {
 		t.Errorf("path=%s", gotPath)
 	}
 	if !strings.Contains(gotPath, "disable_web_page_preview=true") {

@@ -46,13 +46,13 @@ type sendPhotoReq struct {
 
 func (c *Client) SendMessage(chatID, text, parseMode string) (SendMessageResult, error) {
 	body, _ := json.Marshal(sendMessageReq{ChatID: chatID, Text: text, ParseMode: parseMode})
-	url := fmt.Sprintf("%s/%s/sendMessage?disable_web_page_preview=true", c.baseURL, c.token)
+	url := fmt.Sprintf("%s/bot%s/sendMessage?disable_web_page_preview=true", c.baseURL, c.token)
 	return c.post(url, body)
 }
 
 func (c *Client) SendPhoto(chatID, photo, caption, parseMode string) (SendMessageResult, error) {
 	body, _ := json.Marshal(sendPhotoReq{ChatID: chatID, Photo: photo, Caption: caption, ParseMode: parseMode})
-	url := fmt.Sprintf("%s/%s/sendPhoto", c.baseURL, c.token)
+	url := fmt.Sprintf("%s/bot%s/sendPhoto", c.baseURL, c.token)
 	return c.post(url, body)
 }
 

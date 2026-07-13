@@ -89,7 +89,7 @@ func main() {
 		tg = telegram.NewDryRun(*tgBase, tgToken, os.Stdout)
 		ai = openai.NewDryRun(*openaiBase, openaiToken, os.Stdout)
 	} else {
-		httpc := &http.Client{Timeout: 30 * time.Second}
+		httpc := newHTTPClient()
 		tg = telegram.New(*tgBase, tgToken, httpc)
 		ai = openai.New(*openaiBase, openaiToken, httpc)
 	}
@@ -127,4 +127,32 @@ func envOr(key, fallback string) string {
 		return v
 	}
 	return fallback
+}
+
+// newHTTPClient builds an http.Client that routes every request through the
+// proxy declared in HTTPS_PROXY / HTTP_PROXY / NO_PROXY env vars.
+func newHTTPClient() *http.Client {
+	transport := &http.Transport{
+		Proxy:                 http.ProxyFromEnvironment,
+		ForceAttemptHTTP2:     true,
+		MaxIdleConns:          10,
+		IdleConnTimeout:       60 * time.Second,
+		TLSHandshakeTimeout:   10 * time.Second,
+		ExpectContinueTimeout: 1 * time.Second,
+	}
+	if p := firstNonEmpty(os.Getenv("HTTPS_PROXY"), os.Getenv("https_proxy"), os.Getenv("HTTP_PROXY"), os.Getenv("http_proxy")); p != "" {
+		log.Printf("using proxy: %s", p)
+	} else {
+		log.Printf("no proxy configured (HTTPS_PROXY/HTTP_PROXY unset)")
+	}
+	return &http.Client{Timeout: 30 * time.Second, Transport: transport}
+}
+
+func firstNonEmpty(values ...string) string {
+	for _, v := range values {
+		if v != "" {
+			return v
+		}
+	}
+	return ""
 }

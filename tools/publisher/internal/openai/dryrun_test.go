@@ -7,6 +7,10 @@ import (
 )
 
 func TestDryRunPrintsCurlAndReturnsCorrect(t *testing.T) {
+	t.Setenv("HTTPS_PROXY", "")
+	t.Setenv("https_proxy", "")
+	t.Setenv("HTTP_PROXY", "")
+	t.Setenv("http_proxy", "")
 	var buf bytes.Buffer
 	c := NewDryRun("https://api.openai.com", "sk-secret-token", &buf)
 	got, err := c.Complete("gpt-4", "prompt body")
@@ -31,6 +35,18 @@ func TestDryRunPrintsCurlAndReturnsCorrect(t *testing.T) {
 	}
 	if !strings.Contains(out, `"model":"gpt-4"`) {
 		t.Errorf("missing model: %s", out)
+	}
+}
+
+func TestDryRunOpenaiIncludesProxyFlag(t *testing.T) {
+	t.Setenv("HTTPS_PROXY", "http://10.0.1.80:8118")
+	var buf bytes.Buffer
+	c := NewDryRun("https://api.openai.com", "sk-x", &buf)
+	if _, err := c.Complete("gpt-4", "p"); err != nil {
+		t.Fatal(err)
+	}
+	if !strings.Contains(buf.String(), "-x 'http://10.0.1.80:8118'") {
+		t.Errorf("missing proxy flag: %s", buf.String())
 	}
 }
 
