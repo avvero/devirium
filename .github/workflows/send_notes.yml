@@ -1,10 +1,5 @@
 name: Send Notes on Commit
 
-# on:
-#   push:
-#     paths:
-#       - '**/*.md'
-
 on:
   workflow_run:
     workflows: ["Deploy Quartz site to GitHub Pages"]
@@ -14,6 +9,7 @@ on:
 jobs:
   send-notes:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - uses: actions/checkout@v4
@@ -21,79 +17,23 @@ jobs:
           fetch-depth: 2
 
       - name: Set up Go
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v5
         with:
-          go-version: '1.16'
+          go-version: '1.22'
+          cache: false
 
-      - name: Compile find-links
-        run: |
-          echo "Compiling script/find-links.go"
-          go build -o script/find-links script/find-links.go
-
-      - name: Compile find-images
-        run: |
-          echo "Compiling script/find-images.go"
-          go build -o script/find-images script/find-images.go
-
-      - name: Check links in changed files
-        id: check-links
-        run: |
-          #!/bin/bash
-
-          set -e
-
-          # Get the list of changed files
-          if git rev-parse HEAD~1 >/dev/null 2>&1; then
-            git diff --name-only -z --diff-filter=ACM HEAD~1 HEAD -- '*.md' > changed_files.txt
-          else
-            git ls-tree --name-only -r -z HEAD -- '*.md' > changed_files.txt
-          fi
-
-          # Display file names and check links
-          while IFS= read -r -d '' file; do
-            if [[ -n "$file" ]]; then
-              echo "Checking links in file: $file"
-              ./script/find-links "$file" || { echo "Error processing file $file with script/find-links.go"; exit 1; }
-              ./script/find-images "$file" || { echo "Error processing file $file with script/find-images.go"; exit 1; }
-              echo ""
-            fi
-          done < changed_files.txt
-
-      - name: List and send changed files
-        if: success()
+      - name: Publish changed notes
+        working-directory: tools/publisher
         env:
-          SEND_NOTES_URL: ${{ secrets.SEND_NOTES_URL }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          DEVIRIUM_CHAT_ID: ${{ secrets.DEVIRIUM_CHAT_ID }}
+          DEVIRIUM_GARDENER_CHAT_ID: ${{ secrets.DEVIRIUM_GARDENER_CHAT_ID }}
+          OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
+          DEVIRIUM_LINK: ${{ secrets.DEVIRIUM_LINK }}
         run: |
-          #!/bin/bash
-
-          set -e
-
-          # Get the list of changed files
-          if git rev-parse HEAD~1 >/dev/null 2>&1; then
-            git diff --name-only -z --diff-filter=ACM HEAD~1 HEAD -- '*.md' > changed_files.txt
+          if git -C "$GITHUB_WORKSPACE" rev-parse HEAD~1 >/dev/null 2>&1; then
+            BASE=HEAD~1
           else
-            git ls-tree --name-only -r -z HEAD -- '*.md' > changed_files.txt
+            BASE=
           fi
-
-          # Display file names and send contents using curl
-          while IFS= read -r -d '' file; do
-            if [[ -n "$file" ]]; then
-              echo "Processing file: $file"
-              content=$(git show "HEAD:$file" | jq -sR .)
-              links=$(./script/find-links "$file")
-              images=$(./script/find-images "$file")
-
-              filename=$(basename "$file")
-              json_data="{\"file\":\"$filename\",\"path\":\"$file\",\"content\":$content, \"links\": $links, \"images\": $images}"
-
-              echo "JSON Data: $json_data"
-              response=$(curl -s -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -X POST -d "$json_data" $SEND_NOTES_URL)
-              echo "Server response: $response"
-              if [ "$response" -ne 200 ]; then
-                message="Failed to send notes to server for file $file. Response code: $response"
-                echo "$message"
-                exit 1
-              fi
-              echo ""
-            fi
-          done < changed_files.txt
+          go run ./cmd/publisher --repo "$GITHUB_WORKSPACE" --base "$BASE" --head HEAD
