@@ -102,7 +102,9 @@ func main() {
 	}, tg, ai, m, idx)
 
 	failed := 0
-	for _, path := range changed {
+	ok := 0
+	for i, path := range changed {
+		log.Printf("--- [%d/%d] %s ---", i+1, len(changed), path)
 		body, err := gitdelta.FileAt(root, *headRef, path)
 		if err != nil {
 			log.Printf("read %s: %v", path, err)
@@ -113,8 +115,11 @@ func main() {
 		if err := pub.PublishNote(name, path, body); err != nil {
 			log.Printf("publish %s: %v", path, err)
 			failed++
+			continue
 		}
+		ok++
 	}
+	log.Printf("done: %d processed, %d failed (out of %d changed files)", ok, failed, len(changed))
 
 	if failed > 0 {
 		fmt.Fprintf(os.Stderr, "%d files failed\n", failed)
