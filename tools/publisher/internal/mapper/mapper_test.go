@@ -183,6 +183,14 @@ func TestPhotoURL(t *testing.T) {
 	}
 }
 
+func TestPhotoURLCyrillic(t *testing.T) {
+	got := newMapper().URLForPhoto("2026-07/Добродетель.png")
+	want := "https://devirium.com/2026-07/%D0%94%D0%BE%D0%B1%D1%80%D0%BE%D0%B4%D0%B5%D1%82%D0%B5%D0%BB%D1%8C.png"
+	if got != want {
+		t.Errorf("got %q, want %q", got, want)
+	}
+}
+
 func TestUnicode(t *testing.T) {
 	got, _ := newMapper().Map("Unicode Note.md", "", "Русский текст with émojis 🚀 and symbols ñáéíóú", nil, false)
 	for _, needle := range []string{"*Unicode Note*", "Русский текст", "🚀", "ñáéíóú"} {

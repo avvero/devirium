@@ -4,6 +4,7 @@ import (
 	"crypto/rand"
 	"encoding/hex"
 	"fmt"
+	"net/url"
 	"regexp"
 	"strings"
 )
@@ -65,7 +66,11 @@ func (m *Mapper) Map(fileName, filePath, content string, links map[string]string
 }
 
 func (m *Mapper) URLForPhoto(link string) string {
-	return fmt.Sprintf("%s/%s", m.deviriumLink, link)
+	parts := strings.Split(link, "/")
+	for i, p := range parts {
+		parts[i] = url.PathEscape(p)
+	}
+	return fmt.Sprintf("%s/%s", m.deviriumLink, strings.Join(parts, "/"))
 }
 
 var escapeChars = []string{"_", "*", "~", "#", "+", "-", "=", "|", "{", "}", ".", "!", "[", "]", "(", ")"}
