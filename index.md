@@ -5,6 +5,7 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [Ibanez Q52](2026-07/Ibanez-Q52.md)
 - [Raspbot V2](2026-07/Raspbot-V2.md)
 - [ROS](2026-07/ROS.md)
 - [_Games](_Games.md)
@@ -54,7 +55,6 @@ title: _
 - [Don't cop out with a vote](2026/2026-04/Don't-cop-out-with-a-vote.md)
 - [Арбузер](limbo/Арбузер.md)
 - [Mineset](limbo/Mineset.md)
-- [Glass Box Testing](2026/2026-04/Glass-Box-Testing.md)
 
 
 ## Популярные тэги
