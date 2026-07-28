@@ -5,7 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"mime/multipart"
 	"net/http"
+	"os"
+	"path/filepath"
 )
 
 type Client struct {
@@ -56,6 +59,49 @@ func (c *Client) SendPhoto(chatID, photo, caption, parseMode string) (SendMessag
 	return c.post(url, body)
 }
 
+func (c *Client) SendPhotoFile(chatID, localPath, caption, parseMode string) (SendMessageResult, error) {
+	f, err := os.Open(localPath)
+	if err != nil {
+		return SendMessageResult{}, fmt.Errorf("open photo: %w", err)
+	}
+	defer f.Close()
+
+	var buf bytes.Buffer
+	w := multipart.NewWriter(&buf)
+	_ = w.WriteField("chat_id", chatID)
+	_ = w.WriteField("caption", caption)
+	_ = w.WriteField("parse_mode", parseMode)
+	fw, err := w.CreateFormFile("photo", filepath.Base(localPath))
+	if err != nil {
+		return SendMessageResult{}, err
+	}
+	if _, err = io.Copy(fw, f); err != nil {
+		return SendMessageResult{}, err
+	}
+	w.Close()
+
+	url := fmt.Sprintf("%s/bot%s/sendPhoto", c.baseURL, c.token)
+	req, err := http.NewRequest(http.MethodPost, url, &buf)
+	if err != nil {
+		return SendMessageResult{}, err
+	}
+	req.Header.Set("Content-Type", w.FormDataContentType())
+	resp, err := c.http.Do(req)
+	if err != nil {
+		return SendMessageResult{}, err
+	}
+	defer resp.Body.Close()
+	raw, _ := io.ReadAll(resp.Body)
+	var parsed response
+	if err := json.Unmarshal(raw, &parsed); err != nil {
+		return SendMessageResult{}, fmt.Errorf("telegram: bad response %d: %s", resp.StatusCode, string(raw))
+	}
+	if !parsed.OK {
+		return SendMessageResult{}, fmt.Errorf("telegram: %s\ncaption: %s", parsed.Description, caption)
+	}
+	return parsed.Result, nil
+}
+
 func (c *Client) post(url string, body []byte) (SendMessageResult, error) {
 	req, err := http.NewRequest(http.MethodPost, url, bytes.NewReader(body))
 	if err != nil {
@@ -70,10 +116,10 @@ func (c *Client) post(url string, body []byte) (SendMessageResult, error) {
 	raw, _ := io.ReadAll(resp.Body)
 	var parsed response
 	if err := json.Unmarshal(raw, &parsed); err != nil {
-		return SendMessageResult{}, fmt.Errorf("telegram: bad response %d: %s", resp.StatusCode, string(raw))
+		return SendMessageResult{}, fmt.Errorf("telegram: bad response %d: %s\nrequest body: %s", resp.StatusCode, string(raw), string(body))
 	}
 	if !parsed.OK {
-		return SendMessageResult{}, fmt.Errorf("telegram: %s", parsed.Description)
+		return SendMessageResult{}, fmt.Errorf("telegram: %s\nrequest body: %s", parsed.Description, string(body))
 	}
 	return parsed.Result, nil
 }

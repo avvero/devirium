@@ -99,6 +99,7 @@ func main() {
 		GardenerChatID:  gardenerChat,
 		CorrectorPrompt: *correctorPrompt,
 		CorrectorModel:  *correctorModel,
+		RepoRoot:        root,
 	}, tg, ai, m, idx)
 
 	failed := 0

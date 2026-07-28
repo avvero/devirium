@@ -35,6 +35,13 @@ func (c *DryRunClient) SendPhoto(chatID, photo, caption, parseMode string) (Send
 	return c.nextResult(), nil
 }
 
+func (c *DryRunClient) SendPhotoFile(chatID, localPath, caption, parseMode string) (SendMessageResult, error) {
+	url := fmt.Sprintf("%s/bot%s/sendPhoto", c.baseURL, c.token)
+	fmt.Fprintf(c.out, "[dry-run] sendPhotoFile chat=%s file=%s caption=%q parse_mode=%s url=%s\n",
+		chatID, localPath, caption, parseMode, url)
+	return c.nextResult(), nil
+}
+
 func (c *DryRunClient) printCurl(url string, body []byte) {
 	proxyFlag := ""
 	if p := firstNonEmpty(os.Getenv("HTTPS_PROXY"), os.Getenv("https_proxy"), os.Getenv("HTTP_PROXY"), os.Getenv("http_proxy")); p != "" {

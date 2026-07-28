@@ -29,6 +29,10 @@ func (f *fakeTG) SendPhoto(chat, photo, caption, mode string) (telegram.SendMess
 	f.photos = append(f.photos, sentPhoto{chat, photo, caption, mode})
 	return telegram.SendMessageResult{MessageID: 2}, f.err
 }
+func (f *fakeTG) SendPhotoFile(chat, localPath, caption, mode string) (telegram.SendMessageResult, error) {
+	f.photos = append(f.photos, sentPhoto{chat, localPath, caption, mode})
+	return telegram.SendMessageResult{MessageID: 2}, f.err
+}
 
 type fakeAI struct {
 	reply string
@@ -47,6 +51,16 @@ func newFixture(t *testing.T) (*resolver.Index, *mapper.Mapper, string) {
 		t.Fatal(err)
 	}
 	return idx, mapper.New("https://devirium.com"), root
+}
+
+func baseCfgWithRoot(root string) Config {
+	return Config{
+		DeviriumChatID:  "chan",
+		GardenerChatID:  "garden",
+		CorrectorPrompt: "check:",
+		CorrectorModel:  "gpt-4",
+		RepoRoot:        root,
+	}
 }
 
 func writeFile(t *testing.T, path, body string) {
@@ -158,17 +172,18 @@ func TestRoutesToGardenerWhenIncorrect(t *testing.T) {
 }
 
 func TestPhotoPathWhenImagePresent(t *testing.T) {
-	idx, m, _ := newFixture(t)
+	idx, m, root := newFixture(t)
 	tg := &fakeTG{}
-	p := New(baseCfg(), tg, &fakeAI{reply: "Note is correct"}, m, idx)
+	p := New(baseCfgWithRoot(root), tg, &fakeAI{reply: "Note is correct"}, m, idx)
 	if err := p.PublishNote("N.md", "2024/N.md", "hi ![](pic.png)"); err != nil {
 		t.Fatal(err)
 	}
 	if len(tg.photos) != 1 {
 		t.Fatalf("want 1 photo, got %d msgs=%v", len(tg.photos), tg.messages)
 	}
-	if tg.photos[0].photo != "https://devirium.com/pic.png" {
-		t.Errorf("photo=%s", tg.photos[0].photo)
+	wantPath := filepath.Join(root, "pic.png")
+	if tg.photos[0].photo != wantPath {
+		t.Errorf("photo=%s, want=%s", tg.photos[0].photo, wantPath)
 	}
 }
 

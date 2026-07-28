@@ -15,6 +15,7 @@ import (
 type TelegramSender interface {
 	SendMessage(chatID, text, parseMode string) (telegram.SendMessageResult, error)
 	SendPhoto(chatID, photo, caption, parseMode string) (telegram.SendMessageResult, error)
+	SendPhotoFile(chatID, localPath, caption, parseMode string) (telegram.SendMessageResult, error)
 }
 
 // Corrector reviews the note; returns text; if it contains "note is correct" the note publishes.
@@ -27,6 +28,7 @@ type Config struct {
 	GardenerChatID  string
 	CorrectorPrompt string
 	CorrectorModel  string // usually "gpt-4"
+	RepoRoot        string // local filesystem root for reading image files
 }
 
 type Publisher struct {
@@ -114,14 +116,14 @@ func (p *Publisher) PublishNote(name, path, content string) error {
 	}
 
 	if hasPhoto {
-		var firstImage string
+		var firstImagePath string
 		for _, v := range images {
-			firstImage = v
+			firstImagePath = v
 			break
 		}
-		photoURL := p.mapper.URLForPhoto(firstImage)
-		log.Printf("publish: %s -> sendPhoto (chat=%s, photo=%s)", name, target, photoURL)
-		res, err := p.tg.SendPhoto(target, photoURL, body, "MarkdownV2")
+		localPath := filepath.Join(p.cfg.RepoRoot, firstImagePath)
+		log.Printf("publish: %s -> sendPhotoFile (chat=%s, file=%s)", name, target, localPath)
+		res, err := p.tg.SendPhotoFile(target, localPath, body, "MarkdownV2")
 		if err != nil {
 			return err
 		}
