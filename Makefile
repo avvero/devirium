@@ -7,7 +7,7 @@ save:
 	git add .
 	git commit -m "update"
 	git push
-
+	HTTPS_PROXY=http://10.0.1.80:8118 make publish
 find:
 	find . -type f | grep -i "$(name)"
 
