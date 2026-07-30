@@ -5,6 +5,7 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [ROS 2 on macOS](2026-07/ROS-2-on-macOS.md)
 - [soniclab](2026-07/soniclab.md)
 - [foxglove](2026-07/foxglove.md)
 - [Yamaha Tenere 700](2026-07/Yamaha-Tenere-700.md)
@@ -54,7 +55,6 @@ title: _
 - [Антропоморфная персонификация](2026/2026-04/Антропоморфная-персонификация.md)
 - [Claude code cheat sheet](2026/2026-04/Claude-code-cheat-sheet.md)
 - [Hold to your belief](2026/2026-04/Hold-to-your-belief.md)
-- [Explore others path](2026/2026-04/Explore-others-path.md)
 
 
 ## Популярные тэги
