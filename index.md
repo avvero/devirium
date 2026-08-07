@@ -5,6 +5,10 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [algorithmic-art-anthropic-skill](2026-08/algorithmic-art-anthropic-skill.md)
+- [Генеративные алгоритмы](2026-08/Генеративные-алгоритмы.md)
+- [p5js](2026-08/p5js.md)
+- [Anthropics skills](2026-08/Anthropics-skills.md)
 - [KWS Rack System](2026-08/KWS-Rack-System.md)
 - [ROS 2 on macOS](2026/2026-07/ROS-2-on-macOS.md)
 - [soniclab](2026/2026-07/soniclab.md)
@@ -51,10 +55,6 @@ title: _
 - [Чему учил Будда](2026/2026-04/Чему-учил-Будда.md)
 - [Anthropic courses](2026/2026-04/Anthropic-courses.md)
 - [Summary - master my stories](2026/2026-04/Summary---master-my-stories.md)
-- [When you refuse to make yourself helpless](2026/2026-04/When-you-refuse-to-make-yourself-helpless.md)
-- [Don't back away or weaken the argument](2026/2026-04/Don't-back-away-or-weaken-the-argument.md)
-- [Антропоморфная персонификация](2026/2026-04/Антропоморфная-персонификация.md)
-- [Claude code cheat sheet](2026/2026-04/Claude-code-cheat-sheet.md)
 
 
 ## Популярные тэги
