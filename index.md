@@ -5,6 +5,9 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [_Books](_Books.md)
+- [AppleVisionMask](2026-08/AppleVisionMask.md)
+- [Нравственные письма к Луцилию](2026-08/Нравственные-письма-к-Луцилию.md)
 - [Honda XL750 Transalp](2026-08/Honda-XL750-Transalp.md)
 - [Honda Africa Twin](2026-08/Honda-Africa-Twin.md)
 - [Sesame Robot](2026-08/Sesame-Robot.md)
@@ -25,7 +28,6 @@ title: _
 - [Gothic 1 Remake](2026/2026-07/Gothic-1-Remake.md)
 - [Chip shot](2026/2026-07/Chip-shot.md)
 - [Добродетель](2026/2026-07/Добродетель.md)
-- [_Books](_Books.md)
 - [Эристика, или Искусство побеждать в спорах](2026/2026-07/Эристика,-или-Искусство-побеждать-в-спорах.md)
 - [Transform repeated behaviors into automatic habits](2026/2026-07/Transform-repeated-behaviors-into-automatic-habits.md)
 - [Конфуций и го](2026/2026-07/Конфуций-и-го.md)
@@ -53,8 +55,6 @@ title: _
 - [Denial of Responsibility](2026/2026-04/Denial-of-Responsibility.md)
 - [Траун: Союзники](2026/2026-04/Траун:-Союзники.md)
 - [icloudpd](2026/2026-04/icloudpd.md)
-- [Moog DFAM](2026/2026-04/Moog-DFAM.md)
-- [Nonviolent Communication](2026/2026-04/Nonviolent-Communication.md)
 
 
 ## Популярные тэги
