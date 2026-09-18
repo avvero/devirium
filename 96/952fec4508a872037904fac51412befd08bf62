@@ -1,0 +1,14 @@
+index.md
+  h_1535bb59f7e2e0 9-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "96952fec4508a872037904fac51412befd08bf62",
+  "prompts": {},
+  "humans": {
+    "h_1535bb59f7e2e0": {
+      "author": "Антон Беляев <avvero@mts.ru>"
+    }
+  }
+}
