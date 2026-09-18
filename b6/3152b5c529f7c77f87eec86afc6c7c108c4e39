@@ -1,0 +1,16 @@
+"2026-09/ИИ заменяет нас на производстве, останется только потреблять.md"
+  h_1535bb59f7e2e0 1
+index.md
+  h_1535bb59f7e2e0 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b63152b5c529f7c77f87eec86afc6c7c108c4e39",
+  "prompts": {},
+  "humans": {
+    "h_1535bb59f7e2e0": {
+      "author": "Антон Беляев <avvero@mts.ru>"
+    }
+  }
+}
