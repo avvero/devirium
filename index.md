@@ -5,10 +5,10 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
-- [AI tutoring outperforms in-class active learning](2026-09/AI-tutoring-outperforms-in-class-active-learning.md)
-- [voxtype](2026-09/voxtype.md)
-- [handy](2026-09/handy.md)
-- [ИИ заменяет нас на производстве, останется только потреблять](2026-09/ИИ-заменяет-нас-на-производстве,-останется-только-потреблять.md)
+- [AI tutoring outperforms in-class active learning](2026/2026-09/AI-tutoring-outperforms-in-class-active-learning.md)
+- [voxtype](2026/2026-09/voxtype.md)
+- [handy](2026/2026-09/handy.md)
+- [ИИ заменяет нас на производстве, останется только потреблять](2026/2026-09/ИИ-заменяет-нас-на-производстве,-останется-только-потреблять.md)
 - [_Books](_Books.md)
 - [AppleVisionMask](2026/2026-08/AppleVisionMask.md)
 - [Нравственные письма к Луцилию](2026/2026-08/Нравственные-письма-к-Луцилию.md)
