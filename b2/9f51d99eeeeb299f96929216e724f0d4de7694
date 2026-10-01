@@ -1,0 +1,19 @@
+2026-10/Бахилы.md
+  s_567f72d47fdfc9::t_91667cd80c5d97 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b29f51d99eeeeb299f96929216e724f0d4de7694",
+  "prompts": {},
+  "sessions": {
+    "s_567f72d47fdfc9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c1699c2d-8f0f-4bdf-8600-ed3757af647d",
+        "model": "unknown"
+      },
+      "human_author": "Антон Беляев <avvero@mts.ru>"
+    }
+  }
+}
