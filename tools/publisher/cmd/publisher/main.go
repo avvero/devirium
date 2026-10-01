@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/avvero/devirium/tools/publisher/internal/anthropic"
 	"github.com/avvero/devirium/tools/publisher/internal/gitdelta"
 	"github.com/avvero/devirium/tools/publisher/internal/mapper"
-	"github.com/avvero/devirium/tools/publisher/internal/openai"
 	"github.com/avvero/devirium/tools/publisher/internal/publisher"
 	"github.com/avvero/devirium/tools/publisher/internal/resolver"
 	"github.com/avvero/devirium/tools/publisher/internal/telegram"
@@ -24,11 +24,11 @@ func main() {
 		repoRoot        = flag.String("repo", ".", "path to git repo (content root)")
 		baseRef         = flag.String("base", "HEAD~1", "base git ref for diff (empty = list all *.md at head)")
 		headRef         = flag.String("head", "HEAD", "head git ref for diff")
-		dryRun          = flag.Bool("dry-run", false, "log actions instead of calling Telegram/OpenAI")
+		dryRun          = flag.Bool("dry-run", false, "log actions instead of calling Telegram/Anthropic")
 		deviriumLink    = flag.String("devirium-link", envOr("DEVIRIUM_LINK", "https://duckuments.avvero.pw"), "public site base URL")
 		tgBase          = flag.String("telegram-base", envOr("TELEGRAM_URI", "https://api.telegram.org"), "telegram API base")
-		openaiBase      = flag.String("openai-base", envOr("OPENAI_URI", "https://api.openai.com"), "openai API base")
-		correctorModel  = flag.String("corrector-model", envOr("CORRECTOR_MODEL", "gpt-4"), "openai model for corrector")
+		anthropicBase   = flag.String("anthropic-base", envOr("DEVIRIUM_ANTHROPIC_BASE_URL", "https://api.anthropic.com"), "anthropic API base")
+		correctorModel  = flag.String("corrector-model", envOr("DEVIRIUM_ANTHROPIC_MODEL", "claude-sonnet-5"), "anthropic model for corrector")
 		correctorPrompt = flag.String("corrector-prompt", envOr("CORRECTOR_PROMPT", defaultCorrectorPrompt), "corrector prompt")
 	)
 	flag.Parse()
@@ -36,14 +36,14 @@ func main() {
 	tgToken := os.Getenv("TELEGRAM_TOKEN")
 	deviriumChat := os.Getenv("DEVIRIUM_CHAT_ID")
 	gardenerChat := os.Getenv("DEVIRIUM_GARDENER_CHAT_ID")
-	openaiToken := os.Getenv("OPENAI_TOKEN")
+	anthropicKey := os.Getenv("DEVIRIUM_ANTHROPIC_API_KEY")
 
 	if !*dryRun {
 		for k, v := range map[string]string{
-			"TELEGRAM_TOKEN":            tgToken,
-			"DEVIRIUM_CHAT_ID":          deviriumChat,
-			"DEVIRIUM_GARDENER_CHAT_ID": gardenerChat,
-			"OPENAI_TOKEN":              openaiToken,
+			"TELEGRAM_TOKEN":             tgToken,
+			"DEVIRIUM_CHAT_ID":           deviriumChat,
+			"DEVIRIUM_GARDENER_CHAT_ID":  gardenerChat,
+			"DEVIRIUM_ANTHROPIC_API_KEY": anthropicKey,
 		} {
 			if v == "" {
 				log.Fatalf("missing env %s (use --dry-run to skip)", k)
@@ -87,11 +87,11 @@ func main() {
 	var ai publisher.Corrector
 	if *dryRun {
 		tg = telegram.NewDryRun(*tgBase, tgToken, os.Stdout)
-		ai = openai.NewDryRun(*openaiBase, openaiToken, os.Stdout)
+		ai = anthropic.NewDryRun(*anthropicBase, anthropicKey, os.Stdout)
 	} else {
 		httpc := newHTTPClient()
 		tg = telegram.New(*tgBase, tgToken, httpc)
-		ai = openai.New(*openaiBase, openaiToken, httpc)
+		ai = anthropic.New(*anthropicBase, anthropicKey, httpc)
 	}
 
 	pub := publisher.New(publisher.Config{

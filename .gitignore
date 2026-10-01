@@ -2,3 +2,5 @@
 .obsidian
 .DS_store
 .obsidian/workspace-mobile.json
+.env
+.env.*

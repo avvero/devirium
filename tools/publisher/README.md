@@ -23,7 +23,7 @@ Manual invocation:
 ```
 cd tools/publisher
 
-# Dry-run: prints the exact curl command for every OpenAI corrector call and
+# Dry-run: prints the exact curl command for every Anthropic corrector call and
 # every Telegram sendMessage/sendPhoto call. Secrets in headers/URLs are masked.
 # No env vars required.
 go run ./cmd/publisher --repo "$(git rev-parse --show-toplevel)" --dry-run
@@ -32,26 +32,26 @@ go run ./cmd/publisher --repo "$(git rev-parse --show-toplevel)" --dry-run
 TELEGRAM_TOKEN=... \
 DEVIRIUM_CHAT_ID=... \
 DEVIRIUM_GARDENER_CHAT_ID=... \
-OPENAI_TOKEN=... \
+DEVIRIUM_ANTHROPIC_API_KEY=... \
 go run ./cmd/publisher --repo "$(git rev-parse --show-toplevel)"
 ```
 
 Flags: `--repo`, `--base`, `--head`, `--dry-run`, `--devirium-link`,
-`--telegram-base`, `--openai-base`, `--corrector-model`, `--corrector-prompt`.
+`--telegram-base`, `--anthropic-base`, `--corrector-model`, `--corrector-prompt`.
 
 Env: `TELEGRAM_TOKEN`, `DEVIRIUM_CHAT_ID`, `DEVIRIUM_GARDENER_CHAT_ID`,
-`OPENAI_TOKEN`, plus optional `DEVIRIUM_LINK`, `TELEGRAM_URI`, `OPENAI_URI`,
-`CORRECTOR_MODEL`, `CORRECTOR_PROMPT`.
+`DEVIRIUM_ANTHROPIC_API_KEY`, plus optional `DEVIRIUM_LINK`, `TELEGRAM_URI`, `DEVIRIUM_ANTHROPIC_BASE_URL`,
+`DEVIRIUM_ANTHROPIC_MODEL`, `CORRECTOR_PROMPT`.
 
 ## Proxy
 
-Every HTTP call (OpenAI + Telegram) honours `HTTPS_PROXY` / `HTTP_PROXY` /
+Every HTTP call (Anthropic + Telegram) honours `HTTPS_PROXY` / `HTTP_PROXY` /
 `NO_PROXY` from the environment. In `--dry-run` the emitted curl commands
 include the matching `-x <proxy>` flag so the printout is reproducible.
 
 ```
 HTTPS_PROXY=http://10.0.1.80:8118 \
-TELEGRAM_TOKEN=... DEVIRIUM_CHAT_ID=... DEVIRIUM_GARDENER_CHAT_ID=... OPENAI_TOKEN=... \
+TELEGRAM_TOKEN=... DEVIRIUM_CHAT_ID=... DEVIRIUM_GARDENER_CHAT_ID=... DEVIRIUM_ANTHROPIC_API_KEY=... \
 go run ./cmd/publisher --repo "$(git rev-parse --show-toplevel)"
 ```
 
@@ -62,7 +62,7 @@ go run ./cmd/publisher --repo "$(git rev-parse --show-toplevel)"
 - `internal/resolver` — wikilink + image resolution against repo files
 - `internal/mapper` — MarkdownV2 escape + wikilink URL replacement
 - `internal/telegram` — `sendMessage`, `sendPhoto`
-- `internal/openai` — `/v1/chat/completions`
+- `internal/anthropic` — `/v1/messages`
 - `internal/publisher` — skip rules, corrector gate, channel/gardener routing
 
 ## Tests
@@ -83,6 +83,6 @@ go build ./...
 
 `.github/workflows/send_notes.yml` runs `go run ./cmd/publisher` after the
 Quartz deploy succeeds. Required secrets: `TELEGRAM_TOKEN`, `DEVIRIUM_CHAT_ID`,
-`DEVIRIUM_GARDENER_CHAT_ID`, `OPENAI_TOKEN`, optional `DEVIRIUM_LINK`.
+`DEVIRIUM_GARDENER_CHAT_ID`, `DEVIRIUM_ANTHROPIC_API_KEY`, optional `DEVIRIUM_LINK`.
 
 #digital_garden #ignore

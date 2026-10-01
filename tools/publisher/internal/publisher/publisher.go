@@ -27,7 +27,7 @@ type Config struct {
 	DeviriumChatID  string
 	GardenerChatID  string
 	CorrectorPrompt string
-	CorrectorModel  string // usually "gpt-4"
+	CorrectorModel  string // usually "claude-sonnet-5"
 	RepoRoot        string // local filesystem root for reading image files
 }
 

@@ -15,7 +15,7 @@ find:
 publish-dry:
 	cd tools/publisher && go run ./cmd/publisher --repo $(CURDIR) --dry-run
 
-# Публикация изменённых заметок в Telegram (реально шлёт). Требуются env: TELEGRAM_TOKEN, DEVIRIUM_CHAT_ID, DEVIRIUM_GARDENER_CHAT_ID, OPENAI_TOKEN
+# Публикация изменённых заметок в Telegram (реально шлёт). Требуются env: TELEGRAM_TOKEN, DEVIRIUM_CHAT_ID, DEVIRIUM_GARDENER_CHAT_ID, DEVIRIUM_ANTHROPIC_API_KEY
 publish:
 	cd tools/publisher && go run ./cmd/publisher --repo $(CURDIR)
 

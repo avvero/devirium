@@ -1,4 +1,4 @@
-package openai
+package anthropic
 
 import (
 	"bytes"
@@ -12,8 +12,8 @@ func TestDryRunPrintsCurlAndReturnsCorrect(t *testing.T) {
 	t.Setenv("HTTP_PROXY", "")
 	t.Setenv("http_proxy", "")
 	var buf bytes.Buffer
-	c := NewDryRun("https://api.openai.com", "sk-secret-token", &buf)
-	got, err := c.Complete("gpt-4", "prompt body")
+	c := NewDryRun("https://api.anthropic.com", "sk-ant-secret-token", &buf)
+	got, err := c.Complete("claude-sonnet-5", "prompt body")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -24,25 +24,25 @@ func TestDryRunPrintsCurlAndReturnsCorrect(t *testing.T) {
 	if !strings.Contains(out, "curl -sS -X POST") {
 		t.Errorf("missing curl: %s", out)
 	}
-	if !strings.Contains(out, "https://api.openai.com/v1/chat/completions") {
+	if !strings.Contains(out, "https://api.anthropic.com/v1/messages") {
 		t.Errorf("missing URL: %s", out)
 	}
-	if !strings.Contains(out, "Bearer sk-***") {
+	if !strings.Contains(out, "x-api-key: sk-***") {
 		t.Errorf("token not masked: %s", out)
 	}
-	if strings.Contains(out, "sk-secret-token") {
+	if strings.Contains(out, "sk-ant-secret-token") {
 		t.Errorf("token leaked: %s", out)
 	}
-	if !strings.Contains(out, `"model":"gpt-4"`) {
+	if !strings.Contains(out, `"model":"claude-sonnet-5"`) {
 		t.Errorf("missing model: %s", out)
 	}
 }
 
-func TestDryRunOpenaiIncludesProxyFlag(t *testing.T) {
+func TestDryRunIncludesProxyFlag(t *testing.T) {
 	t.Setenv("HTTPS_PROXY", "http://10.0.1.80:8118")
 	var buf bytes.Buffer
-	c := NewDryRun("https://api.openai.com", "sk-x", &buf)
-	if _, err := c.Complete("gpt-4", "p"); err != nil {
+	c := NewDryRun("https://api.anthropic.com", "sk-ant-x", &buf)
+	if _, err := c.Complete("claude-sonnet-5", "p"); err != nil {
 		t.Fatal(err)
 	}
 	if !strings.Contains(buf.String(), "-x 'http://10.0.1.80:8118'") {
@@ -52,11 +52,11 @@ func TestDryRunOpenaiIncludesProxyFlag(t *testing.T) {
 
 func TestDryRunEmptyToken(t *testing.T) {
 	var buf bytes.Buffer
-	c := NewDryRun("https://api.openai.com", "", &buf)
-	if _, err := c.Complete("gpt-4", "x"); err != nil {
+	c := NewDryRun("https://api.anthropic.com", "", &buf)
+	if _, err := c.Complete("claude-sonnet-5", "x"); err != nil {
 		t.Fatal(err)
 	}
-	if !strings.Contains(buf.String(), "<OPENAI_TOKEN>") {
+	if !strings.Contains(buf.String(), "<ANTHROPIC_API_KEY>") {
 		t.Errorf("missing placeholder: %s", buf.String())
 	}
 }

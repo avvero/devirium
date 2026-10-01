@@ -28,7 +28,9 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           DEVIRIUM_CHAT_ID: ${{ secrets.DEVIRIUM_CHAT_ID }}
           DEVIRIUM_GARDENER_CHAT_ID: ${{ secrets.DEVIRIUM_GARDENER_CHAT_ID }}
-          OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
+          DEVIRIUM_ANTHROPIC_API_KEY: ${{ secrets.DEVIRIUM_ANTHROPIC_API_KEY }}
+          DEVIRIUM_ANTHROPIC_BASE_URL: ${{ secrets.DEVIRIUM_ANTHROPIC_BASE_URL }}
+          DEVIRIUM_ANTHROPIC_MODEL: ${{ secrets.DEVIRIUM_ANTHROPIC_MODEL }}
           DEVIRIUM_LINK: ${{ secrets.DEVIRIUM_LINK }}
         run: |
           if git -C "$GITHUB_WORKSPACE" rev-parse HEAD~1 >/dev/null 2>&1; then
