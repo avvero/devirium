@@ -1,0 +1,46 @@
+.gitignore
+  s_567f72d47fdfc9::t_f986bb187bc0ec 4-6
+tools/publisher/internal/anthropic/anthropic.go
+  s_567f72d47fdfc9::t_1d25f792086b8a 1-75
+Makefile
+  s_567f72d47fdfc9::t_c98bcc7e681bc7 18
+tools/publisher/internal/anthropic/anthropic_test.go
+  s_567f72d47fdfc9::t_7ddebd23934700 1-49,52
+tools/publisher/README.md
+  s_567f72d47fdfc9::t_edb3ce1f85263a 86
+  s_567f72d47fdfc9::t_5f6f8176a11f9d 35,43-44
+  s_567f72d47fdfc9::t_ced22b230991a0 26,40,48
+  s_567f72d47fdfc9::t_e3b9a7b414cc09 65
+  s_567f72d47fdfc9::t_b744382789a11a 54
+.github/workflows/send_notes.yml
+  s_567f72d47fdfc9::t_90c12e1d02f4e9 31-33
+tools/publisher/cmd/publisher/main.go
+  s_567f72d47fdfc9::t_d46850fced3631 30-31
+  s_567f72d47fdfc9::t_0e1bd84305c29d 27
+  s_567f72d47fdfc9::t_f522b768ba5c21 39
+  s_567f72d47fdfc9::t_bcabd4cc8be58e 43-46
+  s_567f72d47fdfc9::t_ac3e4208d69595 90,94
+  s_567f72d47fdfc9::t_623b3c457c2f3b 12
+tools/publisher/internal/anthropic/dryrun.go
+  s_567f72d47fdfc9::t_f7f88897f3b993 1-50
+tools/publisher/internal/anthropic/dryrun_test.go
+  s_567f72d47fdfc9::t_a56bccb4b6b268 1-59
+tools/publisher/internal/publisher/publisher.go
+  s_567f72d47fdfc9::t_2037f17780dc82 30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "cc9ba96b98f611005bcb95e61d1dc65870015f82",
+  "prompts": {},
+  "sessions": {
+    "s_567f72d47fdfc9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c1699c2d-8f0f-4bdf-8600-ed3757af647d",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Антон Беляев <avvero@mts.ru>"
+    }
+  }
+}
