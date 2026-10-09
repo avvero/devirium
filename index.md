@@ -5,6 +5,7 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
+- [goodwin](2026-10/goodwin.md)
 - [Прикладная статистика](2026-10/Прикладная-статистика.md)
 - [orca](2026-10/orca.md)
 - [Бахилы](2026-10/Бахилы.md)
@@ -54,7 +55,6 @@ title: _
 - [EP-133 Default samples listing](2026/2026-05/EP-133-Default-samples-listing.md)
 - [EP-133 Default Preset Banks](2026/2026-05/EP-133-Default-Preset-Banks.md)
 - [grill-me](2026/2026-05/grill-me.md)
-- [Skills For Real Engineers](2026/2026-05/Skills-For-Real-Engineers.md)
 
 
 ## Популярные тэги
