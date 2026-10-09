@@ -1,0 +1,16 @@
+2026-10/goodwin.md
+  h_1535bb59f7e2e0 1-3
+index.md
+  h_1535bb59f7e2e0 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e911a19fd980fa5603070e84eebad98f5629271b",
+  "prompts": {},
+  "humans": {
+    "h_1535bb59f7e2e0": {
+      "author": "Антон Беляев <avvero@mts.ru>"
+    }
+  }
+}
