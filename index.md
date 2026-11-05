@@ -5,13 +5,15 @@ title: _
 Вы попали в [цифровой сад](https://maggieappleton.com/garden-history) заметок. Здесь собраны заметки о книгах, играх, философии, синих гитарах и разработке ПО. Попадаются и быстрые наброски - заголовки со ссылками на источники, как напоминание о необходимости вернуться к теме. Подробнее можно почитать [в моей статье](https://habr.com/ru/articles/839762/). Для обновлений есть канал [Держи записку сениора](https://t.me/duckumentz).
 
 ## Последние заметки
-- [Vorssaint](2026-10/Vorssaint.md)
-- [t3.codes](2026-10/t3.codes.md)
-- [Hex NS100](2026-10/Hex-NS100.md)
-- [goodwin](2026-10/goodwin.md)
-- [Прикладная статистика](2026-10/Прикладная-статистика.md)
-- [orca](2026-10/orca.md)
-- [Бахилы](2026-10/Бахилы.md)
+- [JIANT FM](2026-11/JIANT-FM.md)
+- [Striff](2026/2026-10/Striff.md)
+- [Vorssaint](2026/2026-10/Vorssaint.md)
+- [t3.codes](2026/2026-10/t3.codes.md)
+- [Hex NS100](2026/2026-10/Hex-NS100.md)
+- [goodwin](2026/2026-10/goodwin.md)
+- [Прикладная статистика](2026/2026-10/Прикладная-статистика.md)
+- [orca](2026/2026-10/orca.md)
+- [Бахилы](2026/2026-10/Бахилы.md)
 - [AI tutoring outperforms in-class active learning](2026/2026-09/AI-tutoring-outperforms-in-class-active-learning.md)
 - [voxtype](2026/2026-09/voxtype.md)
 - [handy](2026/2026-09/handy.md)
@@ -53,8 +55,6 @@ title: _
 - [Qwart](2026/2026-06/Qwart.md)
 - [Поедание хенкалины](limbo/Поедание-хенкалины.md)
 - [Аллергия на тополиный пух](limbo/Аллергия-на-тополиный-пух.md)
-- [EP-133 Pad note mapping](2026/2026-05/EP-133-Pad-note-mapping.md)
-- [EP-133 Scale codes](2026/2026-05/EP-133-Scale-codes.md)
 
 
 ## Популярные тэги
