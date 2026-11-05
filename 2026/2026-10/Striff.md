@@ -1,4 +1,4 @@
-Striff checks every pull request against them, and when a change contradicts one, it quotes the sentence, before the merge.
+Striff checks every pull request against them, and when a change contradicts one, it quotes the sentence before merging.
 
 Library - https://github.com/hadi-technology/striff-lib
 
